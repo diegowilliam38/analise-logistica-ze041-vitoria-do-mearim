@@ -801,6 +801,37 @@ function initControlePresenca(data) {
     });
   }
 
+  const btnExportarCSV = document.getElementById('btnExportarPresencaCSV');
+  if (btnExportarCSV) {
+    btnExportarCSV.addEventListener('click', () => {
+      const cabecalho = ['Nome do Convocado', 'Cargo / Função', 'Seção Eleitoral', 'Local de Votação', 'Situação Presença', 'Horário de Registro'];
+      const linhas = convocados.map(item => {
+        const reg = presencasGravadas[item.id];
+        const status = reg ? 'PRESENTE' : 'PENDENTE / AUSENTE';
+        const hora = reg ? reg.horario : '--:--';
+        return [
+          `"${item.nome.replace(/"/g, '""')}"`,
+          `"${item.funcao.replace(/"/g, '""')}"`,
+          `"${item.secao.replace(/"/g, '""')}"`,
+          `"${item.local.replace(/"/g, '""')}"`,
+          `"${status}"`,
+          `"${hora}"`
+        ].join(';');
+      });
+
+      const csvContent = '\uFEFF' + [cabecalho.join(';'), ...linhas].join('\r\n');
+      const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.setAttribute('href', url);
+      link.setAttribute('download', `Frequencia_Oficial_Eleicoes_2026_ZE041_${new Date().toISOString().slice(0,10)}.csv`);
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(url);
+    });
+  }
+
   // Render inicial
   renderPresencaList();
 }

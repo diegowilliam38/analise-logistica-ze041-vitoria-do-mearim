@@ -1,0 +1,1716 @@
+{
+  "edital_vigente": "Edital nº 20/2026 (Pós-2ª Vistoria)",
+  "rotas_veiculos_carga": [
+    {
+      "rota": 1,
+      "veiculo_modelo_placa": "Van Renault Master 2024 Placa: SMU0G14",
+      "motorista_telefone": "José de Carmo Barbosa (98) 98147-9927",
+      "itinerario": "Cartório Eleitoral → U.E. Dr. Ribamar de Matos, J.I. Mons. Artur Gonçalves, CEMA Carlos Raimundo Figueiredo, C.E. Cônego Eliud Nunes Arouche, Col. Mun. Ana Bogéa, Col. Mun. Antônia Farias, U.E. Maria Graciana Pinto Costa",
+      "qtd_locais": 7,
+      "qtd_urnas_cabinas": 35,
+      "area": "Urbana",
+      "distancia_total": "50 km (50 asf)",
+      "tempo_estimado": "01h00"
+    },
+    {
+      "rota": 2,
+      "veiculo_modelo_placa": "Chevrolet Spin 2016 Placa: PKA2H21",
+      "motorista_telefone": "Deilson Rabelo Fernandes (98) 98149-9792",
+      "itinerario": "Cartório Eleitoral → E.M. Maurícia Fernandes Jardim (Escondido), Col. Mun. Hemetério Fernandes (Mato Grosso), E.M. de Tirirical, E.M. Deodato Santos (São Lourenço), E.M. Franklin Cantanhêde (São Lourenço)",
+      "qtd_locais": 5,
+      "qtd_urnas_cabinas": 7,
+      "area": "Rural",
+      "distancia_total": "140 km (10 asf / 130 arr)",
+      "tempo_estimado": "01h30"
+    },
+    {
+      "rota": 3,
+      "veiculo_modelo_placa": "Van Fiat Ducato 2020 Placa: ROR5B93",
+      "motorista_telefone": "Josivan Oliveira Lima (98) 99239-5823",
+      "itinerario": "Cartório Eleitoral → E.M. Itelvino de Matos, E.M. Vila Falcão, Col. Mun. Vila Nova, E.M. Nasser Assad (Coque), Creche Comunitária de Coque, E.M. Raimundo Bogéa (Coque)",
+      "qtd_locais": 6,
+      "qtd_urnas_cabinas": 18,
+      "area": "Rural",
+      "distancia_total": "15 km (15 asf)",
+      "tempo_estimado": "01h30"
+    },
+    {
+      "rota": 4,
+      "veiculo_modelo_placa": "Fiat Cronos 2026 Placa: UJU3D03",
+      "motorista_telefone": "Elaidon Oliveira Barbosa (98) 98467-1677",
+      "itinerario": "Cartório Eleitoral → E.M. Francisco Xavier Correia (Jaguary), IEMA Pleno (MA-014, Povoado Jaguary)",
+      "qtd_locais": 2,
+      "qtd_urnas_cabinas": 8,
+      "area": "Rural",
+      "distancia_total": "6 km (6 asf)",
+      "tempo_estimado": "00h20"
+    },
+    {
+      "rota": 5,
+      "veiculo_modelo_placa": "Van Renault Master 2019 Placa: FWC8G38",
+      "motorista_telefone": "Gonçalo Mesquita Rocha (98) 98174-4242",
+      "itinerario": "Cartório Eleitoral → Col. Mun. Godofredo Maciel (São Felix), E.M. Izidoro de Jesus Lopes (Livramento), Col. Mun. José Carlos Mota Silva (Sumaúma do Japão), Col. Mun. José Ribamar Silva (Santa Rosa), Col. Mun. Paulo Maciel Neto (São Benedito)",
+      "qtd_locais": 5,
+      "qtd_urnas_cabinas": 12,
+      "area": "Rural",
+      "distancia_total": "45 km (15 asf / 30 piç)",
+      "tempo_estimado": "02h00"
+    },
+    {
+      "rota": 6,
+      "veiculo_modelo_placa": "Chevrolet Classic 2013 Placa: OJC5456",
+      "motorista_telefone": "Denilson Rabelo Fernandes (98) 98182-8146",
+      "itinerario": "Cartório Eleitoral → Col. Mun. Euzébio do Nascimento dos Reis (Juçaralzinho), E.M. Abidão Rufino da Silva (Boca do Campo), E.M. de Ipixuna",
+      "qtd_locais": 3,
+      "qtd_urnas_cabinas": 3,
+      "area": "Rural",
+      "distancia_total": "65 km (15 asf / 40 piç / 10 arr)",
+      "tempo_estimado": "02h30"
+    },
+    {
+      "rota": 7,
+      "veiculo_modelo_placa": "Chevrolet Onix 2020 Placa: ROG5C87",
+      "motorista_telefone": "Milton Amparo Garros (98) 98163-7556",
+      "itinerario": "Cartório Eleitoral → U.E. Neuza da Cunha Costa Coronel Gomes, E.M. Maria Celeste Barros, E.M. Mámedio da Silva Sarmento (Jacaray)",
+      "qtd_locais": 3,
+      "qtd_urnas_cabinas": 10,
+      "area": "Urbana",
+      "distancia_total": "20 km (20 asf)",
+      "tempo_estimado": "00h40"
+    }
+  ],
+  "suprimento_fundos_dificil_acesso": {
+    "local": "Escola Municipal de Juçaral (Local 1392)",
+    "localidade": "Povoado Juçaral das Margaridas",
+    "secoes": [106],
+    "total_urnas": 1,
+    "responsavel": "Werbeth Silva Dutra",
+    "tipo_transporte": "Transporte Dedicado Especial (Ida sábado / Volta domingo com mídias e urna unificadas)",
+    "regime": "Suprimento de Fundos — Local de Difícil Acesso"
+  },
+  "rotas_mototaxis": [
+    {
+      "moto_num": 1,
+      "condutor_telefone": "Arnaldo de Jesus Ba (98) 99224-8267",
+      "veiculo_placa_ano": "Honda Fan 125 Placa: NXD0536 (2011)",
+      "local_atendido": "Escola Municipal Franklin Cantanhêde (Povoado São Lourenço)",
+      "qtd_urnas": 2,
+      "area": "Rural",
+      "distancia_total": "13 km (5 asf / 8 arr)",
+      "tempo_estimado": "00h46"
+    },
+    {
+      "moto_num": 2,
+      "condutor_telefone": "José Carlos Fernandes (98) 91622-183",
+      "veiculo_placa_ano": "Honda Bros 150 Placa: PSU3E06 (2014)",
+      "local_atendido": "Escola Municipal Deodato Santos (Povoado São Lourenço)",
+      "qtd_urnas": 1,
+      "area": "Rural",
+      "distancia_total": "21 km (14 asf / 7 piç)",
+      "tempo_estimado": "00h22"
+    },
+    {
+      "moto_num": 3,
+      "condutor_telefone": "Daniel Guedelha da Rocha (98) 98479-2467",
+      "veiculo_placa_ano": "Honda Fan 125 Placa: PSB6934 (2014)",
+      "local_atendido": "Escola Municipal Godofredo Maciel (Povoado São Felix)",
+      "qtd_urnas": 3,
+      "area": "Rural",
+      "distancia_total": "32.3 km (14 asf / 18.3 arr)",
+      "tempo_estimado": "00h38"
+    },
+    {
+      "moto_num": 4,
+      "condutor_telefone": "Ulisses Oliveira da S (98) 98353-8528",
+      "veiculo_placa_ano": "Honda Bros 150 Placa: OJD2153 (2013)",
+      "local_atendido": "Escola Municipal José Ribamar Silva (Povoado Santa Rosa)",
+      "qtd_urnas": 2,
+      "area": "Rural",
+      "distancia_total": "43.8 km (14 asf / 29.8 piç)",
+      "tempo_estimado": "01h04"
+    },
+    {
+      "moto_num": 5,
+      "condutor_telefone": "Raimundo Nonato VR (98) 98141-2084",
+      "veiculo_placa_ano": "Honda Fan 125 Placa: OIV5127 (2012)",
+      "local_atendido": "Colégio Municipal José Carlos Mota Silva (Povoado Sumaúma do Japão)",
+      "qtd_urnas": 3,
+      "area": "Rural",
+      "distancia_total": "35.8 km (14 asf / 21.8 piç)",
+      "tempo_estimado": "00h59"
+    },
+    {
+      "moto_num": 6,
+      "condutor_telefone": "Arilson Teles Rego (98) 98401-8535",
+      "veiculo_placa_ano": "Honda Bros 125 Placa: OJJ5244 (2014)",
+      "local_atendido": "Escola Municipal Izidoro de Jesus Lopes (Povoado Livramento)",
+      "qtd_urnas": 1,
+      "area": "Rural",
+      "distancia_total": "33.9 km (14 asf / 19.9 piç)",
+      "tempo_estimado": "00h42"
+    },
+    {
+      "moto_num": 7,
+      "condutor_telefone": "José de Nazaré Ferreira (98) 98587-3517",
+      "veiculo_placa_ano": "Honda Bros 150 Placa: OXT3884 (2014)",
+      "local_atendido": "Colégio Municipal Paulo Maciel Neto (Povoado São Benedito)",
+      "qtd_urnas": 3,
+      "area": "Rural",
+      "distancia_total": "46.6 km (14 asf / 32.6 arr)",
+      "tempo_estimado": "01h12"
+    },
+    {
+      "moto_num": 8,
+      "condutor_telefone": "Gildeon Gentil Sousa (98) 99186-1240",
+      "veiculo_placa_ano": "Honda Bros 160 Placa: PTF2789 (2018)",
+      "local_atendido": "Escola Municipal Nasser Assad (Povoado Coque)",
+      "qtd_urnas": 7,
+      "area": "Rural",
+      "distancia_total": "21.6 km (21.6 asf)",
+      "tempo_estimado": "00h21"
+    },
+    {
+      "moto_num": 9,
+      "condutor_telefone": "Denilson Almeida Maciel (98) 99214-3723",
+      "veiculo_placa_ano": "Honda Fan 160 Placa: PTO3285 (2019)",
+      "local_atendido": "Creche Comunitária de Coque (Povoado Coque)",
+      "qtd_urnas": 1,
+      "area": "Rural",
+      "distancia_total": "21 km (21 asf)",
+      "tempo_estimado": "00h19"
+    },
+    {
+      "moto_num": 10,
+      "condutor_telefone": "Manuel de Jesus Pacheco (98) 99166-3936",
+      "veiculo_placa_ano": "Honda Bros 150 Placa: OX52H06 (2014)",
+      "local_atendido": "Escola Municipal Vila Falcão (Povoado Vila Falcão)",
+      "qtd_urnas": 2,
+      "area": "Rural",
+      "distancia_total": "23 km (23 asf)",
+      "tempo_estimado": "00h23"
+    },
+    {
+      "moto_num": 11,
+      "condutor_telefone": "Fábio Lima Nunes (98) 99182-5771",
+      "veiculo_placa_ano": "Honda Titan 150 Placa: PTV1020 (2014)",
+      "local_atendido": "Escola Municipal Itelvino de Matos (Povoado Coque)",
+      "qtd_urnas": 5,
+      "area": "Rural",
+      "distancia_total": "22 km (22 asf)",
+      "tempo_estimado": "00h23"
+    },
+    {
+      "moto_num": 12,
+      "condutor_telefone": "Cícero Reis Pereira Coelho (99) 63597-13",
+      "veiculo_placa_ano": "Honda Titan 150 Placa: DYZ7394 (2007)",
+      "local_atendido": "Escola Municipal Raimundo Bogéa (Povoado Coque)",
+      "qtd_urnas": 2,
+      "area": "Rural",
+      "distancia_total": "21.9 km (21.9 asf)",
+      "tempo_estimado": "00h24"
+    },
+    {
+      "moto_num": 13,
+      "condutor_telefone": "Antônio Pereira Amorim (98) 98157-4980",
+      "veiculo_placa_ano": "Honda Titan 150 Placa: NHG4423 (2007)",
+      "local_atendido": "C.E. Cônego Eliud Nunes Arouche (Bairro Centro)",
+      "qtd_urnas": 6,
+      "area": "Urbana",
+      "distancia_total": "1.5 km (1.5 asf)",
+      "tempo_estimado": "00h05"
+    },
+    {
+      "moto_num": 14,
+      "condutor_telefone": "Diego Pereira Vieira (98) 98352-5552",
+      "veiculo_placa_ano": "Honda Bros 160 Placa: PTM6496 (2018)",
+      "local_atendido": "IEMA Pleno de Vitória do Mearim (MA-014, Povoado Jaguary)",
+      "qtd_urnas": 6,
+      "area": "Rural",
+      "distancia_total": "4 km (4 asf)",
+      "tempo_estimado": "00h15"
+    },
+    {
+      "moto_num": 15,
+      "condutor_telefone": "Gilvan Ericeira do Nascimento (98) 99117-1970",
+      "veiculo_placa_ano": "Honda Titan 150 Placa: NXQ2759 (2012)",
+      "local_atendido": "U.E. CEMA Carlos Raimundo Figueiredo (Bairro Centro)",
+      "qtd_urnas": 6,
+      "area": "Urbana",
+      "distancia_total": "2 km (2 asf)",
+      "tempo_estimado": "00h15"
+    },
+    {
+      "moto_num": 16,
+      "condutor_telefone": "Antônio Carlos Alves de Lima (98) 98203-1171",
+      "veiculo_placa_ano": "Honda 125 Placa: NXQ3516 (2012)",
+      "local_atendido": "Unidade Escolar Dr. Ribamar de Matos (Bairro Puraqueu)",
+      "qtd_urnas": 3,
+      "area": "Urbana",
+      "distancia_total": "2.5 km (2.5 asf)",
+      "tempo_estimado": "00h06"
+    },
+    {
+      "moto_num": 17,
+      "condutor_telefone": "Josimar Romão (98) 98165-0069",
+      "veiculo_placa_ano": "Honda Bros 160 Placa: PSV3534 (2016)",
+      "local_atendido": "Colégio Municipal Antônia Farias (Bairro Puraqueu)",
+      "qtd_urnas": 5,
+      "area": "Urbana",
+      "distancia_total": "1.5 km (1.5 asf)",
+      "tempo_estimado": "00h05"
+    },
+    {
+      "moto_num": 18,
+      "condutor_telefone": "Wallisson Luan de So (98) 98241-7729",
+      "veiculo_placa_ano": "Honda Start 160 Placa: PT14D06 (2018)",
+      "local_atendido": "Jardim de Infância Mons. Artur Gonçalves (Bairro Centro)",
+      "qtd_urnas": 4,
+      "area": "Urbana",
+      "distancia_total": "1.5 km (1.5 asf)",
+      "tempo_estimado": "00h05"
+    },
+    {
+      "moto_num": 19,
+      "condutor_telefone": "Werbeth de Ribamar (98) 98264-2325",
+      "veiculo_placa_ano": "Honda Titan 150 Placa: JUA8117 (2008)",
+      "local_atendido": "Colégio Municipal Ana Bogéa Gonçalves (Bairro Centro)",
+      "qtd_urnas": 7,
+      "area": "Urbana",
+      "distancia_total": "0.5 km (0.5 asf)",
+      "tempo_estimado": "00h02"
+    },
+    {
+      "moto_num": 20,
+      "condutor_telefone": "Surino de Jesus Lima (98) 98146-6822",
+      "veiculo_placa_ano": "Honda Bros 160 Placa: SPV1846 (2019)",
+      "local_atendido": "Unidade Escolar Maria Graciana Pinto Costa (Bairro Vila Reginaldo)",
+      "qtd_urnas": 4,
+      "area": "Urbana",
+      "distancia_total": "2.5 km (2.5 asf)",
+      "tempo_estimado": "00h06"
+    },
+    {
+      "moto_num": 21,
+      "condutor_telefone": "Clarilton Gomes Vieira (98) 98295-1045",
+      "veiculo_placa_ano": "Honda Titan 150 Placa: PSB7216 (2015)",
+      "local_atendido": "Unidade Escolar Neuza da Cunha Costa (Bairro Itapui Tapera)",
+      "qtd_urnas": 4,
+      "area": "Urbana",
+      "distancia_total": "2.5 km (2.5 asf)",
+      "tempo_estimado": "00h07"
+    },
+    {
+      "moto_num": 22,
+      "condutor_telefone": "Edvan Carlos Vieira (98) 98892-4143",
+      "veiculo_placa_ano": "Honda Pop 110 Placa: PTZ7689 (2019)",
+      "local_atendido": "Escola Municipal Maria Celeste Barros (Zona Urbana)",
+      "qtd_urnas": 4,
+      "area": "Urbana",
+      "distancia_total": "2.5 km (2.5 asf)",
+      "tempo_estimado": "00h07"
+    },
+    {
+      "moto_num": 23,
+      "condutor_telefone": "Ariel de Jesus Andrade (98) 99128-5899",
+      "veiculo_placa_ano": "Honda Titan 160 Placa: PSP3014 (2016)",
+      "local_atendido": "E.M. Mámedio da Silva Sarmento (Povoado Jacaray)",
+      "qtd_urnas": 2,
+      "area": "Rural",
+      "distancia_total": "5 km (5 asf)",
+      "tempo_estimado": "00h10"
+    },
+    {
+      "moto_num": 24,
+      "condutor_telefone": "Joelson Fernandes Barbosa (98) 98136-9058",
+      "veiculo_placa_ano": "Honda Titan 150 Placa: NXL6213 (2012)",
+      "local_atendido": "Escola Municipal Francisco Xavier Correia (Povoado Jaguary)",
+      "qtd_urnas": 2,
+      "area": "Rural",
+      "distancia_total": "7 km (7 asf)",
+      "tempo_estimado": "00h13"
+    },
+    {
+      "moto_num": 25,
+      "condutor_telefone": "Francisco Lopes de Oliveira (98) 99145-3304",
+      "veiculo_placa_ano": "Honda Fan 150 Placa: NWX6944 (2021)",
+      "local_atendido": "Colégio Municipal Hemetério Fernandes (Povoado Mato Grosso)",
+      "qtd_urnas": 2,
+      "area": "Rural",
+      "distancia_total": "10 km (10 asf)",
+      "tempo_estimado": "00h10"
+    },
+    {
+      "moto_num": 26,
+      "condutor_telefone": "Manuel Andrade Costa (98) 98247-3669",
+      "veiculo_placa_ano": "Honda Pop 110 Placa: ROE2E37 (2021)",
+      "local_atendido": "Escola Municipal Maurícia Fernandes Jardim (Povoado Escondido)",
+      "qtd_urnas": 1,
+      "area": "Rural",
+      "distancia_total": "4 km (4 asf)",
+      "tempo_estimado": "00h13"
+    },
+    {
+      "moto_num": 27,
+      "condutor_telefone": "Francisco Pereira Veiga (98) 98897-1540",
+      "veiculo_placa_ano": "Honda Start 160 Placa: ROJ5H93 (2020)",
+      "local_atendido": "Escola Municipal Tirirical (Povoado Tirirical)",
+      "qtd_urnas": 1,
+      "area": "Rural",
+      "distancia_total": "14 km (14 asf)",
+      "tempo_estimado": "00h11"
+    },
+    {
+      "moto_num": 28,
+      "condutor_telefone": "Fernando da Silva de Jesus (98) 98909-2547",
+      "veiculo_placa_ano": "Honda Pop 110 Placa: ROK8E27 (2022)",
+      "local_atendido": "Colégio Municipal Vila Nova (Povoado Vila Nova)",
+      "qtd_urnas": 1,
+      "area": "Rural",
+      "distancia_total": "25 km (25 asf)",
+      "tempo_estimado": "00h25"
+    },
+    {
+      "moto_num": 29,
+      "condutor_telefone": "Valter de Almeida de Jesus (98) 99195-5622",
+      "veiculo_placa_ano": "Honda Fan 150 Placa: PSB5203 (2015)",
+      "local_atendido": "Escola Municipal Abidão Rufino da Silva (Povoado Boca do Campo)",
+      "qtd_urnas": 1,
+      "area": "Rural",
+      "distancia_total": "25.8 km (20 asf / 5.8 arr)",
+      "tempo_estimado": "00h30"
+    },
+    {
+      "moto_num": 30,
+      "condutor_telefone": "Antônio da Cruz de Almeida de Jesus (98) 98118-6753",
+      "veiculo_placa_ano": "Honda Bros 125 Placa: OX56618 (2014)",
+      "local_atendido": "Colégio Municipal Euzébio do Nascimento dos Reis (Povoado Juçaralzinho)",
+      "qtd_urnas": 1,
+      "area": "Rural",
+      "distancia_total": "27 km (20 asf / 7 piç)",
+      "tempo_estimado": "00h32"
+    },
+    {
+      "moto_num": 31,
+      "condutor_telefone": "Sergiano de Almeida de Jesus (98) 98115-4406",
+      "veiculo_placa_ano": "Honda Fan CB 160 Placa: SND0B65 (2025)",
+      "local_atendido": "Escola Municipal de Ipixuna (Povoado Ipixuna)",
+      "qtd_urnas": 1,
+      "area": "Rural",
+      "distancia_total": "41.9 km (20 asf / 21.9 arr)",
+      "tempo_estimado": "00h45"
+    }
+  ],
+  "administradores_predio": [
+    {
+      "num": 13,
+      "nome": "ISISLEA MARINHO SILVA",
+      "num_local": 1015,
+      "local": "Instituto Estadual de Educação, Ciência e Tecnologia do Maranhão (IEMA)",
+      "bairro_povoado": "Povoado Jaguary (MA-014)",
+      "total_secoes": 6,
+      "secoes": [
+        1,
+        2,
+        3,
+        19,
+        84,
+        188
+      ],
+      "is_dificil_acesso": false,
+      "local_doc_original": "INSTITUTO DE EDUCACAO CIENCIA E TECNOLOGIA DO MARANHAO"
+    },
+    {
+      "num": 26,
+      "nome": "JUCIENE PEREIRA BRUCE",
+      "num_local": 1023,
+      "local": "Colégio Municipal Ana Bogéa",
+      "bairro_povoado": "Centro",
+      "total_secoes": 7,
+      "secoes": [
+        4,
+        5,
+        6,
+        7,
+        90,
+        94,
+        157
+      ],
+      "is_dificil_acesso": false,
+      "local_doc_original": "COLEGIO MUNICIPAL ANA BOGEA"
+    },
+    {
+      "num": 19,
+      "nome": "LUCINEIDE GOMES CORRÊA",
+      "num_local": 1040,
+      "local": "CEMA Carlos Raimundo Figueiredo",
+      "bairro_povoado": "Centro",
+      "total_secoes": 6,
+      "secoes": [
+        9,
+        10,
+        11,
+        80,
+        82,
+        148
+      ],
+      "is_dificil_acesso": false,
+      "local_doc_original": "CEMA"
+    },
+    {
+      "num": 16,
+      "nome": "HIRES CRISTINA MACIEL REIS",
+      "num_local": 1058,
+      "local": "Colégio Municipal Antônia Farias",
+      "bairro_povoado": "Puraqueu",
+      "total_secoes": 5,
+      "secoes": [
+        12,
+        13,
+        83,
+        137,
+        183
+      ],
+      "is_dificil_acesso": false,
+      "local_doc_original": "COLEGIO MUN. ANTONIA FARIAS"
+    },
+    {
+      "num": 28,
+      "nome": "EMILLY PEREIRA BRUCE",
+      "num_local": 1066,
+      "local": "Jardim de Infância Mons. Artur Gonçalves",
+      "bairro_povoado": "Puraqueu",
+      "total_secoes": 4,
+      "secoes": [
+        14,
+        15,
+        103,
+        186
+      ],
+      "is_dificil_acesso": false,
+      "local_doc_original": "JARDIM DE INFANCIA MONS. ARTUR GONCALVES"
+    },
+    {
+      "num": 7,
+      "nome": "DEIVIT BEZERRA MARINHO",
+      "num_local": 1074,
+      "local": "Centro Educacional Cônego Eliud Nunes Arouche",
+      "bairro_povoado": "Manijituba",
+      "total_secoes": 6,
+      "secoes": [
+        16,
+        17,
+        18,
+        93,
+        107,
+        159
+      ],
+      "is_dificil_acesso": false,
+      "local_doc_original": "CENTRO EDUCACIONAL CONEGO ELIUD NUNES AROUCHE"
+    },
+    {
+      "num": 30,
+      "nome": "SELMA DE JESUS AMORIM VELEZ",
+      "num_local": 1473,
+      "local": "Unidade Escolar Neuza da Cunha Costa",
+      "bairro_povoado": "Itapui Tapera",
+      "total_secoes": 4,
+      "secoes": [
+        20,
+        21,
+        119,
+        185
+      ],
+      "is_dificil_acesso": false,
+      "local_doc_original": "UNIDADE ESCOLAR NEUZA DA CUNHA COSTA"
+    },
+    {
+      "num": 31,
+      "nome": "SILVIANE VIEIRA SILVA COSTA",
+      "num_local": 1481,
+      "local": "Unidade Escolar Dr. Ribamar de Matos",
+      "bairro_povoado": "Puraqueu",
+      "total_secoes": 3,
+      "secoes": [
+        122,
+        149,
+        163
+      ],
+      "is_dificil_acesso": false,
+      "local_doc_original": "UNIDADE ESCOLAR DR. RIBAMAR DE MATOS"
+    },
+    {
+      "num": 15,
+      "nome": "GIULIANNO PEREIRA DE SOUSA",
+      "num_local": 1490,
+      "local": "Escola Municipal Maria Celeste Barros",
+      "bairro_povoado": "Manijituba",
+      "total_secoes": 4,
+      "secoes": [
+        8,
+        121,
+        141,
+        146
+      ],
+      "is_dificil_acesso": false,
+      "local_doc_original": "ESCOLA MUNICIPAL MARIA CELESTE BARROS"
+    },
+    {
+      "num": 21,
+      "nome": "MAURILIO LISBOA MOREIRA",
+      "num_local": 1627,
+      "local": "Unidade Escolar Maria Graciana Pinto Costa",
+      "bairro_povoado": "Vila Reginaldo",
+      "total_secoes": 4,
+      "secoes": [
+        105,
+        161,
+        165,
+        182
+      ],
+      "is_dificil_acesso": false,
+      "local_doc_original": "UNIDADE ESCOLAR MARIA GRACIANA PINTO COSTA"
+    },
+    {
+      "num": 24,
+      "nome": "OCIANE DE BRITO ALVES",
+      "num_local": 1104,
+      "local": "Escola Municipal Francisco Xavier Correia",
+      "bairro_povoado": "Povoado Jaguary",
+      "total_secoes": 2,
+      "secoes": [
+        22,
+        69
+      ],
+      "is_dificil_acesso": false,
+      "local_doc_original": "ESCOLA MUNICIPAL FRANCISCO XAVIER CORREIA"
+    },
+    {
+      "num": 20,
+      "nome": "VANAILDE LOPES PACHECO",
+      "num_local": 1112,
+      "local": "Escola Municipal Deodato Santos Lourenço",
+      "bairro_povoado": "Povoado São Lourenço",
+      "total_secoes": 1,
+      "secoes": [
+        23
+      ],
+      "is_dificil_acesso": false,
+      "local_doc_original": "ESCOLA MUNICIPAL DEODATO SANTOS"
+    },
+    {
+      "num": 2,
+      "nome": "ANA ROSA RODRIGUES FALCAO",
+      "num_local": 1120,
+      "local": "Escola Municipal Nasser Assad",
+      "bairro_povoado": "Povoado Coque",
+      "total_secoes": 7,
+      "secoes": [
+        25,
+        26,
+        27,
+        28,
+        78,
+        85,
+        95
+      ],
+      "is_dificil_acesso": false,
+      "local_doc_original": "ESCOLA MUNICIPAL NASSER ASSAD"
+    },
+    {
+      "num": 5,
+      "nome": "ARIADNE RIBEIRO CAMPELO",
+      "num_local": 1287,
+      "local": "Colégio Municipal Godofredo Maciel",
+      "bairro_povoado": "Povoado São Felix",
+      "total_secoes": 3,
+      "secoes": [
+        62,
+        68,
+        179
+      ],
+      "is_dificil_acesso": false,
+      "local_doc_original": "COLEGIO MUNICIPAL GODOFREDO MACIEL"
+    },
+    {
+      "num": 4,
+      "nome": "ANGELA MARIA VALE ABREU",
+      "num_local": 1309,
+      "local": "Colégio Municipal José Ribamar Silva",
+      "bairro_povoado": "Povoado Santa Rosa",
+      "total_secoes": 2,
+      "secoes": [
+        64,
+        65
+      ],
+      "is_dificil_acesso": false,
+      "local_doc_original": "COLEGIO MUNICIPAL JOSE RIBAMAR SILVA"
+    },
+    {
+      "num": 1,
+      "nome": "ADEMILDA COSTA DOS SANTOS",
+      "num_local": 1317,
+      "local": "Escola Municipal Izidoro de Jesus Lopes",
+      "bairro_povoado": "Povoado Livramento",
+      "total_secoes": 1,
+      "secoes": [
+        75
+      ],
+      "is_dificil_acesso": false,
+      "local_doc_original": "ESCOLA MUNICIPAL IZIDORO DE JESUS LOPES"
+    },
+    {
+      "num": 32,
+      "nome": "TEIZIANE DE JESUS ROCHA REIS",
+      "num_local": 1325,
+      "local": "Colégio Municipal José Carlos Mota Silva",
+      "bairro_povoado": "Povoado Sumaúma do Japão",
+      "total_secoes": 3,
+      "secoes": [
+        66,
+        81,
+        176
+      ],
+      "is_dificil_acesso": false,
+      "local_doc_original": "COLEGIO MUNICIPAL JOSE CARLOS MOTA SILVA"
+    },
+    {
+      "num": 11,
+      "nome": "ELIENE DE JESUS BRITO",
+      "num_local": 1341,
+      "local": "Escola Municipal Paulo Maciel Neto",
+      "bairro_povoado": "Povoado São Benedito",
+      "total_secoes": 3,
+      "secoes": [
+        73,
+        89,
+        147
+      ],
+      "is_dificil_acesso": false,
+      "local_doc_original": "ESCOLA MUNICIPAL PAULO MACIEL NETO"
+    },
+    {
+      "num": 8,
+      "nome": "DENILA DE MATOS RODRIGUES",
+      "num_local": 1368,
+      "local": "Escola Municipal Itelvino de Matos",
+      "bairro_povoado": "Povoado Coque",
+      "total_secoes": 5,
+      "secoes": [
+        29,
+        30,
+        108,
+        143,
+        177
+      ],
+      "is_dificil_acesso": false,
+      "local_doc_original": "ESCOLA MUNICIPAL ITELVINO DE MATOS"
+    },
+    {
+      "num": 23,
+      "nome": "NERINILDO COELHO CARDOSO",
+      "num_local": 1392,
+      "local": "Escola Municipal de Juçaral",
+      "bairro_povoado": "Povoado Juçaral",
+      "total_secoes": 1,
+      "secoes": [
+        106
+      ],
+      "is_dificil_acesso": true,
+      "local_doc_original": "ESCOLA MUNICIPAL DE JUÇARAL"
+    },
+    {
+      "num": 18,
+      "nome": "JOELMA CUTRIM COSTA",
+      "num_local": 1422,
+      "local": "Escola Municipal Mámedio da Silva Sarmento",
+      "bairro_povoado": "Povoado Jacaray",
+      "total_secoes": 2,
+      "secoes": [
+        104,
+        167
+      ],
+      "is_dificil_acesso": false,
+      "local_doc_original": "ESCOLA MUNICIPAL MAMEDIO DA SILVA SARMENTO"
+    },
+    {
+      "num": 27,
+      "nome": "RIAN SILVA MESQUITA",
+      "num_local": 1457,
+      "local": "Colégio Municipal Euzebio do Nascimento dos Reis",
+      "bairro_povoado": "Povoado Juçaralzinho",
+      "total_secoes": 1,
+      "secoes": [
+        117
+      ],
+      "is_dificil_acesso": false,
+      "local_doc_original": "COLEGIO MUNICIPAL EUZEBIO DO NASCIMENTO DOS REIS"
+    },
+    {
+      "num": 3,
+      "nome": "ANDRESSA SANTOS TORRES",
+      "num_local": 1465,
+      "local": "Colégio Municipal Vila Nova",
+      "bairro_povoado": "Povoado Vila Nova",
+      "total_secoes": 1,
+      "secoes": [
+        120
+      ],
+      "is_dificil_acesso": false,
+      "local_doc_original": "COLEGIO MUNICIPAL VILA NOVA"
+    },
+    {
+      "num": 10,
+      "nome": "ELBIANE DA CONCEIÇÃO FERREIRA",
+      "num_local": 1503,
+      "local": "Colégio Municipal Hemetério Fernandes",
+      "bairro_povoado": "Povoado Mato Grosso",
+      "total_secoes": 2,
+      "secoes": [
+        144,
+        178
+      ],
+      "is_dificil_acesso": false,
+      "local_doc_original": "COLEGIO MUNICIPAL HEMETERIO FERNANDES"
+    },
+    {
+      "num": 9,
+      "nome": "DIEGO VIEIRA NEVES",
+      "num_local": 1511,
+      "local": "Escola Municipal Abidão Rufino da Silva",
+      "bairro_povoado": "Povoado Boca do Campo",
+      "total_secoes": 1,
+      "secoes": [
+        142
+      ],
+      "is_dificil_acesso": false,
+      "local_doc_original": "ESCOLA MUNICIPAL ABIDAO RUFINO DA SILVA"
+    },
+    {
+      "num": 25,
+      "nome": "RAIZA FERREIRA VALE",
+      "num_local": 1554,
+      "local": "Creche Comunitária de Coque",
+      "bairro_povoado": "Povoado Coque",
+      "total_secoes": 1,
+      "secoes": [
+        173
+      ],
+      "is_dificil_acesso": false,
+      "local_doc_original": "CRECHE COMUNITARIA DE COQUE"
+    },
+    {
+      "num": 6,
+      "nome": "CARLOS ALESSANDRO DE ALMEIDA SOARES",
+      "num_local": 1562,
+      "local": "Escola Municipal Vila Falcão",
+      "bairro_povoado": "Povoado Coque",
+      "total_secoes": 2,
+      "secoes": [
+        152,
+        164
+      ],
+      "is_dificil_acesso": false,
+      "local_doc_original": "ESCOLA MUNICIPAL VILA FALCAO"
+    },
+    {
+      "num": 22,
+      "nome": "MORRAMES OLIVEIRA DA SILVA",
+      "num_local": 1570,
+      "local": "Escola Municipal Raimundo Bogéa",
+      "bairro_povoado": "Povoado Coque",
+      "total_secoes": 2,
+      "secoes": [
+        155,
+        184
+      ],
+      "is_dificil_acesso": false,
+      "local_doc_original": "ESCOLA MUNICIPAL RAIMUNDO BOGEA"
+    },
+    {
+      "num": 14,
+      "nome": "GEISIELMA FREITAS LOPES",
+      "num_local": 1589,
+      "local": "Escola Municipal Franklin Cantanhêde",
+      "bairro_povoado": "Povoado São Lourenço",
+      "total_secoes": 2,
+      "secoes": [
+        153,
+        166
+      ],
+      "is_dificil_acesso": false,
+      "local_doc_original": "ESCOLA MUNICIPAL FRANKLIN CANTANHEDE"
+    },
+    {
+      "num": 12,
+      "nome": "ELIVANE CORREA COELHO",
+      "num_local": 1619,
+      "local": "Escola Municipal de Ipixuna",
+      "bairro_povoado": "Povoado Ipixuna",
+      "total_secoes": 1,
+      "secoes": [
+        160
+      ],
+      "is_dificil_acesso": false,
+      "local_doc_original": "ESCOLA MUNICIPAL DE IPIXUNA"
+    },
+    {
+      "num": 17,
+      "nome": "JAQUELINE NUNES FONSECA",
+      "num_local": 1635,
+      "local": "Escola Municipal de Tirirical",
+      "bairro_povoado": "Povoado Tirirical",
+      "total_secoes": 1,
+      "secoes": [
+        162
+      ],
+      "is_dificil_acesso": false,
+      "local_doc_original": "ESCOLA MUNICIPAL DE TIRIRICAL"
+    },
+    {
+      "num": 29,
+      "nome": "SAMIA ANDREIA MACIEL PEREIRA",
+      "num_local": 1660,
+      "local": "Escola Municipal Maurícia Fernandes Jardim",
+      "bairro_povoado": "Povoado Escondido",
+      "total_secoes": 1,
+      "secoes": [
+        101
+      ],
+      "is_dificil_acesso": false,
+      "local_doc_original": "ESCOLA MUNICIPAL MAURICIA FERNANDES JARDIM"
+    }
+  ],
+  "coordenadores_acessibilidade": [
+    {
+      "num": 7,
+      "nome": "IVALDO SILVA MACIEL",
+      "num_local": 1015,
+      "local": "Instituto Estadual de Educação, Ciência e Tecnologia do Maranhão (IEMA)",
+      "bairro_povoado": "Povoado Jaguary (MA-014)",
+      "total_secoes": 6,
+      "secoes": [
+        1,
+        2,
+        3,
+        19,
+        84,
+        188
+      ],
+      "local_doc_original": "INSTITUTO DE ED. CIENCIA E TECNOLOGIA DO MARANHAO"
+    },
+    {
+      "num": 11,
+      "nome": "MYRLLA RYANNE SILVA MACIEL",
+      "num_local": 1023,
+      "local": "Colégio Municipal Ana Bogéa",
+      "bairro_povoado": "Centro",
+      "total_secoes": 7,
+      "secoes": [
+        4,
+        5,
+        6,
+        7,
+        90,
+        94,
+        157
+      ],
+      "local_doc_original": "COLEGIO MUNICIPAL ANA BOGEA"
+    },
+    {
+      "num": 8,
+      "nome": "JEANE BATALHA GOMES",
+      "num_local": 1040,
+      "local": "CEMA Carlos Raimundo Figueiredo",
+      "bairro_povoado": "Centro",
+      "total_secoes": 6,
+      "secoes": [
+        9,
+        10,
+        11,
+        80,
+        82,
+        148
+      ],
+      "local_doc_original": "CEMA"
+    },
+    {
+      "num": 5,
+      "nome": "GLEYCE MARCELLE MEDEIROS PERES",
+      "num_local": 1058,
+      "local": "Colégio Municipal Antônia Farias",
+      "bairro_povoado": "Puraqueu",
+      "total_secoes": 5,
+      "secoes": [
+        12,
+        13,
+        83,
+        137,
+        183
+      ],
+      "local_doc_original": "COLEGIO MUNICIPAL ANTONIA FARIAS"
+    },
+    {
+      "num": 6,
+      "nome": "IANCA MICHELLY MARINHO MACIEL",
+      "num_local": 1066,
+      "local": "Jardim de Infância Mons. Artur Gonçalves",
+      "bairro_povoado": "Puraqueu",
+      "total_secoes": 4,
+      "secoes": [
+        14,
+        15,
+        103,
+        186
+      ],
+      "local_doc_original": "JARDIM DE INFANCIA MONS. ARTUR GONCALVES"
+    },
+    {
+      "num": 3,
+      "nome": "BASYNGA FRANCO DA SILVA",
+      "num_local": 1074,
+      "local": "Centro Educacional Cônego Eliud Nunes Arouche",
+      "bairro_povoado": "Manijituba",
+      "total_secoes": 6,
+      "secoes": [
+        16,
+        17,
+        18,
+        93,
+        107,
+        159
+      ],
+      "local_doc_original": "CENTRO EDUCACIONAL CONEGO ELIUD NUNES AROUCHE"
+    },
+    {
+      "num": 9,
+      "nome": "KID DAVID PEREIRA CARDOSO",
+      "num_local": 1473,
+      "local": "Unidade Escolar Neuza da Cunha Costa",
+      "bairro_povoado": "Itapui Tapera",
+      "total_secoes": 4,
+      "secoes": [
+        20,
+        21,
+        119,
+        185
+      ],
+      "local_doc_original": "UNIDADE ESC. NEUZA DA CUNHA COSTA"
+    },
+    {
+      "num": 10,
+      "nome": "MARIA BETANIA BARBOSA BATALHA",
+      "num_local": 1490,
+      "local": "Escola Municipal Maria Celeste Barros",
+      "bairro_povoado": "Manijituba",
+      "total_secoes": 4,
+      "secoes": [
+        8,
+        121,
+        141,
+        146
+      ],
+      "local_doc_original": "ESCOLA MUN. MARIA CELESTE BARROS"
+    },
+    {
+      "num": 4,
+      "nome": "CAMILA LEITE COSTA",
+      "num_local": 1627,
+      "local": "Unidade Escolar Maria Graciana Pinto Costa",
+      "bairro_povoado": "Vila Reginaldo",
+      "total_secoes": 4,
+      "secoes": [
+        105,
+        161,
+        165,
+        182
+      ],
+      "local_doc_original": "UNIDADE ESCOLAR MARIA GRACIANA PINTO COSTA"
+    },
+    {
+      "num": 2,
+      "nome": "ANTONIA MARCIA SANTOS RODRIGUES",
+      "num_local": 1120,
+      "local": "Escola Municipal Nasser Assad",
+      "bairro_povoado": "Povoado Coque",
+      "total_secoes": 7,
+      "secoes": [
+        25,
+        26,
+        27,
+        28,
+        78,
+        85,
+        95
+      ],
+      "local_doc_original": "ESCOLA MUNICIPAL NASSER ASSAD"
+    },
+    {
+      "num": 1,
+      "nome": "ANA NAYLA MACIEL DA SILVA",
+      "num_local": 1368,
+      "local": "Escola Municipal Itelvino de Matos",
+      "bairro_povoado": "Povoado Coque",
+      "total_secoes": 5,
+      "secoes": [
+        29,
+        30,
+        108,
+        143,
+        177
+      ],
+      "local_doc_original": "ESCOLA MUNICIPAL ITELVINO DE MATOS"
+    }
+  ],
+  "apoio_logistico_32_locais": [
+    {
+      "num_local": 1015,
+      "nome_local": "Instituto Estadual de Educação, Ciência e Tecnologia do Maranhão (IEMA)",
+      "bairro_povoado": "Povoado Jaguary (MA-014)",
+      "total_secoes": 6,
+      "secoes": [
+        1,
+        2,
+        3,
+        19,
+        84,
+        188
+      ],
+      "total_aptos_2026": 1526,
+      "is_dificil_acesso": false,
+      "administrador_predio": {
+        "num": 13,
+        "nome": "ISISLEA MARINHO SILVA",
+        "local_doc": "INSTITUTO DE EDUCACAO CIENCIA E TECNOLOGIA DO MARANHAO"
+      },
+      "coordenador_acessibilidade": {
+        "num": 7,
+        "nome": "IVALDO SILVA MACIEL",
+        "local_doc": "INSTITUTO DE ED. CIENCIA E TECNOLOGIA DO MARANHAO"
+      }
+    },
+    {
+      "num_local": 1023,
+      "nome_local": "Colégio Municipal Ana Bogéa",
+      "bairro_povoado": "Centro",
+      "total_secoes": 7,
+      "secoes": [
+        4,
+        5,
+        6,
+        7,
+        90,
+        94,
+        157
+      ],
+      "total_aptos_2026": 2186,
+      "is_dificil_acesso": false,
+      "administrador_predio": {
+        "num": 26,
+        "nome": "JUCIENE PEREIRA BRUCE",
+        "local_doc": "COLEGIO MUNICIPAL ANA BOGEA"
+      },
+      "coordenador_acessibilidade": {
+        "num": 11,
+        "nome": "MYRLLA RYANNE SILVA MACIEL",
+        "local_doc": "COLEGIO MUNICIPAL ANA BOGEA"
+      }
+    },
+    {
+      "num_local": 1040,
+      "nome_local": "CEMA Carlos Raimundo Figueiredo",
+      "bairro_povoado": "Centro",
+      "total_secoes": 6,
+      "secoes": [
+        9,
+        10,
+        11,
+        80,
+        82,
+        148
+      ],
+      "total_aptos_2026": 2162,
+      "is_dificil_acesso": false,
+      "administrador_predio": {
+        "num": 19,
+        "nome": "LUCINEIDE GOMES CORRÊA",
+        "local_doc": "CEMA"
+      },
+      "coordenador_acessibilidade": {
+        "num": 8,
+        "nome": "JEANE BATALHA GOMES",
+        "local_doc": "CEMA"
+      }
+    },
+    {
+      "num_local": 1058,
+      "nome_local": "Colégio Municipal Antônia Farias",
+      "bairro_povoado": "Puraqueu",
+      "total_secoes": 5,
+      "secoes": [
+        12,
+        13,
+        83,
+        137,
+        183
+      ],
+      "total_aptos_2026": 1250,
+      "is_dificil_acesso": false,
+      "administrador_predio": {
+        "num": 16,
+        "nome": "HIRES CRISTINA MACIEL REIS",
+        "local_doc": "COLEGIO MUN. ANTONIA FARIAS"
+      },
+      "coordenador_acessibilidade": {
+        "num": 5,
+        "nome": "GLEYCE MARCELLE MEDEIROS PERES",
+        "local_doc": "COLEGIO MUNICIPAL ANTONIA FARIAS"
+      }
+    },
+    {
+      "num_local": 1066,
+      "nome_local": "Jardim de Infância Mons. Artur Gonçalves",
+      "bairro_povoado": "Puraqueu",
+      "total_secoes": 4,
+      "secoes": [
+        14,
+        15,
+        103,
+        186
+      ],
+      "total_aptos_2026": 987,
+      "is_dificil_acesso": false,
+      "administrador_predio": {
+        "num": 28,
+        "nome": "EMILLY PEREIRA BRUCE",
+        "local_doc": "JARDIM DE INFANCIA MONS. ARTUR GONCALVES"
+      },
+      "coordenador_acessibilidade": {
+        "num": 6,
+        "nome": "IANCA MICHELLY MARINHO MACIEL",
+        "local_doc": "JARDIM DE INFANCIA MONS. ARTUR GONCALVES"
+      }
+    },
+    {
+      "num_local": 1074,
+      "nome_local": "Centro Educacional Cônego Eliud Nunes Arouche",
+      "bairro_povoado": "Manijituba",
+      "total_secoes": 6,
+      "secoes": [
+        16,
+        17,
+        18,
+        93,
+        107,
+        159
+      ],
+      "total_aptos_2026": 1532,
+      "is_dificil_acesso": false,
+      "administrador_predio": {
+        "num": 7,
+        "nome": "DEIVIT BEZERRA MARINHO",
+        "local_doc": "CENTRO EDUCACIONAL CONEGO ELIUD NUNES AROUCHE"
+      },
+      "coordenador_acessibilidade": {
+        "num": 3,
+        "nome": "BASYNGA FRANCO DA SILVA",
+        "local_doc": "CENTRO EDUCACIONAL CONEGO ELIUD NUNES AROUCHE"
+      }
+    },
+    {
+      "num_local": 1473,
+      "nome_local": "Unidade Escolar Neuza da Cunha Costa",
+      "bairro_povoado": "Itapui Tapera",
+      "total_secoes": 4,
+      "secoes": [
+        20,
+        21,
+        119,
+        185
+      ],
+      "total_aptos_2026": 954,
+      "is_dificil_acesso": false,
+      "administrador_predio": {
+        "num": 30,
+        "nome": "SELMA DE JESUS AMORIM VELEZ",
+        "local_doc": "UNIDADE ESCOLAR NEUZA DA CUNHA COSTA"
+      },
+      "coordenador_acessibilidade": {
+        "num": 9,
+        "nome": "KID DAVID PEREIRA CARDOSO",
+        "local_doc": "UNIDADE ESC. NEUZA DA CUNHA COSTA"
+      }
+    },
+    {
+      "num_local": 1481,
+      "nome_local": "Unidade Escolar Dr. Ribamar de Matos",
+      "bairro_povoado": "Puraqueu",
+      "total_secoes": 3,
+      "secoes": [
+        122,
+        149,
+        163
+      ],
+      "total_aptos_2026": 869,
+      "is_dificil_acesso": false,
+      "administrador_predio": {
+        "num": 31,
+        "nome": "SILVIANE VIEIRA SILVA COSTA",
+        "local_doc": "UNIDADE ESCOLAR DR. RIBAMAR DE MATOS"
+      },
+      "coordenador_acessibilidade": null
+    },
+    {
+      "num_local": 1490,
+      "nome_local": "Escola Municipal Maria Celeste Barros",
+      "bairro_povoado": "Manijituba",
+      "total_secoes": 4,
+      "secoes": [
+        8,
+        121,
+        141,
+        146
+      ],
+      "total_aptos_2026": 852,
+      "is_dificil_acesso": false,
+      "administrador_predio": {
+        "num": 15,
+        "nome": "GIULIANNO PEREIRA DE SOUSA",
+        "local_doc": "ESCOLA MUNICIPAL MARIA CELESTE BARROS"
+      },
+      "coordenador_acessibilidade": {
+        "num": 10,
+        "nome": "MARIA BETANIA BARBOSA BATALHA",
+        "local_doc": "ESCOLA MUN. MARIA CELESTE BARROS"
+      }
+    },
+    {
+      "num_local": 1627,
+      "nome_local": "Unidade Escolar Maria Graciana Pinto Costa",
+      "bairro_povoado": "Vila Reginaldo",
+      "total_secoes": 4,
+      "secoes": [
+        105,
+        161,
+        165,
+        182
+      ],
+      "total_aptos_2026": 1094,
+      "is_dificil_acesso": false,
+      "administrador_predio": {
+        "num": 21,
+        "nome": "MAURILIO LISBOA MOREIRA",
+        "local_doc": "UNIDADE ESCOLAR MARIA GRACIANA PINTO COSTA"
+      },
+      "coordenador_acessibilidade": {
+        "num": 4,
+        "nome": "CAMILA LEITE COSTA",
+        "local_doc": "UNIDADE ESCOLAR MARIA GRACIANA PINTO COSTA"
+      }
+    },
+    {
+      "num_local": 1104,
+      "nome_local": "Escola Municipal Francisco Xavier Correia",
+      "bairro_povoado": "Povoado Jaguary",
+      "total_secoes": 2,
+      "secoes": [
+        22,
+        69
+      ],
+      "total_aptos_2026": 561,
+      "is_dificil_acesso": false,
+      "administrador_predio": {
+        "num": 24,
+        "nome": "OCIANE DE BRITO ALVES",
+        "local_doc": "ESCOLA MUNICIPAL FRANCISCO XAVIER CORREIA"
+      },
+      "coordenador_acessibilidade": null
+    },
+    {
+      "num_local": 1112,
+      "nome_local": "Escola Municipal Deodato Santos Lourenço",
+      "bairro_povoado": "Povoado São Lourenço",
+      "total_secoes": 1,
+      "secoes": [
+        23
+      ],
+      "total_aptos_2026": 286,
+      "is_dificil_acesso": false,
+      "administrador_predio": {
+        "num": 20,
+        "nome": "VANAILDE LOPES PACHECO",
+        "local_doc": "ESCOLA MUNICIPAL DEODATO SANTOS"
+      },
+      "coordenador_acessibilidade": null
+    },
+    {
+      "num_local": 1120,
+      "nome_local": "Escola Municipal Nasser Assad",
+      "bairro_povoado": "Povoado Coque",
+      "total_secoes": 7,
+      "secoes": [
+        25,
+        26,
+        27,
+        28,
+        78,
+        85,
+        95
+      ],
+      "total_aptos_2026": 1854,
+      "is_dificil_acesso": false,
+      "administrador_predio": {
+        "num": 2,
+        "nome": "ANA ROSA RODRIGUES FALCAO",
+        "local_doc": "ESCOLA MUNICIPAL NASSER ASSAD"
+      },
+      "coordenador_acessibilidade": {
+        "num": 2,
+        "nome": "ANTONIA MARCIA SANTOS RODRIGUES",
+        "local_doc": "ESCOLA MUNICIPAL NASSER ASSAD"
+      }
+    },
+    {
+      "num_local": 1287,
+      "nome_local": "Colégio Municipal Godofredo Maciel",
+      "bairro_povoado": "Povoado São Felix",
+      "total_secoes": 3,
+      "secoes": [
+        62,
+        68,
+        179
+      ],
+      "total_aptos_2026": 626,
+      "is_dificil_acesso": false,
+      "administrador_predio": {
+        "num": 5,
+        "nome": "ARIADNE RIBEIRO CAMPELO",
+        "local_doc": "COLEGIO MUNICIPAL GODOFREDO MACIEL"
+      },
+      "coordenador_acessibilidade": null
+    },
+    {
+      "num_local": 1309,
+      "nome_local": "Colégio Municipal José Ribamar Silva",
+      "bairro_povoado": "Povoado Santa Rosa",
+      "total_secoes": 2,
+      "secoes": [
+        64,
+        65
+      ],
+      "total_aptos_2026": 515,
+      "is_dificil_acesso": false,
+      "administrador_predio": {
+        "num": 4,
+        "nome": "ANGELA MARIA VALE ABREU",
+        "local_doc": "COLEGIO MUNICIPAL JOSE RIBAMAR SILVA"
+      },
+      "coordenador_acessibilidade": null
+    },
+    {
+      "num_local": 1317,
+      "nome_local": "Escola Municipal Izidoro de Jesus Lopes",
+      "bairro_povoado": "Povoado Livramento",
+      "total_secoes": 1,
+      "secoes": [
+        75
+      ],
+      "total_aptos_2026": 336,
+      "is_dificil_acesso": false,
+      "administrador_predio": {
+        "num": 1,
+        "nome": "ADEMILDA COSTA DOS SANTOS",
+        "local_doc": "ESCOLA MUNICIPAL IZIDORO DE JESUS LOPES"
+      },
+      "coordenador_acessibilidade": null
+    },
+    {
+      "num_local": 1325,
+      "nome_local": "Colégio Municipal José Carlos Mota Silva",
+      "bairro_povoado": "Povoado Sumaúma do Japão",
+      "total_secoes": 3,
+      "secoes": [
+        66,
+        81,
+        176
+      ],
+      "total_aptos_2026": 814,
+      "is_dificil_acesso": false,
+      "administrador_predio": {
+        "num": 32,
+        "nome": "TEIZIANE DE JESUS ROCHA REIS",
+        "local_doc": "COLEGIO MUNICIPAL JOSE CARLOS MOTA SILVA"
+      },
+      "coordenador_acessibilidade": null
+    },
+    {
+      "num_local": 1341,
+      "nome_local": "Escola Municipal Paulo Maciel Neto",
+      "bairro_povoado": "Povoado São Benedito",
+      "total_secoes": 3,
+      "secoes": [
+        73,
+        89,
+        147
+      ],
+      "total_aptos_2026": 689,
+      "is_dificil_acesso": false,
+      "administrador_predio": {
+        "num": 11,
+        "nome": "ELIENE DE JESUS BRITO",
+        "local_doc": "ESCOLA MUNICIPAL PAULO MACIEL NETO"
+      },
+      "coordenador_acessibilidade": null
+    },
+    {
+      "num_local": 1368,
+      "nome_local": "Escola Municipal Itelvino de Matos",
+      "bairro_povoado": "Povoado Coque",
+      "total_secoes": 5,
+      "secoes": [
+        29,
+        30,
+        108,
+        143,
+        177
+      ],
+      "total_aptos_2026": 1279,
+      "is_dificil_acesso": false,
+      "administrador_predio": {
+        "num": 8,
+        "nome": "DENILA DE MATOS RODRIGUES",
+        "local_doc": "ESCOLA MUNICIPAL ITELVINO DE MATOS"
+      },
+      "coordenador_acessibilidade": {
+        "num": 1,
+        "nome": "ANA NAYLA MACIEL DA SILVA",
+        "local_doc": "ESCOLA MUNICIPAL ITELVINO DE MATOS"
+      }
+    },
+    {
+      "num_local": 1392,
+      "nome_local": "Escola Municipal de Juçaral",
+      "bairro_povoado": "Povoado Juçaral",
+      "total_secoes": 1,
+      "secoes": [
+        106
+      ],
+      "total_aptos_2026": 163,
+      "is_dificil_acesso": true,
+      "administrador_predio": {
+        "num": 23,
+        "nome": "NERINILDO COELHO CARDOSO",
+        "local_doc": "ESCOLA MUNICIPAL DE JUÇARAL"
+      },
+      "coordenador_acessibilidade": null
+    },
+    {
+      "num_local": 1422,
+      "nome_local": "Escola Municipal Mámedio da Silva Sarmento",
+      "bairro_povoado": "Povoado Jacaray",
+      "total_secoes": 2,
+      "secoes": [
+        104,
+        167
+      ],
+      "total_aptos_2026": 472,
+      "is_dificil_acesso": false,
+      "administrador_predio": {
+        "num": 18,
+        "nome": "JOELMA CUTRIM COSTA",
+        "local_doc": "ESCOLA MUNICIPAL MAMEDIO DA SILVA SARMENTO"
+      },
+      "coordenador_acessibilidade": null
+    },
+    {
+      "num_local": 1457,
+      "nome_local": "Colégio Municipal Euzebio do Nascimento dos Reis",
+      "bairro_povoado": "Povoado Juçaralzinho",
+      "total_secoes": 1,
+      "secoes": [
+        117
+      ],
+      "total_aptos_2026": 187,
+      "is_dificil_acesso": false,
+      "administrador_predio": {
+        "num": 27,
+        "nome": "RIAN SILVA MESQUITA",
+        "local_doc": "COLEGIO MUNICIPAL EUZEBIO DO NASCIMENTO DOS REIS"
+      },
+      "coordenador_acessibilidade": null
+    },
+    {
+      "num_local": 1465,
+      "nome_local": "Colégio Municipal Vila Nova",
+      "bairro_povoado": "Povoado Vila Nova",
+      "total_secoes": 1,
+      "secoes": [
+        120
+      ],
+      "total_aptos_2026": 296,
+      "is_dificil_acesso": false,
+      "administrador_predio": {
+        "num": 3,
+        "nome": "ANDRESSA SANTOS TORRES",
+        "local_doc": "COLEGIO MUNICIPAL VILA NOVA"
+      },
+      "coordenador_acessibilidade": null
+    },
+    {
+      "num_local": 1503,
+      "nome_local": "Colégio Municipal Hemetério Fernandes",
+      "bairro_povoado": "Povoado Mato Grosso",
+      "total_secoes": 2,
+      "secoes": [
+        144,
+        178
+      ],
+      "total_aptos_2026": 412,
+      "is_dificil_acesso": false,
+      "administrador_predio": {
+        "num": 10,
+        "nome": "ELBIANE DA CONCEIÇÃO FERREIRA",
+        "local_doc": "COLEGIO MUNICIPAL HEMETERIO FERNANDES"
+      },
+      "coordenador_acessibilidade": null
+    },
+    {
+      "num_local": 1511,
+      "nome_local": "Escola Municipal Abidão Rufino da Silva",
+      "bairro_povoado": "Povoado Boca do Campo",
+      "total_secoes": 1,
+      "secoes": [
+        142
+      ],
+      "total_aptos_2026": 230,
+      "is_dificil_acesso": false,
+      "administrador_predio": {
+        "num": 9,
+        "nome": "DIEGO VIEIRA NEVES",
+        "local_doc": "ESCOLA MUNICIPAL ABIDAO RUFINO DA SILVA"
+      },
+      "coordenador_acessibilidade": null
+    },
+    {
+      "num_local": 1554,
+      "nome_local": "Creche Comunitária de Coque",
+      "bairro_povoado": "Povoado Coque",
+      "total_secoes": 1,
+      "secoes": [
+        173
+      ],
+      "total_aptos_2026": 259,
+      "is_dificil_acesso": false,
+      "administrador_predio": {
+        "num": 25,
+        "nome": "RAIZA FERREIRA VALE",
+        "local_doc": "CRECHE COMUNITARIA DE COQUE"
+      },
+      "coordenador_acessibilidade": null
+    },
+    {
+      "num_local": 1562,
+      "nome_local": "Escola Municipal Vila Falcão",
+      "bairro_povoado": "Povoado Coque",
+      "total_secoes": 2,
+      "secoes": [
+        152,
+        164
+      ],
+      "total_aptos_2026": 420,
+      "is_dificil_acesso": false,
+      "administrador_predio": {
+        "num": 6,
+        "nome": "CARLOS ALESSANDRO DE ALMEIDA SOARES",
+        "local_doc": "ESCOLA MUNICIPAL VILA FALCAO"
+      },
+      "coordenador_acessibilidade": null
+    },
+    {
+      "num_local": 1570,
+      "nome_local": "Escola Municipal Raimundo Bogéa",
+      "bairro_povoado": "Povoado Coque",
+      "total_secoes": 2,
+      "secoes": [
+        155,
+        184
+      ],
+      "total_aptos_2026": 572,
+      "is_dificil_acesso": false,
+      "administrador_predio": {
+        "num": 22,
+        "nome": "MORRAMES OLIVEIRA DA SILVA",
+        "local_doc": "ESCOLA MUNICIPAL RAIMUNDO BOGEA"
+      },
+      "coordenador_acessibilidade": null
+    },
+    {
+      "num_local": 1589,
+      "nome_local": "Escola Municipal Franklin Cantanhêde",
+      "bairro_povoado": "Povoado São Lourenço",
+      "total_secoes": 2,
+      "secoes": [
+        153,
+        166
+      ],
+      "total_aptos_2026": 589,
+      "is_dificil_acesso": false,
+      "administrador_predio": {
+        "num": 14,
+        "nome": "GEISIELMA FREITAS LOPES",
+        "local_doc": "ESCOLA MUNICIPAL FRANKLIN CANTANHEDE"
+      },
+      "coordenador_acessibilidade": null
+    },
+    {
+      "num_local": 1619,
+      "nome_local": "Escola Municipal de Ipixuna",
+      "bairro_povoado": "Povoado Ipixuna",
+      "total_secoes": 1,
+      "secoes": [
+        160
+      ],
+      "total_aptos_2026": 288,
+      "is_dificil_acesso": false,
+      "administrador_predio": {
+        "num": 12,
+        "nome": "ELIVANE CORREA COELHO",
+        "local_doc": "ESCOLA MUNICIPAL DE IPIXUNA"
+      },
+      "coordenador_acessibilidade": null
+    },
+    {
+      "num_local": 1635,
+      "nome_local": "Escola Municipal de Tirirical",
+      "bairro_povoado": "Povoado Tirirical",
+      "total_secoes": 1,
+      "secoes": [
+        162
+      ],
+      "total_aptos_2026": 201,
+      "is_dificil_acesso": false,
+      "administrador_predio": {
+        "num": 17,
+        "nome": "JAQUELINE NUNES FONSECA",
+        "local_doc": "ESCOLA MUNICIPAL DE TIRIRICAL"
+      },
+      "coordenador_acessibilidade": null
+    },
+    {
+      "num_local": 1660,
+      "nome_local": "Escola Municipal Maurícia Fernandes Jardim",
+      "bairro_povoado": "Povoado Escondido",
+      "total_secoes": 1,
+      "secoes": [
+        101
+      ],
+      "total_aptos_2026": 310,
+      "is_dificil_acesso": false,
+      "administrador_predio": {
+        "num": 29,
+        "nome": "SAMIA ANDREIA MACIEL PEREIRA",
+        "local_doc": "ESCOLA MUNICIPAL MAURICIA FERNANDES JARDIM"
+      },
+      "coordenador_acessibilidade": null
+    }
+  ]
+}

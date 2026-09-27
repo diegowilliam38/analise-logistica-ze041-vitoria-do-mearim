@@ -1,0 +1,2258 @@
+[
+  {
+    "local": "IEMA",
+    "secao": "1",
+    "funcao": "Presidente",
+    "nome": "JHONY DELANO SILVA PRAZERES"
+  },
+  {
+    "local": "IEMA",
+    "secao": "1",
+    "funcao": "1º Mesário",
+    "nome": "PABLO ROBERT LIMA FERNANDES"
+  },
+  {
+    "local": "IEMA",
+    "secao": "1",
+    "funcao": "2º Mesário",
+    "nome": "SEBASTIANA DE JESUS VIEGAS BATALHA"
+  },
+  {
+    "local": "IEMA",
+    "secao": "1",
+    "funcao": "1º Secretário",
+    "nome": "JOSE CLAUDIO MATOS COSTA"
+  },
+  {
+    "local": "IEMA",
+    "secao": "2",
+    "funcao": "Presidente",
+    "nome": "TALITA DE OLIVEIRA MUNIZ"
+  },
+  {
+    "local": "IEMA",
+    "secao": "2",
+    "funcao": "1º Mesário",
+    "nome": "JULIANA MACIEL FERNANDES"
+  },
+  {
+    "local": "IEMA",
+    "secao": "2",
+    "funcao": "2º Mesário",
+    "nome": "MARIA DO PERPETUO SOCORRO MACEDO CANTANHEDE"
+  },
+  {
+    "local": "IEMA",
+    "secao": "2",
+    "funcao": "1º Secretário",
+    "nome": "CHEILA MARIA SANCHES COSTA CHAVES"
+  },
+  {
+    "local": "IEMA",
+    "secao": "3",
+    "funcao": "Presidente",
+    "nome": "JOSIELMA FERREIRA"
+  },
+  {
+    "local": "IEMA",
+    "secao": "3",
+    "funcao": "1º Mesário",
+    "nome": "TASSIA DANIELE MENDES DE SOUSA"
+  },
+  {
+    "local": "IEMA",
+    "secao": "3",
+    "funcao": "2º Mesário",
+    "nome": "BEATRIZ MAYRA SANTOS PRAZERES"
+  },
+  {
+    "local": "IEMA",
+    "secao": "3",
+    "funcao": "1º Secretário",
+    "nome": "JULYANNE MAY MACIEL VALE"
+  },
+  {
+    "local": "IEMA",
+    "secao": "19",
+    "funcao": "Presidente",
+    "nome": "BRUNO JORGE FERNANDES DA SILVA"
+  },
+  {
+    "local": "IEMA",
+    "secao": "19",
+    "funcao": "1º Mesário",
+    "nome": "RAISSA BOGEA DE SOUZA"
+  },
+  {
+    "local": "IEMA",
+    "secao": "19",
+    "funcao": "2º Mesário",
+    "nome": "ELAYNE LIMA NUNES"
+  },
+  {
+    "local": "IEMA",
+    "secao": "19",
+    "funcao": "1º Secretário",
+    "nome": "DGILDA DE JESUS MELO GOMES"
+  },
+  {
+    "local": "IEMA",
+    "secao": "84",
+    "funcao": "Presidente",
+    "nome": "VALDINEA DE JESUS RODRIGUES CORREA"
+  },
+  {
+    "local": "IEMA",
+    "secao": "84",
+    "funcao": "1º Mesário",
+    "nome": "CARLIANE ALMEIDA SENA"
+  },
+  {
+    "local": "IEMA",
+    "secao": "84",
+    "funcao": "2º Mesário",
+    "nome": "MARCOS PAULO TELES DE OLIVEIRA"
+  },
+  {
+    "local": "IEMA",
+    "secao": "84",
+    "funcao": "1º Secretário",
+    "nome": "ALMARI DE RIBAMAR DE ANDRADE GARROS"
+  },
+  {
+    "local": "IEMA",
+    "secao": "188",
+    "funcao": "Presidente",
+    "nome": "GILMARIA PINHEIRO SILVA"
+  },
+  {
+    "local": "IEMA",
+    "secao": "188",
+    "funcao": "1º Mesário",
+    "nome": "FERNANDA MIKELLY CORDEIRO DE SOUZA"
+  },
+  {
+    "local": "IEMA",
+    "secao": "188",
+    "funcao": "2º Mesário",
+    "nome": "EDUARDA LOPES DE MENEZES"
+  },
+  {
+    "local": "IEMA",
+    "secao": "188",
+    "funcao": "1º Secretário",
+    "nome": "JORGE LUCAS DUTRA GONÇALVES"
+  },
+  {
+    "local": "COLÉGIO MUN ANA BOGÉA",
+    "secao": "4",
+    "funcao": "Presidente",
+    "nome": "JULIANA BRUCE BATALHA"
+  },
+  {
+    "local": "COLÉGIO MUN ANA BOGÉA",
+    "secao": "4",
+    "funcao": "1º Mesário",
+    "nome": "MARCILEA NUNES MATOS"
+  },
+  {
+    "local": "COLÉGIO MUN ANA BOGÉA",
+    "secao": "4",
+    "funcao": "2º Mesário",
+    "nome": "NIELSEN SOUSA MOCHEL JUNIOR"
+  },
+  {
+    "local": "COLÉGIO MUN ANA BOGÉA",
+    "secao": "4",
+    "funcao": "1º Secretário",
+    "nome": "ANDRESSA RAIANE MOTA CUTRIM"
+  },
+  {
+    "local": "COLÉGIO MUN ANA BOGÉA",
+    "secao": "5",
+    "funcao": "Presidente",
+    "nome": "JHESSICA MESQUITA SOUSA"
+  },
+  {
+    "local": "COLÉGIO MUN ANA BOGÉA",
+    "secao": "5",
+    "funcao": "1º Mesário",
+    "nome": "TÁSSIA KELEN CABRAL SANTOS"
+  },
+  {
+    "local": "COLÉGIO MUN ANA BOGÉA",
+    "secao": "5",
+    "funcao": "2º Mesário",
+    "nome": "CIRENE DOS SANTOS BARROS"
+  },
+  {
+    "local": "COLÉGIO MUN ANA BOGÉA",
+    "secao": "5",
+    "funcao": "1º Secretário",
+    "nome": "ENATYLA CHAVES SILVA"
+  },
+  {
+    "local": "COLÉGIO MUN ANA BOGÉA",
+    "secao": "6",
+    "funcao": "Presidente",
+    "nome": "MIRIAM MACIEL LOPES"
+  },
+  {
+    "local": "COLÉGIO MUN ANA BOGÉA",
+    "secao": "6",
+    "funcao": "1º Mesário",
+    "nome": "LAÍS PEMULA CARDOSO SOUZA"
+  },
+  {
+    "local": "COLÉGIO MUN ANA BOGÉA",
+    "secao": "6",
+    "funcao": "2º Mesário",
+    "nome": "NAYANE LAYSE SILVA MACIEL"
+  },
+  {
+    "local": "COLÉGIO MUN ANA BOGÉA",
+    "secao": "6",
+    "funcao": "1º Secretário",
+    "nome": "RAISSA MALINDA ROCHA MOTA"
+  },
+  {
+    "local": "COLÉGIO MUN ANA BOGÉA",
+    "secao": "7",
+    "funcao": "Presidente",
+    "nome": "LUCAS GUEDES VIEIRA"
+  },
+  {
+    "local": "COLÉGIO MUN ANA BOGÉA",
+    "secao": "7",
+    "funcao": "1º Mesário",
+    "nome": "TAYSE DAYANA FERNANDES NICÁCIA"
+  },
+  {
+    "local": "COLÉGIO MUN ANA BOGÉA",
+    "secao": "7",
+    "funcao": "2º Mesário",
+    "nome": "ALBERTINA SILVA NETA"
+  },
+  {
+    "local": "COLÉGIO MUN ANA BOGÉA",
+    "secao": "7",
+    "funcao": "1º Secretário",
+    "nome": "EDVAN PRAZERES PIRES"
+  },
+  {
+    "local": "COLÉGIO MUN ANA BOGÉA",
+    "secao": "90",
+    "funcao": "Presidente",
+    "nome": "MARIA ROSA PINTO CORREA"
+  },
+  {
+    "local": "COLÉGIO MUN ANA BOGÉA",
+    "secao": "90",
+    "funcao": "1º Mesário",
+    "nome": "MARCOS LADNIR FRANCO DUTRA"
+  },
+  {
+    "local": "COLÉGIO MUN ANA BOGÉA",
+    "secao": "90",
+    "funcao": "2º Mesário",
+    "nome": "DARA MERCEDES COSTA"
+  },
+  {
+    "local": "COLÉGIO MUN ANA BOGÉA",
+    "secao": "90",
+    "funcao": "1º Secretário",
+    "nome": "CRISTIANE SOUSA MOCHEL"
+  },
+  {
+    "local": "COLÉGIO MUN ANA BOGÉA",
+    "secao": "94",
+    "funcao": "Presidente",
+    "nome": "AMANDA LISBOA COELHO MACIEL"
+  },
+  {
+    "local": "COLÉGIO MUN ANA BOGÉA",
+    "secao": "94",
+    "funcao": "1º Mesário",
+    "nome": "LUCE CLEIA MORENO SEREJO"
+  },
+  {
+    "local": "COLÉGIO MUN ANA BOGÉA",
+    "secao": "94",
+    "funcao": "2º Mesário",
+    "nome": "RAYSSA ALINE RODRIGUES TEIXEIRA PEREIRA"
+  },
+  {
+    "local": "COLÉGIO MUN ANA BOGÉA",
+    "secao": "94",
+    "funcao": "1º Secretário",
+    "nome": "ELIEUDA LIMA DE MENEZES"
+  },
+  {
+    "local": "COLÉGIO MUN ANA BOGÉA",
+    "secao": "157",
+    "funcao": "Presidente",
+    "nome": "LUANA DE FATIMA BARBOZA COSTA DOS SANTOS"
+  },
+  {
+    "local": "COLÉGIO MUN ANA BOGÉA",
+    "secao": "157",
+    "funcao": "1º Mesário",
+    "nome": "MARIA DE FATIMA LOPES DE MENEZES"
+  },
+  {
+    "local": "COLÉGIO MUN ANA BOGÉA",
+    "secao": "157",
+    "funcao": "2º Mesário",
+    "nome": "JULIA VANESSA COELHO ABUSALE"
+  },
+  {
+    "local": "COLÉGIO MUN ANA BOGÉA",
+    "secao": "157",
+    "funcao": "1º Secretário",
+    "nome": "TESSIO DE OLIVEIRA PASSOS"
+  },
+  {
+    "local": "CEMA",
+    "secao": "9",
+    "funcao": "Presidente",
+    "nome": "THAYLON DEYVILLE SILVA PRAZERES"
+  },
+  {
+    "local": "CEMA",
+    "secao": "9",
+    "funcao": "1º Mesário",
+    "nome": "LISA MAYHARA MARINHO DE SOUSA"
+  },
+  {
+    "local": "CEMA",
+    "secao": "9",
+    "funcao": "2º Mesário",
+    "nome": "ELINELZA SILVA COELHO"
+  },
+  {
+    "local": "CEMA",
+    "secao": "9",
+    "funcao": "1º Secretário",
+    "nome": "ENNIO CAMPOS OLIVEIRA"
+  },
+  {
+    "local": "CEMA",
+    "secao": "10",
+    "funcao": "Presidente",
+    "nome": "SARAH RAYSSA ARAUJO MACIEL"
+  },
+  {
+    "local": "CEMA",
+    "secao": "10",
+    "funcao": "1º Mesário",
+    "nome": "VAELSON SANTIAGO DA SILVA"
+  },
+  {
+    "local": "CEMA",
+    "secao": "10",
+    "funcao": "2º Mesário",
+    "nome": "ELLEN FERNANDA LIMA PENHA"
+  },
+  {
+    "local": "CEMA",
+    "secao": "10",
+    "funcao": "1º Secretário",
+    "nome": "NEIDENILDA BRITO FERREIRA"
+  },
+  {
+    "local": "CEMA",
+    "secao": "11",
+    "funcao": "Presidente",
+    "nome": "ELEN DIANA PORTELA GUSMAO OLIVEIRA"
+  },
+  {
+    "local": "CEMA",
+    "secao": "11",
+    "funcao": "1º Mesário",
+    "nome": "CARLA TAYSA COELHO GONCALVES"
+  },
+  {
+    "local": "CEMA",
+    "secao": "11",
+    "funcao": "2º Mesário",
+    "nome": "ELIELTON COELHO SANTOS"
+  },
+  {
+    "local": "CEMA",
+    "secao": "11",
+    "funcao": "1º Secretário",
+    "nome": "AKYLA CRUZ LIMA"
+  },
+  {
+    "local": "CEMA",
+    "secao": "80",
+    "funcao": "Presidente",
+    "nome": "MARIA FRANCISCA DA SILVA"
+  },
+  {
+    "local": "CEMA",
+    "secao": "80",
+    "funcao": "1º Mesário",
+    "nome": "ROBIANE GARCIA BRITO"
+  },
+  {
+    "local": "CEMA",
+    "secao": "80",
+    "funcao": "2º Mesário",
+    "nome": "JULIANA LIMA TELES COELHO"
+  },
+  {
+    "local": "CEMA",
+    "secao": "80",
+    "funcao": "1º Secretário",
+    "nome": "GLESCILENE DOS SANTOS LIMA"
+  },
+  {
+    "local": "CEMA",
+    "secao": "82",
+    "funcao": "Presidente",
+    "nome": "YAN VITOR FERREIRA CARÃO"
+  },
+  {
+    "local": "CEMA",
+    "secao": "82",
+    "funcao": "1º Mesário",
+    "nome": "MARIA JESUS NOGUEIRA CORREA"
+  },
+  {
+    "local": "CEMA",
+    "secao": "82",
+    "funcao": "2º Mesário",
+    "nome": "DANYELLE CRISTINA FERNANDES FRANCO"
+  },
+  {
+    "local": "CEMA",
+    "secao": "82",
+    "funcao": "1º Secretário",
+    "nome": "BRUNO RODRIGO GARROS"
+  },
+  {
+    "local": "CEMA",
+    "secao": "148",
+    "funcao": "Presidente",
+    "nome": "RAYNE SARAY ARAUJO MACIEL"
+  },
+  {
+    "local": "CEMA",
+    "secao": "148",
+    "funcao": "1º Mesário",
+    "nome": "ALESSANDRA GOMES DE ARAUJO"
+  },
+  {
+    "local": "CEMA",
+    "secao": "148",
+    "funcao": "2º Mesário",
+    "nome": "RIZIA COSTA BRITO"
+  },
+  {
+    "local": "CEMA",
+    "secao": "148",
+    "funcao": "1º Secretário",
+    "nome": "GENESIS GUSTAVO SILVA PIMENTEL"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL ANTONIA FARIAS",
+    "secao": "12",
+    "funcao": "Presidente",
+    "nome": "RAYLLA BARBOZA PITONI"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL ANTONIA FARIAS",
+    "secao": "12",
+    "funcao": "1º Mesário",
+    "nome": "LUCELAYNE FERNANDES DE BRITO"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL ANTONIA FARIAS",
+    "secao": "12",
+    "funcao": "2º Mesário",
+    "nome": "ELINILDE LISBOA MOREIRA"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL ANTONIA FARIAS",
+    "secao": "12",
+    "funcao": "1º Secretário",
+    "nome": "ANA LEIDE OLIVEIRA LOPES"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL ANTONIA FARIAS",
+    "secao": "13",
+    "funcao": "Presidente",
+    "nome": "JOSE MARTINHO MOREIRA SOUSA"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL ANTONIA FARIAS",
+    "secao": "13",
+    "funcao": "1º Mesário",
+    "nome": "SILVANA BARBOSA"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL ANTONIA FARIAS",
+    "secao": "13",
+    "funcao": "2º Mesário",
+    "nome": "THATINA MILLEYDE PINTO DOS PASSOS"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL ANTONIA FARIAS",
+    "secao": "13",
+    "funcao": "1º Secretário",
+    "nome": "POLIANA PEREIRA SILVA"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL ANTONIA FARIAS",
+    "secao": "83",
+    "funcao": "Presidente",
+    "nome": "LIZIANE DIAS MACIEL"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL ANTONIA FARIAS",
+    "secao": "83",
+    "funcao": "1º Mesário",
+    "nome": "THAMILLA THAIS MARINHO BARROS"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL ANTONIA FARIAS",
+    "secao": "83",
+    "funcao": "2º Mesário",
+    "nome": "PAMELA SUELLYN PEREIRA FEREIRA"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL ANTONIA FARIAS",
+    "secao": "83",
+    "funcao": "1º Secretário",
+    "nome": "DALVANIRA DE ANDRADE COELHO"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL ANTONIA FARIAS",
+    "secao": "137",
+    "funcao": "Presidente",
+    "nome": "MILKA CHARLES PEREIRA PIMENTEL FERNANDES"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL ANTONIA FARIAS",
+    "secao": "137",
+    "funcao": "1º Mesário",
+    "nome": "ELMA RODRIGUES SILVA"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL ANTONIA FARIAS",
+    "secao": "137",
+    "funcao": "2º Mesário",
+    "nome": "HANA NATIELLY PRAZERES COELHO"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL ANTONIA FARIAS",
+    "secao": "137",
+    "funcao": "1º Secretário",
+    "nome": "KEILA DA SILVA NUNES"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL ANTONIA FARIAS",
+    "secao": "183",
+    "funcao": "Presidente",
+    "nome": "ANTONIO EMERSON LOPES MUNIZ"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL ANTONIA FARIAS",
+    "secao": "183",
+    "funcao": "1º Mesário",
+    "nome": "MARICELIA DAS DORES VIEIRA"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL ANTONIA FARIAS",
+    "secao": "183",
+    "funcao": "2º Mesário",
+    "nome": "INALVA DA SILVA CARVALHO"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL ANTONIA FARIAS",
+    "secao": "183",
+    "funcao": "1º Secretário",
+    "nome": "JENY GABRYELLE MENDES FARAY"
+  },
+  {
+    "local": "JARDIM DE INFÂNCIA MONS. ARTUR GONÇALVES",
+    "secao": "14",
+    "funcao": "Presidente",
+    "nome": "SANDRIANE SILVA RAPOSO FERREIRA"
+  },
+  {
+    "local": "JARDIM DE INFÂNCIA MONS. ARTUR GONÇALVES",
+    "secao": "14",
+    "funcao": "1º Mesário",
+    "nome": "CARLA CANTANHEDE DE MENEZES"
+  },
+  {
+    "local": "JARDIM DE INFÂNCIA MONS. ARTUR GONÇALVES",
+    "secao": "14",
+    "funcao": "2º Mesário",
+    "nome": "NILMA LOPES RODRIGUES"
+  },
+  {
+    "local": "JARDIM DE INFÂNCIA MONS. ARTUR GONÇALVES",
+    "secao": "14",
+    "funcao": "1º Secretário",
+    "nome": "FERNANDO OLIVEIRA LOPES"
+  },
+  {
+    "local": "JARDIM DE INFÂNCIA MONS. ARTUR GONÇALVES",
+    "secao": "15",
+    "funcao": "Presidente",
+    "nome": "JULIO CESAR BARROS COELHO"
+  },
+  {
+    "local": "JARDIM DE INFÂNCIA MONS. ARTUR GONÇALVES",
+    "secao": "15",
+    "funcao": "1º Mesário",
+    "nome": "FERLANE COELHO MORENO"
+  },
+  {
+    "local": "JARDIM DE INFÂNCIA MONS. ARTUR GONÇALVES",
+    "secao": "15",
+    "funcao": "2º Mesário",
+    "nome": "VALDINEIA PEREIRA BRUCE"
+  },
+  {
+    "local": "JARDIM DE INFÂNCIA MONS. ARTUR GONÇALVES",
+    "secao": "15",
+    "funcao": "1º Secretário",
+    "nome": "FRANSMILER GONÇALVES RODRIGUES"
+  },
+  {
+    "local": "JARDIM DE INFÂNCIA MONS. ARTUR GONÇALVES",
+    "secao": "103",
+    "funcao": "Presidente",
+    "nome": "MARCELO VELEZ SILVA"
+  },
+  {
+    "local": "JARDIM DE INFÂNCIA MONS. ARTUR GONÇALVES",
+    "secao": "103",
+    "funcao": "1º Mesário",
+    "nome": "ANGELICA DOS SANTOS BASTOS"
+  },
+  {
+    "local": "JARDIM DE INFÂNCIA MONS. ARTUR GONÇALVES",
+    "secao": "103",
+    "funcao": "2º Mesário",
+    "nome": "GENILDO RODRIGUES FERNANDES"
+  },
+  {
+    "local": "JARDIM DE INFÂNCIA MONS. ARTUR GONÇALVES",
+    "secao": "103",
+    "funcao": "1º Secretário",
+    "nome": "ISAURA DE NAZARÉ FURTADO SOUSA"
+  },
+  {
+    "local": "JARDIM DE INFÂNCIA MONS. ARTUR GONÇALVES",
+    "secao": "186",
+    "funcao": "Presidente",
+    "nome": "LUIS HENRIQUE COSTA DO NASCIMENTO"
+  },
+  {
+    "local": "JARDIM DE INFÂNCIA MONS. ARTUR GONÇALVES",
+    "secao": "186",
+    "funcao": "1º Mesário",
+    "nome": "ANA CAROLINE PIMENTEL COELHO"
+  },
+  {
+    "local": "JARDIM DE INFÂNCIA MONS. ARTUR GONÇALVES",
+    "secao": "186",
+    "funcao": "2º Mesário",
+    "nome": "FLAVIANE LOPES DA SILVA"
+  },
+  {
+    "local": "JARDIM DE INFÂNCIA MONS. ARTUR GONÇALVES",
+    "secao": "186",
+    "funcao": "1º Secretário",
+    "nome": "FERNANDA CHARLITA LOPES DA SILVA"
+  },
+  {
+    "local": "CENTRO EDUCACIONAL CÔNEGO ELIUD NUNES AROUCHE",
+    "secao": "16",
+    "funcao": "Presidente",
+    "nome": "ANA CARLA SANTOS COELHO SARMENTO"
+  },
+  {
+    "local": "CENTRO EDUCACIONAL CÔNEGO ELIUD NUNES AROUCHE",
+    "secao": "16",
+    "funcao": "1º Mesário",
+    "nome": "MONISE RAFAELA VIVEIROS GOMES"
+  },
+  {
+    "local": "CENTRO EDUCACIONAL CÔNEGO ELIUD NUNES AROUCHE",
+    "secao": "16",
+    "funcao": "2º Mesário",
+    "nome": "PAULO RODRIGO TELES DE OLIVEIRA"
+  },
+  {
+    "local": "CENTRO EDUCACIONAL CÔNEGO ELIUD NUNES AROUCHE",
+    "secao": "16",
+    "funcao": "1º Secretário",
+    "nome": "ANA GABRIELA BARROS MARINHO"
+  },
+  {
+    "local": "CENTRO EDUCACIONAL CÔNEGO ELIUD NUNES AROUCHE",
+    "secao": "17",
+    "funcao": "Presidente",
+    "nome": "ROSILENE KEILY DE JESUS SANTOS"
+  },
+  {
+    "local": "CENTRO EDUCACIONAL CÔNEGO ELIUD NUNES AROUCHE",
+    "secao": "17",
+    "funcao": "1º Mesário",
+    "nome": "RUTILEIA PEREIRA COELHO"
+  },
+  {
+    "local": "CENTRO EDUCACIONAL CÔNEGO ELIUD NUNES AROUCHE",
+    "secao": "17",
+    "funcao": "2º Mesário",
+    "nome": "SEBASTIANA CRISTINA REIS VIEIRA"
+  },
+  {
+    "local": "CENTRO EDUCACIONAL CÔNEGO ELIUD NUNES AROUCHE",
+    "secao": "17",
+    "funcao": "1º Secretário",
+    "nome": "IAN DA SILVA MARINHO"
+  },
+  {
+    "local": "CENTRO EDUCACIONAL CÔNEGO ELIUD NUNES AROUCHE",
+    "secao": "18",
+    "funcao": "Presidente",
+    "nome": "LEONAGE DE JESUS SANTOS SOUSA"
+  },
+  {
+    "local": "CENTRO EDUCACIONAL CÔNEGO ELIUD NUNES AROUCHE",
+    "secao": "18",
+    "funcao": "1º Mesário",
+    "nome": "ALIRIA JAKELINE SILVA CANTANHEDE"
+  },
+  {
+    "local": "CENTRO EDUCACIONAL CÔNEGO ELIUD NUNES AROUCHE",
+    "secao": "18",
+    "funcao": "2º Mesário",
+    "nome": "ANA JESSICA DE MATOS DE MENEZES"
+  },
+  {
+    "local": "CENTRO EDUCACIONAL CÔNEGO ELIUD NUNES AROUCHE",
+    "secao": "18",
+    "funcao": "1º Secretário",
+    "nome": "JUCELIA VIEIRA DINIS"
+  },
+  {
+    "local": "CENTRO EDUCACIONAL CÔNEGO ELIUD NUNES AROUCHE",
+    "secao": "93",
+    "funcao": "Presidente",
+    "nome": "PEDRO ROGERIO MUNIZ SILVA"
+  },
+  {
+    "local": "CENTRO EDUCACIONAL CÔNEGO ELIUD NUNES AROUCHE",
+    "secao": "93",
+    "funcao": "1º Mesário",
+    "nome": "ELMA LIMA DE MENEZES CHAVES"
+  },
+  {
+    "local": "CENTRO EDUCACIONAL CÔNEGO ELIUD NUNES AROUCHE",
+    "secao": "93",
+    "funcao": "2º Mesário",
+    "nome": "PAULA TAIS ALMEIDA E ALMEIDA"
+  },
+  {
+    "local": "CENTRO EDUCACIONAL CÔNEGO ELIUD NUNES AROUCHE",
+    "secao": "93",
+    "funcao": "1º Secretário",
+    "nome": "JAILSON DE BRITO FERNANDES"
+  },
+  {
+    "local": "CENTRO EDUCACIONAL CÔNEGO ELIUD NUNES AROUCHE",
+    "secao": "107",
+    "funcao": "Presidente",
+    "nome": "SAULLO ALVES DA SILVA"
+  },
+  {
+    "local": "CENTRO EDUCACIONAL CÔNEGO ELIUD NUNES AROUCHE",
+    "secao": "107",
+    "funcao": "1º Mesário",
+    "nome": "ANA PAULA COSTA VIEIRA"
+  },
+  {
+    "local": "CENTRO EDUCACIONAL CÔNEGO ELIUD NUNES AROUCHE",
+    "secao": "107",
+    "funcao": "2º Mesário",
+    "nome": "ANA PAULA CANTANHEDE DA SILVA"
+  },
+  {
+    "local": "CENTRO EDUCACIONAL CÔNEGO ELIUD NUNES AROUCHE",
+    "secao": "107",
+    "funcao": "1º Secretário",
+    "nome": "MIDIA ROCHA NUNES"
+  },
+  {
+    "local": "CENTRO EDUCACIONAL CÔNEGO ELIUD NUNES AROUCHE",
+    "secao": "159",
+    "funcao": "Presidente",
+    "nome": "ELAYNE DE JESUS LOPES VIEIRA"
+  },
+  {
+    "local": "CENTRO EDUCACIONAL CÔNEGO ELIUD NUNES AROUCHE",
+    "secao": "159",
+    "funcao": "1º Mesário",
+    "nome": "VALERIA AMURIM VIEIRA"
+  },
+  {
+    "local": "CENTRO EDUCACIONAL CÔNEGO ELIUD NUNES AROUCHE",
+    "secao": "159",
+    "funcao": "2º Mesário",
+    "nome": "ALINE COELHO ROCHA"
+  },
+  {
+    "local": "CENTRO EDUCACIONAL CÔNEGO ELIUD NUNES AROUCHE",
+    "secao": "159",
+    "funcao": "1º Secretário",
+    "nome": "CLEOMAR DE SOUSA DE BRITO"
+  },
+  {
+    "local": "UNIDADE ESCOLAR NEUZA DA CUNHA COSTA",
+    "secao": "20",
+    "funcao": "Presidente",
+    "nome": "DEYVID BRIEL SILVA MARINHO"
+  },
+  {
+    "local": "UNIDADE ESCOLAR NEUZA DA CUNHA COSTA",
+    "secao": "20",
+    "funcao": "1º Mesário",
+    "nome": "WEMILLY DINIS SALAZAR"
+  },
+  {
+    "local": "UNIDADE ESCOLAR NEUZA DA CUNHA COSTA",
+    "secao": "20",
+    "funcao": "2º Mesário",
+    "nome": "EMANUELY DE SOUZA MOREIRA"
+  },
+  {
+    "local": "UNIDADE ESCOLAR NEUZA DA CUNHA COSTA",
+    "secao": "20",
+    "funcao": "1º Secretário",
+    "nome": "EMYLLIE ROSA CAMPOS"
+  },
+  {
+    "local": "UNIDADE ESCOLAR NEUZA DA CUNHA COSTA",
+    "secao": "21",
+    "funcao": "Presidente",
+    "nome": "RAIMUNDA CRISTINA RODRIGUES FERREIRA"
+  },
+  {
+    "local": "UNIDADE ESCOLAR NEUZA DA CUNHA COSTA",
+    "secao": "21",
+    "funcao": "1º Mesário",
+    "nome": "PAULYNE DE NAZARETH COELHO BASTOS"
+  },
+  {
+    "local": "UNIDADE ESCOLAR NEUZA DA CUNHA COSTA",
+    "secao": "21",
+    "funcao": "2º Mesário",
+    "nome": "SILVILENE VIEIRA DE SOUZA"
+  },
+  {
+    "local": "UNIDADE ESCOLAR NEUZA DA CUNHA COSTA",
+    "secao": "21",
+    "funcao": "1º Secretário",
+    "nome": "EDSON ALAS DE ANDRADE JARDIM"
+  },
+  {
+    "local": "UNIDADE ESCOLAR NEUZA DA CUNHA COSTA",
+    "secao": "119",
+    "funcao": "Presidente",
+    "nome": "RAYLLANE BRIENNA LEAL SILVA"
+  },
+  {
+    "local": "UNIDADE ESCOLAR NEUZA DA CUNHA COSTA",
+    "secao": "119",
+    "funcao": "1º Mesário",
+    "nome": "INILIANE ANTONIA SARMENTO CARDOSO BASTOS"
+  },
+  {
+    "local": "UNIDADE ESCOLAR NEUZA DA CUNHA COSTA",
+    "secao": "119",
+    "funcao": "2º Mesário",
+    "nome": "ALANNA SAMAYA DIAS SILVA"
+  },
+  {
+    "local": "UNIDADE ESCOLAR NEUZA DA CUNHA COSTA",
+    "secao": "119",
+    "funcao": "1º Secretário",
+    "nome": "LEONARDO VIANA RAMOS"
+  },
+  {
+    "local": "UNIDADE ESCOLAR NEUZA DA CUNHA COSTA",
+    "secao": "185",
+    "funcao": "Presidente",
+    "nome": "LEO FILIPE PENHA COSTA FELIX"
+  },
+  {
+    "local": "UNIDADE ESCOLAR NEUZA DA CUNHA COSTA",
+    "secao": "185",
+    "funcao": "1º Mesário",
+    "nome": "INOCENCIA KAYTH SALES OSORIO"
+  },
+  {
+    "local": "UNIDADE ESCOLAR NEUZA DA CUNHA COSTA",
+    "secao": "185",
+    "funcao": "2º Mesário",
+    "nome": "LIA TAMILIS PEREIRA CAMPOS"
+  },
+  {
+    "local": "UNIDADE ESCOLAR NEUZA DA CUNHA COSTA",
+    "secao": "185",
+    "funcao": "1º Secretário",
+    "nome": "ANATAN CARLILY DE OLIVEIRA CHAVES"
+  },
+  {
+    "local": "UNIDADE ESCOLAR DR. RIBAMAR DE MATOS",
+    "secao": "122",
+    "funcao": "Presidente",
+    "nome": "ELZIANE LIMA DE MENEZES DO NASCIMENTO"
+  },
+  {
+    "local": "UNIDADE ESCOLAR DR. RIBAMAR DE MATOS",
+    "secao": "122",
+    "funcao": "1º Mesário",
+    "nome": "ANTONIA RAFAELA CORREA GARROS"
+  },
+  {
+    "local": "UNIDADE ESCOLAR DR. RIBAMAR DE MATOS",
+    "secao": "122",
+    "funcao": "2º Mesário",
+    "nome": "CRISLAYNE BATALHA DOS REIS"
+  },
+  {
+    "local": "UNIDADE ESCOLAR DR. RIBAMAR DE MATOS",
+    "secao": "122",
+    "funcao": "1º Secretário",
+    "nome": "AMANDA MOREIRA DE SOUSA"
+  },
+  {
+    "local": "UNIDADE ESCOLAR DR. RIBAMAR DE MATOS",
+    "secao": "149",
+    "funcao": "Presidente",
+    "nome": "CARMEN SAMARA DO NASCIMENTO VIEIRA"
+  },
+  {
+    "local": "UNIDADE ESCOLAR DR. RIBAMAR DE MATOS",
+    "secao": "149",
+    "funcao": "1º Mesário",
+    "nome": "CLEIDIANA DE JESUS MARINHO DA CONCEICAO"
+  },
+  {
+    "local": "UNIDADE ESCOLAR DR. RIBAMAR DE MATOS",
+    "secao": "149",
+    "funcao": "2º Mesário",
+    "nome": "ANA BEATRIZ BORGES MUNIZ"
+  },
+  {
+    "local": "UNIDADE ESCOLAR DR. RIBAMAR DE MATOS",
+    "secao": "149",
+    "funcao": "1º Secretário",
+    "nome": "ANA CELIA SERQUEIRA COELHO"
+  },
+  {
+    "local": "UNIDADE ESCOLAR DR. RIBAMAR DE MATOS",
+    "secao": "163",
+    "funcao": "Presidente",
+    "nome": "ANTONIA DAS GRAÇAS NOGUEIRA PEREIRA"
+  },
+  {
+    "local": "UNIDADE ESCOLAR DR. RIBAMAR DE MATOS",
+    "secao": "163",
+    "funcao": "1º Mesário",
+    "nome": "DANIEL MARINHO FERREIRA"
+  },
+  {
+    "local": "UNIDADE ESCOLAR DR. RIBAMAR DE MATOS",
+    "secao": "163",
+    "funcao": "2º Mesário",
+    "nome": "ADIANE TINOCO LINDOSO FERNANDES"
+  },
+  {
+    "local": "UNIDADE ESCOLAR DR. RIBAMAR DE MATOS",
+    "secao": "163",
+    "funcao": "1º Secretário",
+    "nome": "JOCIANE SOUSA DOS SANTOS"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL MARIA CELESTE BARROS (",
+    "secao": "8",
+    "funcao": "Presidente",
+    "nome": "LUSANDRA LIMA BARBOSA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL MARIA CELESTE BARROS (",
+    "secao": "8",
+    "funcao": "1º Mesário",
+    "nome": "MARIA AUXILIADORA ARAUJO SIRQUEIRA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL MARIA CELESTE BARROS (",
+    "secao": "8",
+    "funcao": "2º Mesário",
+    "nome": "YANNA GISELE DA SILVA SARMENTO"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL MARIA CELESTE BARROS (",
+    "secao": "8",
+    "funcao": "1º Secretário",
+    "nome": "LUBIA RIBEIRO ALVES DA SILVA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL MARIA CELESTE BARROS (",
+    "secao": "121",
+    "funcao": "Presidente",
+    "nome": "RUIDEGLAN VIANA SANTOS"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL MARIA CELESTE BARROS (",
+    "secao": "121",
+    "funcao": "1º Mesário",
+    "nome": "ADRIA THAMYRES LIMA COELHO"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL MARIA CELESTE BARROS (",
+    "secao": "121",
+    "funcao": "2º Mesário",
+    "nome": "MARIA DO BOM PARTO SANTANA MOREIRA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL MARIA CELESTE BARROS (",
+    "secao": "121",
+    "funcao": "1º Secretário",
+    "nome": "MIRIAM SILVA DE SOUZA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL MARIA CELESTE BARROS (",
+    "secao": "141",
+    "funcao": "Presidente",
+    "nome": "JANIA MUNIZ MENDONÇA MENEZES"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL MARIA CELESTE BARROS (",
+    "secao": "141",
+    "funcao": "1º Mesário",
+    "nome": "SALMA MARIA DE FIGUEIREDO SILVA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL MARIA CELESTE BARROS (",
+    "secao": "141",
+    "funcao": "2º Mesário",
+    "nome": "MARCICLEIA SANTOS MATOS"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL MARIA CELESTE BARROS (",
+    "secao": "141",
+    "funcao": "1º Secretário",
+    "nome": "JESSICA DA SILVA LIMA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL MARIA CELESTE BARROS (",
+    "secao": "146",
+    "funcao": "Presidente",
+    "nome": "MARIA JOSE PEREIRA SOUZA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL MARIA CELESTE BARROS (",
+    "secao": "146",
+    "funcao": "1º Mesário",
+    "nome": "ELIZIANE VIANA SANTOS"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL MARIA CELESTE BARROS (",
+    "secao": "146",
+    "funcao": "2º Mesário",
+    "nome": "HELLEN KIVIA SILVA DO NASCIMENTO"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL MARIA CELESTE BARROS (",
+    "secao": "146",
+    "funcao": "1º Secretário",
+    "nome": "JULI DALIA ALVES FERNANDES"
+  },
+  {
+    "local": "UNIDADE ESCOLAR MARIA GRACIANA PINTO COSTA",
+    "secao": "105",
+    "funcao": "Presidente",
+    "nome": "JESSICA ALLINE MACIEL BOGEA"
+  },
+  {
+    "local": "UNIDADE ESCOLAR MARIA GRACIANA PINTO COSTA",
+    "secao": "105",
+    "funcao": "1º Mesário",
+    "nome": "SUELY DA SILVA CONSTANTINO FERREIRA"
+  },
+  {
+    "local": "UNIDADE ESCOLAR MARIA GRACIANA PINTO COSTA",
+    "secao": "105",
+    "funcao": "2º Mesário",
+    "nome": "MARIA PAULA DE SOUSA MARTINS"
+  },
+  {
+    "local": "UNIDADE ESCOLAR MARIA GRACIANA PINTO COSTA",
+    "secao": "105",
+    "funcao": "1º Secretário",
+    "nome": "KAREN LUIZA MORENO MENDES"
+  },
+  {
+    "local": "UNIDADE ESCOLAR MARIA GRACIANA PINTO COSTA",
+    "secao": "161",
+    "funcao": "Presidente",
+    "nome": "FRANCISCA MARINHO DE BRITO NETA"
+  },
+  {
+    "local": "UNIDADE ESCOLAR MARIA GRACIANA PINTO COSTA",
+    "secao": "161",
+    "funcao": "1º Mesário",
+    "nome": "T"
+  },
+  {
+    "local": "UNIDADE ESCOLAR MARIA GRACIANA PINTO COSTA",
+    "secao": "161",
+    "funcao": "2º Mesário",
+    "nome": "ANA PAULA DA CONCEIÇÃO AMORIM"
+  },
+  {
+    "local": "UNIDADE ESCOLAR MARIA GRACIANA PINTO COSTA",
+    "secao": "161",
+    "funcao": "1º Secretário",
+    "nome": "ADRYELLY SAMAYA SILVA MARINHO"
+  },
+  {
+    "local": "UNIDADE ESCOLAR MARIA GRACIANA PINTO COSTA",
+    "secao": "165",
+    "funcao": "Presidente",
+    "nome": "ISLANY MESQUITA FERNANDES"
+  },
+  {
+    "local": "UNIDADE ESCOLAR MARIA GRACIANA PINTO COSTA",
+    "secao": "165",
+    "funcao": "1º Mesário",
+    "nome": "FABIOLA BARBOSA FONSECA"
+  },
+  {
+    "local": "UNIDADE ESCOLAR MARIA GRACIANA PINTO COSTA",
+    "secao": "165",
+    "funcao": "2º Mesário",
+    "nome": "CARLIENE SANTANA RODRIGUES"
+  },
+  {
+    "local": "UNIDADE ESCOLAR MARIA GRACIANA PINTO COSTA",
+    "secao": "165",
+    "funcao": "1º Secretário",
+    "nome": "POLIANA GARCIA VIEIRA"
+  },
+  {
+    "local": "UNIDADE ESCOLAR MARIA GRACIANA PINTO COSTA",
+    "secao": "182",
+    "funcao": "Presidente",
+    "nome": "EDUARDA RUANA MENEZES DOS SANTOS"
+  },
+  {
+    "local": "UNIDADE ESCOLAR MARIA GRACIANA PINTO COSTA",
+    "secao": "182",
+    "funcao": "1º Mesário",
+    "nome": "RILARY KAUANNE ALVES DOS SANTOS"
+  },
+  {
+    "local": "UNIDADE ESCOLAR MARIA GRACIANA PINTO COSTA",
+    "secao": "182",
+    "funcao": "2º Mesário",
+    "nome": "RILLARY RAFFAELLY GAMA DE MATOS"
+  },
+  {
+    "local": "UNIDADE ESCOLAR MARIA GRACIANA PINTO COSTA",
+    "secao": "182",
+    "funcao": "1º Secretário",
+    "nome": "ANA PAULA DE MENEZES ANDRADE"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL MÁMEDIO DA SILVA SARMENTO",
+    "secao": "104",
+    "funcao": "Presidente",
+    "nome": "MARCELA VITÓRIA BATALHA MARINHO"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL MÁMEDIO DA SILVA SARMENTO",
+    "secao": "104",
+    "funcao": "1º Mesário",
+    "nome": "DAYANE LIMA VIEIRA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL MÁMEDIO DA SILVA SARMENTO",
+    "secao": "104",
+    "funcao": "2º Mesário",
+    "nome": "ANDREA DA SILVA MARINHO"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL MÁMEDIO DA SILVA SARMENTO",
+    "secao": "104",
+    "funcao": "1º Secretário",
+    "nome": "ANTONIO NOGUEIRA RODRIGUES"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL MÁMEDIO DA SILVA SARMENTO",
+    "secao": "167",
+    "funcao": "Presidente",
+    "nome": "DELIS CRISTINE VELEZ COÊLHO"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL MÁMEDIO DA SILVA SARMENTO",
+    "secao": "167",
+    "funcao": "1º Mesário",
+    "nome": "GISLAYNE NUNES COÊLHO"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL MÁMEDIO DA SILVA SARMENTO",
+    "secao": "167",
+    "funcao": "2º Mesário",
+    "nome": "THACIARA FERNANDES SILVA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL MÁMEDIO DA SILVA SARMENTO",
+    "secao": "167",
+    "funcao": "1º Secretário",
+    "nome": "ADRIANO COELHO BOGÉA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL FRANCISCO XAVIER CORREIA",
+    "secao": "22",
+    "funcao": "Presidente",
+    "nome": "SILMARA GARROS OLIVEIRA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL FRANCISCO XAVIER CORREIA",
+    "secao": "22",
+    "funcao": "1º Mesário",
+    "nome": "LUSIMARA CORREA GARROS"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL FRANCISCO XAVIER CORREIA",
+    "secao": "22",
+    "funcao": "2º Mesário",
+    "nome": "GESSICA ALVES BALDEZ"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL FRANCISCO XAVIER CORREIA",
+    "secao": "22",
+    "funcao": "1º Secretário",
+    "nome": "MARIZA DE BRITO FERNANDES"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL FRANCISCO XAVIER CORREIA",
+    "secao": "69",
+    "funcao": "Presidente",
+    "nome": "EGILA ARRUDA COELHO"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL FRANCISCO XAVIER CORREIA",
+    "secao": "69",
+    "funcao": "1º Mesário",
+    "nome": "LARA BIANCA SOUZA ROCHA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL FRANCISCO XAVIER CORREIA",
+    "secao": "69",
+    "funcao": "2º Mesário",
+    "nome": "RAIMUNDA VALDIRENE MARINHO DE BRITO"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL FRANCISCO XAVIER CORREIA",
+    "secao": "69",
+    "funcao": "1º Secretário",
+    "nome": "ELILBERTO CORREIA BRITO"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL DEODATO SANTOS",
+    "secao": "23",
+    "funcao": "Presidente",
+    "nome": "GUSTAVO NUNES ALVES"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL DEODATO SANTOS",
+    "secao": "23",
+    "funcao": "1º Mesário",
+    "nome": "ELAINE DA CONCEIÇÃO PEREIRA LOPES"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL DEODATO SANTOS",
+    "secao": "23",
+    "funcao": "2º Mesário",
+    "nome": "IVANIELE DE JESUS SILVA MORAIS"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL DEODATO SANTOS",
+    "secao": "23",
+    "funcao": "1º Secretário",
+    "nome": "NALRIENE MUNIZ PEREIRA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL FRANKLIN CANTANHEDE",
+    "secao": "153",
+    "funcao": "Presidente",
+    "nome": "MARISA HELENA FERNANDES SILVA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL FRANKLIN CANTANHEDE",
+    "secao": "153",
+    "funcao": "1º Mesário",
+    "nome": "VERILENE DA SILVA PEREIRA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL FRANKLIN CANTANHEDE",
+    "secao": "153",
+    "funcao": "2º Mesário",
+    "nome": "K"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL FRANKLIN CANTANHEDE",
+    "secao": "153",
+    "funcao": "1º Secretário",
+    "nome": "MEIRIAN FERNANDES COLIS"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL FRANKLIN CANTANHEDE",
+    "secao": "166",
+    "funcao": "Presidente",
+    "nome": "VANESSA CRISTINA TELES SILVA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL FRANKLIN CANTANHEDE",
+    "secao": "166",
+    "funcao": "1º Mesário",
+    "nome": "LAURA VIEIRA DE FREITAS BRANDÃO"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL FRANKLIN CANTANHEDE",
+    "secao": "166",
+    "funcao": "2º Mesário",
+    "nome": "IRACINEIDE DE SOUSA SOARES"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL FRANKLIN CANTANHEDE",
+    "secao": "166",
+    "funcao": "1º Secretário",
+    "nome": "EMILAYNE SANTOS LIMA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL NASSER ASSAD",
+    "secao": "25",
+    "funcao": "Presidente",
+    "nome": "ILDENER DE OLIVEIRA DE MENEZES"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL NASSER ASSAD",
+    "secao": "25",
+    "funcao": "1º Mesário",
+    "nome": "CALINTIA MACHADO DO NASCIMENTO"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL NASSER ASSAD",
+    "secao": "25",
+    "funcao": "2º Mesário",
+    "nome": "WILLIANE DO NASCIMENTO CHAVES MORENO"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL NASSER ASSAD",
+    "secao": "25",
+    "funcao": "1º Secretário",
+    "nome": "ANTONIA DELIA DE LIMA DA SILVA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL NASSER ASSAD",
+    "secao": "26",
+    "funcao": "Presidente",
+    "nome": "CRISTIANE ASSAD PEREIRA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL NASSER ASSAD",
+    "secao": "26",
+    "funcao": "1º Mesário",
+    "nome": "RUAN PABLO DE MATOS ROCHA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL NASSER ASSAD",
+    "secao": "26",
+    "funcao": "2º Mesário",
+    "nome": "WENYLLA DE CASSIA ASSAD MATOS MARINHO"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL NASSER ASSAD",
+    "secao": "26",
+    "funcao": "1º Secretário",
+    "nome": "JAILDILENE ROCHA BRANDAO"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL NASSER ASSAD",
+    "secao": "27",
+    "funcao": "Presidente",
+    "nome": "SUELEN CRISTINA MORENO ROCHA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL NASSER ASSAD",
+    "secao": "27",
+    "funcao": "1º Mesário",
+    "nome": "DIELMA COSTA SANTOS"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL NASSER ASSAD",
+    "secao": "27",
+    "funcao": "2º Mesário",
+    "nome": "ANDREYNA LANAY VIANA PEREIRA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL NASSER ASSAD",
+    "secao": "27",
+    "funcao": "1º Secretário",
+    "nome": "CELIA REGINA DE FREITAS SILVA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL NASSER ASSAD",
+    "secao": "28",
+    "funcao": "Presidente",
+    "nome": "MANOEL DE JESUS DOS SANTOS JUNIOR"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL NASSER ASSAD",
+    "secao": "28",
+    "funcao": "1º Mesário",
+    "nome": "MARLIETE DE BRITO PEREIRA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL NASSER ASSAD",
+    "secao": "28",
+    "funcao": "2º Mesário",
+    "nome": "SUELY NUNES DOS SANTOS"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL NASSER ASSAD",
+    "secao": "28",
+    "funcao": "1º Secretário",
+    "nome": "FRANCISCA AMORIM FERNANDES"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL NASSER ASSAD",
+    "secao": "78",
+    "funcao": "Presidente",
+    "nome": "ALDINIER LIMA DE OLIVEIRA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL NASSER ASSAD",
+    "secao": "78",
+    "funcao": "1º Mesário",
+    "nome": "ALINE ROCHA DE MATOS"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL NASSER ASSAD",
+    "secao": "78",
+    "funcao": "2º Mesário",
+    "nome": "ELENILZA PEREIRA FERREIRA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL NASSER ASSAD",
+    "secao": "78",
+    "funcao": "1º Secretário",
+    "nome": "KAUANY PEREIRA SARAIVA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL NASSER ASSAD",
+    "secao": "85",
+    "funcao": "Presidente",
+    "nome": "AIOLANDA FREIRE DE SOUSA DE MATOS"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL NASSER ASSAD",
+    "secao": "85",
+    "funcao": "1º Mesário",
+    "nome": "GILDEILMA SILVA DOS SANTOS"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL NASSER ASSAD",
+    "secao": "85",
+    "funcao": "2º Mesário",
+    "nome": "MARIA ERICA MACHADO CARÃO"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL NASSER ASSAD",
+    "secao": "85",
+    "funcao": "1º Secretário",
+    "nome": "JULIA REGINA DE BARROS SANTOS"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL NASSER ASSAD",
+    "secao": "95",
+    "funcao": "Presidente",
+    "nome": "GENILMA DA SILVA ALVES"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL NASSER ASSAD",
+    "secao": "95",
+    "funcao": "1º Mesário",
+    "nome": "ELISSANDRA SANTOS MACARIO"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL NASSER ASSAD",
+    "secao": "95",
+    "funcao": "2º Mesário",
+    "nome": "JOSINEIDE SOUSA MUNIZ"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL NASSER ASSAD",
+    "secao": "95",
+    "funcao": "1º Secretário",
+    "nome": "LAILA ALMEIDA VIEIRA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL ITELVINO DE MATOS",
+    "secao": "29",
+    "funcao": "Presidente",
+    "nome": "JULIA MARIA MATOS FALCAO"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL ITELVINO DE MATOS",
+    "secao": "29",
+    "funcao": "1º Mesário",
+    "nome": "SAMARA MATOS PEREIRA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL ITELVINO DE MATOS",
+    "secao": "29",
+    "funcao": "2º Mesário",
+    "nome": "RAISSA FERNANDES SOUSA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL ITELVINO DE MATOS",
+    "secao": "29",
+    "funcao": "1º Secretário",
+    "nome": "GERUZA MARVÃO CAMPELO DIAS"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL ITELVINO DE MATOS",
+    "secao": "30",
+    "funcao": "Presidente",
+    "nome": "JOSANIA GUEDES BARBOSA CORREIA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL ITELVINO DE MATOS",
+    "secao": "30",
+    "funcao": "1º Mesário",
+    "nome": "MARIA IVANETE MATOS DE BRITO"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL ITELVINO DE MATOS",
+    "secao": "30",
+    "funcao": "2º Mesário",
+    "nome": "MONICA BELFORT SILVA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL ITELVINO DE MATOS",
+    "secao": "30",
+    "funcao": "1º Secretário",
+    "nome": "THALIA LOPES CORREA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL ITELVINO DE MATOS",
+    "secao": "108",
+    "funcao": "Presidente",
+    "nome": "ANTONIO DOS SANTOS LIMA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL ITELVINO DE MATOS",
+    "secao": "108",
+    "funcao": "1º Mesário",
+    "nome": "TARCILA BARBOSA MATOS"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL ITELVINO DE MATOS",
+    "secao": "108",
+    "funcao": "2º Mesário",
+    "nome": "MEIRE DALVA MARTINS SOUSA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL ITELVINO DE MATOS",
+    "secao": "108",
+    "funcao": "1º Secretário",
+    "nome": "GLEICIANE MARTINS DE PAULA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL ITELVINO DE MATOS",
+    "secao": "143",
+    "funcao": "Presidente",
+    "nome": "DINA MARCIA FRANÇA BOGÉA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL ITELVINO DE MATOS",
+    "secao": "143",
+    "funcao": "1º Mesário",
+    "nome": "MARIA DO BOM PARTO MENDES NONATO"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL ITELVINO DE MATOS",
+    "secao": "143",
+    "funcao": "2º Mesário",
+    "nome": "ELENILDE LOPES DOS SANTOS"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL ITELVINO DE MATOS",
+    "secao": "143",
+    "funcao": "1º Secretário",
+    "nome": "JOSE ALESSANDRO FEITOSA CORREA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL ITELVINO DE MATOS",
+    "secao": "177",
+    "funcao": "Presidente",
+    "nome": "MARIA DE JESUS MATOS DE OLIVEIRA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL ITELVINO DE MATOS",
+    "secao": "177",
+    "funcao": "1º Mesário",
+    "nome": "LARISSA GABRIELE BOGEA MENDES"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL ITELVINO DE MATOS",
+    "secao": "177",
+    "funcao": "2º Mesário",
+    "nome": "MARYSLENE BARROS NETO MUNIZ"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL ITELVINO DE MATOS",
+    "secao": "177",
+    "funcao": "1º Secretário",
+    "nome": "LEIDIANA DE ALMEIDA DE JESUS"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL RAIMUNDO BOGÉA",
+    "secao": "155",
+    "funcao": "Presidente",
+    "nome": "MARIA FERNANDES COELHO"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL RAIMUNDO BOGÉA",
+    "secao": "155",
+    "funcao": "1º Mesário",
+    "nome": "MARIA FURTADO FONSECA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL RAIMUNDO BOGÉA",
+    "secao": "155",
+    "funcao": "2º Mesário",
+    "nome": "SILVINEIDE NUNES DE FREITAS"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL RAIMUNDO BOGÉA",
+    "secao": "155",
+    "funcao": "1º Secretário",
+    "nome": "ROSELIA SILVA BARBOSA DE MORAIS"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL RAIMUNDO BOGÉA",
+    "secao": "184",
+    "funcao": "Presidente",
+    "nome": "RAYSSA DE SOUZA ALVES"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL RAIMUNDO BOGÉA",
+    "secao": "184",
+    "funcao": "1º Mesário",
+    "nome": "D"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL RAIMUNDO BOGÉA",
+    "secao": "184",
+    "funcao": "2º Mesário",
+    "nome": "LAIANE DE MELO LOPES"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL RAIMUNDO BOGÉA",
+    "secao": "184",
+    "funcao": "1º Secretário",
+    "nome": "FRANCIELY DA SILVA COELHO"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL VILA FALCÃO",
+    "secao": "152",
+    "funcao": "Presidente",
+    "nome": "ANTONIO CARLOS CORREA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL VILA FALCÃO",
+    "secao": "152",
+    "funcao": "1º Mesário",
+    "nome": "VALDIANA DE ALMEIDA DE JESUS"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL VILA FALCÃO",
+    "secao": "152",
+    "funcao": "2º Mesário",
+    "nome": "CARLIENI MESQUITA ROCHA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL VILA FALCÃO",
+    "secao": "152",
+    "funcao": "1º Secretário",
+    "nome": "ANTONIA MARIA DE BRITO"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL VILA FALCÃO",
+    "secao": "164",
+    "funcao": "Presidente",
+    "nome": "LILIANE SILVA SOUSA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL VILA FALCÃO",
+    "secao": "164",
+    "funcao": "1º Mesário",
+    "nome": "JANILDE BATISTA FALCAO"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL VILA FALCÃO",
+    "secao": "164",
+    "funcao": "2º Mesário",
+    "nome": "ALESSANDRA MARIA FREIRE ARAUJO"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL VILA FALCÃO",
+    "secao": "164",
+    "funcao": "1º Secretário",
+    "nome": "VANIELMA DOS SANTOS SOUSA"
+  },
+  {
+    "local": "CRECHE COMUNITÁRIA DE COQUE",
+    "secao": "173",
+    "funcao": "Presidente",
+    "nome": "ANTONIO DIEGO REGO"
+  },
+  {
+    "local": "CRECHE COMUNITÁRIA DE COQUE",
+    "secao": "173",
+    "funcao": "1º Mesário",
+    "nome": "KENIA MENDES CARVALHO"
+  },
+  {
+    "local": "CRECHE COMUNITÁRIA DE COQUE",
+    "secao": "173",
+    "funcao": "2º Mesário",
+    "nome": "BIANCA DE BARROS FERNANDES"
+  },
+  {
+    "local": "CRECHE COMUNITÁRIA DE COQUE",
+    "secao": "173",
+    "funcao": "1º Secretário",
+    "nome": "SAVIA TALIA LIMA DE OLIVEIRA"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL VILA NOVA",
+    "secao": "120",
+    "funcao": "Presidente",
+    "nome": "GISLAYNE RODRIGUES"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL VILA NOVA",
+    "secao": "120",
+    "funcao": "1º Mesário",
+    "nome": "EMANUELE CORREA DO NASCIMENTO"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL VILA NOVA",
+    "secao": "120",
+    "funcao": "2º Mesário",
+    "nome": "LETICIA DOS SANTOS LICAR"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL VILA NOVA",
+    "secao": "120",
+    "funcao": "1º Secretário",
+    "nome": "ADRIELE SILVA MARINHO"
+  },
+  {
+    "local": "",
+    "secao": "117",
+    "funcao": "Presidente",
+    "nome": "ILDILENE CHAVES GUSMAO"
+  },
+  {
+    "local": "",
+    "secao": "117",
+    "funcao": "1º Mesário",
+    "nome": "FRANCIVANIA SILVA LOPES"
+  },
+  {
+    "local": "",
+    "secao": "117",
+    "funcao": "2º Mesário",
+    "nome": "ALBERTINA DAIANE MACIEL DOS SANTOS"
+  },
+  {
+    "local": "",
+    "secao": "117",
+    "funcao": "1º Secretário",
+    "nome": "MARIA ER"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL ABIDÃO RUFINO DA SILVA (",
+    "secao": "142",
+    "funcao": "Presidente",
+    "nome": "ELIZALVA MACIEL DA SILVA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL ABIDÃO RUFINO DA SILVA (",
+    "secao": "142",
+    "funcao": "1º Mesário",
+    "nome": "SILVIA GIOVANNA DE SOUSA DA SILVA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL ABIDÃO RUFINO DA SILVA (",
+    "secao": "142",
+    "funcao": "2º Mesário",
+    "nome": "DOREIZE RODRIGUES DE SOUSA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL ABIDÃO RUFINO DA SILVA (",
+    "secao": "142",
+    "funcao": "1º Secretário",
+    "nome": "VANESSA VIEIRA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL DE IPIXUNA",
+    "secao": "160",
+    "funcao": "Presidente",
+    "nome": "LUANA BASTOS MACHADO"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL DE IPIXUNA",
+    "secao": "160",
+    "funcao": "1º Mesário",
+    "nome": "TEREZINHA CANTANHEDE CARDOSO"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL DE IPIXUNA",
+    "secao": "160",
+    "funcao": "2º Mesário",
+    "nome": "ADICLENE DOS ANJOS RIBEIRO"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL DE IPIXUNA",
+    "secao": "160",
+    "funcao": "1º Secretário",
+    "nome": "ELIZETE SOUZA COELHO"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL MAURÍCIA FERNANDES JARDIM (",
+    "secao": "101",
+    "funcao": "Presidente",
+    "nome": "LUDMILA JARDIM DE OLIVEIRA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL MAURÍCIA FERNANDES JARDIM (",
+    "secao": "101",
+    "funcao": "1º Mesário",
+    "nome": "JOÃO BATISTA SILVA LIMA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL MAURÍCIA FERNANDES JARDIM (",
+    "secao": "101",
+    "funcao": "2º Mesário",
+    "nome": "SAMARA DE JESUS MACIEL DE SOUSA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL MAURÍCIA FERNANDES JARDIM (",
+    "secao": "101",
+    "funcao": "1º Secretário",
+    "nome": "SAMIRA MACIEL PEREIRA"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL HEMETÉRIO FERNANDES (",
+    "secao": "144",
+    "funcao": "Presidente",
+    "nome": "ADRIANA DE SALES LISBOA"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL HEMETÉRIO FERNANDES (",
+    "secao": "144",
+    "funcao": "1º Mesário",
+    "nome": "JAQUELINE PEREIRA COSTA"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL HEMETÉRIO FERNANDES (",
+    "secao": "144",
+    "funcao": "2º Mesário",
+    "nome": "AMANDA BRUCE NUNES SANTOS"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL HEMETÉRIO FERNANDES (",
+    "secao": "144",
+    "funcao": "1º Secretário",
+    "nome": "MICHELLE SILVA DO NASCIMENTO"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL HEMETÉRIO FERNANDES (",
+    "secao": "178",
+    "funcao": "Presidente",
+    "nome": "VANKERLISON ALVES DO NANCIMENTO"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL HEMETÉRIO FERNANDES (",
+    "secao": "178",
+    "funcao": "1º Mesário",
+    "nome": "WELLIDA DE OLIVEIRA FERNANDES"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL HEMETÉRIO FERNANDES (",
+    "secao": "178",
+    "funcao": "2º Mesário",
+    "nome": "GEIZA DE JESUS CORRÊA NUNES"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL HEMETÉRIO FERNANDES (",
+    "secao": "178",
+    "funcao": "1º Secretário",
+    "nome": "ELINE ALVES DUTRA GUEDELHA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL DE TIRIRICAL",
+    "secao": "162",
+    "funcao": "Presidente",
+    "nome": "CATIANE PEREIRA LIMA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL DE TIRIRICAL",
+    "secao": "162",
+    "funcao": "1º Mesário",
+    "nome": "SILVANA DE MATOS DE SOUZA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL DE TIRIRICAL",
+    "secao": "162",
+    "funcao": "2º Mesário",
+    "nome": "ADEILTON LIMA CANTANHEDE"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL DE TIRIRICAL",
+    "secao": "162",
+    "funcao": "1º Secretário",
+    "nome": "EVALDO PEREIRA LIMA"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL GODOFREDO MACIEL",
+    "secao": "62",
+    "funcao": "Presidente",
+    "nome": "VIVIAN SARAIVA BATALHA"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL GODOFREDO MACIEL",
+    "secao": "62",
+    "funcao": "1º Mesário",
+    "nome": "MARIA DE NAZARE RODRIGUES DE SOUSA"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL GODOFREDO MACIEL",
+    "secao": "62",
+    "funcao": "2º Mesário",
+    "nome": "ADRIANA DE JESUS SANTOS COELHO"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL GODOFREDO MACIEL",
+    "secao": "62",
+    "funcao": "1º Secretário",
+    "nome": "CRISTINA MUNIZ RODRIGUES"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL GODOFREDO MACIEL",
+    "secao": "68",
+    "funcao": "Presidente",
+    "nome": "ELISANGELA BOAS MESQUITA"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL GODOFREDO MACIEL",
+    "secao": "68",
+    "funcao": "1º Mesário",
+    "nome": "FABIANA MUNIZ RODRIGUES"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL GODOFREDO MACIEL",
+    "secao": "68",
+    "funcao": "2º Mesário",
+    "nome": "CONCEIÇÃO DE MARIA MACIEL MESQUITA"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL GODOFREDO MACIEL",
+    "secao": "68",
+    "funcao": "1º Secretário",
+    "nome": "KATIANE BATALHA MATOS"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL GODOFREDO MACIEL",
+    "secao": "179",
+    "funcao": "Presidente",
+    "nome": "AURILENE BARROS COELHO MARINHO"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL GODOFREDO MACIEL",
+    "secao": "179",
+    "funcao": "1º Mesário",
+    "nome": "LAISIANE SILVA ABREU"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL GODOFREDO MACIEL",
+    "secao": "179",
+    "funcao": "2º Mesário",
+    "nome": "CRISTIANE DE JESUS VIEIRA SOUSA"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL GODOFREDO MACIEL",
+    "secao": "179",
+    "funcao": "1º Secretário",
+    "nome": "SARAH CRISTINA BOAS MESQUITA"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL JOSÉ RIBAMAR SILVA",
+    "secao": "64",
+    "funcao": "Presidente",
+    "nome": "SILAENE LOPES SILVA"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL JOSÉ RIBAMAR SILVA",
+    "secao": "64",
+    "funcao": "1º Mesário",
+    "nome": "MARLENE DO NASCIMENTO VALE"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL JOSÉ RIBAMAR SILVA",
+    "secao": "64",
+    "funcao": "2º Mesário",
+    "nome": "JACKELINE SANTOS CORREA"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL JOSÉ RIBAMAR SILVA",
+    "secao": "64",
+    "funcao": "1º Secretário",
+    "nome": "FRANCIDALVA DE JESUS RODRIGUES"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL JOSÉ RIBAMAR SILVA",
+    "secao": "65",
+    "funcao": "Presidente",
+    "nome": "LAURENÁ MARQUES MOREIRA"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL JOSÉ RIBAMAR SILVA",
+    "secao": "65",
+    "funcao": "1º Mesário",
+    "nome": "JOANA D'ARC DA SILVA VALE"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL JOSÉ RIBAMAR SILVA",
+    "secao": "65",
+    "funcao": "2º Mesário",
+    "nome": "ADONIAS COSTA SOARES"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL JOSÉ RIBAMAR SILVA",
+    "secao": "65",
+    "funcao": "1º Secretário",
+    "nome": "JOSE RIBAMAR CORREA PEREIRA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL IZIDORO DE JESUS LOPES",
+    "secao": "75",
+    "funcao": "Presidente",
+    "nome": "WESLEY MOCHEL DE CARVALHO"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL IZIDORO DE JESUS LOPES",
+    "secao": "75",
+    "funcao": "1º Mesário",
+    "nome": "DAIANILDE CAMPELO SILVA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL IZIDORO DE JESUS LOPES",
+    "secao": "75",
+    "funcao": "2º Mesário",
+    "nome": "MARIA DE NAZARÉ SILVA CHAVES"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL IZIDORO DE JESUS LOPES",
+    "secao": "75",
+    "funcao": "1º Secretário",
+    "nome": "ANTONIA DO BOM PARTO LISBOA MACIEL"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL JOSÉ CARLOS MOTA SILVA (",
+    "secao": "66",
+    "funcao": "Presidente",
+    "nome": "MAYARA HELENA RIBEIRO SOUSA"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL JOSÉ CARLOS MOTA SILVA (",
+    "secao": "66",
+    "funcao": "1º Mesário",
+    "nome": "ELIELMA FERREIRA RABELO"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL JOSÉ CARLOS MOTA SILVA (",
+    "secao": "66",
+    "funcao": "2º Mesário",
+    "nome": "LIVIA DA CONCEIÇÃO JARDIM LOPES"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL JOSÉ CARLOS MOTA SILVA (",
+    "secao": "66",
+    "funcao": "1º Secretário",
+    "nome": "LETICIA CORREA PEREIRA"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL JOSÉ CARLOS MOTA SILVA (",
+    "secao": "81",
+    "funcao": "Presidente",
+    "nome": "IVONETE RIBEIRO DA SILVA"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL JOSÉ CARLOS MOTA SILVA (",
+    "secao": "81",
+    "funcao": "1º Mesário",
+    "nome": "FRANCIVALDA MENDES RODRIGUES"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL JOSÉ CARLOS MOTA SILVA (",
+    "secao": "81",
+    "funcao": "2º Mesário",
+    "nome": "DINAELMA SANTOS DOS REIS"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL JOSÉ CARLOS MOTA SILVA (",
+    "secao": "81",
+    "funcao": "1º Secretário",
+    "nome": "JEANES PEREIRA DA SILVA"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL JOSÉ CARLOS MOTA SILVA (",
+    "secao": "176",
+    "funcao": "Presidente",
+    "nome": "KADU DIAS DE OLIVEIRA"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL JOSÉ CARLOS MOTA SILVA (",
+    "secao": "176",
+    "funcao": "1º Mesário",
+    "nome": "MIRIAM BATALHA MACIEL"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL JOSÉ CARLOS MOTA SILVA (",
+    "secao": "176",
+    "funcao": "2º Mesário",
+    "nome": "GESSICA NADIELLE PEREIRA MESQUITA"
+  },
+  {
+    "local": "COLÉGIO MUNICIPAL JOSÉ CARLOS MOTA SILVA (",
+    "secao": "176",
+    "funcao": "1º Secretário",
+    "nome": "IRANILDO SOUSA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL PAULO MACIEL NETO (",
+    "secao": "73",
+    "funcao": "Presidente",
+    "nome": "GENILCE CUTRIM LINDOSO SILVA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL PAULO MACIEL NETO (",
+    "secao": "73",
+    "funcao": "1º Mesário",
+    "nome": "ANALICE DAMASCENO SANTOS"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL PAULO MACIEL NETO (",
+    "secao": "73",
+    "funcao": "2º Mesário",
+    "nome": "FABIANA TINOCO CARDOSO"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL PAULO MACIEL NETO (",
+    "secao": "73",
+    "funcao": "1º Secretário",
+    "nome": "IVILLY KELLY DA SILVA PEREIRA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL PAULO MACIEL NETO (",
+    "secao": "89",
+    "funcao": "Presidente",
+    "nome": "MARIA DO BOM PARTO FREITAS SANTOS"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL PAULO MACIEL NETO (",
+    "secao": "89",
+    "funcao": "1º Mesário",
+    "nome": "GENY DAMASCENO MACIEL"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL PAULO MACIEL NETO (",
+    "secao": "89",
+    "funcao": "2º Mesário",
+    "nome": "CLEUDIMAR CORREA MOREIRA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL PAULO MACIEL NETO (",
+    "secao": "89",
+    "funcao": "1º Secretário",
+    "nome": "LINDOLENE DAMASCENO RODRIGUES"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL PAULO MACIEL NETO (",
+    "secao": "147",
+    "funcao": "Presidente",
+    "nome": "ANTONIA DE NAZARÉ PEDROSA RODRIGUES"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL PAULO MACIEL NETO (",
+    "secao": "147",
+    "funcao": "1º Mesário",
+    "nome": "IOLANDA RODRIGUES LISBOA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL PAULO MACIEL NETO (",
+    "secao": "147",
+    "funcao": "2º Mesário",
+    "nome": "ALENE BEZERRA SERQUEIRA"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL PAULO MACIEL NETO (",
+    "secao": "147",
+    "funcao": "1º Secretário",
+    "nome": "ESTHEFANY KARINE LISBOA ABREU"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL DE JUÇARAL",
+    "secao": "106",
+    "funcao": "Presidente",
+    "nome": "PEDRIANE BOGEA GARROS"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL DE JUÇARAL",
+    "secao": "106",
+    "funcao": "1º Mesário",
+    "nome": "HAGATA GARROS REGO"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL DE JUÇARAL",
+    "secao": "106",
+    "funcao": "2º Mesário",
+    "nome": "GLEISON COELHO GARROS"
+  },
+  {
+    "local": "ESCOLA MUNICIPAL DE JUÇARAL",
+    "secao": "106",
+    "funcao": "1º Secretário",
+    "nome": "RAQUEL COELHO FERREIRA"
+  }
+]

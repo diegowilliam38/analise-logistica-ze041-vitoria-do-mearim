@@ -1,0 +1,1404 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cockpit de Inteligência e Logística Eleitoral — 41ª ZE (Vitória do Mearim / MA)</title>
+  
+  <!-- CSS Design System -->
+  <link rel="stylesheet" href="css/styles.css">
+  
+  <!-- Leaflet CSS via CDN -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+  <!-- Chart.js & Leaflet JS via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+
+  <!-- ========================================================================
+       HEADER OFICIAL DA ZONA ELEITORAL
+       ======================================================================== -->
+  <header class="app-header">
+    <div class="brand-wrapper">
+      <div class="brand-emblem" title="Tribunal Regional Eleitoral do Maranhão - 41ª Zona">
+        <svg viewBox="0 0 24 24">
+          <path d="M12 2L2 7v6c0 5.55 3.84 10.74 10 12 6.16-1.26 10-6.45 10-12V7l-10-5zm0 2.18l8 4V13c0 4.52-3.13 8.76-8 9.88-4.87-1.12-8-5.36-8-9.88V8.18l8-4zM11 7v6h2V7h-2zm0 8v2h2v-2h-2z"/>
+        </svg>
+      </div>
+      <div class="brand-info">
+        <h1>
+          41ª Zona Eleitoral — Vitória do Mearim / MA
+          <span class="badge-pleito">Eleições Gerais 2026</span>
+        </h1>
+        <div class="jurisdicao">
+          Sede do Cartório Eleitoral &bull; Edital nº 11/2026 &bull; Dra. Lucianne Solano de Macedo Moreira
+        </div>
+      </div>
+    </div>
+
+    <div class="header-actions">
+      <div class="time-countdown">
+        <div class="pulse-dot"></div>
+        <span>1º Turno (04/10/2026):</span>
+        <strong id="countdownDays">Calculando...</strong>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       BARRA DE NAVEGAÇÃO DE ABAS
+       ======================================================================== -->
+  <nav class="nav-tabs-bar">
+    <button class="tab-btn active" data-tab="tab-cockpit">
+      <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"/></svg>
+      Cockpit Geral
+    </button>
+    <button class="tab-btn" data-tab="tab-mapa">
+      <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M20.5 3l-.16.03L15 5.1 9 3 3.36 4.9c-.21.07-.36.25-.36.48V20.5c0 .28.22.5.5.5l.16-.03L9 18.9l6 2.1 5.64-1.9c.21-.07.36-.25.36-.48V3.5c0-.28-.22-.5-.5-.5zM15 19l-6-2.11V5l6 2.11V19z"/></svg>
+      Mapa Geoespacial & Google Maps
+    </button>
+    <button class="tab-btn" data-tab="tab-secoes">
+      <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"/></svg>
+      94 Seções Principais
+      <span class="tab-badge" id="secoesCountBadge">94</span>
+    </button>
+    <button class="tab-btn" data-tab="tab-locais">
+      <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+      32 Locais de Votação
+    </button>
+    <button class="tab-btn" data-tab="tab-logistica-campo">
+      <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z"/></svg>
+      Logística de Campo (7 Rotas & 31 Motos)
+    </button>
+    <button class="tab-btn" data-tab="tab-gargalos">
+      <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"/></svg>
+      Auditoria de Filas & Gargalos
+    </button>
+    <button class="tab-btn" data-tab="tab-transmissao">
+      <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/></svg>
+      Transmissão de BU
+    </button>
+    <button class="tab-btn" data-tab="tab-historico">
+      <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/></svg>
+      Histórico (2016-2026) & Perfil
+    </button>
+    <button class="tab-btn" data-tab="tab-tatico">
+      <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+      Plano Tático Operacional 2026
+    </button>
+    <button class="tab-btn" data-tab="tab-treinamento" style="border-left: 2px solid rgba(16, 185, 129, 0.4);">
+      <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg>
+      Treinamento (14-18/Set)
+      <span class="tab-badge" style="background:#10b981; color:#0f172a; font-weight:700;">DIRETRIZES</span>
+    </button>
+    <button class="tab-btn" data-tab="tab-presenca" style="border-left: 2px solid #38bdf8;">
+      <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/></svg>
+      Controle de Presença & Escalas
+      <span class="tab-badge" style="background:#38bdf8; color:#0f172a; font-weight:700;">OFICIAL 2026</span>
+    </button>
+  </nav>
+
+  <!-- ========================================================================
+       CONTEÚDO PRINCIPAL
+       ======================================================================== -->
+  <main class="main-container">
+
+    <!-- ====================================================================
+         ABA 1: COCKPIT GERAL
+         ==================================================================== -->
+    <section id="tab-cockpit" class="tab-content active">
+      <div class="kpi-grid">
+        <div class="kpi-card gold">
+          <div class="kpi-header">
+            <span class="kpi-label">Eleitorado Apto Previsto</span>
+            <div class="kpi-icon">👥</div>
+          </div>
+          <div class="kpi-value" id="kpiTotalAptos">24.965</div>
+          <div class="kpi-meta">
+            <span class="trend-tag positive">Edital 11/2026</span>
+            <span>Eleições Gerais 2026</span>
+          </div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-header">
+            <span class="kpi-label">Locais de Votação</span>
+            <div class="kpi-icon">🏛️</div>
+          </div>
+          <div class="kpi-value" id="kpiTotalLocais">32</div>
+          <div class="kpi-meta" id="kpiMetaLocais">
+            10 Urbanos / 22 Rurais
+          </div>
+        </div>
+
+        <div class="kpi-card indigo">
+          <div class="kpi-header">
+            <span class="kpi-label">Seções Principais (MRV)</span>
+            <div class="kpi-icon">🗳️</div>
+          </div>
+          <div class="kpi-value" id="kpiTotalSecoes">94</div>
+          <div class="kpi-meta" id="kpiMetaSecoes">
+            49 Urbanas / 45 Rurais (11 com agregação)
+          </div>
+        </div>
+
+        <div class="kpi-card danger">
+          <div class="kpi-header">
+            <span class="kpi-label">Seções com Risco de Fila</span>
+            <div class="kpi-icon">⚠️</div>
+          </div>
+          <div class="kpi-value" id="kpiSecoesRiscoAlto">18</div>
+          <div class="kpi-meta">
+            <span class="trend-tag negative" id="kpiVotosPos17">5 seções</span>
+            <span>fecharam após as 17h em 2024</span>
+          </div>
+        </div>
+
+        <div class="kpi-card success">
+          <div class="kpi-header">
+            <span class="kpi-label">Tempo Médio Votação</span>
+            <div class="kpi-icon">⏱️</div>
+          </div>
+          <div class="kpi-value" id="kpiTempoMedioVotacao">35.4s</div>
+          <div class="kpi-meta">
+            <span>Biometria média:</span>
+            <strong id="kpiBiometriaMedia">84.8%</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="alert-box info">
+        <svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+        <div>
+          <div class="alert-title">MODELO LOGÍSTICO CONSOLIDADO DA 41ª ZONA ELEITORAL (DESDE 2018)</div>
+          <div class="alert-desc">
+            • <strong>Sábado de Véspera:</strong> Distribuição de todas as urnas nos 32 locais pelas 7 Rotas Oficiais de Carga.<br>
+            • <strong>Domingo 17h (Mídias Rápidas):</strong> 31 locais têm <strong>1 mototaxista dedicado</strong> que recolhe exclusivamente a Mídia de Resultado (MR) direto do Administrador de Prédio e corre para o Cartório.<br>
+            • <strong>Domingo (Carga Pesada):</strong> 7 Rotas Oficiais de Veículos de Carga (Vans, Spin, Ducato, Cronos, Classic e Onix) fazem o recolhimento das 94 urnas físicas e malotes.<br>
+            • <strong>Exceção Juçaral (Local 1392):</strong> Local de difícil acesso operado via <strong>Suprimento de Fundos</strong> (entrega sábado e traz tudo junto no domingo por Werbeth Silva Dutra).
+          </div>
+        </div>
+      </div>
+
+      <div class="charts-grid-2">
+        <div class="card-panel">
+          <div class="panel-header">
+            <div>
+              <div class="panel-title">Série Temporal Zonal: Comparecimento vs Abstenção</div>
+              <div class="panel-subtitle">Comportamento do eleitorado da 41ª ZE (2016 a 2024 e projeção 2026)</div>
+            </div>
+          </div>
+          <div class="chart-wrapper">
+            <canvas id="chartHistorico"></canvas>
+          </div>
+        </div>
+
+        <div class="card-panel">
+          <div class="panel-header">
+            <div>
+              <div class="panel-title">Distribuição de Risco Operacional das 94 Seções</div>
+              <div class="panel-subtitle">Matriz combinada de filas pós-17h, sobrecarga de agregação e atraso de transmissão</div>
+            </div>
+          </div>
+          <div class="chart-wrapper">
+            <canvas id="chartRisco"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-panel">
+        <div class="panel-header">
+          <div>
+            <div class="panel-title">Top 10 Seções com Maior Carga Eleitoral na Urna (Edital 11/2026)</div>
+            <div class="panel-subtitle">Em vermelho: urnas agregadoras que absorveram seções externas</div>
+          </div>
+        </div>
+        <div class="chart-wrapper" style="height: 320px;">
+          <canvas id="chartCarga"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         ABA NOVA: MAPA GEOESPACIAL & GOOGLE MAPS
+         ==================================================================== -->
+    <section id="tab-mapa" class="tab-content">
+      <!-- Resumo Estratégico de Malha Geográfica -->
+      <div class="kpi-grid" style="grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin-bottom: 1.5rem;">
+        <div class="kpi-card gold">
+          <div class="kpi-header">
+            <span class="kpi-label">Cartório Eleitoral 41ª ZE</span>
+            <div class="kpi-icon">🏛️</div>
+          </div>
+          <div class="kpi-value" style="font-size: 1.3rem;">Ponto Zero</div>
+          <div class="kpi-meta">
+            <span>Trav. Antônio Filho da Costa, 12, Campinas</span>
+          </div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-header">
+            <span class="kpi-label">Zona Urbana (10 Locais)</span>
+            <div class="kpi-icon">🏙️</div>
+          </div>
+          <div class="kpi-value" style="font-size: 1.3rem;">0,5 a 2,5 km</div>
+          <div class="kpi-meta">
+            <span class="trend-tag positive">2 a 7 min</span>
+            <span>Centro, Puraqueu, Manijituba</span>
+          </div>
+        </div>
+
+        <div class="kpi-card indigo">
+          <div class="kpi-header">
+            <span class="kpi-label">Eixo BR-222 / Coque (5 Locais)</span>
+            <div class="kpi-icon">🛣️</div>
+          </div>
+          <div class="kpi-value" style="font-size: 1.3rem;">12 a 14,5 km</div>
+          <div class="kpi-meta">
+            <span class="trend-tag positive">15 a 19 min</span>
+            <span>Asfalto rápido (Nasser Assad, Falcão)</span>
+          </div>
+        </div>
+
+        <div class="kpi-card danger">
+          <div class="kpi-header">
+            <span class="kpi-label">Eixo Baixo Mearim / MA-014</span>
+            <div class="kpi-icon">🌾</div>
+          </div>
+          <div class="kpi-value" style="font-size: 1.3rem;">20 a 45 km</div>
+          <div class="kpi-meta">
+            <span class="trend-tag negative">25 a 50 min</span>
+            <span>Ipixuna, Escondido, Livramento</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-panel">
+        <div class="panel-header">
+          <div>
+            <div class="panel-title">Mapa Interativo dos 32 Locais de Votação e Rotas ao Cartório Eleitoral</div>
+            <div class="panel-subtitle">Visualização georreferenciada de Vitória do Mearim / MA com traçado direto no Google Maps</div>
+          </div>
+        </div>
+
+        <div class="map-card-wrapper">
+          <div id="mapContainer"></div>
+          <div class="map-legend">
+            <div style="font-weight: 700; color: #fff; margin-bottom: 0.4rem; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 0.2rem;">LEGENDA OPERACIONAL</div>
+            <div class="legend-item">
+              <div class="legend-dot cartorio"></div>
+              <span><strong>Cartório Eleitoral 41ª ZE</strong> (Ponto Zero)</span>
+            </div>
+            <div class="legend-item">
+              <div class="legend-dot urbano"></div>
+              <span>Locais Urbanos (Centro, Puraqueu, Manijituba)</span>
+            </div>
+            <div class="legend-item">
+              <div class="legend-dot rural"></div>
+              <span>Locais Rurais (BR-222, MA-014 e Povoados)</span>
+            </div>
+            <div class="legend-item">
+              <div class="legend-dot critico"></div>
+              <span>Pontos de Atenção / Filas / Juçaral (Difícil Acesso)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="alert-box" style="margin-bottom: 1.5rem;">
+        <div class="alert-icon">📍</div>
+        <div class="alert-content">
+          <div class="alert-title">Auditoria Geoespacial: Por que a 41ª ZE apura com tanta velocidade?</div>
+          <div class="alert-desc">
+            • <strong>Quilometragem Contratual TRE (Margem de Segurança):</strong> As distâncias estimadas de eleições anteriores para vans e motos embutem contingências operacionais, desvios de estradas vicinais e retorno, totalizando números maiores (ex: 20 a 45 km no interior).<br>
+            • <strong>Distância Real Google Maps (Trajeto Rodoviário Ponto a Ponto):</strong> As motos fazem trajetos rodoviários diretos pelo asfalto e estradas vicinais consolidadas. Isso explica por que, logo após o fechamento da urna às 17h, as mídias urbanas chegam em menos de 10 minutos e as rurais da BR-222 em menos de 20 minutos.<br>
+            • <strong>Links com 1 Clique:</strong> Clique em <strong>"📍 Rota Maps"</strong> para abrir o Google Maps oficial com a rota traçada partindo do Cartório Eleitoral até a escola.
+          </div>
+        </div>
+      </div>
+
+      <!-- Tabela Comparativa de Distâncias -->
+      <div class="card-panel">
+        <div class="panel-header">
+          <div>
+            <div class="panel-title">Comparativo de Distâncias: Quilometragem Oficial TRE vs. Distância Georreferenciada</div>
+            <div class="panel-subtitle">A quilometragem oficial possui margem alta de segurança; a distância real estimada por estrada é mais ágil para motos</div>
+          </div>
+        </div>
+
+        <div class="table-responsive">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Cód.</th>
+                <th>Local de Votação / Referência</th>
+                <th>Área</th>
+                <th>KM Oficial TRE (com margem)</th>
+                <th>KM Real Estrada (Google Maps)</th>
+                <th>Tempo Mototáxi</th>
+                <th>Traçar Rota</th>
+              </tr>
+            </thead>
+            <tbody id="distanciasTableBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         ABA 2: 94 SEÇÕES PRINCIPAIS
+         ==================================================================== -->
+    <section id="tab-secoes" class="tab-content">
+      <div class="controls-bar">
+        <div class="search-box">
+          <svg width="16" height="16" fill="var(--text-dim)" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+          <input type="text" id="searchSecaoInput" placeholder="Buscar por nº da seção, local de votação ou povoado...">
+        </div>
+
+        <div class="filter-group">
+          <button class="filter-btn active" data-filter="TODAS">Todas (94)</button>
+          <button class="filter-btn" data-filter="URBANA">Urbana (49)</button>
+          <button class="filter-btn" data-filter="RURAL">Rural (45)</button>
+          <button class="filter-btn" data-filter="AGREGADA">Com Agregação</button>
+          <button class="filter-btn" data-filter="RISCO_ALTO">Risco Alto</button>
+          <button class="filter-btn" data-filter="VOTOS_17">Votos Pós-17h</button>
+          <button class="filter-btn" data-filter="ACESSIVEL">Acessibilidade PCD</button>
+        </div>
+      </div>
+
+      <div class="card-panel">
+        <div class="table-responsive">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Seção</th>
+                <th>Local de Votação / Endereço</th>
+                <th>Área</th>
+                <th>Agregação</th>
+                <th>Aptos (2026)</th>
+                <th>Acesso PCD</th>
+                <th>Tempo Voto (2024)</th>
+                <th>Votos Pós-17h</th>
+                <th>BU Recebido</th>
+                <th>Nível Risco</th>
+              </tr>
+            </thead>
+            <tbody id="secoesTableBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         ABA 3: 32 LOCAIS DE VOTAÇÃO
+         ==================================================================== -->
+    <section id="tab-locais" class="tab-content">
+      <div class="card-panel">
+        <div class="panel-header">
+          <div>
+            <div class="panel-title">Mapeamento dos 32 Locais de Votação (Edital nº 11/2026)</div>
+            <div class="panel-subtitle">Distribuição por capacidade de eleitores, seções abrigadas e logística de retorno de BU</div>
+          </div>
+        </div>
+
+        <div class="table-responsive">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Cód.</th>
+                <th>Nome do Estabelecimento / Referência</th>
+                <th>Área</th>
+                <th>Qtd Seções</th>
+                <th>Total Aptos</th>
+                <th>Seções Abrigadas</th>
+                <th>Atraso BU Máx</th>
+                <th>Diagnóstico Operacional</th>
+              </tr>
+            </thead>
+            <tbody id="locaisTableBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         ABA 4: LOGÍSTICA DE CAMPO (VANS & MOTOTÁXI)
+         ==================================================================== -->
+    <section id="tab-logistica-campo" class="tab-content">
+      <div class="kpi-grid">
+        <div class="kpi-card gold">
+          <div class="kpi-header">
+            <span class="kpi-label">Rotas de Mototáxi (Expressas)</span>
+            <div class="kpi-icon">🏍️</div>
+          </div>
+          <div class="kpi-value">31 Motos</div>
+          <div class="kpi-meta">
+            <span>1 moto dedicada por local</span> &bull; <strong>Recolhe só Mídias (MR)</strong>
+          </div>
+        </div>
+
+        <div class="kpi-card indigo">
+          <div class="kpi-header">
+            <span class="kpi-label">Rotas de Veículos de Carga</span>
+            <div class="kpi-icon">🚐</div>
+          </div>
+          <div class="kpi-value">7 Rotas</div>
+          <div class="kpi-meta">
+            <span>Distribuição e recolhimento (94 urnas e cabinas)</span>
+          </div>
+        </div>
+
+        <div class="kpi-card danger">
+          <div class="kpi-header">
+            <span class="kpi-label">Exceção Difícil Acesso</span>
+            <div class="kpi-icon">📍</div>
+          </div>
+          <div class="kpi-value">Juçaral</div>
+          <div class="kpi-meta">
+            <span class="trend-tag negative">Suprimento Fundos</span>
+            <span>Entrega sábado / traz tudo domingo</span>
+          </div>
+        </div>
+
+        <div class="kpi-card success">
+          <div class="kpi-header">
+            <span class="kpi-label">Apoio Logístico Nomeado</span>
+            <div class="kpi-icon">👔</div>
+          </div>
+          <div class="kpi-value">32 Prédios</div>
+          <div class="kpi-meta">
+            <span>Administradores + Coordenadores de Acessibilidade</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card Especial: Origem Histórica das Quilometragens (Croqui de Campo 2018) -->
+      <div class="card-panel" style="border: 1px solid rgba(245, 158, 11, 0.3); background: rgba(245, 158, 11, 0.03);">
+        <div class="panel-header">
+          <div>
+            <div class="panel-title" style="color: var(--gold);">📜 Origem Histórica das Medições: O Mapeamento Físico de Campo (2018)</div>
+            <div class="panel-subtitle">Croqui original elaborado por servidor requisitado que percorreu presencialmente todos os povoados com odômetro e cronômetro</div>
+          </div>
+          <button class="filter-btn active" onclick="openMapaHistoricoModal()" style="display: flex; align-items: center; gap: 6px;">
+            🔍 Ver Croqui Original em Alta Resolução
+          </button>
+        </div>
+        <div style="display: grid; grid-template-columns: 1fr 280px; gap: 1.5rem; align-items: center;">
+          <div style="font-size: 0.88rem; line-height: 1.6; color: var(--text-muted);">
+            <p><strong style="color: #fff;">A Gênese das Distâncias da 41ª ZE:</strong> Todas as quilometragens e tempos estimados que balizam os roteiros de transporte desde 2018 originaram-se deste mapeamento pioneiro. O servidor requisitado aferiu trecho a trecho:</p>
+            <ul style="margin: 0.5rem 0 0.5rem 1.2rem;">
+              <li><strong>Estrada Asfaltada (Linha Dupla):</strong> Rodovia BR-222 e principais acessos pavimentados (Eixo Coque e Sedes Urbanas).</li>
+              <li><strong>Estrada de Terra (Linha Tracejada):</strong> Ramais vicinais até os povoados profundos (São Lourenço, São Félix, Sumaúma, Livramento, Santa Rosa, São Benedito e Ipixuna).</li>
+              <li><strong>Campos Alagados & Tempos de Odômetro:</strong> Registro das distâncias acumuladas da sede ao destino final e do tempo médio real de deslocamento.</li>
+            </ul>
+            <p>Esse levantamento físico serviu de base sólida para os Editais e contratos de transporte, sendo agora complementado e auditado digitalmente pela <strong>2ª Vistoria Técnica (Setembro/2026)</strong> e pelo georreferenciamento do <strong>Google Maps</strong>.</p>
+          </div>
+          <div style="cursor: pointer; border-radius: 8px; overflow: hidden; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 4px 15px rgba(0,0,0,0.5);" onclick="openMapaHistoricoModal()">
+            <img src="img/mapa_historico_2018.png" alt="Croqui Histórico 2018" style="width: 100%; height: 160px; object-fit: cover; object-position: center; display: block; filter: brightness(0.9) contrast(1.1); transition: transform 0.3s ease;">
+            <div style="padding: 0.4rem; background: rgba(0,0,0,0.7); text-align: center; font-size: 0.75rem; color: var(--gold); font-weight: 600;">
+              🔎 Clique para Ampliar
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-panel">
+        <div class="panel-header">
+          <div>
+            <div class="panel-title">1. As 7 Rotas Oficiais de Veículos de Carga (Edital nº 20/2026 - Pós-2ª Vistoria)</div>
+            <div class="panel-subtitle">Distribuição e recolhimento pesado de 94 urnas e cabinas em 32 locais (Vans, Spin, Ducato, Cronos, Classic e Onix) com motoristas e telefones oficiais</div>
+          </div>
+          <span class="badge badge-success">OFICIAL PÓS-2ª VISTORIA</span>
+        </div>
+        <div class="table-responsive">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Rota</th>
+                <th>Veículo & Placa</th>
+                <th>Motorista & Telefone</th>
+                <th>Área</th>
+                <th>Locais</th>
+                <th>Urnas/Cabinas</th>
+                <th>Itinerário Oficial</th>
+                <th>Distância Total</th>
+                <th>Tempo Est.</th>
+              </tr>
+            </thead>
+            <tbody id="vansTableBody"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card-panel">
+        <div class="panel-header">
+          <div>
+            <div class="panel-title">2. As 31 Rotas Oficiais de Mototáxi (Recolhimento Expresso de Mídias de Resultado - MR)</div>
+            <div class="panel-subtitle">Equipe de 31 mototaxistas cadastrados com placas, contatos e locais exclusivos para entrega direta ao Cartório Eleitoral</div>
+          </div>
+          <span class="badge badge-info">31 CONDUTORES ESCALADOS</span>
+        </div>
+        <div class="table-responsive">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Moto</th>
+                <th>Condutor Responsável & Contato</th>
+                <th>Veículo / Placa / Ano</th>
+                <th>Local de Votação Atendido</th>
+                <th>Área</th>
+                <th>Urnas (MR)</th>
+                <th>Distância ao Cartório</th>
+                <th>Tempo Est.</th>
+              </tr>
+            </thead>
+            <tbody id="motosTableBody"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card-panel">
+        <div class="panel-header">
+          <div>
+            <div class="panel-title">3. Administradores de Prédio e Coordenadores de Acessibilidade Oficiais (Editais 13, 19 e 20/2026)</div>
+            <div class="panel-subtitle">32 Administradores de Prédio (100% dos locais cobertos) e 11 Coordenadores de Acessibilidade em ação no dia do pleito</div>
+          </div>
+          <span class="badge badge-gold">GUARDIÕES DE FLUXO & MÍDIAS</span>
+        </div>
+        <div class="table-responsive">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Cód.</th>
+                <th>Local de Votação</th>
+                <th>Administrador de Prédio Oficial</th>
+                <th>Coordenador de Acessibilidade Oficial</th>
+                <th>Missão Crítica no Local</th>
+              </tr>
+            </thead>
+            <tbody id="apoioTableBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         ABA 5: AUDITORIA DE FILAS & GARGALOS
+         ==================================================================== -->
+    <section id="tab-gargalos" class="tab-content">
+      <div class="alert-box danger">
+        <svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+        <div>
+          <div class="alert-title">REGISTRO DE SEÇÕES QUE EXTRAPOLARAM O HORÁRIO REGIMENTAL DAS 17H</div>
+          <div class="alert-desc">
+            Em 2024, eleitores receberam senha ou permaneceram na fila após as 17h nas seções: 
+            <strong>Seção 175 (Escola Municipal de Ipixuna - 7 votos pós-17h, encerramento às 17h25)</strong>, 
+            <strong>Seção 27 (EM Nasser Assad - 2 votos pós-17h)</strong>, 
+            <strong>Seção 184 (EM Raimundo Bogéa - 1 voto)</strong>, 
+            <strong>Seção 182 (UE Maria Graciana - 1 voto)</strong> e 
+            <strong>Seção 4 (Colégio Ana Bogéa - 1 voto)</strong>.
+            Em 2026, essas seções devem receber suporte prioritário desde o início da tarde.
+          </div>
+        </div>
+      </div>
+
+      <div class="charts-grid-2">
+        <div class="card-panel">
+          <div class="panel-header">
+            <div>
+              <div class="panel-title">Ranking de Filas: Seções com Votos Após 17h / Lentidão</div>
+              <div class="panel-subtitle">Dados extraídos diretamente dos logs oficiais da urna UE2022</div>
+            </div>
+          </div>
+          <div class="table-responsive">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Seção</th>
+                  <th>Local</th>
+                  <th>Votos pós-17h</th>
+                  <th>Tempo Médio</th>
+                  <th>Encerramento</th>
+                  <th>Agregação</th>
+                </tr>
+              </thead>
+              <tbody id="gargalosTableBody"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="card-panel">
+          <div class="panel-header">
+            <div>
+              <div class="panel-title">Auditoria de Falhas de Procedimento de Mesários</div>
+              <div class="panel-subtitle">Ocorrências de Título Incorreto, Já Votou e Habilitação Cancelada</div>
+            </div>
+          </div>
+          <div class="table-responsive">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Seção</th>
+                  <th>Local</th>
+                  <th>Tít. Incorreto</th>
+                  <th>Já Votou</th>
+                  <th>Suspenso</th>
+                  <th>Total Falhas</th>
+                </tr>
+              </thead>
+              <tbody id="falhasTableBody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         ABA 6: TRANSMISSÃO DE BU
+         ==================================================================== -->
+    <section id="tab-transmissao" class="tab-content">
+      <div class="card-panel">
+        <div class="panel-header">
+          <div>
+            <div class="panel-title">Logística Reversa de Mídias de Resultado e Transmissão de BU</div>
+            <div class="panel-subtitle">Tempo transcorrido entre a emissão do BU na urna e a recepção oficial no SISTOT</div>
+          </div>
+        </div>
+
+        <div class="table-responsive">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Seção</th>
+                <th>Local de Votação</th>
+                <th>Área</th>
+                <th>Emissão BU</th>
+                <th>BU Recebido (SISTOT)</th>
+                <th>Tempo de Deslocamento / Espera</th>
+              </tr>
+            </thead>
+            <tbody id="transmissaoTableBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         ABA 7: SÉRIE HISTÓRICA & DEMOGRAFIA
+         ==================================================================== -->
+    <section id="tab-historico" class="tab-content">
+      <div class="charts-grid-2">
+        <div class="card-panel">
+          <div class="panel-header">
+            <div>
+              <div class="panel-title">Pirâmide de Faixa Etária — Eleitorado Zonal</div>
+              <div class="panel-subtitle">Identificação de eleitores idosos (acessibilidade) e jovens</div>
+            </div>
+          </div>
+          <div class="chart-wrapper">
+            <canvas id="chartIdade"></canvas>
+          </div>
+        </div>
+
+        <div class="card-panel">
+          <div class="panel-header">
+            <div>
+              <div class="panel-title">Grau de Escolaridade do Eleitorado (ZE-041)</div>
+              <div class="panel-subtitle">Impacto direto no tempo de digitação na cabine e necessidade de orientação</div>
+            </div>
+          </div>
+          <div class="chart-wrapper">
+            <canvas id="chartEscola"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         ABA 8: PLANO TÁTICO OPERACIONAL 2026
+         ==================================================================== -->
+    <section id="tab-tatico" class="tab-content">
+      <div class="card-panel">
+        <div class="panel-header">
+          <div>
+            <div class="panel-title">Plano Tático Operacional para as Eleições Gerais de 2026</div>
+            <div class="panel-subtitle">Diretrizes de campo baseadas no diagnóstico de dados da 41ª Zona Eleitoral</div>
+          </div>
+        </div>
+
+        <div class="checklist-card">
+          <div class="check-icon">✓</div>
+          <div>
+            <div style="font-weight: 700; color: #fff;">1. Posicionamento Estratégico de Urnas de Reserva (MRV Contingência)</div>
+            <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.25rem;">
+              Manter 3 polos avançados de urnas de contingência na Zona Rural: 
+              <strong>Polo 1: Coque (atendendo EM Nasser Assad, EM Itelvino, EM Raimundo Bogéa e Vila Falcão)</strong>;
+              <strong>Polo 2: São Lourenço / Jaguary (atendendo EM Franklin Cantanhêde e EM Xavier Correia)</strong>;
+              <strong>Polo 3: Ipixuna / Tirirical (atendendo EM Ipixuna e EM Tirirical)</strong>.
+              Isso reduz o tempo de atendimento técnico de 1h30 para menos de 20 minutos em caso de pane.
+            </div>
+          </div>
+        </div>
+
+        <div class="checklist-card">
+          <div class="check-icon">✓</div>
+          <div>
+            <div style="font-weight: 700; color: #fff;">2. Protocolo Pré-Cabine em Urnas Agregadoras Críticas</div>
+            <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.25rem;">
+              Nas 11 seções com sobrecarga de agregação (Seção 155 com 380 aptos, Seção 22 com 366 aptos, Seção 153 com 342 aptos, etc.), 
+              designar um mesário de apoio ou apoio logístico para entregar a "colinha eleitoral" com os 5 cargos e conferir o documento de identidade com antecedência enquanto o eleitor aguarda na fila.
+            </div>
+          </div>
+        </div>
+
+        <div class="checklist-card">
+          <div class="check-icon">✓</div>
+          <div>
+            <div style="font-weight: 700; color: #fff;">3. Treinamento Específico para Redução de "Título Incorreto"</div>
+            <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.25rem;">
+              Em 2024, houve centenas de ocorrências de mesários digitando números incorretos ou eleitores entrando na seção errada (especialmente em escolas grandes como CEMA Carlos Raimundo com 6 seções e Colégio Ana Bogéa com 7 seções). Instalar sinalização visual em banners e cartazes na porta de cada sala indicando claramente o intervalo de títulos e nomes.
+            </div>
+          </div>
+        </div>
+
+        <div class="checklist-card">
+          <div class="check-icon">✓</div>
+          <div>
+            <div style="font-weight: 700; color: #fff;">4. Otimização do Fluxo de Mototáxis (Mídias) e Vans (Urnas)</div>
+            <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.25rem;">
+              Garantir que o Administrador de Prédio libere o mototaxista com a Mídia de Resultado (MR) imediatamente às 17h05, sem aguardar o fechamento das portas do prédio ou a chegada da van de carga, mantendo o tempo de apuração recorde histórico da 41ª ZE.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         ABA: TREINAMENTO & DIRETRIZES OPERACIONAIS (14 A 18 DE SETEMBRO/2026)
+         ======================================================================== -->
+    <section id="tab-treinamento" class="tab-content">
+      <div class="section-header">
+        <div>
+          <h2>🎓 Jornada de Capacitação Presencial & Diretrizes de Campo 2026</h2>
+          <div class="section-subtitle">
+            Orientações Oficiais da 41ª Zona Eleitoral para Mesários, Administradores de Prédio e Coordenadores de Acessibilidade
+          </div>
+        </div>
+      </div>
+
+      <!-- CRONOGRAMA DAS TURMAS -->
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.25rem; margin-bottom: 1.5rem;">
+        <div class="summary-card" style="border-top: 4px solid var(--blue-accent); background: linear-gradient(180deg, rgba(30, 41, 59, 0.7) 0%, rgba(15, 23, 42, 0.8) 100%);">
+          <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem;">
+            <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--blue-accent); font-weight: 700;">Etapa 1 &bull; 14 a 17 de Setembro</span>
+            <span class="badge" style="background: rgba(56, 189, 248, 0.15); color: var(--blue-accent); font-size: 0.7rem; padding: 2px 8px; border-radius: 12px; font-weight: 600;">4 Turmas</span>
+          </div>
+          <h3 style="color: #fff; font-size: 1.15rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 8px;">
+            👥 Turmas de Mesários (Mesa Receptora)
+          </h3>
+          <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 0.75rem;">
+            Presidentes de Mesa, 1º e 2º Mesários e Secretários das 94 seções principais de Vitória do Mearim.
+          </p>
+          <div style="font-size: 0.8rem; color: var(--text-muted); background: rgba(255,255,255,0.03); padding: 0.6rem; border-radius: 6px;">
+            <strong style="color: #e2e8f0;">Foco de Treinamento:</strong> Fluxo da biometria na urna 2022, uso do caderno de votação, colinha eleitoral, conferência de identidade e independência operacional na abertura.
+          </div>
+        </div>
+
+        <div class="summary-card" style="border-top: 4px solid var(--gold); background: linear-gradient(180deg, rgba(30, 41, 59, 0.7) 0%, rgba(15, 23, 42, 0.8) 100%);">
+          <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem;">
+            <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--gold); font-weight: 700;">Etapa 2 &bull; 18 de Setembro (Sexta-feira)</span>
+            <span class="badge" style="background: rgba(245, 158, 11, 0.15); color: var(--gold); font-size: 0.7rem; padding: 2px 8px; border-radius: 12px; font-weight: 600;">Turma Exclusiva</span>
+          </div>
+          <h3 style="color: #fff; font-size: 1.15rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 8px;">
+            🏛️ Administradores de Prédio & Coordenadores de Acessibilidade
+          </h3>
+          <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 0.75rem;">
+            Lideranças de apoio logístico cobrindo 100% dos 31 locais ordinários de votação (Editais 13 e 19/2026).
+          </p>
+          <div style="font-size: 0.8rem; color: var(--text-muted); background: rgba(255,255,255,0.03); padding: 0.6rem; border-radius: 6px;">
+            <strong style="color: #e2e8f0;">Foco de Treinamento:</strong> Suporte imediato à Zerésima, controle rígido de portão às 17h, senhas decrescentes, filas de prioridade legal e entrega expressa da MR ao mototáxi.
+          </div>
+        </div>
+      </div>
+
+      <!-- OS 4 MANDAMENTOS OPERACIONAIS DA 41ª ZE -->
+      <div style="margin-bottom: 1.5rem;">
+        <h3 style="color: #fff; font-size: 1.1rem; margin-bottom: 1rem; display: flex; align-items: center; gap: 8px;">
+          ⚡ Os 4 Mandamentos Operacionais da Celeridade Eleitoral (41ª ZE)
+        </h3>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem;">
+          
+          <!-- MANDAMENTO 1 -->
+          <div class="summary-card" style="border-left: 4px solid #10b981; padding: 1.25rem;">
+            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 0.75rem;">
+              <span style="background: rgba(16, 185, 129, 0.2); color: #10b981; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1rem;">1</span>
+              <strong style="color: #fff; font-size: 0.95rem;">Abertura às 07h00: Zerésima Imediata!</strong>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 0.5rem;">
+              <strong style="color: #10b981;">Deu 07h00 da manhã:</strong> os membros presentes na seção ligam a urna e emitem a Zerésima imediatamente!
+            </p>
+            <div style="font-size: 0.8rem; background: rgba(239, 68, 68, 0.1); border: 1px solid rgba(239, 68, 68, 0.2); color: #fca5a5; padding: 0.5rem; border-radius: 6px; margin-bottom: 0.5rem;">
+              ⚠️ <strong>PROIBIDO ESPERAR RETARDATÁRIOS:</strong> Não esperar fulano ou sicrano chegar. Quem estiver na seção inicia os procedimentos para que às <strong>08h00 em ponto</strong> o primeiro eleitor vote.
+            </div>
+            <div style="font-size: 0.8rem; color: var(--text-muted);">
+              <strong>Papel do Apoio:</strong> Administradores e Coordenadores auxiliam os mesários nessa conferência logo às 06h45.
+            </div>
+          </div>
+
+          <!-- MANDAMENTO 2 -->
+          <div class="summary-card" style="border-left: 4px solid var(--blue-accent); padding: 1.25rem;">
+            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 0.75rem;">
+              <span style="background: rgba(56, 189, 248, 0.2); color: var(--blue-accent); width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1rem;">2</span>
+              <strong style="color: #fff; font-size: 0.95rem;">Encerramento às 17h00: Sem Fila, Fecha Já!</strong>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 0.5rem;">
+              <strong style="color: var(--blue-accent);">Deu 17h00 em ponto e não há eleitor na fila?</strong> Encerra a urna de imediato!
+            </p>
+            <div style="font-size: 0.8rem; background: rgba(56, 189, 248, 0.1); border: 1px solid rgba(56, 189, 248, 0.2); color: #bae6fd; padding: 0.5rem; border-radius: 6px; margin-bottom: 0.5rem;">
+              ⏱️ <strong>TOLERÂNCIA ZERO A ESPERAS VAZIAS:</strong> Não aguardar eleitor que "está vindo do campo". Se a fila acabou às 17h00, encerra-se a seção, imprimem-se os BUs e deslacra-se a Mídia de Resultado.
+            </div>
+            <div style="font-size: 0.8rem; color: var(--text-muted);">
+              <strong>Destino da Mídia:</strong> Entrega direta ao Administrador de Prédio para repasse imediato ao mototaxista.
+            </div>
+          </div>
+
+          <!-- MANDAMENTO 3 -->
+          <div class="summary-card" style="border-left: 4px solid var(--gold); padding: 1.25rem;">
+            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 0.75rem;">
+              <span style="background: rgba(245, 158, 11, 0.2); color: var(--gold); width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1rem;">3</span>
+              <strong style="color: #fff; font-size: 0.95rem;">Fila às 17h00: Portão Fechado & Senhas</strong>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 0.5rem;">
+              <strong style="color: var(--gold);">Caso haja eleitores aguardando na fila às 17h00:</strong>
+            </p>
+            <div style="font-size: 0.8rem; background: rgba(245, 158, 11, 0.1); border: 1px solid rgba(245, 158, 11, 0.2); color: #fde68a; padding: 0.5rem; border-radius: 6px; margin-bottom: 0.5rem;">
+              🚪 <strong>1. FECHAR O PORTÃO:</strong> Administrador de Prédio fecha o portão externo imediatamente. Ninguém mais entra.<br>
+              🔢 <strong>2. SENHAS DECRESCENTES:</strong> Distribuir senhas numéricas em ordem decrescente (ex.: 10, 9, 8... até 1) aos eleitores que já estavam na fila às 17h.<br>
+              ⚡ <strong>3. VOTAÇÃO CÉLERE:</strong> Coordenar a votação rápida dos portadores de senha para encerrar a urna logo em seguida.
+            </div>
+            <div style="font-size: 0.8rem; color: var(--text-muted);">
+              Garante o direito constitucional sem permitir a infiltração de retardatários após às 17h.
+            </div>
+          </div>
+
+          <!-- MANDAMENTO 4 -->
+          <div class="summary-card" style="border-left: 4px solid #a855f7; padding: 1.25rem;">
+            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 0.75rem;">
+              <span style="background: rgba(168, 85, 247, 0.2); color: #c084fc; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1rem;">4</span>
+              <strong style="color: #fff; font-size: 0.95rem;">Acessibilidade & Filas de Prioridade</strong>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 0.5rem;">
+              <strong style="color: #c084fc;">Atuação dos Coordenadores de Acessibilidade:</strong>
+            </p>
+            <div style="font-size: 0.8rem; background: rgba(168, 85, 247, 0.1); border: 1px solid rgba(168, 85, 247, 0.2); color: #e9d5ff; padding: 0.5rem; border-radius: 6px; margin-bottom: 0.5rem;">
+              ♿ <strong>SUPORTE AUTÔNOMO:</strong> Devem dar suporte contínuo às seções mesmo que o Administrador de Prédio esteja em outra sala.<br>
+              👴 <strong>FILA DE PRIORIDADE:</strong> Identificar ativamente idosos (atenção especial a 80+), PCDs, mobilidade reduzida, gestantes e lactantes.<br>
+              🚀 <strong>FLUXO DESOBSTRUÍDO:</strong> Conduzir esses eleitores diretamente para votar prioritariamente, liberando as filas e evitando acúmulo nos corredores.
+            </div>
+            <div style="font-size: 0.8rem; color: var(--text-muted);">
+              Acelera o tempo de permanência de quem mais precisa e eleva a velocidade de toda a seção.
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- MAPEAMENTO FORENSE: LOCAIS CRÍTICOS PARA O TREINAMENTO -->
+      <div style="margin-top: 2rem; margin-bottom: 1.5rem;">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem; flex-wrap: wrap; gap: 8px;">
+          <h3 style="color: #fff; font-size: 1.15rem; margin: 0; display: flex; align-items: center; gap: 8px;">
+            🎯 Mapeamento Forense: Locais de Votação para Cobrança Especial nas Reuniões
+          </h3>
+          <span style="font-size: 0.75rem; color: var(--gold); background: rgba(245, 158, 11, 0.1); padding: 4px 10px; border-radius: 12px; border: 1px solid rgba(245, 158, 11, 0.3); font-weight: 600;">
+            Auditoria Logs 2024 + Edital 11/2026
+          </span>
+        </div>
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+          Estes são os estabelecimentos onde o Chefe de Cartório deve dar instruções individualizadas durante as turmas de capacitação (14 a 18/09):
+        </p>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1rem;">
+
+          <!-- GRUPO 1: VOTOS PÓS-17H -->
+          <div class="summary-card" style="border-left: 4px solid #ef4444; padding: 1.1rem;">
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.5rem;">
+              <strong style="color: #f87171; font-size: 0.9rem;">🔴 Votação Pós-17h (Foco: Portão & Senhas)</strong>
+              <span class="badge" style="background: rgba(239, 68, 68, 0.2); color: #f87171; font-size: 0.7rem; padding: 2px 6px; border-radius: 10px;">Risco de Atraso</span>
+            </div>
+            <div style="font-size: 0.82rem; color: #cbd5e1; line-height: 1.5;">
+              &bull; <strong>EM Nasser Assad (Coque):</strong> 6 votos pós-17h (Seções 27, 95, 25, 78) &bull; Seção 95 fechou 17h25.<br>
+              &bull; <strong>EM Itelvino de Matos (Coque):</strong> 3 votos pós-17h (Seções 177, 108).<br>
+              &bull; <strong>Colégio Ana Bogéa (Centro):</strong> 2 votos pós-17h (Seções 4, 94).<br>
+              &bull; <strong>CEMA Carlos Raimundo (Centro):</strong> Votos pós-17h na Seção 9.<br>
+              &bull; <strong>UE Maria Graciana (Vila Reginaldo):</strong> Seção 182 encerrou 17h10.
+            </div>
+            <div style="margin-top: 0.6rem; font-size: 0.75rem; color: #fca5a5; background: rgba(239,68,68,0.1); border: 1px solid rgba(239,68,68,0.2); padding: 0.5rem; border-radius: 4px;">
+              ⚡ <strong>Instrução ao Adm:</strong> Fechar portão rigorosamente às 17h00. Se houver fila, distribuir senhas decrescentes e proibir nova entrada após as 17h.
+            </div>
+          </div>
+
+          <!-- GRUPO 2: SEÇÕES HIPERCARREGADAS -->
+          <div class="summary-card" style="border-left: 4px solid #f59e0b; padding: 1.1rem;">
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.5rem;">
+              <strong style="color: #fbbf24; font-size: 0.9rem;">🟠 Seções Agregadoras >300 Aptos (Fila Lenta)</strong>
+              <span class="badge" style="background: rgba(245, 158, 11, 0.2); color: #fbbf24; font-size: 0.7rem; padding: 2px 6px; border-radius: 10px;">Sobrecarga</span>
+            </div>
+            <div style="font-size: 0.82rem; color: #cbd5e1; line-height: 1.5;">
+              &bull; <strong>Seção 155 (EM Raimundo Bogéa):</strong> 380 aptos (Maior da ZE).<br>
+              &bull; <strong>Seção 22 (EM Xavier Correia - Jaguary):</strong> 366 aptos (74 idosos).<br>
+              &bull; <strong>Seção 153 (EM Franklin Cantanhêde):</strong> 342 aptos.<br>
+              &bull; <strong>Seção 119 (UE Neuza da Cunha Costa):</strong> 337 aptos.<br>
+              &bull; <strong>Seção 75 (EM Izidoro Lopes - Livramento):</strong> 336 aptos.<br>
+              &bull; <strong>Seção 66 (CM José Carlos Mota - Sumaúma):</strong> 320 aptos.
+            </div>
+            <div style="margin-top: 0.6rem; font-size: 0.75rem; color: #fde68a; background: rgba(245,158,11,0.1); border: 1px solid rgba(245,158,11,0.2); padding: 0.5rem; border-radius: 4px;">
+              ⚡ <strong>Instrução ao Mesário:</strong> Apoio contínuo do Coordenador de Acessibilidade com conferência prévia de documentos para dar velocidade à fila.
+            </div>
+          </div>
+
+          <!-- GRUPO 3: ERROS DE DIGITAÇÃO DE TÍTULO -->
+          <div class="summary-card" style="border-left: 4px solid #38bdf8; padding: 1.1rem;">
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.5rem;">
+              <strong style="color: #38bdf8; font-size: 0.9rem;">🔵 Falhas de Digitação de Título (Mesários)</strong>
+              <span class="badge" style="background: rgba(56, 189, 248, 0.2); color: #38bdf8; font-size: 0.7rem; padding: 2px 6px; border-radius: 10px;">Operação</span>
+            </div>
+            <div style="font-size: 0.82rem; color: #cbd5e1; line-height: 1.5;">
+              &bull; <strong>JI Mons. Artur Gonçalves (Seção 103):</strong> 33 títulos incorretos.<br>
+              &bull; <strong>EM Nasser Assad (Seção 95):</strong> 29 títulos incorretos.<br>
+              &bull; <strong>EM Mámedio Sarmento (Seção 104):</strong> 28 títulos incorretos.<br>
+              &bull; <strong>EM Vila Falcão (Seção 152):</strong> 27 títulos incorretos.<br>
+              &bull; <strong>CM Hemetério Fernandes (Seção 144):</strong> 26 títulos incorretos.
+            </div>
+            <div style="margin-top: 0.6rem; font-size: 0.75rem; color: #bae6fd; background: rgba(56,189,248,0.1); border: 1px solid rgba(56,189,248,0.2); padding: 0.5rem; border-radius: 4px;">
+              ⚡ <strong>Instrução ao Mesário:</strong> Conferir os dígitos com calma no caderno de votação antes de teclar CONFIRMA para não travar com advertências.
+            </div>
+          </div>
+
+          <!-- GRUPO 4: LOGÍSTICA CRÍTICA DE MOTO (DISTÂNCIA) -->
+          <div class="summary-card" style="border-left: 4px solid #a855f7; padding: 1.1rem;">
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.5rem;">
+              <strong style="color: #c084fc; font-size: 0.9rem;">🟣 Povoados Distantes (Estrada de Terra)</strong>
+              <span class="badge" style="background: rgba(168, 85, 247, 0.2); color: #c084fc; font-size: 0.7rem; padding: 2px 6px; border-radius: 10px;">Logística Moto</span>
+            </div>
+            <div style="font-size: 0.82rem; color: #cbd5e1; line-height: 1.5;">
+              &bull; <strong>São Benedito (Local 1341):</strong> 46,6 km (32,6 km carroçal) &bull; Moto: 1h12m.<br>
+              &bull; <strong>Santa Rosa (Local 1309):</strong> 43,8 km (29,8 km carroçal) &bull; Moto: 1h04m.<br>
+              &bull; <strong>Sumaúma (Local 1325):</strong> 35,8 km (21,8 km carroçal) &bull; Moto: 59 min.<br>
+              &bull; <strong>Ipixuna (Local 1619):</strong> 41,9 km (21,9 km carroçal) &bull; Moto: 45 min.<br>
+              &bull; <strong>Livramento (Local 1317):</strong> 33,9 km (19,9 km carroçal) &bull; Moto: 42 min.
+            </div>
+            <div style="margin-top: 0.6rem; font-size: 0.75rem; color: #e9d5ff; background: rgba(168,85,247,0.1); border: 1px solid rgba(168,85,247,0.2); padding: 0.5rem; border-radius: 4px;">
+              ⚡ <strong>Instrução ao Adm:</strong> Fechamento pontual às 17h00 é VITAL. Qualquer atraso aqui retarda o fechamento total da Zona Eleitoral.
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- BANNER DE COMPROMISSO INSTITUCIONAL -->
+      <div style="background: linear-gradient(135deg, rgba(30, 58, 138, 0.4) 0%, rgba(15, 23, 42, 0.9) 100%); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 10px; padding: 1.25rem 1.5rem; margin-bottom: 2rem;">
+        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 0.5rem;">
+          <span style="font-size: 1.5rem;">🏆</span>
+          <h4 style="color: #fff; font-size: 1.05rem; margin: 0;">Objetivo Zonal: Vitória do Mearim Entre as Mais Rápidas do Maranhão</h4>
+        </div>
+        <p style="font-size: 0.85rem; color: #cbd5e1; line-height: 1.6; margin: 0;">
+          Com <strong>94 seções principais</strong> e <strong>31 mototáxis</strong> dedicados que percorrem trechos em poucos minutos logo após as 17h, o cumprimento rigoroso desses 4 mandamentos é o que garante o recorde histórico da 41ª ZE. A agilidade da eleição não depende da velocidade do transporte, mas sim da <strong>pontualidade dos mesários e do apoio de prédio no encerramento pontual às 17h00</strong>.
+        </p>
+      </div>
+
+      <!-- COMANDO DO CARTÓRIO & FORÇA-TAREFA DOS 3 AUXILIARES VOLANTES -->
+      <div style="margin-bottom: 1.5rem;">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem; flex-wrap: wrap; gap: 8px;">
+          <h3 style="color: #fff; font-size: 1.15rem; margin: 0; display: flex; align-items: center; gap: 8px;">
+            🛡️ Força-Tarefa de Campo: Comando de Cartório & 3 Setores Volantes
+          </h3>
+          <span style="font-size: 0.75rem; color: #10b981; background: rgba(16, 185, 129, 0.1); padding: 4px 10px; border-radius: 12px; border: 1px solid rgba(16, 185, 129, 0.3); font-weight: 600;">
+            Urnas de Contingência + Coleta de Presença
+          </span>
+        </div>
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+          Estrutura operacional da 41ª ZE em campo para garantir suporte técnico, reposição de urnas e cumprimento inflexível dos horários de abertura e fechamento:
+        </p>
+
+        <!-- CARD DO COMANDO DE CARTÓRIO -->
+        <div class="summary-card" style="border-top: 3px solid var(--gold); margin-bottom: 1rem; background: rgba(15, 23, 42, 0.75);">
+          <div style="font-size: 0.8rem; text-transform: uppercase; color: var(--gold); font-weight: 700; margin-bottom: 0.5rem; letter-spacing: 0.05em;">
+            🏛️ Comando Operacional da Sede (Cartório Eleitoral)
+          </div>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem;">
+            <div>
+              <strong style="color: #fff; font-size: 0.95rem;">Diego William</strong>
+              <div style="font-size: 0.8rem; color: var(--blue-accent);">Chefe de Cartório — 41ª ZE</div>
+              <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.25rem;">
+                Comando Geral, Suporte às Urnas, Gestão de Crise e Transmissão no SISTOT.
+              </div>
+            </div>
+            <div>
+              <strong style="color: #fff; font-size: 0.95rem;">Eliana Silva</strong>
+              <div style="font-size: 0.8rem; color: var(--gold);">Servidora Requisitada</div>
+              <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.25rem;">
+                Logística de Suprimento de Fundos (Juçaral), Gabinete e Comunicação Interna.
+              </div>
+            </div>
+            <div>
+              <strong style="color: #fff; font-size: 0.95rem;">Rosane Praseres</strong>
+              <div style="font-size: 0.8rem; color: #a855f7;">Servidora Requisitada</div>
+              <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.25rem;">
+                Coordenação de Mesas Receptoras, Coordenadores de Acessibilidade e Atendimento.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- GRID DOS 3 SETORES OPERACIONAIS -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1rem;">
+          
+          <!-- SETOR 1 -->
+          <div class="summary-card" style="border-left: 4px solid var(--blue-accent); padding: 1.1rem;">
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.5rem;">
+              <strong style="color: var(--blue-accent); font-size: 0.95rem;">🚙 Setor 1: Polo Urbano / Sede</strong>
+              <span class="badge" style="background: rgba(56, 189, 248, 0.2); color: var(--blue-accent); font-size: 0.7rem; padding: 2px 6px; border-radius: 10px;">12 Locais | 54 Urnas</span>
+            </div>
+            <div style="font-size: 0.8rem; color: #cbd5e1; margin-bottom: 0.5rem;">
+              <strong>Equipe:</strong> Auxiliar Volante 1 &bull; <strong>Veículo c/ Urnas de Contingência</strong>
+            </div>
+            <div style="font-size: 0.78rem; color: var(--text-muted); line-height: 1.5; background: rgba(255,255,255,0.02); padding: 0.5rem; border-radius: 6px; margin-bottom: 0.5rem;">
+              <strong>Locais Cobertos:</strong> IEMA, Colégio Ana Bogéa, CEMA, Antônia Farias, Mons. Artur, Cônego Eliud, Neuza Cunha, Dr. Ribamar, Maria Celeste, Maria Graciana, Jacaray e Jaguary.
+            </div>
+            <div style="font-size: 0.75rem; color: #93c5fd;">
+              ✓ <strong>Missão:</strong> Coletar presença às 06h45 nos maiores colégios, supervisionar zerésima às 07h00 e apoiar fluxo de prioridades.
+            </div>
+          </div>
+
+          <!-- SETOR 2 -->
+          <div class="summary-card" style="border-left: 4px solid var(--gold); padding: 1.1rem;">
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.5rem;">
+              <strong style="color: var(--gold); font-size: 0.95rem;">🚙 Setor 2: Eixo Rodoviário BR-222 / Coque</strong>
+              <span class="badge" style="background: rgba(245, 158, 11, 0.2); color: var(--gold); font-size: 0.7rem; padding: 2px 6px; border-radius: 10px;">8 Locais | 21 Urnas</span>
+            </div>
+            <div style="font-size: 0.8rem; color: #cbd5e1; margin-bottom: 0.5rem;">
+              <strong>Equipe:</strong> Auxiliar Volante 2 &bull; <strong>Veículo c/ Urnas de Contingência</strong>
+            </div>
+            <div style="font-size: 0.78rem; color: var(--text-muted); line-height: 1.5; background: rgba(255,255,255,0.02); padding: 0.5rem; border-radius: 6px; margin-bottom: 0.5rem;">
+              <strong>Locais Cobertos:</strong> Nasser Assad (Coque), Creche Coque, Vila Falcão, Itelvino de Matos, Raimundo Bogéa, Hemetério Fernandes (Mato Grosso), Tirirical e Vila Nova.
+            </div>
+            <div style="font-size: 0.75rem; color: #fde68a;">
+              ✓ <strong>Missão Crítica:</strong> Às 16h45 estar presencialmente na Nasser Assad para garantir portão rigorosamente fechado às 17h00 e senhas.
+            </div>
+          </div>
+
+          <!-- SETOR 3 -->
+          <div class="summary-card" style="border-left: 4px solid #10b981; padding: 1.1rem;">
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.5rem;">
+              <strong style="color: #10b981; font-size: 0.95rem;">🚙 Setor 3: Ramais Vicinais de Terra / Carroçal</strong>
+              <span class="badge" style="background: rgba(16, 185, 129, 0.2); color: #10b981; font-size: 0.7rem; padding: 2px 6px; border-radius: 10px;">11 Locais | 19 Urnas</span>
+            </div>
+            <div style="font-size: 0.8rem; color: #cbd5e1; margin-bottom: 0.5rem;">
+              <strong>Equipe:</strong> Auxiliar Volante 3 &bull; <strong>Veículo 4x4 c/ Urnas de Contingência</strong>
+            </div>
+            <div style="font-size: 0.78rem; color: var(--text-muted); line-height: 1.5; background: rgba(255,255,255,0.02); padding: 0.5rem; border-radius: 6px; margin-bottom: 0.5rem;">
+              <strong>Locais Cobertos:</strong> Franklin Cantanhêde, Deodato Santos, Godofredo Maciel, José Ribamar Silva, José Carlos Mota, Izidoro Lopes, Paulo Maciel Neto, Abidão Rufino, Euzébio, Ipixuna e Escondido.
+            </div>
+            <div style="font-size: 0.75rem; color: #a7f3d0;">
+              ✓ <strong>Missão Crítica:</strong> Garantir zerésima matinal e encerramento às 17h00 em São Benedito (46,6 km) para liberar mototáxi sem atraso.
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- TABELA DA ESCALA OFICIAL DE VISTORIA DE ADH (DATA E HORA) -->
+      <div style="margin-top: 2rem; margin-bottom: 1.5rem;">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem; flex-wrap: wrap; gap: 8px;">
+          <div>
+            <h3 style="color: #fff; font-size: 1.15rem; margin: 0; display: flex; align-items: center; gap: 8px;">
+              ⏱️ Escala Oficial de Vistoria de ADH (Sábado) & Fiscalização de Campo (Domingo)
+            </h3>
+            <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.25rem;">
+              Controle dos 7 Técnicos e Servidores responsáveis pelo teste de Data/Hora na entrega das urnas e auditoria de Zerésima às 07h / Encerramento às 17h
+            </div>
+          </div>
+          <span style="font-size: 0.75rem; color: #38bdf8; background: rgba(56, 189, 248, 0.1); padding: 4px 10px; border-radius: 12px; border: 1px solid rgba(56, 189, 248, 0.3); font-weight: 600;">
+            7 Técnicos &bull; 32 Locais &bull; 96 Urnas Inspecionadas
+          </span>
+        </div>
+
+        <div class="table-container" style="overflow-x: auto; background: rgba(15, 23, 42, 0.6); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px;">
+          <table class="data-table" style="width: 100%; border-collapse: collapse; font-size: 0.82rem;">
+            <thead>
+              <tr style="background: rgba(30, 41, 59, 0.8); color: var(--text-muted); text-align: left;">
+                <th style="padding: 10px 12px;">Cód</th>
+                <th style="padding: 10px 12px;">Responsável Designado</th>
+                <th style="padding: 10px 12px;">Função / Cargo</th>
+                <th style="padding: 10px 12px;">Polo Operacional</th>
+                <th style="padding: 10px 12px;">Locais Cobertos</th>
+                <th style="padding: 10px 12px; text-align: center;">Urnas</th>
+                <th style="padding: 10px 12px;">Missão Principal</th>
+              </tr>
+            </thead>
+            <tbody id="adhTableBody">
+              <!-- Renderizado via JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         ABA 11: CONTROLE DE PRESENÇA NO DIA DA ELEIÇÃO & ESCALAS OFICIAIS
+         ==================================================================== -->
+    <section id="tab-presenca" class="tab-content">
+      <!-- BANNER DE DIRETRIZES OPERACIONAIS DE PRESENÇA -->
+      <div class="alert-box info" style="border-left: 4px solid #38bdf8; background: rgba(14, 165, 233, 0.08); padding: 1.25rem; border-radius: 8px; margin-bottom: 1.5rem;">
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+          <div style="font-size: 1.8rem; line-height: 1;">📋</div>
+          <div style="flex: 1;">
+            <div style="font-weight: 800; color: #fff; font-size: 1.05rem; margin-bottom: 0.35rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px;">
+              <span>CONTROLE DE APRESENTAÇÃO & PRESENÇA — ELEIÇÕES GERAIS 2026 (41ª ZE)</span>
+              <span style="font-size: 0.72rem; color: #38bdf8; background: rgba(56, 189, 248, 0.15); padding: 3px 8px; border-radius: 10px; border: 1px solid rgba(56, 189, 248, 0.3);">
+                426 CONVOCADOS OFICIAIS
+              </span>
+            </div>
+            <div style="font-size: 0.82rem; color: #cbd5e1; line-height: 1.6;">
+              Painel operacional para conferência matinal no dia da eleição de todos os colaboradores convocados. 
+              <strong>Diretrizes Inegociáveis da Zona Eleitoral:</strong>
+              <ul style="margin: 0.4rem 0 0 1.2rem; padding: 0;">
+                <li><strong style="color: var(--gold);">Zerésima às 07h00 em ponto:</strong> Havendo qualquer mesário ou adm de prédio no local, emite-se a zerésima imediatamente. Proibido aguardar colegas retardatários. Início da votação impreterivelmente às 08h00.</li>
+                <li><strong style="color: #f87171);">Encerramento às 17h00 em ponto:</strong> Não havendo eleitor na fila, fecha-se o portão e encerra-se a urna na mesma hora. Havendo fila às 17h, distribui-se senhas numéricas decrescentes, fecha-se o portão com cadeado e encerra-se assim que o último da senha votar.</li>
+                <li><strong style="color: #38bdf8;">Prioridade & Fluxo Ágil:</strong> Coordenadores de Acessibilidade e Adm de Prédio devem atuar para desobstruir corredores, priorizar idosos/PCDs e viabilizar a entrega instantânea das mídias ao mototaxista escalado.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- KPIS DE CONVOCAÇÃO E PRESENÇA -->
+      <div class="kpi-grid" style="margin-bottom: 1.5rem;">
+        <div class="kpi-card indigo">
+          <div class="kpi-header">
+            <span class="kpi-label">Mesários Convocados</span>
+            <div class="kpi-icon">🗳️</div>
+          </div>
+          <div class="kpi-value" id="kpiPresencaMesarios">376</div>
+          <div class="kpi-meta">
+            <span>94 Seções Principais (4 por mesa)</span>
+          </div>
+        </div>
+
+        <div class="kpi-card gold">
+          <div class="kpi-header">
+            <span class="kpi-label">Administradores de Prédio</span>
+            <div class="kpi-icon">🏢</div>
+          </div>
+          <div class="kpi-value" id="kpiPresencaAdms">32</div>
+          <div class="kpi-meta">
+            <span>100% dos locais cobertos</span>
+          </div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-header">
+            <span class="kpi-label">Coordenadores de Acessibilidade</span>
+            <div class="kpi-icon">♿</div>
+          </div>
+          <div class="kpi-value" id="kpiPresencaCoords">11</div>
+          <div class="kpi-meta">
+            <span>Polos e maiores colégios</span>
+          </div>
+        </div>
+
+        <div class="kpi-card success">
+          <div class="kpi-header">
+            <span class="kpi-label">Técnicos & Fiscais de ADH</span>
+            <div class="kpi-icon">⏱️</div>
+          </div>
+          <div class="kpi-value" id="kpiPresencaTecnicos">7</div>
+          <div class="kpi-meta">
+            <span>Sábado (ADH) & Domingo (Campo)</span>
+          </div>
+        </div>
+
+        <div class="kpi-card" style="border: 1px solid rgba(56, 189, 248, 0.4); background: rgba(56, 189, 248, 0.05);">
+          <div class="kpi-header">
+            <span class="kpi-label">Presença Confirmada</span>
+            <div class="kpi-icon">✅</div>
+          </div>
+          <div class="kpi-value" id="kpiPresencaConfirmada" style="color: #38bdf8;">0 / 426</div>
+          <div class="kpi-meta">
+            <span id="kpiPresencaPct" style="font-weight: 700; color: #38bdf8;">0.0% presente</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- PAINEL DE CONTROLE: PESQUISA, FILTROS E AÇÕES -->
+      <div class="card-panel" style="margin-bottom: 1.5rem;">
+        <div style="display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between;">
+          <!-- BARRA DE BUSCA -->
+          <div style="flex: 1; min-width: 280px; position: relative;">
+            <input type="text" id="presencaSearchInput" placeholder="🔍 Digite o nome, número da seção (ex: 1, 93) ou local de votação..." 
+              style="width: 100%; padding: 10px 14px; background: rgba(15, 23, 42, 0.8); border: 1px solid rgba(255,255,255,0.12); border-radius: 6px; color: #fff; font-size: 0.85rem; outline: none;">
+          </div>
+
+          <!-- BOTÕES DE AÇÃO -->
+          <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+            <button id="btnMarcarPresentesVisiveis" class="btn" style="background: rgba(16, 185, 129, 0.2); color: #10b981; border: 1px solid rgba(16, 185, 129, 0.4); padding: 8px 14px; font-size: 0.8rem; border-radius: 6px; cursor: pointer; font-weight: 600;">
+              ✓ Marcar Listados como Presentes
+            </button>
+            <button id="btnLimparPresencas" class="btn" style="background: rgba(239, 68, 68, 0.15); color: #f87171; border: 1px solid rgba(239, 68, 68, 0.3); padding: 8px 14px; font-size: 0.8rem; border-radius: 6px; cursor: pointer; font-weight: 600;">
+              🔄 Limpar Marcações
+            </button>
+            <button onclick="window.print()" class="btn" style="background: rgba(56, 189, 248, 0.2); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.4); padding: 8px 14px; font-size: 0.8rem; border-radius: 6px; cursor: pointer; font-weight: 600;">
+              🖨️ Imprimir / Relatório
+            </button>
+          </div>
+        </div>
+
+        <!-- FILTROS POR CATEGORIA -->
+        <div style="display: flex; gap: 6px; flex-wrap: wrap; margin-top: 1rem; border-top: 1px solid rgba(255,255,255,0.06); padding-top: 1rem;">
+          <button class="filter-chip active" data-filter-role="TODOS">Todos (<span id="countRoleTodos">426</span>)</button>
+          <button class="filter-chip" data-filter-role="MESARIO">Mesários (376)</button>
+          <button class="filter-chip" data-filter-role="PRESIDENTE">Presidentes de Mesa (94)</button>
+          <button class="filter-chip" data-filter-role="ADM_PREDIO">Administradores de Prédio (32)</button>
+          <button class="filter-chip" data-filter-role="COORD_ACESSO">Coordenadores de Acessibilidade (11)</button>
+          <button class="filter-chip" data-filter-role="TECNICO_ADH">Técnicos & Fiscais ADH (7)</button>
+          <button class="filter-chip" data-filter-status="PENDENTES" style="margin-left: auto; border-color: rgba(245, 158, 11, 0.4); color: var(--gold);">⚠️ Apenas Pendentes</button>
+        </div>
+      </div>
+
+      <!-- TABELA PRINCIPAL DE PRESENÇA -->
+      <div class="card-panel">
+        <div class="panel-header">
+          <div>
+            <div class="panel-title" id="presencaTableTitle">Escala Nominal Oficial de Convocados (376 Mesários, 32 Adms, 11 Coords e 7 Técnicos)</div>
+            <div class="panel-subtitle">Clique no checkbox ao lado do nome para registrar a apresentação presencial no dia do pleito (gravação instantânea)</div>
+          </div>
+          <span class="badge badge-info" id="presencaFilteredBadge">Exibindo 426 registros</span>
+        </div>
+
+        <div class="table-responsive">
+          <table class="data-table" id="presencaTable">
+            <thead>
+              <tr>
+                <th style="width: 50px; text-align: center;">Presença</th>
+                <th style="width: 90px;">Horário</th>
+                <th>Nome do Convocado</th>
+                <th>Função / Cargo</th>
+                <th>Seção</th>
+                <th>Local de Votação Atendido</th>
+                <th>Diretriz de Operação</th>
+              </tr>
+            </thead>
+            <tbody id="presencaTableBody">
+              <!-- Preenchido dinamicamente via JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       MODAL DE DETALHES DA SEÇÃO
+       ======================================================================== -->
+  <div class="modal-overlay" id="secaoModalOverlay">
+    <div class="modal-container">
+      <div class="modal-header">
+        <div>
+          <h3 id="modalSecaoTitle">Seção Eleitoral nº --</h3>
+          <div style="font-size: 0.8rem; color: var(--text-muted);" id="modalSecaoSubtitle">Local de Votação</div>
+        </div>
+        <button class="modal-close-btn" id="modalCloseBtn">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="metric-strip">
+          <div class="metric-pill">
+            <div class="lbl">Aptos 2026</div>
+            <div class="val" id="modalAptos">--</div>
+          </div>
+          <div class="metric-pill">
+            <div class="lbl">Tempo Médio Voto</div>
+            <div class="val" id="modalTempoVoto">--</div>
+          </div>
+          <div class="metric-pill">
+            <div class="lbl">Biometria (2024)</div>
+            <div class="val" id="modalBio">--</div>
+          </div>
+        </div>
+
+        <div style="margin-bottom: 1rem;">
+          <strong style="color: var(--blue-accent); font-size: 0.85rem;">AGREGAÇÃO E ACESSIBILIDADE:</strong>
+          <div style="font-size: 0.85rem; margin-top: 0.25rem;">
+            Seções Agregadas: <strong id="modalAgreg" style="color: #fff;">--</strong>
+          </div>
+          <div style="font-size: 0.85rem; margin-top: 0.25rem;">
+            Acessibilidade Oficial: <span id="modalAcessibilidade" style="color: var(--gold);">--</span>
+          </div>
+          <div style="font-size: 0.85rem; margin-top: 0.25rem;">
+            Classificação de Risco: <span id="modalRisco">--</span>
+          </div>
+        </div>
+
+        <div style="margin-bottom: 1rem; padding: 0.75rem; background: rgba(255,255,255,0.03); border-radius: 8px;">
+          <strong style="color: var(--blue-accent); font-size: 0.85rem;">HORÁRIOS & TRANSMISSÃO (LOGS 2024):</strong>
+          <div style="font-size: 0.85rem; margin-top: 0.25rem;">
+            Votos após às 17h: <strong id="modalVotos17" style="color: var(--status-danger);">--</strong>
+          </div>
+          <div style="font-size: 0.85rem; margin-top: 0.25rem;">
+            Horário Encerramento Urna: <span id="modalHorarioEnc">--</span> | BU Recebido SISTOT: <span id="modalHorarioBU">--</span>
+          </div>
+          <div style="font-size: 0.85rem; margin-top: 0.25rem;">
+            Atraso de Transmissão: <span id="modalAtrasoBU" style="font-weight: 700; color: var(--gold);">--</span>
+          </div>
+        </div>
+
+        <div style="margin-bottom: 0.5rem; padding: 0.75rem; background: rgba(255,255,255,0.03); border-radius: 8px;">
+          <strong style="color: var(--blue-accent); font-size: 0.85rem;">OCORRÊNCIAS REGISTRADAS:</strong>
+          <div style="font-size: 0.85rem; margin-top: 0.25rem;" id="modalFalhasMesario">--</div>
+          <div style="font-size: 0.85rem; margin-top: 0.25rem;" id="modalFalhasUrna">--</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       MODAL DO CROQUI HISTÓRICO (2018)
+       ======================================================================== -->
+  <div class="modal-overlay" id="mapaHistoricoModalOverlay">
+    <div class="modal-container" style="max-width: 1050px; width: 95vw; max-height: 92vh; overflow-y: auto;">
+      <div class="modal-header">
+        <div>
+          <h3 style="color: var(--gold); display: flex; align-items: center; gap: 8px;">
+            📜 Croqui Histórico da Malha Viária — 41ª ZE (Mapeamento de 2018)
+          </h3>
+          <div style="font-size: 0.8rem; color: var(--text-muted);">
+            Levantamento físico pioneiro in loco realizado por servidor requisitado em Vitória do Mearim / MA
+          </div>
+        </div>
+        <button class="modal-close-btn" id="modalMapaCloseBtn">&times;</button>
+      </div>
+      <div class="modal-body" style="padding: 1rem 1.5rem 1.5rem;">
+        <div style="text-align: center; background: #000; border-radius: 8px; padding: 0.5rem; border: 1px solid rgba(255,255,255,0.1);">
+          <img src="img/mapa_historico_2018.png" alt="Croqui Histórico 2018" style="width: 100%; height: auto; max-height: 70vh; object-fit: contain; display: block; margin: 0 auto;">
+        </div>
+        <div style="margin-top: 1rem; padding: 0.85rem; background: rgba(255,255,255,0.03); border-radius: 8px; font-size: 0.85rem; color: var(--text-muted); line-height: 1.6;">
+          <strong style="color: #fff;">Chave de Leitura Operacional:</strong>
+          <span style="color: var(--blue-accent);">Linha Dupla</span> = Rodovia Asfaltada &bull; 
+          <span style="color: var(--gold);">Linha Tracejada</span> = Estrada de Terra/Carroçal &bull; 
+          <strong>Círculo</strong> = Povoado &bull; 
+          <strong>Quadrado</strong> = Escola &bull; 
+          <strong>Anotações</strong> = Km Acumulado da Sede, Km do Trecho e Tempo em Odômetro.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts da Aplicação -->
+  <script src="js/data-payload.js"></script>
+  <script src="js/charts.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,280 @@
+import os
+import sys
+import json
+
+sys.stdout.reconfigure(encoding='utf-8')
+
+project_root = r'C:\Users\Diego William\OneDrive\Área de Trabalho\AIOS-WORKSPACE\projects\analise-logistica-ze041-vitoria-do-mearim'
+data_dir = os.path.join(project_root, 'data')
+
+# 1. As 10 Rotas das Vans (Recolhimento Pesado de Urnas e Malotes - Pós-2ª Vistoria Setembro/2026)
+rotas_vans = [
+    {
+        "rota": 1,
+        "veiculo": "Van ou similar",
+        "area": "Zona Rural",
+        "qtd_locais": 4,
+        "qtd_urnas": 8,
+        "locais": [
+            "Escola Municipal Franklin Cantanhêde (São Lourenço)",
+            "Escola Municipal Deodato Santos (São Lourenço)",
+            "Escola Municipal Godofredo Maciel (São Felix)",
+            "Escola Municipal José Ribamar Silva (Santa Rosa)"
+        ],
+        "km_asfalto": 103.0,
+        "km_picarra": 0.0,
+        "km_areial_carrocal": 161.7,
+        "km_total": 264.7,
+        "tempo_estimado": "06:40"
+    },
+    {
+        "rota": 2,
+        "veiculo": "Van ou similar",
+        "area": "Zona Rural",
+        "qtd_locais": 3,
+        "qtd_urnas": 7,
+        "locais": [
+            "Escola Mun. José Carlos Mota Silva (Sumaúma)",
+            "Escola Mun. Izidoro de Jesus Lopes (Livramento)",
+            "Colégio Municipal Paulo Maciel Neto (São Benedito)"
+        ],
+        "km_asfalto": 103.0,
+        "km_picarra": 0.0,
+        "km_areial_carrocal": 161.7,
+        "km_total": 264.7,
+        "tempo_estimado": "06:40"
+    },
+    {
+        "rota": 3,
+        "veiculo": "Van ou similar",
+        "area": "Zona Rural",
+        "qtd_locais": 3,
+        "qtd_urnas": 10,
+        "locais": [
+            "Escola Municipal Nasser Assad (Coque)",
+            "Creche Comunitária de Coque",
+            "Escola Municipal Vila Falcão (Coque)"
+        ],
+        "km_asfalto": 109.5,
+        "km_picarra": 0.0,
+        "km_areial_carrocal": 0.0,
+        "km_total": 109.5,
+        "tempo_estimado": "01:50"
+    },
+    {
+        "rota": 4,
+        "veiculo": "Van ou similar",
+        "area": "Zona Rural",
+        "qtd_locais": 2,
+        "qtd_urnas": 7,
+        "locais": [
+            "Escola Mun. Itelvino de Matos (Coque)",
+            "Escola Mun. Raimundo Bogéa (Coque)"
+        ],
+        "km_asfalto": 109.5,
+        "km_picarra": 0.0,
+        "km_areial_carrocal": 0.0,
+        "km_total": 109.5,
+        "tempo_estimado": "01:50"
+    },
+    {
+        "rota": 5,
+        "veiculo": "Van ou similar",
+        "area": "Zona Urbana",
+        "qtd_locais": 3,
+        "qtd_urnas": 19,
+        "locais": [
+            "Centro Educacional Cônego Eliud Nunes Arouche",
+            "CEMA Carlos Raimundo Figueiredo",
+            "Unidade Escolar Dr. Ribamar de Matos"
+        ],
+        "km_asfalto": 13.5,
+        "km_picarra": 0.0,
+        "km_areial_carrocal": 0.0,
+        "km_total": 13.5,
+        "tempo_estimado": "00:37"
+    },
+    {
+        "rota": 6,
+        "veiculo": "Van ou similar",
+        "area": "Zona Urbana",
+        "qtd_locais": 4,
+        "qtd_urnas": 20,
+        "locais": [
+            "Escola Municipal Antônia Farias",
+            "Jardim de Infância Mons. Artur Gonçalves",
+            "Colégio Municipal Ana Bogéa",
+            "Unidade Escolar Maria Graciana Pinto Costa"
+        ],
+        "km_asfalto": 13.5,
+        "km_picarra": 0.0,
+        "km_areial_carrocal": 0.0,
+        "km_total": 13.5,
+        "tempo_estimado": "00:37"
+    },
+    {
+        "rota": 7,
+        "veiculo": "Van ou similar",
+        "area": "Zona Urbana / Mista",
+        "qtd_locais": 5,
+        "qtd_urnas": 18,
+        "locais": [
+            "Unidade Escolar Neuza da Cunha Costa",
+            "Escola Municipal Maria Celeste Barros",
+            "Escola Municipal Mamédio da Silva Sarmento (Jacaray)",
+            "IEMA Pleno de Vitória do Mearim",
+            "Escola Municipal Francisco Xavier Correia (Jaguary)"
+        ],
+        "km_asfalto": 17.0,
+        "km_picarra": 0.0,
+        "km_areial_carrocal": 0.0,
+        "km_total": 17.0,
+        "tempo_estimado": "00:37"
+    },
+    {
+        "rota": 8,
+        "veiculo": "Van ou similar",
+        "area": "Zona Rural",
+        "qtd_locais": 2,
+        "qtd_urnas": 3,
+        "locais": [
+            "Colégio Municipal Hemetério Fernandes (Mato Grosso)",
+            "Escola Municipal Mauricia Fernandes Jardim (Povoado Escondido)"
+        ],
+        "km_asfalto": 53.0,
+        "km_picarra": 0.0,
+        "km_areial_carrocal": 9.0,
+        "km_total": 62.0,
+        "tempo_estimado": "01:00"
+    },
+    {
+        "rota": 9,
+        "veiculo": "Van ou similar",
+        "area": "Zona Rural",
+        "qtd_locais": 2,
+        "qtd_urnas": 2,
+        "locais": [
+            "Escola Municipal de Tirirical",
+            "Colégio Municipal Vila Nova"
+        ],
+        "km_asfalto": 53.0,
+        "km_picarra": 0.0,
+        "km_areial_carrocal": 9.0,
+        "km_total": 62.0,
+        "tempo_estimado": "01:00"
+    },
+    {
+        "rota": 10,
+        "veiculo": "Van ou similar",
+        "area": "Zona Rural Profunda",
+        "qtd_locais": 3,
+        "qtd_urnas": 3,
+        "locais": [
+            "Escola Municipal Abidão Rufino (Boca do Campo)",
+            "Colégio Municipal Euzébio do Nascimento (Juçaralzinho)",
+            "Escola Municipal de Ipixuna"
+        ],
+        "km_asfalto": 60.0,
+        "km_picarra": 0.0,
+        "km_areial_carrocal": 34.7,
+        "km_total": 94.7,
+        "tempo_estimado": "01:47"
+    }
+]
+
+# 2. As 31 Rotas de Mototáxi (Recolhimento Expresso de Mídias de Resultado - Pós-2ª Vistoria Setembro/2026)
+rotas_mototaxis = [
+    {"rota": 1, "num_local": 1589, "local": "Escola Municipal Franklin Cantanhêde (São Lourenço)", "area": "Zona Rural", "qtd_midias": 2, "km_asfalto": 5.0, "km_areial_carrocal": 8.0, "km_total": 13.0, "tempo_estimado": "00:46"},
+    {"rota": 2, "num_local": 1112, "local": "Escola Municipal Deodato Santos (São Lourenço)", "area": "Zona Rural", "qtd_midias": 1, "km_asfalto": 14.0, "km_areial_carrocal": 7.0, "km_total": 21.0, "tempo_estimado": "00:22"},
+    {"rota": 3, "num_local": 1287, "local": "Escola Municipal Godofredo Maciel (São Felix)", "area": "Zona Rural", "qtd_midias": 3, "km_asfalto": 14.0, "km_areial_carrocal": 18.3, "km_total": 32.3, "tempo_estimado": "00:38"},
+    {"rota": 4, "num_local": 1309, "local": "Escola Municipal José Ribamar Silva (Santa Rosa)", "area": "Zona Rural", "qtd_midias": 2, "km_asfalto": 14.0, "km_areial_carrocal": 29.8, "km_total": 43.8, "tempo_estimado": "01:04"},
+    {"rota": 5, "num_local": 1325, "local": "Colégio Municipal José Carlos Mota Silva (Sumaúma)", "area": "Zona Rural", "qtd_midias": 3, "km_asfalto": 14.0, "km_areial_carrocal": 21.8, "km_total": 35.8, "tempo_estimado": "00:59"},
+    {"rota": 6, "num_local": 1317, "local": "Escola Municipal Izidoro de Jesus Lopes (Livramento)", "area": "Zona Rural", "qtd_midias": 1, "km_asfalto": 14.0, "km_areial_carrocal": 19.9, "km_total": 33.9, "tempo_estimado": "00:42"},
+    {"rota": 7, "num_local": 1341, "local": "Escola Municipal Paulo Maciel Neto (São Benedito)", "area": "Zona Rural", "qtd_midias": 3, "km_asfalto": 14.0, "km_areial_carrocal": 32.6, "km_total": 46.6, "tempo_estimado": "01:12"},
+    {"rota": 8, "num_local": 1120, "local": "Escola Municipal Nasser Assad (Povoado Coque)", "area": "Zona Rural", "qtd_midias": 7, "km_asfalto": 21.6, "km_areial_carrocal": 0.0, "km_total": 21.6, "tempo_estimado": "00:21"},
+    {"rota": 9, "num_local": 1554, "local": "Creche Comunitária de Coque", "area": "Zona Rural", "qtd_midias": 1, "km_asfalto": 21.0, "km_areial_carrocal": 0.0, "km_total": 21.0, "tempo_estimado": "00:19"},
+    {"rota": 10, "num_local": 1562, "local": "Escola Municipal Vila Falcão (Coque)", "area": "Zona Rural", "qtd_midias": 2, "km_asfalto": 23.0, "km_areial_carrocal": 0.0, "km_total": 23.0, "tempo_estimado": "00:23"},
+    {"rota": 11, "num_local": 1368, "local": "Escola Municipal Itelvino de Matos (Coque)", "area": "Zona Rural", "qtd_midias": 5, "km_asfalto": 22.0, "km_areial_carrocal": 0.0, "km_total": 22.0, "tempo_estimado": "00:23"},
+    {"rota": 12, "num_local": 1570, "local": "Escola Municipal Raimundo Bogéa (Coque)", "area": "Zona Rural", "qtd_midias": 2, "km_asfalto": 21.9, "km_areial_carrocal": 0.0, "km_total": 21.9, "tempo_estimado": "00:24"},
+    {"rota": 13, "num_local": 1074, "local": "C.E. Cônego Eliud Nunes Arouche", "area": "Zona Urbana", "qtd_midias": 6, "km_asfalto": 1.5, "km_areial_carrocal": 0.0, "km_total": 1.5, "tempo_estimado": "00:05"},
+    {"rota": 14, "num_local": 1015, "local": "IEMA Pleno de Vitória do Mearim", "area": "Zona Urbana", "qtd_midias": 6, "km_asfalto": 4.0, "km_areial_carrocal": 0.0, "km_total": 4.0, "tempo_estimado": "00:05"},
+    {"rota": 15, "num_local": 1040, "local": "CEMA Carlos Raimundo Figueiredo", "area": "Zona Urbana", "qtd_midias": 6, "km_asfalto": 2.0, "km_areial_carrocal": 0.0, "km_total": 2.0, "tempo_estimado": "00:15"},
+    {"rota": 16, "num_local": 1481, "local": "Unidade Escolar Dr. Ribamar de Matos", "area": "Zona Urbana", "qtd_midias": 3, "km_asfalto": 2.5, "km_areial_carrocal": 0.0, "km_total": 2.5, "tempo_estimado": "00:06"},
+    {"rota": 17, "num_local": 1058, "local": "Escola Municipal Antônia Farias", "area": "Zona Urbana", "qtd_midias": 5, "km_asfalto": 1.5, "km_areial_carrocal": 0.0, "km_total": 1.5, "tempo_estimado": "00:05"},
+    {"rota": 18, "num_local": 1066, "local": "Jardim de Infância Mons. Artur Gonçalves", "area": "Zona Urbana", "qtd_midias": 4, "km_asfalto": 1.5, "km_areial_carrocal": 0.0, "km_total": 1.5, "tempo_estimado": "00:03"},
+    {"rota": 19, "num_local": 1023, "local": "Colégio Municipal Ana Bogéa", "area": "Zona Urbana", "qtd_midias": 7, "km_asfalto": 0.5, "km_areial_carrocal": 0.0, "km_total": 0.5, "tempo_estimado": "00:02"},
+    {"rota": 20, "num_local": 1627, "local": "Unidade Escolar Maria Graciana Pinto Costa", "area": "Zona Urbana", "qtd_midias": 4, "km_asfalto": 2.5, "km_areial_carrocal": 0.0, "km_total": 2.5, "tempo_estimado": "00:06"},
+    {"rota": 21, "num_local": 1473, "local": "Unidade Escolar Neuza da Cunha Costa", "area": "Zona Urbana", "qtd_midias": 4, "km_asfalto": 2.5, "km_areial_carrocal": 0.0, "km_total": 2.5, "tempo_estimado": "00:07"},
+    {"rota": 22, "num_local": 1490, "local": "Escola Municipal Maria Celeste Barros", "area": "Zona Urbana", "qtd_midias": 4, "km_asfalto": 2.5, "km_areial_carrocal": 0.0, "km_total": 2.5, "tempo_estimado": "00:07"},
+    {"rota": 23, "num_local": 1422, "local": "Escola Municipal Mamédio da Silva Sarmento (Jacaray)", "area": "Zona Rural", "qtd_midias": 2, "km_asfalto": 5.0, "km_areial_carrocal": 0.0, "km_total": 5.0, "tempo_estimado": "00:10"},
+    {"rota": 24, "num_local": 1104, "local": "Escola Municipal Francisco Xavier Correia (Jaguary)", "area": "Zona Rural", "qtd_midias": 2, "km_asfalto": 7.0, "km_areial_carrocal": 0.0, "km_total": 7.0, "tempo_estimado": "00:13"},
+    {"rota": 25, "num_local": 1503, "local": "Colégio Municipal Hemetério Fernandes (Mato Grosso)", "area": "Zona Rural", "qtd_midias": 2, "km_asfalto": 10.0, "km_areial_carrocal": 0.0, "km_total": 10.0, "tempo_estimado": "00:10"},
+    {"rota": 26, "num_local": 1660, "local": "Escola Municipal Maurícia Fernandes Jardim (Povoado Escondido)", "area": "Zona Rural", "qtd_midias": 1, "km_asfalto": 4.0, "km_areial_carrocal": 0.0, "km_total": 4.0, "tempo_estimado": "00:13"},
+    {"rota": 27, "num_local": 1635, "local": "Escola Municipal de Tirirical", "area": "Zona Rural", "qtd_midias": 1, "km_asfalto": 14.0, "km_areial_carrocal": 0.0, "km_total": 14.0, "tempo_estimado": "00:11"},
+    {"rota": 28, "num_local": 1465, "local": "Colégio Municipal Vila Nova", "area": "Zona Rural", "qtd_midias": 1, "km_asfalto": 25.0, "km_areial_carrocal": 0.0, "km_total": 25.0, "tempo_estimado": "00:25"},
+    {"rota": 29, "num_local": 1511, "local": "Escola Municipal Abidão Rufino (Boca do Campo)", "area": "Zona Rural", "qtd_midias": 1, "km_asfalto": 20.0, "km_areial_carrocal": 5.8, "km_total": 25.8, "tempo_estimado": "00:30"},
+    {"rota": 30, "num_local": 1457, "local": "Colégio Municipal Euzébio do Nascimento (Juçaralzinho)", "area": "Zona Rural", "qtd_midias": 1, "km_asfalto": 20.0, "km_areial_carrocal": 7.0, "km_total": 27.0, "tempo_estimado": "00:32"},
+    {"rota": 31, "num_local": 1619, "local": "Escola Municipal de Ipixuna", "area": "Zona Rural", "qtd_midias": 1, "km_asfalto": 20.0, "km_areial_carrocal": 21.9, "km_total": 41.9, "tempo_estimado": "00:45"}
+]
+
+# 3. A Exceção Estratégica: Escola Municipal de Juçaral (Local 1392)
+excecao_jucaral = {
+    "local": "Escola Municipal de Juçaral (Local 1392)",
+    "regime": "Suprimento de Fundos (Contratação Específica de Difícil Acesso)",
+    "gestao": "Servidora Responsável pelo Suprimento no Cartório Eleitoral",
+    "operacao_sabado": "Entrega antecipada de urna no sábado no local",
+    "operacao_domingo": "Recolhimento integral unificado ao término da votação (Mídia de Resultado + Urna + Malote trazidos juntos diretamente para o Cartório)",
+    "motivo": "Localidade isolada com condições de trafegabilidade severa, dispensando mototáxi avulso por segurança operacional"
+}
+
+# 4. Relação de Administradores de Prédio e Coordenadores de Acessibilidade (Editais 13 e 19/2026)
+apoio_logistico_locais = [
+    {"num_local": 1015, "nome_local": "IEMA", "adm": "Emilly Pereira Bruce", "coord_acesso": "Marinilce Marinho Maciel"},
+    {"num_local": 1023, "nome_local": "Colégio Municipal Ana Bogéa", "adm": "Administrador Nomeado (Edital 13)", "coord_acesso": "Coordenador Nomeado (Edital 13)"},
+    {"num_local": 1040, "nome_local": "CEMA Carlos Raimundo Figueiredo", "adm": "Administrador Nomeado (Edital 13)", "coord_acesso": "Coordenador Nomeado (Edital 13)"},
+    {"num_local": 1058, "nome_local": "Colégio Municipal Antônia Farias", "adm": "Administrador Nomeado (Edital 13)", "coord_acesso": "Coordenador Nomeado (Edital 13)"},
+    {"num_local": 1066, "nome_local": "Jardim de Infância Mons. Artur Gonçalves", "adm": "Safyra Stephany Silva Prazeres", "coord_acesso": "Ianca Michelly Marinho Maciel"},
+    {"num_local": 1074, "nome_local": "Centro Educacional Cônego Eliud", "adm": "Administrador Nomeado (Edital 13)", "coord_acesso": "Coordenador Nomeado (Edital 13)"},
+    {"num_local": 1104, "nome_local": "Escola Municipal Francisco Xavier Correia", "adm": "Ociane de Brito Alves", "coord_acesso": "Coordenador Zonal"},
+    {"num_local": 1112, "nome_local": "Escola Municipal Deodato Santos", "adm": "Maria de Fátima Maciel Batalha", "coord_acesso": "Coordenador Zonal"},
+    {"num_local": 1120, "nome_local": "Escola Municipal Nasser Assad", "adm": "Administrador Nomeado (Edital 13)", "coord_acesso": "Coordenador Nomeado (Edital 13)"},
+    {"num_local": 1287, "nome_local": "Colégio Municipal Godofredo Maciel", "adm": "Ariadne Ribeiro Campelo", "coord_acesso": "Coordenador Zonal"},
+    {"num_local": 1309, "nome_local": "Colégio Municipal José Ribamar Silva", "adm": "Ângela Maria Vale Abreu", "coord_acesso": "Coordenador Zonal"},
+    {"num_local": 1317, "nome_local": "Escola Municipal Izidoro de Jesus Lopes", "adm": "Administrador Nomeado (Edital 13)", "coord_acesso": "Coordenador Zonal"},
+    {"num_local": 1325, "nome_local": "Colégio Municipal José Carlos Mota Silva", "adm": "Teiziane de Jesus Rocha Reis", "coord_acesso": "Coordenador Zonal"},
+    {"num_local": 1341, "nome_local": "Escola Municipal Paulo Maciel Neto", "adm": "Eliene de Jesus Brito", "coord_acesso": "Coordenador Zonal"},
+    {"num_local": 1368, "nome_local": "Escola Municipal Itelvino de Matos", "adm": "Ana Rosa Rodrigues Falcão", "coord_acesso": "Antônia Márcia Santos Rodrigues"},
+    {"num_local": 1392, "nome_local": "Escola Municipal de Juçaral", "adm": "Responsável Suprimento de Fundos", "coord_acesso": "Apoio Local"},
+    {"num_local": 1422, "nome_local": "Escola Municipal Mámedio da Silva Sarmento", "adm": "Administrador Nomeado (Edital 13)", "coord_acesso": "Coordenador Zonal"},
+    {"num_local": 1457, "nome_local": "Colégio Municipal Euzébio do Nascimento", "adm": "Administrador Nomeado (Edital 13)", "coord_acesso": "Coordenador Zonal"},
+    {"num_local": 1465, "nome_local": "Colégio Municipal Vila Nova", "adm": "Administrador Nomeado (Edital 13)", "coord_acesso": "Coordenador Zonal"},
+    {"num_local": 1473, "nome_local": "Unidade Escolar Neuza da Cunha Costa", "adm": "Administrador Nomeado (Edital 13)", "coord_acesso": "Coordenador Nomeado (Edital 13)"},
+    {"num_local": 1481, "nome_local": "Unidade Escolar Dr. Ribamar de Matos", "adm": "Rian Silva Mesquita", "coord_acesso": "Coordenador Zonal"},
+    {"num_local": 1490, "nome_local": "Escola Municipal Maria Celeste Barros", "adm": "Giulianno Pereira de Sousa", "coord_acesso": "Maria Betânia Barbosa Batalha"},
+    {"num_local": 1503, "nome_local": "Colégio Municipal Hemetério Fernandes", "adm": "Elbiane da Conceição Ferreira", "coord_acesso": "Coordenador Zonal"},
+    {"num_local": 1511, "nome_local": "Escola Municipal Abidão Rufino da Silva", "adm": "Administrador Nomeado (Edital 13)", "coord_acesso": "Coordenador Zonal"},
+    {"num_local": 1554, "nome_local": "Creche Comunitária de Coque", "adm": "Administrador Nomeado (Edital 13)", "coord_acesso": "Coordenador Zonal"},
+    {"num_local": 1562, "nome_local": "Escola Municipal Vila Falcão", "adm": "Carlos Alessandro de Almeida Soares", "coord_acesso": "Coordenador Zonal"},
+    {"num_local": 1570, "nome_local": "Escola Municipal Raimundo Bogéa", "adm": "Morrames Oliveira da Silva", "coord_acesso": "Coordenador Zonal"},
+    {"num_local": 1589, "nome_local": "Escola Municipal Franklin Cantanhêde", "adm": "Geisielma Freitas Lopes", "coord_acesso": "Coordenador Zonal"},
+    {"num_local": 1619, "nome_local": "Escola Municipal de Ipixuna", "adm": "Administrador Nomeado (Edital 13)", "coord_acesso": "Coordenador Zonal"},
+    {"num_local": 1627, "nome_local": "Unidade Escolar Maria Graciana Pinto Costa", "adm": "Administrador Nomeado (Edital 13)", "coord_acesso": "Coordenador Nomeado (Edital 13)"},
+    {"num_local": 1635, "nome_local": "Escola Municipal de Tirirical", "adm": "Jaqueline Nunes Fonseca", "coord_acesso": "Coordenador Zonal"},
+    {"num_local": 1660, "nome_local": "Escola Municipal Maurícia Fernandes Jardim", "adm": "Administrador Nomeado (Edital 13)", "coord_acesso": "Coordenador Zonal"}
+]
+
+payload_logistica = {
+    "modelo_operacional": "Praticado e validado desde 2018 na 41ª ZE",
+    "fluxo_distribuicao_sabado": "Vans entregam urnas em todos os locais",
+    "fluxo_recolhimento_domingo_urnas": "10 Vans recolhem urnas e malotes com o Administrador de Prédio",
+    "fluxo_recolhimento_domingo_midias": "31 Mototáxis recolhem exclusivamente as mídias de resultado (MR) com o Administrador de Prédio",
+    "excecao_jucaral": excecao_jucaral,
+    "rotas_vans": rotas_vans,
+    "rotas_mototaxis": rotas_mototaxis,
+    "apoio_logistico_locais": apoio_logistico_locais
+}
+
+with open(os.path.join(data_dir, 'rotas_logistica_2026.json'), 'w', encoding='utf-8') as f:
+    json.dump(payload_logistica, f, ensure_ascii=False, indent=2)
+
+print("rotas_logistica_2026.json gerado com sucesso!")

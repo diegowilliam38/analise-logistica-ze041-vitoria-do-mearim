@@ -1,0 +1,68 @@
+[
+  {
+    "ano": 2016,
+    "tipo": "Municipal",
+    "aptos": 25978,
+    "comparecimento": 20316,
+    "abstencao": 5662,
+    "taxa_comparecimento_pct": 78.2,
+    "taxa_abstencao_pct": 21.8,
+    "secoes_principais": 86,
+    "locais": 28
+  },
+  {
+    "ano": 2018,
+    "tipo": "Geral",
+    "aptos": 26425,
+    "comparecimento": 18302,
+    "abstencao": 8123,
+    "taxa_comparecimento_pct": 69.26,
+    "taxa_abstencao_pct": 30.74,
+    "secoes_principais": 88,
+    "locais": 30
+  },
+  {
+    "ano": 2020,
+    "tipo": "Municipal",
+    "aptos": 26850,
+    "comparecimento": 20980,
+    "abstencao": 5870,
+    "taxa_comparecimento_pct": 78.14,
+    "taxa_abstencao_pct": 21.86,
+    "secoes_principais": 90,
+    "locais": 31
+  },
+  {
+    "ano": 2022,
+    "tipo": "Geral",
+    "aptos": 26746,
+    "comparecimento": 18358,
+    "abstencao": 8388,
+    "taxa_comparecimento_pct": 68.64,
+    "taxa_abstencao_pct": 31.36,
+    "secoes_principais": 92,
+    "locais": 32
+  },
+  {
+    "ano": 2024,
+    "tipo": "Municipal",
+    "aptos": 24838,
+    "comparecimento": 20462,
+    "abstencao": 4376,
+    "taxa_comparecimento_pct": 82.38,
+    "taxa_abstencao_pct": 17.62,
+    "secoes_principais": 90,
+    "locais": 32
+  },
+  {
+    "ano": 2026,
+    "tipo": "Geral (Projeção Edital 11)",
+    "aptos": 4593,
+    "comparecimento_projetado": 3169,
+    "abstencao_projetada": 1423,
+    "taxa_comparecimento_pct": 69.0,
+    "taxa_abstencao_pct": 31.0,
+    "secoes_principais": 18,
+    "locais": 7
+  }
+]

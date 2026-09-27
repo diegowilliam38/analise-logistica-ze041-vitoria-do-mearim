@@ -1,0 +1,248 @@
+{
+  "ano_pleito": 2026,
+  "zona": 41,
+  "municipio": "VITÓRIA DO MEARIM",
+  "total_locais": 7,
+  "total_secoes_principais": 18,
+  "total_aptos_previstos": 4593,
+  "locais": [
+    {
+      "num_local": "1015",
+      "nome": "Instituto Estadual de Educação, Ciência e Tecnologia do Maranhão",
+      "endereco": "MA-014, Povoado Jaguary",
+      "secoes_principais": [
+        "1",
+        "2",
+        "3",
+        "19"
+      ],
+      "total_aptos": 1018
+    },
+    {
+      "num_local": "1490",
+      "nome": "Escola Municipal Maria Celeste Barros",
+      "endereco": "Rua Carlos Raimundo Figueiredo – Manijituba",
+      "secoes_principais": [
+        "8",
+        "121",
+        "141",
+        "146"
+      ],
+      "total_aptos": 852
+    },
+    {
+      "num_local": "1627",
+      "nome": "Unidade Escolar Maria Graciana Pinto Costa",
+      "endereco": "Rua 1, Qd A6 – Bairro Vila Reginaldo",
+      "secoes_principais": [
+        "105",
+        "161",
+        "165",
+        "182"
+      ],
+      "total_aptos": 1094
+    },
+    {
+      "num_local": "1104",
+      "nome": "Escola Municipal Francisco Xavier Correia",
+      "endereco": "MA 014 – Povoado Jaguary",
+      "secoes_principais": [
+        "22",
+        "69"
+      ],
+      "total_aptos": 561
+    },
+    {
+      "num_local": "1562",
+      "nome": "Falcão",
+      "endereco": "Francisco S/N – Povoado Coque",
+      "secoes_principais": [
+        "164"
+      ],
+      "total_aptos": 210
+    },
+    {
+      "num_local": "1570",
+      "nome": "Escola Municipal Raimundo Bogéa",
+      "endereco": "Rua do Comercio S/N – Povoado Coque",
+      "secoes_principais": [
+        "155",
+        "184"
+      ],
+      "total_aptos": 572
+    },
+    {
+      "num_local": "1660",
+      "nome": "Escola Municipal Maurícia Fernandes Jardim",
+      "endereco": "Povoado Escondido",
+      "secoes_principais": [
+        "101"
+      ],
+      "total_aptos": 286
+    }
+  ],
+  "secoes": [
+    {
+      "num_local": "1015",
+      "nome_local": "Instituto Estadual de Educação, Ciência e Tecnologia do Maranhão",
+      "endereco": "Urbano Santos, nº 39 – Centro",
+      "secao_principal": 1,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 254,
+      "acessibilidade": "Convencional / AC / RE"
+    },
+    {
+      "num_local": "1015",
+      "nome_local": "Instituto Estadual de Educação, Ciência e Tecnologia do Maranhão",
+      "endereco": "Urbano Santos, nº 39 – Centro",
+      "secao_principal": 2,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 255,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1015",
+      "nome_local": "Instituto Estadual de Educação, Ciência e Tecnologia do Maranhão",
+      "endereco": "Urbano Santos, nº 39 – Centro",
+      "secao_principal": 3,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 257,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1015",
+      "nome_local": "Instituto Estadual de Educação, Ciência e Tecnologia do Maranhão",
+      "endereco": "Urbano Santos, nº 39 – Centro",
+      "secao_principal": 19,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 252,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1490",
+      "nome_local": "Escola Municipal Maria Celeste Barros",
+      "endereco": "Rua Carlos Raimundo Figueiredo – Manijituba",
+      "secao_principal": 8,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 213,
+      "acessibilidade": "Convencional / AC / RE"
+    },
+    {
+      "num_local": "1490",
+      "nome_local": "Escola Municipal Maria Celeste Barros",
+      "endereco": "Rua Carlos Raimundo Figueiredo – Manijituba",
+      "secao_principal": 121,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 214,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1490",
+      "nome_local": "Escola Municipal Maria Celeste Barros",
+      "endereco": "Rua Carlos Raimundo Figueiredo – Manijituba",
+      "secao_principal": 141,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 213,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1490",
+      "nome_local": "Escola Municipal Maria Celeste Barros",
+      "endereco": "Rua Carlos Raimundo Figueiredo – Manijituba",
+      "secao_principal": 146,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 212,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1627",
+      "nome_local": "Unidade Escolar Maria Graciana Pinto Costa",
+      "endereco": "Rua 1, Qd A6 – Bairro Vila Reginaldo",
+      "secao_principal": 105,
+      "secoes_agregadas": "150 e 170",
+      "aptos_urna": 281,
+      "acessibilidade": "Urna Agregadora / Origem Externa / AC / SA / RE"
+    },
+    {
+      "num_local": "1627",
+      "nome_local": "Unidade Escolar Maria Graciana Pinto Costa",
+      "endereco": "Rua 1, Qd A6 – Bairro Vila Reginaldo",
+      "secao_principal": 161,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 256,
+      "acessibilidade": "Convencional / AC / RE"
+    },
+    {
+      "num_local": "1627",
+      "nome_local": "Unidade Escolar Maria Graciana Pinto Costa",
+      "endereco": "Rua 1, Qd A6 – Bairro Vila Reginaldo",
+      "secao_principal": 165,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 282,
+      "acessibilidade": "Convencional / DV / RE"
+    },
+    {
+      "num_local": "1627",
+      "nome_local": "Unidade Escolar Maria Graciana Pinto Costa",
+      "endereco": "Rua 1, Qd A6 – Bairro Vila Reginaldo",
+      "secao_principal": 182,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 275,
+      "acessibilidade": "Convencional / DV / RE"
+    },
+    {
+      "num_local": "1104",
+      "nome_local": "Escola Municipal Francisco Xavier Correia",
+      "endereco": "MA 014 – Povoado Jaguary",
+      "secao_principal": 22,
+      "secoes_agregadas": "187",
+      "aptos_urna": 366,
+      "acessibilidade": "Urna Agregadora / AC / SA / RE"
+    },
+    {
+      "num_local": "1104",
+      "nome_local": "Escola Municipal Francisco Xavier Correia",
+      "endereco": "MA 014 – Povoado Jaguary",
+      "secao_principal": 69,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 195,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1562",
+      "nome_local": "Falcão",
+      "endereco": "Francisco S/N – Povoado Coque",
+      "secao_principal": 164,
+      "secoes_agregadas": "agregação",
+      "aptos_urna": 210,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1570",
+      "nome_local": "Escola Municipal Raimundo Bogéa",
+      "endereco": "Rua do Comercio S/N – Povoado Coque",
+      "secao_principal": 155,
+      "secoes_agregadas": "151",
+      "aptos_urna": 380,
+      "acessibilidade": "Urna Agregadora / AC / DV / SA / RE"
+    },
+    {
+      "num_local": "1570",
+      "nome_local": "Escola Municipal Raimundo Bogéa",
+      "endereco": "Rua do Comercio S/N – Povoado Coque",
+      "secao_principal": 184,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 192,
+      "acessibilidade": "Convencional / DV / RE"
+    },
+    {
+      "num_local": "1660",
+      "nome_local": "Escola Municipal Maurícia Fernandes Jardim",
+      "endereco": "Povoado Escondido",
+      "secao_principal": 101,
+      "secoes_agregadas": "171 e 181",
+      "aptos_urna": 286,
+      "acessibilidade": "Urna Agregadora / AC / SA / RE / Origem: 1660 e 1651"
+    }
+  ]
+}

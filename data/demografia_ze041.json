@@ -1,0 +1,99 @@
+{
+  "total_eleitores": 4593,
+  "faixas_etarias": [
+    {
+      "faixa": "16-17 anos (Facultativo Jovem)",
+      "quantidade": 650,
+      "pct": 2.6
+    },
+    {
+      "faixa": "18-24 anos",
+      "quantidade": 3480,
+      "pct": 14.1
+    },
+    {
+      "faixa": "25-34 anos",
+      "quantidade": 5820,
+      "pct": 23.5
+    },
+    {
+      "faixa": "35-44 anos",
+      "quantidade": 5120,
+      "pct": 20.7
+    },
+    {
+      "faixa": "45-59 anos",
+      "quantidade": 5260,
+      "pct": 21.2
+    },
+    {
+      "faixa": "60-69 anos",
+      "quantidade": 2510,
+      "pct": 10.1
+    },
+    {
+      "faixa": "70-79 anos (Facultativo Idoso)",
+      "quantidade": 1310,
+      "pct": 5.3
+    },
+    {
+      "faixa": "80+ anos (Facultativo Maior)",
+      "quantidade": 620,
+      "pct": 2.5
+    }
+  ],
+  "escolaridade": [
+    {
+      "grau": "Analfabeto",
+      "quantidade": 3210,
+      "pct": 12.9
+    },
+    {
+      "grau": "Lê e Escreve",
+      "quantidade": 4820,
+      "pct": 19.4
+    },
+    {
+      "grau": "Ensino Fundamental Incompleto",
+      "quantidade": 6940,
+      "pct": 27.9
+    },
+    {
+      "grau": "Ensino Fundamental Completo",
+      "quantidade": 1820,
+      "pct": 7.3
+    },
+    {
+      "grau": "Ensino Médio Incompleto",
+      "quantidade": 2240,
+      "pct": 9.0
+    },
+    {
+      "grau": "Ensino Médio Completo",
+      "quantidade": 4760,
+      "pct": 19.2
+    },
+    {
+      "grau": "Superior Incompleto",
+      "quantidade": 410,
+      "pct": 1.7
+    },
+    {
+      "grau": "Superior Completo",
+      "quantidade": 638,
+      "pct": 2.6
+    }
+  ],
+  "genero": [
+    {
+      "sexo": "Feminino",
+      "quantidade": 12690,
+      "pct": 51.1
+    },
+    {
+      "sexo": "Masculino",
+      "quantidade": 12148,
+      "pct": 48.9
+    }
+  ]
+}

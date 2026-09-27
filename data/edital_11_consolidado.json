@@ -1,0 +1,932 @@
+{
+  "ano_pleito": 2026,
+  "zona": 41,
+  "municipio": "VITÓRIA DO MEARIM",
+  "total_locais": 26,
+  "total_secoes_principais": 82,
+  "total_aptos_edital": 20970,
+  "locais": {
+    "1015": {
+      "num_local": "1015",
+      "texto_bruto": "Instituto Estadual de Educação, Ciência e Tecnologia do Maranhão Urbano Santos, nº 39 – Centro",
+      "secoes": [
+        1,
+        2,
+        3,
+        19,
+        84,
+        188
+      ],
+      "total_aptos": 1526
+    },
+    "1023": {
+      "num_local": "1023",
+      "texto_bruto": "Colégio Municipal Ana Bogéa Magalhães de Almeida – Centro",
+      "secoes": [
+        4,
+        5,
+        6,
+        7,
+        90,
+        94,
+        157
+      ],
+      "total_aptos": 2186
+    },
+    "1040": {
+      "num_local": "1040",
+      "texto_bruto": "CEMA Carlos Raimundo Figueiredo Bairro Centro",
+      "secoes": [
+        9,
+        10,
+        11,
+        80,
+        82,
+        148
+      ],
+      "total_aptos": 2162
+    },
+    "1058": {
+      "num_local": "1058",
+      "texto_bruto": "Colégio Municipal Antônia Farias Rua da Faveira – Bairro Puraqueu",
+      "secoes": [
+        12,
+        13,
+        83,
+        137,
+        183
+      ],
+      "total_aptos": 1250
+    },
+    "1066": {
+      "num_local": "1066",
+      "texto_bruto": "Jardim de Infância Mons. Artur Gonçalves Av. Antônio Nilo da Costa – Puraqueu",
+      "secoes": [
+        14,
+        15,
+        103,
+        186
+      ],
+      "total_aptos": 987
+    },
+    "1074": {
+      "num_local": "1074",
+      "texto_bruto": "Centro Educacional Cônego Eliud Nunes Arouche 2ª Travessa Urbano Santos – Manijituba",
+      "secoes": [
+        16,
+        17,
+        18,
+        93,
+        107,
+        159
+      ],
+      "total_aptos": 1532
+    },
+    "1473": {
+      "num_local": "1473",
+      "texto_bruto": "Unidade Escolar Neuza da Cunha Costa Coronel Gomes Bairro Itapui Tapera",
+      "secoes": [
+        20,
+        21,
+        185
+      ],
+      "total_aptos": 617
+    },
+    "1481": {
+      "num_local": "1481",
+      "texto_bruto": "Unidade Escolar Dr. Ribamar de Matos Rua da Faveira – Bairro Puraqueu",
+      "secoes": [
+        122,
+        149,
+        163
+      ],
+      "total_aptos": 869
+    },
+    "1490": {
+      "num_local": "1490",
+      "texto_bruto": "Escola Municipal Maria Celeste Barros Rua Carlos Raimundo Figueiredo – Manijituba",
+      "secoes": [
+        8,
+        121,
+        141,
+        146
+      ],
+      "total_aptos": 852
+    },
+    "1627": {
+      "num_local": "1627",
+      "texto_bruto": "Unidade Escolar Maria Graciana Pinto Costa Rua 1, Qd A6 – Bairro Vila Reginaldo",
+      "secoes": [
+        161,
+        165,
+        182
+      ],
+      "total_aptos": 813
+    },
+    "1104": {
+      "num_local": "1104",
+      "texto_bruto": "Escola Municipal Francisco Xavier Correia MA 014 – Povoado Jaguary",
+      "secoes": [
+        69
+      ],
+      "total_aptos": 195
+    },
+    "1120": {
+      "num_local": "1120",
+      "texto_bruto": "Escola Municipal Nasser Assad BR 222 – Povoado Coque",
+      "secoes": [
+        25,
+        26,
+        27,
+        28,
+        78,
+        85,
+        95
+      ],
+      "total_aptos": 1854
+    },
+    "1287": {
+      "num_local": "1287",
+      "texto_bruto": "Colégio Municipal Godofredo Maciel Povoado São Felix",
+      "secoes": [
+        62,
+        68,
+        179
+      ],
+      "total_aptos": 626
+    },
+    "1309": {
+      "num_local": "1309",
+      "texto_bruto": "Colégio Municipal José Ribamar Silva Povoado Santa Rosa",
+      "secoes": [
+        64,
+        65
+      ],
+      "total_aptos": 515
+    },
+    "1325": {
+      "num_local": "1325",
+      "texto_bruto": "Colégio Municipal José Carlos Mota Silva Povoado Sumaúma do Japão",
+      "secoes": [
+        81,
+        176
+      ],
+      "total_aptos": 494
+    },
+    "1341": {
+      "num_local": "1341",
+      "texto_bruto": "Escola Municipal Paulo Maciel Neto Povoado São Benedito",
+      "secoes": [
+        73,
+        89,
+        147
+      ],
+      "total_aptos": 689
+    },
+    "1368": {
+      "num_local": "1368",
+      "texto_bruto": "Escola Municipal Itelvino de Matos BR 222 – Povoado Coque",
+      "secoes": [
+        29,
+        30,
+        108,
+        143,
+        177
+      ],
+      "total_aptos": 1279
+    },
+    "1392": {
+      "num_local": "1392",
+      "texto_bruto": "Escola Municipal de Juçaral Povoado Juçaral",
+      "secoes": [
+        106
+      ],
+      "total_aptos": 163
+    },
+    "1422": {
+      "num_local": "1422",
+      "texto_bruto": "Escola Municipal Mámedio da Silva Sarmento MA 014 – Povoado Jacaray",
+      "secoes": [
+        104,
+        167
+      ],
+      "total_aptos": 472
+    },
+    "1457": {
+      "num_local": "1457",
+      "texto_bruto": "Colégio Municipal Euzebio do Nascimento dos Reis Povoado Juçaralzinho",
+      "secoes": [
+        117
+      ],
+      "total_aptos": 187
+    },
+    "1503": {
+      "num_local": "1503",
+      "texto_bruto": "Colégio Municipal Hemetério Fernandes Povoado Mato Grosso",
+      "secoes": [
+        144,
+        178
+      ],
+      "total_aptos": 412
+    },
+    "1511": {
+      "num_local": "1511",
+      "texto_bruto": "Escola Municipal Abidão Rufino da Silva Povoado Boca do Campo",
+      "secoes": [
+        142
+      ],
+      "total_aptos": 230
+    },
+    "1562": {
+      "num_local": "1562",
+      "texto_bruto": "Escola Municipal Vila Falcão Rua São Francisco S/N – Povoado Coque",
+      "secoes": [
+        152,
+        "agregação"
+      ],
+      "total_aptos": 420
+    },
+    "1570": {
+      "num_local": "1570",
+      "texto_bruto": "Escola Municipal Raimundo Bogéa Rua do Comercio S/N – Povoado Coque",
+      "secoes": [
+        184
+      ],
+      "total_aptos": 192
+    },
+    "1589": {
+      "num_local": "1589",
+      "texto_bruto": "Escola Municipal Franklin Cantanhêde Povoado São Lourenço",
+      "secoes": [
+        166
+      ],
+      "total_aptos": 247
+    },
+    "1635": {
+      "num_local": "1635",
+      "texto_bruto": "Escola Municipal de Tirirical Povoado Tirirical",
+      "secoes": [
+        162
+      ],
+      "total_aptos": 201
+    }
+  },
+  "secoes": [
+    {
+      "num_local": "1015",
+      "local_completo": "Instituto Estadual de Educação, Ciência e Tecnologia do Maranhão Urbano Santos, nº 39 – Centro",
+      "secao_principal": 1,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 254,
+      "acessibilidade": "Convencional / AC / RE"
+    },
+    {
+      "num_local": "1015",
+      "local_completo": "Instituto Estadual de Educação, Ciência e Tecnologia do Maranhão Urbano Santos, nº 39 – Centro",
+      "secao_principal": 2,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 255,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1015",
+      "local_completo": "Instituto Estadual de Educação, Ciência e Tecnologia do Maranhão Urbano Santos, nº 39 – Centro",
+      "secao_principal": 3,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 257,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1015",
+      "local_completo": "Instituto Estadual de Educação, Ciência e Tecnologia do Maranhão Urbano Santos, nº 39 – Centro",
+      "secao_principal": 19,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 252,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1015",
+      "local_completo": "Instituto Estadual de Educação, Ciência e Tecnologia do Maranhão Urbano Santos, nº 39 – Centro",
+      "secao_principal": 84,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 256,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1015",
+      "local_completo": "Instituto Estadual de Educação, Ciência e Tecnologia do Maranhão Urbano Santos, nº 39 – Centro",
+      "secao_principal": 188,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 252,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1023",
+      "local_completo": "Colégio Municipal Ana Bogéa Magalhães de Almeida – Centro",
+      "secao_principal": 4,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 314,
+      "acessibilidade": "Convencional / AC / DV / RE"
+    },
+    {
+      "num_local": "1023",
+      "local_completo": "Colégio Municipal Ana Bogéa Magalhães de Almeida – Centro",
+      "secao_principal": 5,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 314,
+      "acessibilidade": "Convencional / DV / RE"
+    },
+    {
+      "num_local": "1023",
+      "local_completo": "Colégio Municipal Ana Bogéa Magalhães de Almeida – Centro",
+      "secao_principal": 6,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 312,
+      "acessibilidade": "Convencional / DV / RE"
+    },
+    {
+      "num_local": "1023",
+      "local_completo": "Colégio Municipal Ana Bogéa Magalhães de Almeida – Centro",
+      "secao_principal": 7,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 311,
+      "acessibilidade": "Convencional / DV / RE"
+    },
+    {
+      "num_local": "1023",
+      "local_completo": "Colégio Municipal Ana Bogéa Magalhães de Almeida – Centro",
+      "secao_principal": 90,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 315,
+      "acessibilidade": "Convencional / DV / RE"
+    },
+    {
+      "num_local": "1023",
+      "local_completo": "Colégio Municipal Ana Bogéa Magalhães de Almeida – Centro",
+      "secao_principal": 94,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 309,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1023",
+      "local_completo": "Colégio Municipal Ana Bogéa Magalhães de Almeida – Centro",
+      "secao_principal": 157,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 311,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1040",
+      "local_completo": "CEMA Carlos Raimundo Figueiredo Bairro Centro",
+      "secao_principal": 9,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 362,
+      "acessibilidade": "Convencional / AC / RE"
+    },
+    {
+      "num_local": "1040",
+      "local_completo": "CEMA Carlos Raimundo Figueiredo Bairro Centro",
+      "secao_principal": 10,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 363,
+      "acessibilidade": "Convencional / DV / RE"
+    },
+    {
+      "num_local": "1040",
+      "local_completo": "CEMA Carlos Raimundo Figueiredo Bairro Centro",
+      "secao_principal": 11,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 362,
+      "acessibilidade": "Convencional / DV / RE"
+    },
+    {
+      "num_local": "1040",
+      "local_completo": "CEMA Carlos Raimundo Figueiredo Bairro Centro",
+      "secao_principal": 80,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 357,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1040",
+      "local_completo": "CEMA Carlos Raimundo Bairro Centro",
+      "secao_principal": 82,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 360,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1040",
+      "local_completo": "CEMA Carlos Raimundo Figueiredo Bairro Centro",
+      "secao_principal": 148,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 358,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1058",
+      "local_completo": "Colégio Municipal Antônia Farias Rua da Faveira – Bairro Puraqueu",
+      "secao_principal": 12,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 250,
+      "acessibilidade": "Convencional / AC / RE"
+    },
+    {
+      "num_local": "1058",
+      "local_completo": "Colégio Municipal Antônia Farias Rua da Faveira – Bairro Puraqueu",
+      "secao_principal": 13,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 249,
+      "acessibilidade": "Convencional / DV / RE"
+    },
+    {
+      "num_local": "1058",
+      "local_completo": "Colégio Municipal Antônia Farias Rua da Faveira – Bairro Puraqueu",
+      "secao_principal": 83,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 249,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1058",
+      "local_completo": "Colégio Municipal Antônia Farias Rua da Faveira – Bairro Puraqueu",
+      "secao_principal": 137,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 251,
+      "acessibilidade": "Convencional / DV / RE"
+    },
+    {
+      "num_local": "1058",
+      "local_completo": "Colégio Municipal Antônia Farias Rua da Faveira – Bairro Puraqueu",
+      "secao_principal": 183,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 251,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1066",
+      "local_completo": "Jardim de Infância Mons. Artur Gonçalves Av. Antônio Nilo da Costa – Puraqueu",
+      "secao_principal": 14,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 248,
+      "acessibilidade": "Convencional / AC / RE"
+    },
+    {
+      "num_local": "1066",
+      "local_completo": "Jardim de Infância Mons. Artur Gonçalves Av. Antônio Nilo da Costa – Puraqueu",
+      "secao_principal": 15,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 248,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1066",
+      "local_completo": "Jardim de Infância Mons. Artur Gonçalves Av. Antônio Nilo da Costa – Puraqueu",
+      "secao_principal": 103,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 247,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1066",
+      "local_completo": "Jardim de Infância Mons. Artur Gonçalves Av. Antônio Nilo da Costa – Puraqueu",
+      "secao_principal": 186,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 244,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1074",
+      "local_completo": "Centro Educacional Cônego Eliud Nunes Arouche 2ª Travessa Urbano Santos – Manijituba",
+      "secao_principal": 16,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 258,
+      "acessibilidade": "Convencional / AC / RE"
+    },
+    {
+      "num_local": "1074",
+      "local_completo": "Centro Educacional Cônego Eliud Nunes Arouche 2ª Travessa Urbano Santos – Manijituba",
+      "secao_principal": 17,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 259,
+      "acessibilidade": "Convencional / DV / RE"
+    },
+    {
+      "num_local": "1074",
+      "local_completo": "Cônego Eliud Nunes Arouche Santos – Manijituba",
+      "secao_principal": 18,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 251,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1074",
+      "local_completo": "Centro Educacional Cônego Eliud Nunes Arouche 2ª Travessa Urbano Santos – Manijituba",
+      "secao_principal": 93,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 256,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1074",
+      "local_completo": "Centro Educacional Cônego Eliud Nunes Arouche 2ª Travessa Urbano Santos – Manijituba",
+      "secao_principal": 107,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 252,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1074",
+      "local_completo": "Centro Educacional Cônego Eliud Nunes Arouche 2ª Travessa Urbano Santos – Manijituba",
+      "secao_principal": 159,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 256,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1473",
+      "local_completo": "Unidade Escolar Neuza da Cunha Costa Coronel Gomes Bairro Itapui Tapera",
+      "secao_principal": 20,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 204,
+      "acessibilidade": "Convencional / AC / DV / RE"
+    },
+    {
+      "num_local": "1473",
+      "local_completo": "Unidade Escolar Neuza da Cunha Costa Coronel Gomes Bairro Itapui Tapera",
+      "secao_principal": 21,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 210,
+      "acessibilidade": "Convencional / DV / RE"
+    },
+    {
+      "num_local": "1473",
+      "local_completo": "Unidade Escolar Neuza da Cunha Costa Coronel Gomes Bairro Itapui Tapera",
+      "secao_principal": 185,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 203,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1481",
+      "local_completo": "Unidade Escolar Dr. Ribamar de Matos Rua da Faveira – Bairro Puraqueu",
+      "secao_principal": 122,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 291,
+      "acessibilidade": "Convencional / AC / DV / RE"
+    },
+    {
+      "num_local": "1481",
+      "local_completo": "Unidade Escolar Dr. Ribamar de Matos Rua da Faveira – Bairro Puraqueu",
+      "secao_principal": 149,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 293,
+      "acessibilidade": "Convencional / DV / RE"
+    },
+    {
+      "num_local": "1481",
+      "local_completo": "Unidade Escolar Dr. Ribamar de Matos Rua da Faveira – Bairro Puraqueu",
+      "secao_principal": 163,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 285,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1490",
+      "local_completo": "Escola Municipal Maria Celeste Barros Rua Carlos Raimundo Figueiredo – Manijituba",
+      "secao_principal": 8,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 213,
+      "acessibilidade": "Convencional / AC / RE"
+    },
+    {
+      "num_local": "1490",
+      "local_completo": "Escola Municipal Maria Celeste Barros Rua Carlos Raimundo Figueiredo – Manijituba",
+      "secao_principal": 121,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 214,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1490",
+      "local_completo": "Escola Municipal Maria Celeste Barros Rua Carlos Raimundo Figueiredo – Manijituba",
+      "secao_principal": 141,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 213,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1490",
+      "local_completo": "Escola Municipal Maria Celeste Barros Rua Carlos Raimundo Figueiredo – Manijituba",
+      "secao_principal": 146,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 212,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1627",
+      "local_completo": "Unidade Escolar Maria Graciana Pinto Costa Rua 1, Qd A6 – Bairro Vila Reginaldo",
+      "secao_principal": 161,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 256,
+      "acessibilidade": "Convencional / AC / RE"
+    },
+    {
+      "num_local": "1627",
+      "local_completo": "Unidade Escolar Maria Graciana Pinto Costa Rua 1, Qd A6 – Bairro Vila Reginaldo",
+      "secao_principal": 165,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 282,
+      "acessibilidade": "Convencional / DV / RE"
+    },
+    {
+      "num_local": "1627",
+      "local_completo": "Unidade Escolar Maria Graciana Pinto Costa Rua 1, Qd A6 – Bairro Vila Reginaldo",
+      "secao_principal": 182,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 275,
+      "acessibilidade": "Convencional / DV / RE"
+    },
+    {
+      "num_local": "1104",
+      "local_completo": "Escola Municipal Francisco Xavier Correia MA 014 – Povoado Jaguary",
+      "secao_principal": 69,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 195,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1120",
+      "local_completo": "Escola Municipal Nasser Assad BR 222 – Povoado Coque",
+      "secao_principal": 25,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 266,
+      "acessibilidade": "Convencional / AC /"
+    },
+    {
+      "num_local": "1120",
+      "local_completo": "Escola Municipal Nasser Assad BR 222 – Povoado Coque",
+      "secao_principal": 26,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 268,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1120",
+      "local_completo": "Escola Municipal Nasser Assad BR 222 – Povoado Coque",
+      "secao_principal": 27,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 264,
+      "acessibilidade": "Convencional / DV /"
+    },
+    {
+      "num_local": "1120",
+      "local_completo": "Escola Municipal Nasser Assad BR 222 – Povoado Coque",
+      "secao_principal": 28,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 265,
+      "acessibilidade": "Convencional / DV /"
+    },
+    {
+      "num_local": "1120",
+      "local_completo": "Escola Municipal Nasser Assad BR 222 – Povoado Coque",
+      "secao_principal": 78,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 264,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1120",
+      "local_completo": "Escola Municipal Nasser Assad BR 222 – Povoado Coque",
+      "secao_principal": 85,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 263,
+      "acessibilidade": "Convencional / DV /"
+    },
+    {
+      "num_local": "1120",
+      "local_completo": "Escola Municipal Nasser Assad BR 222 – Povoado Coque",
+      "secao_principal": 95,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 264,
+      "acessibilidade": "Convencional / DV /"
+    },
+    {
+      "num_local": "1287",
+      "local_completo": "Colégio Municipal Godofredo Maciel Povoado São Felix",
+      "secao_principal": 62,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 208,
+      "acessibilidade": "Convencional / AC /"
+    },
+    {
+      "num_local": "1287",
+      "local_completo": "Colégio Municipal Godofredo Maciel Povoado São Felix",
+      "secao_principal": 68,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 209,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1287",
+      "local_completo": "Colégio Municipal Godofredo Maciel Povoado São Felix",
+      "secao_principal": 179,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 209,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1309",
+      "local_completo": "Colégio Municipal José Ribamar Silva Povoado Santa Rosa",
+      "secao_principal": 64,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 257,
+      "acessibilidade": "Convencional / AC /"
+    },
+    {
+      "num_local": "1309",
+      "local_completo": "Colégio Municipal José Ribamar Silva Povoado Santa Rosa",
+      "secao_principal": 65,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 258,
+      "acessibilidade": "Convencional / DV /"
+    },
+    {
+      "num_local": "1325",
+      "local_completo": "Colégio Municipal José Carlos Mota Silva Povoado Sumaúma do Japão",
+      "secao_principal": 81,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 246,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1325",
+      "local_completo": "Colégio Municipal José Carlos Mota Silva Povoado Sumaúma do Japão",
+      "secao_principal": 176,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 248,
+      "acessibilidade": "Convencional / DV /"
+    },
+    {
+      "num_local": "1341",
+      "local_completo": "Escola Municipal Paulo Maciel Neto Povoado São Benedito",
+      "secao_principal": 73,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 227,
+      "acessibilidade": "Convencional / AC /"
+    },
+    {
+      "num_local": "1341",
+      "local_completo": "Escola Municipal Paulo Maciel Neto Povoado São Benedito",
+      "secao_principal": 89,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 231,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1341",
+      "local_completo": "Escola Municipal Paulo Maciel Neto Povoado São Benedito",
+      "secao_principal": 147,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 231,
+      "acessibilidade": "Convencional / DV /"
+    },
+    {
+      "num_local": "1368",
+      "local_completo": "Escola Municipal Itelvino de Matos BR 222 – Povoado Coque",
+      "secao_principal": 29,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 255,
+      "acessibilidade": "Convencional / AC /"
+    },
+    {
+      "num_local": "1368",
+      "local_completo": "Escola Municipal Itelvino de Matos BR 222 – Povoado Coque",
+      "secao_principal": 30,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 257,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1368",
+      "local_completo": "Escola Municipal Itelvino de Matos BR 222 – Povoado Coque",
+      "secao_principal": 108,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 257,
+      "acessibilidade": "Convencional / DV /"
+    },
+    {
+      "num_local": "1368",
+      "local_completo": "Escola Municipal Itelvino de Matos BR 222 – Povoado Coque",
+      "secao_principal": 143,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 254,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1368",
+      "local_completo": "Escola Municipal Itelvino de Matos BR 222 – Povoado Coque",
+      "secao_principal": 177,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 256,
+      "acessibilidade": "Convencional / DV /"
+    },
+    {
+      "num_local": "1392",
+      "local_completo": "Escola Municipal de Juçaral Povoado Juçaral",
+      "secao_principal": 106,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 163,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1422",
+      "local_completo": "Escola Municipal Mámedio da Silva Sarmento MA 014 – Povoado Jacaray",
+      "secao_principal": 104,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 235,
+      "acessibilidade": "Convencional / AC /"
+    },
+    {
+      "num_local": "1422",
+      "local_completo": "Escola Municipal Mámedio da Silva Sarmento MA 014 – Povoado Jacaray",
+      "secao_principal": 167,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 237,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1457",
+      "local_completo": "Colégio Municipal Euzebio do Nascimento dos Reis Povoado Juçaralzinho",
+      "secao_principal": 117,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 187,
+      "acessibilidade": "Convencional / DV /"
+    },
+    {
+      "num_local": "1503",
+      "local_completo": "Colégio Municipal Hemetério Fernandes Povoado Mato Grosso",
+      "secao_principal": 144,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 207,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1503",
+      "local_completo": "Colégio Municipal Hemetério Fernandes Povoado Mato Grosso",
+      "secao_principal": 178,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 205,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1511",
+      "local_completo": "Escola Municipal Abidão Rufino da Silva Povoado Boca do Campo",
+      "secao_principal": 142,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 230,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1562",
+      "local_completo": "Escola Municipal Vila Falcão Rua São Francisco S/N – Povoado Coque",
+      "secao_principal": 152,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 210,
+      "acessibilidade": "Convencional / AC /"
+    },
+    {
+      "num_local": "1562",
+      "local_completo": "Falcão Francisco S/N – Povoado Coque 164",
+      "secao_principal": "agregação",
+      "secoes_agregadas": "",
+      "aptos_urna": 210,
+      "acessibilidade": "Convencional / RE"
+    },
+    {
+      "num_local": "1570",
+      "local_completo": "Escola Municipal Raimundo Bogéa Rua do Comercio S/N – Povoado Coque",
+      "secao_principal": 184,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 192,
+      "acessibilidade": "Convencional / DV /"
+    },
+    {
+      "num_local": "1589",
+      "local_completo": "Escola Municipal Franklin Cantanhêde Povoado São Lourenço",
+      "secao_principal": 166,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 247,
+      "acessibilidade": "Convencional / DV /"
+    },
+    {
+      "num_local": "1635",
+      "local_completo": "Escola Municipal de Tirirical Povoado Tirirical",
+      "secao_principal": 162,
+      "secoes_agregadas": "Sem agregação",
+      "aptos_urna": 201,
+      "acessibilidade": "Convencional / RE"
+    }
+  ]
+}

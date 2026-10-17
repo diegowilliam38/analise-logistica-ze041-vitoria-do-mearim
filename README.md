@@ -64,9 +64,12 @@ projects/analise-logistica-ze041-vitoria-do-mearim/
 │   ├── 003-equipe-apoio-contingencia-story.md
 │   ├── 003-equipe-apoio-contingencia-spec.md
 │   ├── 004-auditoria-presenca-mesarios-adms-story.md
-│   └── 004-auditoria-presenca-mesarios-adms-spec.md
+│   ├── 004-auditoria-presenca-mesarios-adms-spec.md
+│   ├── 005-diagnostico-1turno-e-planejamento-2turno-story.md
+│   └── 005-diagnostico-1turno-e-planejamento-2turno-spec.md
 │
 ├── data/                                 # Datasets higienizados e consolidados
+│   ├── resultado_consolidado_1turno_2026.json # Dados oficiais do 1º Turno (04/10/2026), 94 seções, gargalos e benchmark
 │   ├── ze041_inteligencia_consolidada.json  # 94 seções principais & 32 locais cruzados (IEMA atualizado)
 │   ├── logistica_consolidada_2026.json      # 7 rotas carga, 31 motos, 32 adms, 11 coord acessibilidade, Suprimento Juçaral
 │   ├── escala_adh_tecnicos_2026.json        # 7 responsáveis oficiais com escala de seções
@@ -84,14 +87,14 @@ projects/analise-logistica-ze041-vitoria-do-mearim/
 │   └── generate_web_bundle.py            # Gerador do bundle offline para web (data-payload.js)
 │
 ├── web/                                  # Cockpit e Dashboard Web Interativo
-│   ├── index.html                        # Interface de comando (11 abas temáticas)
+│   ├── index.html                        # Interface de comando (12 abas temáticas)
 │   ├── css/styles.css                    # Design System Dark Navy/Slate/Gold + Mídia Print
 │   ├── img/mapa_historico_2018.png       # Croqui pioneiro escaneado e rotacionado
 │   └── js/
-│       ├── data-payload.js               # Base de dados unificada offline (578 KB)
+│       ├── data-payload.js               # Base de dados unificada offline (618 KB)
 │       ├── charts.js                     # Gráficos de performance (Chart.js)
 │       ├── map.js                        # Mapa geoespacial Leaflet + rotas Google Maps
-│       └── app.js                        # Lógica da aplicação, navegação e Controle de Presença
+│       └── app.js                        # Lógica da aplicação, navegação, Presença e 2º Turno
 └── RELATORIO_ESTRATEGICO_LOGISTICA_ZE041.md  # Relatório completo para Juízo e Chefia
 ```
 
@@ -107,6 +110,12 @@ python -m http.server 8899 --directory "web"
 
 ### Abas em Destaque no Cockpit:
 * **Cockpit Geral:** Indicadores-chave, contagem regressiva e distribuição de risco.
+* **1º Turno Real & Estratégia 2º Turno (Novo!):**
+  - **Dados Oficiais TSE (Acompanha-E & SISTOT):** 24.458 Aptos, 19.338 Votantes (79,06%), Abstenção de 21,85% (5.345 eleitores).
+  - **Pontualidade Real:** 1º Encerramento às 17:00:00; 1º BU recebido no Cartório às 17:42:45 (Mons. Artur Gonçalves).
+  - **Auditoria do Gargalo:** Último encerramento às 19:52:31 na Seção 155 (EM Raimundo Bogéa - Coque), totalizando às 20:55:14.
+  - **Benchmarking Regional:** Vitória do Mearim concluiu antes das 21h, superando amplamente cidades vizinhas como Cajari (01:56 da madrugada seguinte), Viana (01:40), Cantanhede (21:55) e Pinheiro (21:25).
+  - **Matriz de Ação 2º Turno:** Votação expressa de apenas 2 cargos (~18s por eleitor) e 5 ações de intervenção para cravar a totalização às **19h15**.
 * **Mapa Geoespacial:** Coordenadas GPS, links do Google Maps ao vivo e raio de alcance.
 * **94 Seções Principais & 32 Locais:** Visão detalhada de cada seção e local do Edital 20/2026.
 * **Logística de Campo:** As 7 Rotas Oficiais de Carga (veículos, placas e motoristas), 31 Mototáxis (condutores e placas) e 32 Administradores de Prédio.
@@ -114,5 +123,6 @@ python -m http.server 8899 --directory "web"
 * **Transmissão de BU & Histórico:** Análise da janela de apuração e comparativo 2016-2026.
 * **Plano Tático Operacional:** Dimensionamento de filas e contingências.
 * **Treinamento (14-18/Set):** Cronograma de capacitação, 4 Mandamentos e Escala Oficial de Vistoria de ADH (sábado/domingo).
-* **Controle de Presença & Escalas:** Acompanhamento em tempo real no dia da eleição dos 426 convocados (376 mesários, 32 administradores de prédio, 11 coordenadores de acessibilidade e 7 fiscais de ADH) com gravação de horários e persistência local.
+* **Controle de Presença & Escalas:** Acompanhamento em tempo real no dia da eleição dos 426 convocados com gravação de horários e persistência local.
+
 

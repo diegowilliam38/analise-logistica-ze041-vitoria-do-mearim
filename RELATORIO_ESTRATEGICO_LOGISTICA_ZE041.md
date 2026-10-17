@@ -414,5 +414,49 @@ Conforme normatização da 41ª ZE, foi consolidado o **Módulo Operacional de A
 ```
 
 ---
-*Relatório Estratégico Zonal atualizado com os Editais nº 11, 13, 19 e 20/2026 para o Juízo Eleitoral e Chefia de Cartório da 41ª ZE — Vitória do Mearim / MA.*
+
+## 13. DIAGNÓSTICO FORENSE DO 1º TURNO (04/10/2026) & PLANO TÁTICO PARA O 2º TURNO (25/10/2026)
+
+Com a realização do 1º Turno das Eleições Gerais de 2026 no dia 04/10/2026, os dados reais do sistema **Acompanha-E (TSE)** e do **SISTOT** foram extraídos e auditados, permitindo uma análise pós-ação exata da performance da 41ª Zona Eleitoral.
+
+### 13.1 Indicadores Oficiais Consolidados (TSE / SISTOT)
+* **Eleitorado Apto:** 24.458 eleitores.
+* **Comparecimento Oficial:** 19.338 votantes (**79,06%** de presença).
+* **Abstenção:** 5.345 eleitores (**21,85%** — uma das menores taxas da Baixada Maranhense).
+* **1º Encerramento de Urna:** Rigorosamente às **17:00:00** (Jardim de Infância Mons. Artur Gonçalves).
+* **1º BU Recebido no Cartório:** **17:42:45** (Seção 14 - Mons. Artur Gonçalves).
+* **Último Encerramento de Urna (Gargalo Chave):** **19:52:31** (Seção 155 - Escola Municipal Raimundo Bogéa no Povoado Coque).
+* **Conclusão da Transmissão:** **20:28:10**.
+* **Totalização Oficial ZE041 (100% Apurado):** **20:55:14**.
+
+### 13.2 Análise dos Principais Gargalos de Filas Pós-17h
+A auditoria revelou que das 94 seções, a esmagadora maioria encerrou antes das 17h15. Contudo, 12 seções enfrentaram filas prolongadas após as 17h, destacando-se:
+1. **Seção 155 (EM Raimundo Bogéa - Coque):** Encerrou às **19:52:31** (+2h52min de fila; 380 aptos e 292 votantes). Esta única urna atrasou a transmissão da Rota 07 e manteve o município aberto até as 20h55.
+2. **Seção 119 (UE Neuza da Cunha Costa - Bairro Novo):** Encerrou às **18:41:48** (+1h41min de fila; lentidão em biometria de idosos).
+3. **Seção 160 (EM de Ipixuna - Povoado Ipixuna):** Encerrou às **18:39:57** (+1h39min de fila; demora na emissão das vias de BU).
+4. **Polo CEMA (Seções 09, 10 e 11):** Encerraram respectivamente às 18:00:04, 18:10:35 e 18:29:41, causadas pela alta concentração urbana de eleitores no corredor.
+
+### 13.3 Casos de Sucesso Operacional
+* **Juçaral das Margaridas (Seção 106 - Escola Municipal de Juçaral):** O local mais isolado e de difícil acesso fluvial de toda a ZE041 operou com disciplina militar. Encerrou às **17:01:14**, transmitiu às 17:52:04 e foi recebido fisicamente no Cartório às **18:13:54**, confirmando a eficácia do Suprimento de Fundos coordenado por Werbeth Silva Dutra.
+* **Jardim de Infância Mons. Artur Gonçalves:** 4 seções encerradas entre 17:00:34 e 17:02:35, gerando o primeiro BU totalizado da zona (17:44).
+
+### 13.4 Benchmarking Estadual do Maranhão (1º Turno 2026)
+Vitória do Mearim (20:55:14) concluiu sua totalização com folga antes da média estadual de complexidade equivalente, superando:
+* **São Bento (61ª ZE):** 21:11:30 (+16 min).
+* **Pinheiro (42ª ZE):** 21:25:40 (+30 min).
+* **Santa Helena (83ª ZE):** 21:30:15 (+35 min).
+* **Cantanhede (44ª ZE):** 21:55:10 (+1 hora).
+* **Viana (46ª ZE):** 01:40:20 da madrugada de 05/10 (+4h45).
+* **Cajari (46ª ZE):** 01:56:45 da madrugada de 05/10 (+5h01).
+
+### 13.5 Matriz Tática de Intervenção para o 2º Turno (25/10/2026)
+1. **Redução Estrutural do Tempo de Votação:** No 2º Turno, o eleitor vota apenas em 2 cargos (Presidente e/ou Governador) com 2 dígitos cada. O tempo médio de cabine cai de ~100 segundos para **15 a 20 segundos** (-78%).
+2. **Intervenção Presencial na Seção 155 (Coque):** Apoio volante de técnico a partir das 15h, conferência prévia de documentos com eleitores na fila e distribuição estrita de senhas decrescentes às 17h00.
+3. **Triagem Antecipada no CEMA e Neuza da Cunha:** Administradores de Prédio e Coordenadores de Acessibilidade realizarão a conferência documental e de biometria antes da entrada na sala da seção.
+4. **Celeridade na Rota 07:** Transmissão imediata no ponto JE Connect mais próximo assim que emitido o BU da Seção 160 (Ipixuna).
+5. **Meta Oficial da 41ª ZE:** Última urna encerrada até as **17:45** e **Totalização Oficial 100% no TSE às 19:15** (ganho de 1h40min em relação ao 1º Turno).
+
+---
+*Relatório Estratégico Zonal atualizado com os dados oficiais do 1º Turno (04/10/2026) e Planejamento do 2º Turno (25/10/2026) para o Juízo Eleitoral e Chefia de Cartório da 41ª ZE — Vitória do Mearim / MA.*
+
 

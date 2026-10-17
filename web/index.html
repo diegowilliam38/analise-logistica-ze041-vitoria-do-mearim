@@ -98,6 +98,11 @@
       Controle de Presença & Escalas
       <span class="tab-badge" style="background:#38bdf8; color:#0f172a; font-weight:700;">OFICIAL 2026</span>
     </button>
+    <button class="tab-btn" data-tab="tab-segundo-turno" style="border-left: 2px solid #f59e0b; background: rgba(245, 158, 11, 0.1);">
+      <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
+      1º Turno Real & Estratégia 2º Turno
+      <span class="tab-badge" style="background:var(--gold); color:#0f172a; font-weight:800;">DADOS REAIS</span>
+    </button>
   </nav>
 
   <!-- ========================================================================
@@ -1295,6 +1300,250 @@
               </tr>
             </thead>
             <tbody id="presencaTableBody">
+              <!-- Preenchido dinamicamente via JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         ABA 9: 1º TURNO REAL & ESTRATÉGIA DO 2º TURNO (DADOS OFICIAIS 2026)
+         ==================================================================== -->
+    <section id="tab-segundo-turno" class="tab-content">
+      <!-- HEADER INFORMATIVO -->
+      <div class="card-panel" style="margin-bottom: 1.5rem; border-left: 4px solid var(--gold); background: linear-gradient(135deg, rgba(30, 41, 59, 0.95), rgba(15, 23, 42, 0.98));">
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem;">
+          <div>
+            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 6px;">
+              <span class="badge badge-gold" style="font-weight: 800; font-size: 0.75rem;">PLEITO REAL 2026</span>
+              <span class="badge badge-success">OFICIAL TSE ACOMPANHA-E</span>
+              <span style="font-size: 0.8rem; color: var(--text-muted);">1º Turno em 04/10/2026 | 2º Turno em 25/10/2026</span>
+            </div>
+            <h2 style="font-size: 1.35rem; font-weight: 800; color: #fff; margin: 0 0 4px 0;">
+              Diagnóstico Forense do 1º Turno & Plano Tático para o 2º Turno
+            </h2>
+            <div style="font-size: 0.85rem; color: #94a3b8; max-width: 860px; line-height: 1.45;">
+              Análise baseada nos relatórios oficiais do sistema <strong>Acompanha-E (TSE)</strong> e do <strong>SISTOT</strong> da 41ª Zona Eleitoral.
+              Mapeamento de 100% das 94 seções receptoras, horários reais de encerramento de urnas, filas pós-17h, transmissão de BUs, benchmarking estadual e diretrizes operacionais para o 2º Turno.
+            </div>
+          </div>
+          <div style="display: flex; gap: 8px;">
+            <button onclick="window.print()" class="btn" style="background: rgba(245, 158, 11, 0.15); color: var(--gold); border: 1px solid rgba(245, 158, 11, 0.4); padding: 8px 14px; font-size: 0.8rem; border-radius: 6px; cursor: pointer; font-weight: 700;">
+              🖨️ Relatório Executivo
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4 KPIS OFICIAIS TSE DO 1º TURNO -->
+      <div class="kpi-grid" style="margin-bottom: 1.5rem;">
+        <div class="kpi-card gold">
+          <div class="kpi-header">
+            <span class="kpi-label">Comparecimento Oficial 1ºT</span>
+            <div class="kpi-icon">🗳️</div>
+          </div>
+          <div class="kpi-value" id="kpi1TComparecimento">19.338</div>
+          <div class="kpi-meta">
+            <span class="trend-tag positive">79,06% votantes</span>
+            <span>24.458 Aptos (Abst. 21,85%)</span>
+          </div>
+        </div>
+
+        <div class="kpi-card green">
+          <div class="kpi-header">
+            <span class="kpi-label">1º Encerramento & 1º BU</span>
+            <div class="kpi-icon">⚡</div>
+          </div>
+          <div class="kpi-value" id="kpi1TPrimeiroEncerramento">17:00:00</div>
+          <div class="kpi-meta">
+            <span class="trend-tag positive">1º BU no Cartório: 17:42:45</span>
+            <span>Mons. Artur Gonçalves</span>
+          </div>
+        </div>
+
+        <div class="kpi-card red">
+          <div class="kpi-header">
+            <span class="kpi-label">Último Encerramento (Gargalo)</span>
+            <div class="kpi-icon">⚠️</div>
+          </div>
+          <div class="kpi-value" id="kpi1TUltimoEncerramento" style="color: #f87171;">19:52:31</div>
+          <div class="kpi-meta">
+            <span class="trend-tag negative">+2h52min de fila</span>
+            <span>Seção 155 (EM Raimundo Bogéa)</span>
+          </div>
+        </div>
+
+        <div class="kpi-card blue">
+          <div class="kpi-header">
+            <span class="kpi-label">Totalização Oficial ZE041</span>
+            <div class="kpi-icon">🏁</div>
+          </div>
+          <div class="kpi-value" id="kpi1TTotalizacao" style="color: #38bdf8;">20:55:14</div>
+          <div class="kpi-meta">
+            <span class="trend-tag positive">100% Apurado</span>
+            <span>Fim transmissão: 20:28:10</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- BANNER DE ESTRATÉGIA DO 2º TURNO & COMPARATIVO DE CABINE -->
+      <div class="card-panel" style="margin-bottom: 1.5rem; background: linear-gradient(135deg, rgba(16, 185, 129, 0.08), rgba(15, 23, 42, 0.95)); border: 1px solid rgba(16, 185, 129, 0.25);">
+        <div class="panel-header" style="border-bottom: 1px solid rgba(16, 185, 129, 0.2); padding-bottom: 12px; margin-bottom: 14px;">
+          <div>
+            <div class="panel-title" style="color: #10b981; display: flex; align-items: center; gap: 8px;">
+              <span>🎯</span> Matriz de Operação Tática para o 2º Turno (25/10/2026)
+            </div>
+            <div class="panel-subtitle">Como a redução drástica de cargos destrava a logística e reduz em 1h40min a totalização da 41ª ZE</div>
+          </div>
+          <span class="badge badge-success" style="font-weight: 800; font-size: 0.8rem;">META: TOTALIZAÇÃO ÀS 19H15</span>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px;">
+          <div style="background: rgba(15, 23, 42, 0.6); padding: 14px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.06);">
+            <div style="font-size: 0.75rem; color: #94a3b8; text-transform: uppercase; font-weight: 700;">1º Turno (Realizado)</div>
+            <div style="font-size: 1.1rem; font-weight: 800; color: #f87171; margin: 4px 0;">5 Cargos na Urna</div>
+            <div style="font-size: 0.8rem; color: #cbd5e1; line-height: 1.4;">
+              Deputado Federal, Estadual, Senador, Governador e Presidente. Tempo médio de cabine de <strong>1m30s a 2m00s</strong>.
+              Gerou filas de até 2h52min após as 17h.
+            </div>
+          </div>
+
+          <div style="background: rgba(15, 23, 42, 0.6); padding: 14px; border-radius: 8px; border: 1px solid rgba(16, 185, 129, 0.2);">
+            <div style="font-size: 0.75rem; color: #10b981; text-transform: uppercase; font-weight: 700;">2º Turno (Estratégia)</div>
+            <div style="font-size: 1.1rem; font-weight: 800; color: #10b981; margin: 4px 0;">Apenas 2 Cargos (2 Dígitos)</div>
+            <div style="font-size: 0.8rem; color: #cbd5e1; line-height: 1.4;">
+              Presidente da República e/ou Governador. Tempo médio de voto cai para <strong>15 a 20 segundos</strong> (<span style="color:#10b981; font-weight:700;">-78% tempo de cabine</span>).
+              O fluxo de votação é 4x mais rápido!
+            </div>
+          </div>
+
+          <div style="background: rgba(15, 23, 42, 0.6); padding: 14px; border-radius: 8px; border: 1px solid rgba(245, 158, 11, 0.2);">
+            <div style="font-size: 0.75rem; color: var(--gold); text-transform: uppercase; font-weight: 700;">Meta Operacional ZE041</div>
+            <div style="font-size: 1.1rem; font-weight: 800; color: var(--gold); margin: 4px 0;">Fechamento às 17h30</div>
+            <div style="font-size: 0.8rem; color: #cbd5e1; line-height: 1.4;">
+              Última urna encerrada até as <strong>17:45</strong> (vs 19:52). Fim de transmissão às <strong>18:45</strong> (vs 20:28).
+              Totalização final no TSE concluída até as <strong>19:15</strong>.
+            </div>
+          </div>
+        </div>
+
+        <!-- 5 AÇÕES FOCAIS DO 2º TURNO -->
+        <div style="margin-top: 1.2rem; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 1rem;">
+          <div style="font-size: 0.85rem; font-weight: 700; color: #fff; margin-bottom: 8px;">
+            📋 5 Ações Focais Prioritárias para os Administradores de Prédio e Técnicos da 41ª ZE:
+          </div>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 10px;" id="gridAcoes2Turno">
+            <!-- Inserido dinamicamente via JS -->
+          </div>
+        </div>
+      </div>
+
+      <!-- TOP GARGALOS DE FILA PÓS-17H & CASOS DE SUCESSO -->
+      <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem;" class="split-grid-responsive">
+        <!-- TABELA DE GARGALOS -->
+        <div class="card-panel">
+          <div class="panel-header">
+            <div>
+              <div class="panel-title" style="color: #f87171;">⚠️ Ranking dos Gargalos de Filas Pós-17h (1º Turno)</div>
+              <div class="panel-subtitle">Seções com maior tempo de votação residual e ações de intervenção para o 2º Turno</div>
+            </div>
+            <span class="badge badge-warning" id="badgeTotalGargalos">12 Seções com Fila</span>
+          </div>
+
+          <div class="table-responsive">
+            <table class="data-table" id="tableGargalos1Turno">
+              <thead>
+                <tr>
+                  <th style="width: 60px;">Seção</th>
+                  <th>Local de Votação</th>
+                  <th>Bairro / Povoado</th>
+                  <th style="width: 90px; text-align: center;">Encerramento</th>
+                  <th style="width: 80px; text-align: center;">Fila pós-17h</th>
+                  <th>Ação Tática no 2º Turno</th>
+                </tr>
+              </thead>
+              <tbody id="tbodyGargalos1Turno">
+                <!-- Preenchido via JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- CASOS DE SUCESSO E BENCHMARKING ESTADUAL -->
+        <div style="display: flex; flex-direction: column; gap: 1.2rem;">
+          <!-- CASOS DE SUCESSO -->
+          <div class="card-panel" style="border-left: 3px solid #10b981;">
+            <div class="panel-header" style="margin-bottom: 10px;">
+              <div>
+                <div class="panel-title" style="color: #10b981;">🌟 Casos de Sucesso & Pontualidade</div>
+                <div class="panel-subtitle">Modelos operacionais a serem mantidos</div>
+              </div>
+            </div>
+            <div id="containerCasosSucesso" style="display: flex; flex-direction: column; gap: 8px;">
+              <!-- Inserido via JS -->
+            </div>
+          </div>
+
+          <!-- BENCHMARKING REGIONAL MARANHÃO -->
+          <div class="card-panel" style="border-left: 3px solid #38bdf8;">
+            <div class="panel-header" style="margin-bottom: 10px;">
+              <div>
+                <div class="panel-title" style="color: #38bdf8;">📊 Benchmarking Estadual (Maranhão)</div>
+                <div class="panel-subtitle">Horário de Totalização Oficial no 1º Turno</div>
+              </div>
+            </div>
+            <div class="table-responsive">
+              <table class="data-table" style="font-size: 0.78rem;" id="tableBenchmarking">
+                <thead>
+                  <tr>
+                    <th>Município / ZE</th>
+                    <th>Aptos</th>
+                    <th>Totalização</th>
+                    <th>Desempenho</th>
+                  </tr>
+                </thead>
+                <tbody id="tbodyBenchmarking">
+                  <!-- Inserido via JS -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TABELA COMPLETA DAS 94 SEÇÕES DO 1º TURNO REAL -->
+      <div class="card-panel">
+        <div class="panel-header">
+          <div>
+            <div class="panel-title">Tabela Geral das 94 Seções no 1º Turno (04/10/2026)</div>
+            <div class="panel-subtitle">Auditoria oficial dos tempos de início, encerramento da urna, transmissão via JE Connect e recebimento no SISTOT</div>
+          </div>
+          <div style="display: flex; gap: 8px; align-items: center;">
+            <input type="text" id="inputSearch1Turno" placeholder="🔍 Filtrar seção ou local..." 
+              style="padding: 6px 12px; background: rgba(15, 23, 42, 0.8); border: 1px solid rgba(255,255,255,0.12); border-radius: 6px; color: #fff; font-size: 0.8rem; outline: none; width: 220px;">
+            <span class="badge badge-info" id="badgeCount1Turno">94 seções oficiais</span>
+          </div>
+        </div>
+
+        <div class="table-responsive">
+          <table class="data-table" id="tableTodasSecoes1Turno">
+            <thead>
+              <tr>
+                <th style="width: 55px; text-align: center;">Seção</th>
+                <th>Local de Votação</th>
+                <th style="width: 70px; text-align: center;">Aptos</th>
+                <th style="width: 70px; text-align: center;">Votantes</th>
+                <th style="width: 65px; text-align: center;">% Comp.</th>
+                <th style="width: 85px; text-align: center;">Início Urna</th>
+                <th style="width: 90px; text-align: center;">Encerramento</th>
+                <th style="width: 85px; text-align: center;">Transmitido</th>
+                <th style="width: 85px; text-align: center;">Recebido</th>
+                <th style="width: 85px; text-align: center;">Totalizado</th>
+                <th style="width: 100px; text-align: center;">Status 1ºT</th>
+              </tr>
+            </thead>
+            <tbody id="tbodyTodasSecoes1Turno">
               <!-- Preenchido dinamicamente via JS -->
             </tbody>
           </table>

@@ -52,6 +52,11 @@ document.addEventListener('DOMContentLoaded', () => {
   // 7.1 Inicializar Controle de Presença no Dia da Eleição
   initControlePresenca(data);
 
+  // 7.2 Renderizar Dados Oficiais do 1º Turno & Estratégia do 2º Turno (2026)
+  if (data.resultado_1turno) {
+    renderSegundoTurno(data.resultado_1turno);
+  }
+
   // 8. Renderizar Gráficos
   if (window.initDashboardCharts) {
     window.initDashboardCharts(data);
@@ -835,3 +840,154 @@ function initControlePresenca(data) {
   // Render inicial
   renderPresencaList();
 }
+
+// -------------------------------------------------------------
+// RENDERIZAÇÃO DO 1º TURNO REAL & ESTRATÉGIA DO 2º TURNO (2026)
+// -------------------------------------------------------------
+function renderSegundoTurno(res1T) {
+  if (!res1T) return;
+
+  const est = res1T.estatisticas_oficiais_tse;
+  if (est) {
+    setElText('kpi1TComparecimento', `${est.comparecimento.toLocaleString('pt-BR')}`);
+    setElText('kpi1TPrimeiroEncerramento', est.primeiro_encerramento_urna.split(' ')[1] || "17:00:00");
+    setElText('kpi1TUltimoEncerramento', est.ultimo_encerramento_urna.split(' ')[1] || "19:52:31");
+    setElText('kpi1TTotalizacao', est.ultima_totalizacao.split(' ')[1] || "20:55:14");
+  }
+
+  // 1. Ações Focais do 2º Turno
+  const gridAcoes = document.getElementById('gridAcoes2Turno');
+  if (gridAcoes && res1T.diretrizes_estrategicas_2turno && res1T.diretrizes_estrategicas_2turno.acoes_focais) {
+    gridAcoes.innerHTML = res1T.diretrizes_estrategicas_2turno.acoes_focais.map((ac, idx) => `
+      <div style="background: rgba(15, 23, 42, 0.7); border-radius: 8px; padding: 12px; border: 1px solid rgba(255,255,255,0.08); border-left: 3px solid #f59e0b;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+          <span style="font-size: 0.82rem; font-weight: 800; color: #fff;">${idx + 1}. ${ac.alvo}</span>
+          <span class="badge badge-warning" style="font-size: 0.7rem;">${ac.responsavel}</span>
+        </div>
+        <div style="font-size: 0.76rem; color: #f87171; margin-bottom: 4px;">
+          <strong>1ºT:</strong> ${ac.problema_1turno}
+        </div>
+        <div style="font-size: 0.78rem; color: #e2e8f0; line-height: 1.35;">
+          <strong>Ação 2ºT:</strong> ${ac.acao_2turno}
+        </div>
+      </div>
+    `).join('');
+  }
+
+  // 2. Tabela de Gargalos de Filas Pós-17h
+  const tbodyGargalos = document.getElementById('tbodyGargalos1Turno');
+  if (tbodyGargalos && res1T.top_gargalos_filas_pos17h) {
+    tbodyGargalos.innerHTML = res1T.top_gargalos_filas_pos17h.map(g => {
+      let badgeStyle = "badge-danger";
+      let esperaTxt = `${g.espera_minutos} min`;
+      if (g.espera_minutos >= 120) esperaTxt = `2h${g.espera_minutos - 120}m de fila`;
+      else if (g.espera_minutos >= 60) esperaTxt = `1h${g.espera_minutos - 60}m de fila`;
+
+      return `
+        <tr>
+          <td style="text-align: center; font-weight: 800; color: var(--gold); font-size: 0.95rem;">${g.secao}</td>
+          <td style="font-weight: 600; color: #fff;">${g.local}</td>
+          <td><span style="color: var(--text-muted); font-size: 0.8rem;">${g.povoado}</span></td>
+          <td style="text-align: center; font-family: monospace; font-weight: 700; color: #f87171;">${g.encerramento}</td>
+          <td style="text-align: center;"><span class="badge ${badgeStyle}">${esperaTxt}</span></td>
+          <td style="font-size: 0.8rem; color: #cbd5e1;">${g.motivo}</td>
+        </tr>
+      `;
+    }).join('');
+  }
+
+  // 3. Casos de Sucesso
+  const containerSucesso = document.getElementById('containerCasosSucesso');
+  if (containerSucesso && res1T.casos_sucesso_pontualidade) {
+    containerSucesso.innerHTML = res1T.casos_sucesso_pontualidade.map(cs => `
+      <div style="background: rgba(16, 185, 129, 0.08); border: 1px solid rgba(16, 185, 129, 0.2); border-radius: 6px; padding: 10px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+          <strong style="color: #10b981; font-size: 0.82rem;">${cs.local}</strong>
+          <span style="font-family: monospace; font-size: 0.75rem; color: #6ee7b7; font-weight: 700;">
+            ${cs.encerramento ? `Enc: ${cs.encerramento}` : `Enc. Médio: ${cs.encerramento_medio}`}
+          </span>
+        </div>
+        <div style="font-size: 0.76rem; color: #cbd5e1; line-height: 1.35;">
+          ${cs.destaque}
+        </div>
+      </div>
+    `).join('');
+  }
+
+  // 4. Benchmarking Regional
+  const tbodyBench = document.getElementById('tbodyBenchmarking');
+  if (tbodyBench && res1T.benchmarking_regional_maranhao) {
+    tbodyBench.innerHTML = res1T.benchmarking_regional_maranhao.map(b => {
+      const isVit = b.municipio.includes('Vitória do Mearim');
+      const isCritico = b.status === 'Crítico';
+      const rowStyle = isVit ? 'background: rgba(245, 158, 11, 0.12); font-weight: 800;' : '';
+      const badgeCls = isVit ? 'badge-gold' : (isCritico ? 'badge-danger' : (b.status === 'Totalizado antes' ? 'badge-success' : 'badge-info'));
+      return `
+        <tr style="${rowStyle}">
+          <td><strong>${b.municipio}</strong> <span style="font-size:0.7rem; color:var(--text-muted);">(ZE ${b.zona})</span></td>
+          <td style="text-align: right; font-family: monospace;">${b.aptos.toLocaleString('pt-BR')}</td>
+          <td style="text-align: center; font-family: monospace; color: ${isCritico ? '#f87171' : (isVit ? 'var(--gold)' : '#38bdf8')}; font-weight: 700;">${b.totalizacao}</td>
+          <td><span class="badge ${badgeCls}" style="font-size: 0.68rem;">${b.comparativo}</span></td>
+        </tr>
+      `;
+    }).join('');
+  }
+
+  // 5. Tabela Completa das 94 Seções
+  const tbodySecoes1T = document.getElementById('tbodyTodasSecoes1Turno');
+  const inputSearch = document.getElementById('inputSearch1Turno');
+  const badgeCount = document.getElementById('badgeCount1Turno');
+
+  if (tbodySecoes1T && res1T.secoes) {
+    const secoesArr = Object.entries(res1T.secoes).map(([num, s]) => ({ num: parseInt(num), ...s }));
+    secoesArr.sort((a, b) => a.num - b.num);
+
+    function renderSecoes1TList(termo) {
+      const filtradas = secoesArr.filter(s => {
+        if (!termo) return true;
+        const txt = `secao ${s.num} ${s.local}`.toLowerCase();
+        return txt.includes(termo);
+      });
+
+      if (badgeCount) badgeCount.innerText = `${filtradas.length} de 94 seções`;
+
+      tbodySecoes1T.innerHTML = filtradas.map(s => {
+        const pctComp = s.aptos > 0 ? ((s.comp / s.aptos) * 100).toFixed(1) : 0;
+        
+        let statusTag = '<span class="badge badge-success" style="font-size:0.7rem;">Normal (&lt;17h10)</span>';
+        if (s.encerramento >= '19:00:00') {
+          statusTag = '<span class="badge badge-danger" style="font-size:0.7rem;">Crítico (&gt;19h)</span>';
+        } else if (s.encerramento >= '18:00:00') {
+          statusTag = '<span class="badge badge-warning" style="font-size:0.7rem;">Fila (&gt;18h)</span>';
+        } else if (s.encerramento >= '17:15:00') {
+          statusTag = '<span class="badge badge-info" style="font-size:0.7rem;">Moderado (&gt;17h15)</span>';
+        }
+
+        return `
+          <tr>
+            <td style="text-align: center; font-weight: 800; color: var(--gold);">${s.num}</td>
+            <td style="font-weight: 600; color: #fff;">${s.local}</td>
+            <td style="text-align: center; font-family: monospace;">${s.aptos}</td>
+            <td style="text-align: center; font-family: monospace; color: #38bdf8;">${s.comp}</td>
+            <td style="text-align: center; font-family: monospace; font-size: 0.8rem;">${pctComp}%</td>
+            <td style="text-align: center; font-family: monospace; font-size: 0.8rem; color: var(--text-muted);">${s.inicio || '08:00:01'}</td>
+            <td style="text-align: center; font-family: monospace; font-weight: 700; color: ${s.encerramento >= '18:00:00' ? '#f87171' : '#10b981'};">${s.encerramento}</td>
+            <td style="text-align: center; font-family: monospace; font-size: 0.8rem;">${s.transmitido || '--:--:--'}</td>
+            <td style="text-align: center; font-family: monospace; font-size: 0.8rem;">${s.recebido || '--:--:--'}</td>
+            <td style="text-align: center; font-family: monospace; font-size: 0.8rem; color: #38bdf8;">${s.totalizado || '--:--:--'}</td>
+            <td style="text-align: center;">${statusTag}</td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    if (inputSearch) {
+      inputSearch.addEventListener('input', (e) => {
+        renderSecoes1TList(e.target.value.toLowerCase().trim());
+      });
+    }
+
+    renderSecoes1TList('');
+  }
+}
+

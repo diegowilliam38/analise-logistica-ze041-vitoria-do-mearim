@@ -37,9 +37,13 @@ with open(os.path.join(data_dir, 'logistica_consolidada_2026.json'), 'r', encodi
 with open(os.path.join(data_dir, 'escala_adh_tecnicos_2026.json'), 'r', encoding='utf-8') as f:
     escala_adh = json.load(f)
 
-# 7. Carregar Mesários Oficiais por Seção (375 mesários nas 94 seções)
+# 7. Carregar Mesários Oficiais por Seção (376 mesários nas 94 seções)
 with open(os.path.join(data_dir, 'mesarios_secoes_2026.json'), 'r', encoding='utf-8') as f:
     mesarios_secoes = json.load(f)
+
+# 8. Carregar Dados Oficiais Reais do 1º Turno (04/10/2026 - Acompanha-E / SISTOT)
+with open(os.path.join(data_dir, 'resultado_consolidado_1turno_2026.json'), 'r', encoding='utf-8') as f:
+    resultado_1turno = json.load(f)
 
 bundle = {
     "master": master,
@@ -49,7 +53,8 @@ bundle = {
     "logistica": logistica_rotas,
     "logistica_consolidada": logistica_consolidada,
     "escala_adh": escala_adh,
-    "mesarios_secoes": mesarios_secoes
+    "mesarios_secoes": mesarios_secoes,
+    "resultado_1turno": resultado_1turno
 }
 
 js_content = f"// Dataset Oficial de Inteligência da 41ª ZE - Vitória do Mearim/MA\nwindow.ZE041_DATA = {json.dumps(bundle, ensure_ascii=False, indent=2)};\n"

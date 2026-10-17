@@ -115,7 +115,7 @@ python -m http.server 8899 --directory "web"
   - **Pontualidade Real:** 1º Encerramento às 17:00:00; 1º BU recebido no Cartório às 17:42:45 (Mons. Artur Gonçalves).
   - **Auditoria do Gargalo:** Último encerramento às 19:52:31 na Seção 155 (EM Raimundo Bogéa - Coque), totalizando às 20:55:14.
   - **Benchmarking Regional:** Vitória do Mearim concluiu no Cartório antes das 21h, superando amplamente cidades vizinhas como Cajari (01:56 da madrugada seguinte), Viana (01:40), Cantanhede (21:55) e Pinheiro (21:25).
-  - **Matriz de Ação 2º Turno:** Votação em cargo único para **Presidente da República** (Governador do Maranhão eleito no 1ºT), voto ultra rápido de ~10s por eleitor e meta de totalização 100% oficial às **18h45**.
+  - **Matriz de Ação 2º Turno:** Votação em cargo único para **Presidente da República** (Governador eleito no 1ºT), voto calibrado na margem segura de **20 a 25 segundos** (vs 34,3s em 2024 para 2 cargos) e meta de totalização entre **18h45 e 19h00**.
 * **Mapa Geoespacial:** Coordenadas GPS, links do Google Maps ao vivo e raio de alcance.
 * **94 Seções Principais & 32 Locais:** Visão detalhada de cada seção e local do Edital 20/2026.
 * **Logística de Campo:** As 7 Rotas Oficiais de Carga (veículos, placas e motoristas), 31 Mototáxis (condutores e placas) e 32 Administradores de Prédio.

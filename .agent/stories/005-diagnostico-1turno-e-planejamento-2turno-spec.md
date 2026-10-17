@@ -54,8 +54,8 @@
 | Cajari | 46ª ZE | 14.600 | 01:56:45 (05/10) | Madrugada seguinte (+5h01) |
 
 ## 5. Diretrizes Táticas Oficiais para o 2º Turno (25/10/2026)
-1. **Redução Estrutural do Voto (Apenas 2 Cargos vs 6 Cargos):** No 2º Turno, o eleitor vota apenas para Presidente e/ou Governador (2 dígitos cada). Tempo médio de cabine cai de ~100s para ~18s (-78%). Elimina filas no final da tarde.
-2. **Intervenção Seção 155 (EM Raimundo Bogéa - Coque):** O Administrador de Prédio e o Técnico de Apoio acompanharão o encerramento da urna diretamente às 17h para orientar o procedimento correto de emissão de BU, evitando o travamento procedural do 1º Turno (quando a Seção 184 fechou 17h15 e a 155 atrasou).
-3. **Intervenção Seção 119 (Bairro Novo) & Polo CEMA:** Triagem de documentos e fila externa organizada por Administradores de Prédio e Coordenadores de Acessibilidade.
-4. **Celeridade no Retorno dos Mototáxis:** Despacho expresso das mídias físicas de Ipixuna e Sumaúma diretamente para o Cartório Eleitoral.
-5. **Meta ZE041:** Conclusão da última urna até 17h30, última mídia no Cartório às 18h45 e Totalização Oficial 100% no TSE às **19h15**.
+1. **Redução Estrutural do Voto (Cargo Único para Presidente da República):** Governador eleito no 1ºT. Com voto em apenas 2 dígitos, adota-se a estimativa prudente e realista de **20 a 25 segundos por eleitor** (baseada na média real de 2024 de 34,3s para 2 cargos). Como a capacidade da urna a 25s é de 1.290 eleitores/dia e a maior seção tem ~300 votantes, não haverá filas às 17h.
+2. **Intervenção Seção 155 (EM Raimundo Bogéa - Coque):** O técnico Igor Moreira se posicionará no Coque às 16h45/17h00 para apoiar o encerramento da urna UE2022, evitando a enrolação procedural do 1º Turno (quando a Seção 184 fechou 17h15). Urna encerrará às 17h05 e mídia chegará ao Cartório até as 17h35.
+3. **Fixação em Ipixuna (EM de Ipixuna - Seção 160):** A técnica Ingridy Moreira apoiará a mesa receptora para encerramento às 17h00 e liberação imediata do mototáxi para o Cartório.
+4. **Comunicação Contínua via WhatsApp:** Reforço das rotinas: Zerésima às 07h00, abertura às 08h00, encerramento às 17h00 e apoio dos Administradores de Prédio aos mesários já calibrados.
+5. **Meta ZE041:** Conclusão da última urna até 17h15, última mídia no Cartório até 18h20 e Totalização Oficial 100% no Cartório e no TSE entre **18h45 e 19h00**.

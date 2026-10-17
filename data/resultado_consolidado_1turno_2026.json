@@ -270,14 +270,16 @@
     "data_pleito": "25/10/2026",
     "cargos_em_disputa": "Apenas 1 Cargo: Presidente da República (2 dígitos) — Governador do Maranhão eleito no 1º Turno",
     "modelo_transmissao": "100% Centralizado no Cartório Eleitoral / Junta Eleitoral (Sem JE Connect de campo)",
-    "tempo_estimado_voto_segundos": 10,
-    "reducao_tempo_cabine_pct": 90,
-    "meta_totalizacao_ze041": "18:45:00",
+    "tempo_medio_historico_2024_sec": 34.3,
+    "tempo_estimado_voto_segundos": 22,
+    "faixa_tempo_voto": "20 a 25 segundos (Margem prudente e realista baseada no histórico de 34,3s de 2024 para 2 cargos)",
+    "reducao_tempo_cabine_pct": 75,
+    "meta_totalizacao_ze041": "18:45 às 19:00",
     "acoes_focais": [
       {
         "alvo": "Polo Coque / Seção 155 (EM Raimundo Bogéa)",
         "problema_1turno": "Seção 155 encerrou às 19:52:31 por enrolação das mesárias no fechamento (enquanto a Seção 184 do mesmo prédio encerrou normalmente às 17:15). Ambas as mídias só foram transmitidas às 20:28, apesar de o Coque ficar na margem da BR a apenas 15-20 min da sede.",
-        "acao_2turno": "O técnico Igor Moreira se concentrará presencialmente no Raimundo Bogéa no fechamento às 17h00, orientando as mesárias na emissão do BU. Urna encerrará às 17h05 e mototáxi entregará as duas mídias no Cartório Eleitoral até as 17h35.",
+        "acao_2turno": "O técnico Igor Moreira se concentrará presencialmente no Raimundo Bogéa no fechamento às 17h00, orientando as mesárias na emissão do BU. Com voto de 20 a 25s, a seção encerra sem filas às 17h05 e o mototáxi entrega as duas mídias no Cartório Eleitoral até as 17h35.",
         "responsavel": "Igor Fonseca Moreira (Técnico de Urna Polo Coque) + Adm. Prédio"
       },
       {
@@ -289,7 +291,7 @@
       {
         "alvo": "Polo Sede & Comunidades Vizinhas (Jaguary e Jacaray)",
         "problema_1turno": "CEMA (Seções 09, 10, 11) e Neuza da Cunha (Seção 119) tiveram filas no final da tarde devido aos 6 cargos em disputa. Já Jaguary e Jacaray ficam a apenas 3 km da sede e funcionaram com rapidez.",
-        "acao_2turno": "Supervisão direta de Diego William e Eliana Silva. Com votação de cargo único para Presidente (~10s por eleitor), o corredor do CEMA e do Neuza da Cunha esvaziará ainda à tarde. Havendo qualquer intercorrência em Jaguary/Jacaray, o deslocamento é de apenas 5 minutos.",
+        "acao_2turno": "Supervisão direta de Diego William e Eliana Silva. Com voto cristalizado para Presidente na faixa prudente de 20 a 25s (vs 34,3s em 2024 para 2 cargos e >100s no 1ºT para 6 cargos), o corredor do CEMA e do Neuza da Cunha esvaziará ainda à tarde. Havendo qualquer intercorrência em Jaguary/Jacaray, o deslocamento é de apenas 5 minutos.",
         "responsavel": "Diego William (Chefe de Cartório) & Eliana Silva (Gabinete/Sede)"
       },
       {

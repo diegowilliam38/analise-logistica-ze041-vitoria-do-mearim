@@ -19037,34 +19037,34 @@ window.ZE041_DATA = {
     ],
     "diretrizes_estrategicas_2turno": {
       "data_pleito": "25/10/2026",
-      "cargos_em_disputa": "Presidente da República (2 dígitos) e/ou Governador (2 dígitos)",
+      "cargos_em_disputa": "Apenas 1 Cargo: Presidente da República (2 dígitos) — Governador do Maranhão eleito no 1º Turno",
       "modelo_transmissao": "100% Centralizado no Cartório Eleitoral / Junta Eleitoral (Sem JE Connect de campo)",
-      "tempo_estimado_voto_segundos": 18,
-      "reducao_tempo_cabine_pct": 78,
-      "meta_totalizacao_ze041": "19:15:00",
+      "tempo_estimado_voto_segundos": 10,
+      "reducao_tempo_cabine_pct": 90,
+      "meta_totalizacao_ze041": "18:45:00",
       "acoes_focais": [
         {
           "alvo": "Seção 155 (EM Raimundo Bogéa - Coque)",
           "problema_1turno": "Encerrou às 19:52:31 devido a mesárias que se enrolaram no fechamento da urna (a Seção 184 do mesmo prédio encerrou às 17:15). Ambas as mídias só foram transmitidas no Cartório às 20:28:10.",
-          "acao_2turno": "Apoio e orientação presencial do Administrador de Prédio e Técnico no fechamento imediato às 17h00. Com voto rápido de 2 cargos e mesárias instruídas, encerra até 17h20 e a mídia chega ao Cartório até 18h10.",
+          "acao_2turno": "Apoio e orientação presencial do Administrador de Prédio e Técnico no fechamento imediato às 17h00. Com voto ultra rápido de cargo único (2 dígitos para Presidente) e mesárias instruídas, encerra pontualmente às 17h05 e a mídia chega ao Cartório antes das 18h00.",
           "responsavel": "Adm. de Prédio Coque + Técnico Fiscal Rota 07"
         },
         {
           "alvo": "Seção 119 (UE Neuza da Cunha Costa - Bairro Novo)",
           "problema_1turno": "Encerrou às 18:41:48 (espera de 1h41min) por lentidão em biometria de idosos e 6 cargos na urna. Mídia transmitida no Cartório às 18:57:01.",
-          "acao_2turno": "Triagem antecipada de identificação biométrica na fila externa antes do eleitor ingressar na sala da seção. Fila preferencial intercalada (1x1).",
+          "acao_2turno": "Com apenas 1 cargo (Presidente), o fluxo por eleitor é imediato (~10s). Triagem de biometria na fila externa e intercalação 1x1 garantem que a seção zere a fila bem antes das 17h.",
           "responsavel": "Adm. de Prédio Bairro Novo + Coordenador de Acessibilidade"
         },
         {
           "alvo": "Polo CEMA Carlos Raimundo Figueiredo (Seções 09, 10, 11)",
           "problema_1turno": "Três seções encerraram entre 18:00 e 18:29 devido à alta concentração de eleitores urbanos (mais de 1.050 aptos votando em 6 cargos). Mídias transmitidas no Cartório às 18:47:57.",
-          "acao_2turno": "Coordenador de Acessibilidade na entrada do corredor direcionando eleitores para suas seções sem aglomeração na porta.",
+          "acao_2turno": "Fluxo ultra rápido: como são apenas 2 dígitos na urna, cada eleitor leva segundos na cabine. O corredor do CEMA permanecerá completamente desobstruído durante toda a tarde.",
           "responsavel": "Adm. Prédio CEMA + Coordenador de Acessibilidade"
         },
         {
           "alvo": "Seção 160 (EM de Ipixuna - Povoado Ipixuna)",
           "problema_1turno": "Encerrou às 18:39:57 e mototáxi entregou a mídia no Cartório às 19:35:36 (2º último local transmitido).",
-          "acao_2turno": "Orientar o presidente de mesa sobre agilidade na emissão das 5 vias de BU para liberar o mototáxi expressamente para o Cartório Eleitoral.",
+          "acao_2turno": "Urna encerrada pontualmente às 17h00. Emissão imediata das vias de BU para despacho do mototáxi, prevendo chegada ao Cartório Eleitoral até as 17h50.",
           "responsavel": "Técnico Fiscal Rota 07 + Mototaxista Rota 22"
         },
         {

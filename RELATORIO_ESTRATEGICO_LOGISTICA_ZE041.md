@@ -464,11 +464,11 @@ Vitória do Mearim (20:55:14) concluiu sua totalização com folga antes da méd
 * **Cajari (46ª ZE):** 01:56:45 da madrugada de 05/10 (+5h01).
 
 ### 13.5 Matriz Tática de Intervenção para o 2º Turno (25/10/2026)
-1. **Redução Estrutural do Voto (Apenas 2 Cargos vs 6 Cargos):** No 2º Turno, o eleitor vota apenas para Presidente e/ou Governador (2 dígitos cada). O tempo médio de cabine despenca de ~100s para **15 a 20 segundos** (-78%). Isso elimina a formação de filas no período vespertino.
-2. **Intervenção Presencial na Seção 155 (Raimundo Bogéa - Coque):** O Administrador de Prédio e o Técnico de Apoio da Rota 07 acompanharão diretamente as mesárias às 17h00 para orientar o procedimento de emissão de BU e fechamento imediato da urna, evitando o erro procedural do 1º Turno. A urna encerrará até 17h20 e a mídia chegará ao Cartório antes das 18h15.
-3. **Triagem no CEMA e Neuza da Cunha:** Administradores de Prédio e Coordenadores de Acessibilidade realizarão a conferência de documentos antes da entrada na sala da seção.
-4. **Agilidade no Retorno dos Mototáxis:** Garantir liberação imediata dos condutores de Ipixuna e Sumaúma assim que impressas as vias de BU.
-5. **Meta Oficial da 41ª ZE:** Última urna encerrada até as **17:30**, última mídia no Cartório às **18:45** e **Totalização Oficial 100% no TSE às 19:15** (economia de 1h40min).
+1. **Redução Estrutural Drástica (Apenas 1 Cargo na Urna):** Como a eleição para o Governo do Estado do Maranhão foi decidida e liquidada no 1º Turno, os eleitores de Vitória do Mearim / 41ª ZE votarão **exclusivamente para Presidente da República (2 dígitos)**. O tempo médio de cabine cai de ~100s para meros **8 a 12 segundos** (-90% do tempo de votação). O eleitor apenas digita 2 números e aperta CONFIRMA, eliminando qualquer risco de filas vespertinas.
+2. **Intervenção Presencial na Seção 155 (Raimundo Bogéa - Coque):** O Administrador de Prédio e o Técnico de Apoio da Rota 07 acompanharão diretamente as mesárias às 17h00 para orientar o procedimento de emissão de BU e fechamento imediato da urna, evitando o erro procedural do 1º Turno. Como não haverá filas, a urna encerrará pontualmente às 17h05 e a mídia chegará ao Cartório antes das 18h00.
+3. **Fluidez Absoluta no CEMA e Neuza da Cunha:** A votação de 2 dígitos garante esvaziamento imediato das salas ao longo de todo o domingo. Às 17h00, 100% das seções estarão desimpedidas para encerramento imediato.
+4. **Agilidade no Retorno dos Mototáxis:** Garantir liberação expressa dos condutores de Ipixuna e Sumaúma assim que impressas as vias de BU.
+5. **Meta Oficial da 41ª ZE:** Última urna encerrada até as **17:15**, todas as mídias no Cartório Eleitoral até as **18:15** e **Totalização Oficial 100% no Cartório e no TSE às 18:45:00** (ganho de 2 horas e 10 minutos em relação ao 1º Turno)!
 
 ---
 *Relatório Estratégico Zonal atualizado com os dados oficiais do 1º Turno (04/10/2026) e Planejamento do 2º Turno (25/10/2026) para o Juízo Eleitoral e Chefia de Cartório da 41ª ZE — Vitória do Mearim / MA.*

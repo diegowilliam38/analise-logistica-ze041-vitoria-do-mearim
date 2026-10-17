@@ -275,34 +275,40 @@
     "meta_totalizacao_ze041": "18:45:00",
     "acoes_focais": [
       {
-        "alvo": "Seção 155 (EM Raimundo Bogéa - Coque)",
-        "problema_1turno": "Encerrou às 19:52:31 devido a mesárias que se enrolaram no fechamento da urna (a Seção 184 do mesmo prédio encerrou às 17:15). Ambas as mídias só foram transmitidas no Cartório às 20:28:10.",
-        "acao_2turno": "Apoio e orientação presencial do Administrador de Prédio e Técnico no fechamento imediato às 17h00. Com voto ultra rápido de cargo único (2 dígitos para Presidente) e mesárias instruídas, encerra pontualmente às 17h05 e a mídia chega ao Cartório antes das 18h00.",
-        "responsavel": "Adm. de Prédio Coque + Técnico Fiscal Rota 07"
+        "alvo": "Polo Coque / Seção 155 (EM Raimundo Bogéa)",
+        "problema_1turno": "Seção 155 encerrou às 19:52:31 por enrolação das mesárias no fechamento (enquanto a Seção 184 do mesmo prédio encerrou normalmente às 17:15). Ambas as mídias só foram transmitidas às 20:28, apesar de o Coque ficar na margem da BR a apenas 15-20 min da sede.",
+        "acao_2turno": "O técnico Igor Moreira se concentrará presencialmente no Raimundo Bogéa no fechamento às 17h00, orientando as mesárias na emissão do BU. Urna encerrará às 17h05 e mototáxi entregará as duas mídias no Cartório Eleitoral até as 17h35.",
+        "responsavel": "Igor Fonseca Moreira (Técnico de Urna Polo Coque) + Adm. Prédio"
       },
       {
-        "alvo": "Seção 119 (UE Neuza da Cunha Costa - Bairro Novo)",
-        "problema_1turno": "Encerrou às 18:41:48 (espera de 1h41min) por lentidão em biometria de idosos e 6 cargos na urna. Mídia transmitida no Cartório às 18:57:01.",
-        "acao_2turno": "Com apenas 1 cargo (Presidente), o fluxo por eleitor é imediato (~10s). Triagem de biometria na fila externa e intercalação 1x1 garantem que a seção zere a fila bem antes das 17h.",
-        "responsavel": "Adm. de Prédio Bairro Novo + Coordenador de Acessibilidade"
+        "alvo": "Polo Ramais / Seção 160 (EM de Ipixuna)",
+        "problema_1turno": "Encerrou às 18:39:57 por fila e demora das mesárias nas vias do BU, transmitindo às 19:35. Os demais locais do polo (Boca do Campo, Juçaralzinho, Vila Nova, Abidão) não tiveram nenhum problema.",
+        "acao_2turno": "A técnica Ingridy Moreira se fixará em Ipixuna durante a tarde/fechamento para apoiar a mesa receptora e garantir encerramento pontual às 17h00 com despacho expresso da mídia no mototáxi até o Cartório.",
+        "responsavel": "Ingridy Fonseca Moreira (Técnica de Urna Ramais/Vicinais) + Mototaxista Rota 22"
       },
       {
-        "alvo": "Polo CEMA Carlos Raimundo Figueiredo (Seções 09, 10, 11)",
-        "problema_1turno": "Três seções encerraram entre 18:00 e 18:29 devido à alta concentração de eleitores urbanos (mais de 1.050 aptos votando em 6 cargos). Mídias transmitidas no Cartório às 18:47:57.",
-        "acao_2turno": "Fluxo ultra rápido: como são apenas 2 dígitos na urna, cada eleitor leva segundos na cabine. O corredor do CEMA permanecerá completamente desobstruído durante toda a tarde.",
-        "responsavel": "Adm. Prédio CEMA + Coordenador de Acessibilidade"
+        "alvo": "Polo Sede & Comunidades Vizinhas (Jaguary e Jacaray)",
+        "problema_1turno": "CEMA (Seções 09, 10, 11) e Neuza da Cunha (Seção 119) tiveram filas no final da tarde devido aos 6 cargos em disputa. Já Jaguary e Jacaray ficam a apenas 3 km da sede e funcionaram com rapidez.",
+        "acao_2turno": "Supervisão direta de Diego William e Eliana Silva. Com votação de cargo único para Presidente (~10s por eleitor), o corredor do CEMA e do Neuza da Cunha esvaziará ainda à tarde. Havendo qualquer intercorrência em Jaguary/Jacaray, o deslocamento é de apenas 5 minutos.",
+        "responsavel": "Diego William (Chefe de Cartório) & Eliana Silva (Gabinete/Sede)"
       },
       {
-        "alvo": "Seção 160 (EM de Ipixuna - Povoado Ipixuna)",
-        "problema_1turno": "Encerrou às 18:39:57 e mototáxi entregou a mídia no Cartório às 19:35:36 (2º último local transmitido).",
-        "acao_2turno": "Urna encerrada pontualmente às 17h00. Emissão imediata das vias de BU para despacho do mototáxi, prevendo chegada ao Cartório Eleitoral até as 17h50.",
-        "responsavel": "Técnico Fiscal Rota 07 + Mototaxista Rota 22"
+        "alvo": "Polo Japão / Sumaúma & São Benedito (EM Paulo Maciel Neto)",
+        "problema_1turno": "São Benedito fica a 1h10 de distância da sede e ainda assim transmitiu às 18:50 (antes do Coque que fica a 15 min na BR!). Sumaúma transmitiu às 19:19.",
+        "acao_2turno": "Rosane Praseres e Stefany Bruce dividem e monitoram o Polo Japão e São Benedito. Encerramento pontual às 17h00 e partida imediata dos mototáxis garantem mídias no Cartório entre 18h10 e 18h20.",
+        "responsavel": "Rosane Praseres (Servidora) & Stefany Bruce (Técnica de Urna Polo Japão)"
       },
       {
         "alvo": "Ponto Especial de Juçaral das Margaridas (Seção 106)",
-        "problema_1turno": "Nenhum — encerrou às 17:01:14 e chegou fisicamente ao Cartório às 18:13:54!",
-        "acao_2turno": "REPLICAR EXATAMENTE o protocolo do 1º Turno (transporte fluvial/terrestre com Suprimento de Fundos Werbeth Silva Dutra).",
-        "responsavel": "Werbeth Silva Dutra (Técnico Suprimento de Fundos)"
+        "problema_1turno": "Sucesso absoluto no 1º turno: encerrou às 17:01:14 e chegou fisicamente ao Cartório às 18:13:54 em transporte fluvial/terrestre.",
+        "acao_2turno": "REPLICAR EXATAMENTE o protocolo consagrado no 1º Turno (transporte fluvial/terrestre com Suprimento de Fundos por Werbeth Silva Dutra).",
+        "responsavel": "Werbeth Silva Dutra (Suprimento de Fundos)"
+      },
+      {
+        "alvo": "Diretrizes de Comunicação Contínua nos Grupos de WhatsApp",
+        "problema_1turno": "Dúvidas pontuais de mesários no fechamento da urna UE2022.",
+        "acao_2turno": "Reforço permanente nos grupos de WhatsApp dos Mesários, Administradores de Prédio e Coordenadores: Zerésima às 07h00 em ponto, abertura às 08h00, encerramento às 17h00 se não houver fila e consulta ao Guia Rápido do Mesário. Administradores atuarão lado a lado das mesas auxiliando os mesários já calibrados pelo 1ºT.",
+        "responsavel": "Comando Zonal 41ª ZE (Diego William, Eliana e Rosane)"
       }
     ]
   },

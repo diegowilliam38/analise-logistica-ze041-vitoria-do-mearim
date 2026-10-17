@@ -30,7 +30,7 @@
       "espera_minutos": 172,
       "aptos": 380,
       "comp": 292,
-      "motivo": "Alta densidade de eleitores (380 aptos) e fluxo concentrado no final da tarde"
+      "motivo": "Mesárias se enrolaram no procedimento de encerramento da urna (a Seção 184 do mesmo prédio encerrou normalmente às 17:15:08)"
     },
     {
       "secao": 119,
@@ -40,7 +40,7 @@
       "espera_minutos": 101,
       "aptos": 337,
       "comp": 264,
-      "motivo": "Demora na identificação biométrica e fila de eleitores prioritários"
+      "motivo": "Demora na identificação biométrica de idosos e 6 cargos em votação"
     },
     {
       "secao": 160,
@@ -50,7 +50,7 @@
       "espera_minutos": 99,
       "aptos": 288,
       "comp": 207,
-      "motivo": "Trecho vicinal profundo e concentração de idosos"
+      "motivo": "Trecho vicinal profundo e demora das mesárias na emissão das vias de BU (transmitido no Cartório às 19:35:36)"
     },
     {
       "secao": 11,
@@ -60,7 +60,7 @@
       "espera_minutos": 89,
       "aptos": 359,
       "comp": 297,
-      "motivo": "Polo central de altíssima densidade"
+      "motivo": "Polo central de altíssima densidade urbana com 6 cargos na urna"
     },
     {
       "secao": 22,
@@ -70,7 +70,7 @@
       "espera_minutos": 78,
       "aptos": 366,
       "comp": 303,
-      "motivo": "Seção com 303 votantes, necessidade de controle de fila decrescente"
+      "motivo": "Seção com 303 votantes para 6 cargos, necessidade de controle de fila decrescente"
     },
     {
       "secao": 153,
@@ -80,7 +80,7 @@
       "espera_minutos": 74,
       "aptos": 342,
       "comp": 264,
-      "motivo": "Fila residual às 17h"
+      "motivo": "Fila residual às 17h para 6 cargos"
     },
     {
       "secao": 10,
@@ -90,7 +90,7 @@
       "espera_minutos": 70,
       "aptos": 358,
       "comp": 293,
-      "motivo": "Polo central CEMA"
+      "motivo": "Polo central CEMA com concentração de eleitores"
     },
     {
       "secao": 23,
@@ -100,7 +100,7 @@
       "espera_minutos": 63,
       "aptos": 286,
       "comp": 229,
-      "motivo": "Estrada vicinal"
+      "motivo": "Fila rural às 17h"
     },
     {
       "secao": 81,
@@ -110,7 +110,7 @@
       "espera_minutos": 62,
       "aptos": 246,
       "comp": 206,
-      "motivo": "Polo Sumaúma"
+      "motivo": "Polo Sumaúma (transmitido no Cartório às 19:19:49)"
     },
     {
       "secao": 9,
@@ -130,7 +130,7 @@
       "espera_minutos": 59,
       "aptos": 336,
       "comp": 258,
-      "motivo": "Fila em Livramento"
+      "motivo": "Fila em Livramento (transmitido no Cartório às 18:50:08)"
     },
     {
       "secao": 66,
@@ -140,7 +140,7 @@
       "espera_minutos": 59,
       "aptos": 320,
       "comp": 240,
-      "motivo": "Fila em Sumaúma"
+      "motivo": "Fila em Sumaúma (transmitido no Cartório às 19:19:47)"
     }
   ],
   "casos_sucesso_pontualidade": [
@@ -149,7 +149,7 @@
       "secao": 106,
       "encerramento": "17:01:14",
       "bu_recebido": "18:13:54",
-      "destaque": "Local mais isolado e de difícil acesso da Zona Eleitoral foi um dos primeiros a concluir e transmitir via Suprimento de Fundos com Werbeth Silva Dutra"
+      "destaque": "Local mais isolado e de difícil acesso da Zona Eleitoral concluiu às 17:01 e mídia física chegou ao Cartório Eleitoral às 18:13 via Suprimento de Fundos com Werbeth Silva Dutra"
     },
     {
       "local": "Jardim de Infância Monsenhor Artur Gonçalves (Centro)",
@@ -161,7 +161,7 @@
       ],
       "encerramento_medio": "17:01:10",
       "bu_recebido": "17:42:45",
-      "destaque": "Primeiro estabelecimento a entregar BUs no Cartório e primeiro BU totalizado no município"
+      "destaque": "Primeiro estabelecimento a entregar as mídias de resultado fisicamente no Cartório Eleitoral e primeiro BU transmitido/totalizado (17:42)"
     },
     {
       "local": "Colégio Municipal Antônia Farias (Tapera)",
@@ -174,14 +174,14 @@
       ],
       "encerramento_medio": "17:02:15",
       "bu_recebido": "17:51:45",
-      "destaque": "Disciplina total das 5 seções, encerrando em menos de 4 minutos pós-17h"
+      "destaque": "Disciplina total das 5 seções, encerrando em menos de 4 minutos pós-17h e mídias entregues no Cartório às 17h51"
     },
     {
       "local": "Escola Municipal Maurícia Fernandes Jardim (Povoado Escondido)",
       "secao": 101,
       "encerramento": "17:06:03",
       "bu_recebido": "18:16:54",
-      "destaque": "Superou com folga o histórico crítico de 2024, concluindo às 17h06"
+      "destaque": "Superou com folga o histórico crítico de 2024, concluindo às 17h06 e mídia entregue no Cartório às 18h16"
     }
   ],
   "benchmarking_regional_maranhao": [
@@ -207,7 +207,7 @@
       "aptos": 24458,
       "totalizacao": "20:55:14",
       "status": "Totalizado",
-      "comparativo": "100% Totalizado antes das 21h (Excelente desempenho regional)"
+      "comparativo": "100% Totalizado no Cartório antes das 21h (Excelente desempenho regional)"
     },
     {
       "municipio": "São Bento",
@@ -269,37 +269,38 @@
   "diretrizes_estrategicas_2turno": {
     "data_pleito": "25/10/2026",
     "cargos_em_disputa": "Presidente da República (2 dígitos) e/ou Governador (2 dígitos)",
+    "modelo_transmissao": "100% Centralizado no Cartório Eleitoral / Junta Eleitoral (Sem JE Connect de campo)",
     "tempo_estimado_voto_segundos": 18,
     "reducao_tempo_cabine_pct": 78,
     "meta_totalizacao_ze041": "19:15:00",
     "acoes_focais": [
       {
         "alvo": "Seção 155 (EM Raimundo Bogéa - Coque)",
-        "problema_1turno": "Encerrou às 19:52:31 (espera de 2h52min pós-17h; segurou o fechamento da ZE041)",
-        "acao_2turno": "Designar apoio volante presencial a partir das 15h00. O Administrador de Prédio deve conferir documentos na fila e organizar a distribuição estrita de senhas às 17h00. Com voto de 18s, a seção encerra antes de 17h30.",
-        "responsavel": "Adm. de Prédio Coque + Técnico Volante Rota 07"
+        "problema_1turno": "Encerrou às 19:52:31 devido a mesárias que se enrolaram no fechamento da urna (a Seção 184 do mesmo prédio encerrou às 17:15). Ambas as mídias só foram transmitidas no Cartório às 20:28:10.",
+        "acao_2turno": "Apoio e orientação presencial do Administrador de Prédio e Técnico no fechamento imediato às 17h00. Com voto rápido de 2 cargos e mesárias instruídas, encerra até 17h20 e a mídia chega ao Cartório até 18h10.",
+        "responsavel": "Adm. de Prédio Coque + Técnico Fiscal Rota 07"
       },
       {
         "alvo": "Seção 119 (UE Neuza da Cunha Costa - Bairro Novo)",
-        "problema_1turno": "Encerrou às 18:41:48 (espera de 1h41min)",
+        "problema_1turno": "Encerrou às 18:41:48 (espera de 1h41min) por lentidão em biometria de idosos e 6 cargos na urna. Mídia transmitida no Cartório às 18:57:01.",
         "acao_2turno": "Triagem antecipada de identificação biométrica na fila externa antes do eleitor ingressar na sala da seção. Fila preferencial intercalada (1x1).",
         "responsavel": "Adm. de Prédio Bairro Novo + Coordenador de Acessibilidade"
       },
       {
         "alvo": "Polo CEMA Carlos Raimundo Figueiredo (Seções 09, 10, 11)",
-        "problema_1turno": "Três seções encerraram entre 18:00 e 18:29 devido à alta concentração de eleitores urbanos (mais de 1.050 aptos)",
-        "acao_2turno": "Manter o Coordenador de Acessibilidade na entrada do corredor direcionando eleitores para suas respectivas seções sem aglomeração na porta.",
+        "problema_1turno": "Três seções encerraram entre 18:00 e 18:29 devido à alta concentração de eleitores urbanos (mais de 1.050 aptos votando em 6 cargos). Mídias transmitidas no Cartório às 18:47:57.",
+        "acao_2turno": "Coordenador de Acessibilidade na entrada do corredor direcionando eleitores para suas seções sem aglomeração na porta.",
         "responsavel": "Adm. Prédio CEMA + Coordenador de Acessibilidade"
       },
       {
         "alvo": "Seção 160 (EM de Ipixuna - Povoado Ipixuna)",
-        "problema_1turno": "Encerrou às 18:39:57 e transmitiu apenas às 19:35",
-        "acao_2turno": "Instruir o presidente de mesa sobre a celeridade da emissão das 5 vias de BU e acionar o ponto de transmissão JE Connect mais próximo imediatamente.",
-        "responsavel": "Técnico Fiscal Rota 07"
+        "problema_1turno": "Encerrou às 18:39:57 e mototáxi entregou a mídia no Cartório às 19:35:36 (2º último local transmitido).",
+        "acao_2turno": "Orientar o presidente de mesa sobre agilidade na emissão das 5 vias de BU para liberar o mototáxi expressamente para o Cartório Eleitoral.",
+        "responsavel": "Técnico Fiscal Rota 07 + Mototaxista Rota 22"
       },
       {
         "alvo": "Ponto Especial de Juçaral das Margaridas (Seção 106)",
-        "problema_1turno": "Nenhum — encerrou às 17:01:14 e chegou ao Cartório às 18:13!",
+        "problema_1turno": "Nenhum — encerrou às 17:01:14 e chegou fisicamente ao Cartório às 18:13:54!",
         "acao_2turno": "REPLICAR EXATAMENTE o protocolo do 1º Turno (transporte fluvial/terrestre com Suprimento de Fundos Werbeth Silva Dutra).",
         "responsavel": "Werbeth Silva Dutra (Técnico Suprimento de Fundos)"
       }

@@ -419,44 +419,59 @@ Conforme normatização da 41ª ZE, foi consolidado o **Módulo Operacional de A
 
 Com a realização do 1º Turno das Eleições Gerais de 2026 no dia 04/10/2026, os dados reais do sistema **Acompanha-E (TSE)** e do **SISTOT** foram extraídos e auditados, permitindo uma análise pós-ação exata da performance da 41ª Zona Eleitoral.
 
-### 13.1 Indicadores Oficiais Consolidados (TSE / SISTOT)
+### 13.1 Modelo de Transmissão & Indicadores Consolidados
+* **Transmissão 100% Centralizada no Cartório Eleitoral:** A 41ª Zona Eleitoral operou **sem pontos de transmissão JE Connect externos em campo**. Todas as 94 Mídias de Resultado (MRs) foram recolhidas fisicamente pelos mototáxis e veículos de apoio e entregues diretamente na Junta Eleitoral (Cartório Eleitoral de Vitória do Mearim), onde foram lidas e transmitidas no SISTOT.
+* **Complexidade do Pleito (6 Cargos na Urna):** O 1º Turno teve votação para **6 cargos** (Deputado Federal, Deputado Estadual, Senador 1ª vaga, Senador 2ª vaga, Governador e Presidente da República), demandando tempo médio de cabine de ~1min30s a 2min por eleitor, gerando filas naturais ao longo da tarde.
 * **Eleitorado Apto:** 24.458 eleitores.
 * **Comparecimento Oficial:** 19.338 votantes (**79,06%** de presença).
 * **Abstenção:** 5.345 eleitores (**21,85%** — uma das menores taxas da Baixada Maranhense).
 * **1º Encerramento de Urna:** Rigorosamente às **17:00:00** (Jardim de Infância Mons. Artur Gonçalves).
-* **1º BU Recebido no Cartório:** **17:42:45** (Seção 14 - Mons. Artur Gonçalves).
+* **1º BU Transmitido no Cartório:** **17:42:45** (Seção 14 - Mons. Artur Gonçalves).
 * **Último Encerramento de Urna (Gargalo Chave):** **19:52:31** (Seção 155 - Escola Municipal Raimundo Bogéa no Povoado Coque).
-* **Conclusão da Transmissão:** **20:28:10**.
+* **Última Mídia Transmitida no Cartório:** **20:28:10** (Seção 184 / 155 - Raimundo Bogéa).
 * **Totalização Oficial ZE041 (100% Apurado):** **20:55:14**.
 
-### 13.2 Análise dos Principais Gargalos de Filas Pós-17h
-A auditoria revelou que das 94 seções, a esmagadora maioria encerrou antes das 17h15. Contudo, 12 seções enfrentaram filas prolongadas após as 17h, destacando-se:
-1. **Seção 155 (EM Raimundo Bogéa - Coque):** Encerrou às **19:52:31** (+2h52min de fila; 380 aptos e 292 votantes). Esta única urna atrasou a transmissão da Rota 07 e manteve o município aberto até as 20h55.
-2. **Seção 119 (UE Neuza da Cunha Costa - Bairro Novo):** Encerrou às **18:41:48** (+1h41min de fila; lentidão em biometria de idosos).
-3. **Seção 160 (EM de Ipixuna - Povoado Ipixuna):** Encerrou às **18:39:57** (+1h39min de fila; demora na emissão das vias de BU).
-4. **Polo CEMA (Seções 09, 10 e 11):** Encerraram respectivamente às 18:00:04, 18:10:35 e 18:29:41, causadas pela alta concentração urbana de eleitores no corredor.
+### 13.2 Auditoria Exata dos Locais Transmitidos Após as 19h00 no Cartório
+A auditoria minuciosa dos horários de transmissão física no Cartório revelou que apenas **3 locais** tiveram leitura de mídia após as 19h00, seguidos imediatamente por um bloco concentrado de escolas que transmitiram na faixa entre 18h47 e 18h57:
+
+1. **Escola Municipal Raimundo Bogéa (Povoado Coque):** Mídias transmitidas às **20:28:10** (Totalizado às 20:55:14).
+   - **Diagnóstico da Causa Raiz:** O atraso não decorreu apenas de fila de eleitores, mas **porque as mesárias da Seção 155 se enrolaram no procedimento de encerramento da urna UE2022**. A prova cabal registrada nos logs é que a **Seção 184 (localizada no mesmo prédio)** encerrou normalmente às **17:15:08**! A Seção 155 só conseguiu encerrar às 19:52:31, retendo o mototáxi e atrasando a transmissão de ambas as urnas no Cartório.
+2. **Escola Municipal de Ipixuna (Povoado Ipixuna - Seção 160):** Mídia transmitida às **19:35:36** (Encerrou urna às 18:39:57). Trecho vicinal profundo e lentidão das mesárias na emissão das 5 vias de BU.
+3. **Colégio Municipal José Carlos Mota Silva (Povoado Sumaúma do Japão - Seções 66, 81 e 176):** Mídias transmitidas às **19:19:50** (Urnas encerradas entre 17:20 e 18:02).
+4. **Polo da Faixa 18h47 – 18h57 (Entregas Imediatamente Anteriores às 19h):**
+   - **UE Neuza da Cunha Costa (Bairro Novo - Seções 20, 21, 119 e 185):** Transmitido às **18:57:01** (Seção 119 com fila até 18:41).
+   - **EM Franklin Cantanhêde (São Lourenço - Seções 153 e 166):** Transmitido às **18:53:52**.
+   - **CM Godofredo Maciel (Mandiocal):** Transmitido às **18:50:59**.
+   - **CM José Ribamar Silva (Açaizal):** Transmitido às **18:50:57**.
+   - **EM Paulo Maciel Neto (Manival):** Transmitido às **18:50:11**.
+   - **EM Izidoro de Jesus Lopes (Livramento):** Transmitido às **18:50:08**.
+   - **EM Francisco Xavier Correia (Jaguary):** Transmitido às **18:50:05**.
+   - **CEMA Carlos Raimundo Figueiredo (Sede):** Transmitido às **18:47:57**.
 
 ### 13.3 Casos de Sucesso Operacional
-* **Juçaral das Margaridas (Seção 106 - Escola Municipal de Juçaral):** O local mais isolado e de difícil acesso fluvial de toda a ZE041 operou com disciplina militar. Encerrou às **17:01:14**, transmitiu às 17:52:04 e foi recebido fisicamente no Cartório às **18:13:54**, confirmando a eficácia do Suprimento de Fundos coordenado por Werbeth Silva Dutra.
-* **Jardim de Infância Mons. Artur Gonçalves:** 4 seções encerradas entre 17:00:34 e 17:02:35, gerando o primeiro BU totalizado da zona (17:44).
+* **Juçaral das Margaridas (Seção 106 - Escola Municipal de Juçaral):** O local mais isolado e de difícil acesso fluvial de toda a ZE041 operou com disciplina militar. Encerrou às **17:01:14** e a mídia física chegou ao Cartório Eleitoral às **18:13:54**, confirmando a eficácia do Suprimento de Fundos com Werbeth Silva Dutra.
+* **Jardim de Infância Mons. Artur Gonçalves:** 4 seções encerradas entre 17:00:34 e 17:02:35, mídias entregues no Cartório às 17h42 e primeiro BU totalizado da zona (17:44).
+* **Colégio Municipal Antônia Farias (Tapera):** 5 seções encerradas antes das 17h04 e mídias entregues no Cartório às 17h51.
 
 ### 13.4 Benchmarking Estadual do Maranhão (1º Turno 2026)
 Vitória do Mearim (20:55:14) concluiu sua totalização com folga antes da média estadual de complexidade equivalente, superando:
 * **São Bento (61ª ZE):** 21:11:30 (+16 min).
 * **Pinheiro (42ª ZE):** 21:25:40 (+30 min).
 * **Santa Helena (83ª ZE):** 21:30:15 (+35 min).
+* **Matinha (61ª ZE):** 21:48:22 (+53 min).
 * **Cantanhede (44ª ZE):** 21:55:10 (+1 hora).
 * **Viana (46ª ZE):** 01:40:20 da madrugada de 05/10 (+4h45).
 * **Cajari (46ª ZE):** 01:56:45 da madrugada de 05/10 (+5h01).
 
 ### 13.5 Matriz Tática de Intervenção para o 2º Turno (25/10/2026)
-1. **Redução Estrutural do Tempo de Votação:** No 2º Turno, o eleitor vota apenas em 2 cargos (Presidente e/ou Governador) com 2 dígitos cada. O tempo médio de cabine cai de ~100 segundos para **15 a 20 segundos** (-78%).
-2. **Intervenção Presencial na Seção 155 (Coque):** Apoio volante de técnico a partir das 15h, conferência prévia de documentos com eleitores na fila e distribuição estrita de senhas decrescentes às 17h00.
-3. **Triagem Antecipada no CEMA e Neuza da Cunha:** Administradores de Prédio e Coordenadores de Acessibilidade realizarão a conferência documental e de biometria antes da entrada na sala da seção.
-4. **Celeridade na Rota 07:** Transmissão imediata no ponto JE Connect mais próximo assim que emitido o BU da Seção 160 (Ipixuna).
-5. **Meta Oficial da 41ª ZE:** Última urna encerrada até as **17:45** e **Totalização Oficial 100% no TSE às 19:15** (ganho de 1h40min em relação ao 1º Turno).
+1. **Redução Estrutural do Voto (Apenas 2 Cargos vs 6 Cargos):** No 2º Turno, o eleitor vota apenas para Presidente e/ou Governador (2 dígitos cada). O tempo médio de cabine despenca de ~100s para **15 a 20 segundos** (-78%). Isso elimina a formação de filas no período vespertino.
+2. **Intervenção Presencial na Seção 155 (Raimundo Bogéa - Coque):** O Administrador de Prédio e o Técnico de Apoio da Rota 07 acompanharão diretamente as mesárias às 17h00 para orientar o procedimento de emissão de BU e fechamento imediato da urna, evitando o erro procedural do 1º Turno. A urna encerrará até 17h20 e a mídia chegará ao Cartório antes das 18h15.
+3. **Triagem no CEMA e Neuza da Cunha:** Administradores de Prédio e Coordenadores de Acessibilidade realizarão a conferência de documentos antes da entrada na sala da seção.
+4. **Agilidade no Retorno dos Mototáxis:** Garantir liberação imediata dos condutores de Ipixuna e Sumaúma assim que impressas as vias de BU.
+5. **Meta Oficial da 41ª ZE:** Última urna encerrada até as **17:30**, última mídia no Cartório às **18:45** e **Totalização Oficial 100% no TSE às 19:15** (economia de 1h40min).
 
 ---
 *Relatório Estratégico Zonal atualizado com os dados oficiais do 1º Turno (04/10/2026) e Planejamento do 2º Turno (25/10/2026) para o Juízo Eleitoral e Chefia de Cartório da 41ª ZE — Vitória do Mearim / MA.*
+
 
 

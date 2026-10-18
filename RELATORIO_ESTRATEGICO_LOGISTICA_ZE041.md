@@ -469,15 +469,31 @@ Vitória do Mearim (20:55:14) concluiu sua totalização com folga antes da méd
    * **Igor Fonseca Moreira (Polo Coque / EM Raimundo Bogéa):** O Coque fica na BR a apenas 15-20 minutos da sede. Como a Seção 184 já encerrou às 17h15 no 1ºT e o atraso foi restrito à Seção 155 pelas mesárias, Igor se posicionará presencialmente no Raimundo Bogéa às 16h45/17h00 para orientar o procedimento correto de encerramento. Urna encerrará às 17h05 e o mototáxi entregará as duas mídias no Cartório Eleitoral até as 17h35.
    * **Ingridy Fonseca Moreira (Polo Ramais e Vicinais / EM de Ipixuna):** Como os demais locais de sua jurisdição (Boca do Campo, Juçaralzinho, Vila Nova, Abidão) operaram perfeitamente no 1º turno, Ingridy se fixará na Escola Municipal de Ipixuna (Seção 160) durante a tarde/fechamento para apoiar a mesa e garantir emissão imediata do BU e liberação do mototáxi às 17h05.
    * **Diego William (Chefe de Cartório) & Eliana Silva (Gabinete):** Comando central no Cartório Eleitoral e supervisão direta dos maiores colégios da Sede (CEMA e Neuza da Cunha) e povoados vizinhos imediatos como Jaguary (EM Francisco Xavier Correia) e Jacaray, situados a apenas 3 km (~5 minutos) da sede, sem histórico de problemas.
-   * **Rosane Praseres & Stefany Pereira Bruce (Polo Japão / Sumaúma & São Benedito):** Supervisão dividida do Polo Japão. Cabe ressaltar que São Benedito (EM Paulo Maciel Neto), situado a 1h10 de estrada da sede, transmitiu no 1ºT às 18h50 (antes do Coque que fica na BR). Com o encerramento às 17h00, os mototáxis de Sumaúma e São Benedito chegarão ao Cartório entre 18h10 e 18h20.
+   * **Rosane Praseres & Stefany Pereira Bruce (Polo Japão / Sumaúma, Santa Rosa e São Benedito):** Supervisão dividida de toda a região do Japão. O Colégio Municipal José Ribamar Silva (Local 1309 no Povoado Santa Rosa) situa-se geograficamente no percurso antes da EM Paulo Maciel Neto (Povoado São Benedito, a 1h10 da sede). No 1º Turno de 2026, São Benedito operou com fluidez e entregou a mídia antes do Coque. Com o encerramento sem filas às 17h00 no 2º Turno, os mototáxis de Sumaúma, Santa Rosa e São Benedito iniciarão o deslocamento às 17h05-17h10.
    * **Werbeth Silva Dutra (Suprimento de Fundos - Juçaral das Margaridas):** Replicar o modelo vitorioso do 1º Turno (fechamento às 17h01 e entrega física no Cartório às 18h13).
 3. **Comunicação Contínua & Calibragem dos Mesários (WhatsApp):**
    * Os 376 mesários e 32 administradores de prédio já estão "calibrados" pela prova de fogo do 1º Turno (quando enfrentaram 6 cargos e urnas cheias).
    * Manter reforço sistemático nos grupos oficiais de WhatsApp: emissão da Zerésima rigorosamente às 07h00; início da votação às 08h00; encerramento pontual às 17h00 se não houver fila; consulta ao Guia Rápido do Mesário; e atuação proativa dos Administradores de Prédio e Coordenadores de Acessibilidade ao lado das mesas receptoras.
-4. **Meta Oficial da 41ª ZE:** Última urna encerrada até as **17:15**, todas as mídias entregues no Cartório Eleitoral até as **18:20** e **Totalização Oficial 100% no Cartório e no TSE entre 18:45 e 19:00** (mais de duas horas antes da linha de corte do Regional)!
+4. **Meta Oficial e Teto Máximo de Segurança da 41ª ZE:** Última urna encerrada até as **17:15**, mídias da sede e polos próximos entregues entre **17h30 e 18h00**, e rotas rurais profundas do Japão e vicinais entregues até as **18h45 - 19h00**. A projeção de **Totalização Oficial 100% no Cartório e no TSE situa-se entre 18:45 e 19:15**, com um **teto de segurança máximo absoluto de 19:30** (mesmo na hipótese mais conservadora de atraso de percurso), garantindo de **1h30 a 2h30 de folga inabalável** em relação às metas das 21h00 e 22h00 exigidas pelo TRE-MA.
+
+### 13.6 Validação Empírica Irrefutável: Dados Oficiais do TSE nas Eleições Gerais de 2022
+A auditoria forense dos arquivos oficiais de Boletim de Urna Web (BWEB) do TSE das Eleições de 2022 para Vitória do Mearim (`data/dados_oficiais_tse_2022_ze041.json`) comprova a solidez da logística sem necessidade de JE Connect:
+
+| Parâmetro Oficial do TSE | 1º Turno 2022 (02/10/2022)<br>*(5 cargos: Pres, Gov, Sen, Dep Fed, Dep Est)* | 2º Turno 2022 (30/10/2022)<br>*(1 cargo: Presidente da República)* |
+| :--- | :---: | :---: |
+| **Total de Seções Ativas** | 92 seções | 92 seções |
+| **Primeiro Encerramento de Urna** | 17:00:13 *(Seção 22)* | **17:00:04** *(Seção 22)* |
+| **Último Encerramento de Urna** | 19:18:29 *(Seção 26 - Local 1120)* | **17:16:06** *(Seção 29 - Local 1139)* |
+| **Seções com Filas pós-17h30** | 10 seções *(filas até 19h18)* | **ZERO (0)** *(100% encerradas até 17h16)* |
+| **Primeira Mídia Transmitida no Cartório** | 17:56:18 *(Seção 167)* | **17:30:31** *(Seção 167)* |
+| **Última Mídia Transmitida (Totalização 100%)** | 20:29:37 *(Seção 155 - Raimundo Bogéa)* | **19:25:02** *(Seção 66 - Paulo Maciel Neto)* |
+
+* **Evidência da Seção 155 (Raimundo Bogéa - Coque):** Em 2022 (2ºT), encerrou às **17:00:48** e transmitiu no Cartório às **17:54:47**, atestando que a rota pela BR é rápida (15-20 min) e que a presença do técnico Igor às 17h assegurará entrega antes das 17h35.
+* **Evidência do Polo Japão / Santa Rosa / São Benedito:** Em 2022 (2ºT), as urnas do Colégio José Ribamar Silva (Povoado Santa Rosa) transmitiram às **18:59:01**, e a última urna de São Benedito (Paulo Maciel Neto) transmitiu às **19:25:02**, estritamente pelo tempo de rodagem em estrada vicinal.
+* **Conclusão Estratégica:** A logística histórica do Cartório é robusta, autossuficiente e testada sob condições reais. Manter a sistemática consolidada de mototáxis com apoio presencial nos gargalos garante o encerramento total com tranquilidade até no máximo 19h30, rechaçando qualquer risco de improvisação operacional a poucos dias do pleito.
 
 ---
-*Relatório Estratégico Zonal atualizado com os dados oficiais do 1º Turno (04/10/2026) e Planejamento do 2º Turno (25/10/2026) para o Juízo Eleitoral e Chefia de Cartório da 41ª ZE — Vitória do Mearim / MA.*
+*Relatório Estratégico Zonal atualizado com os dados oficiais do 1º Turno (04/10/2026), Planejamento do 2º Turno (25/10/2026) e Validação Histórica BWEB TSE 2022 para o Juízo Eleitoral e Chefia de Cartório da 41ª ZE — Vitória do Mearim / MA.*
 
 
 

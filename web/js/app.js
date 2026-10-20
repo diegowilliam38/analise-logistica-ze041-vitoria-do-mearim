@@ -1083,8 +1083,9 @@ function initPredicao2Turno() {
           <td style="text-align: center; font-family: monospace; font-weight: 700; color: #10b981; font-size: 0.88rem; background: rgba(16, 185, 129, 0.08);">
             ${pred.encerramento_urna}
           </td>
-          <td style="text-align: center; font-family: monospace; font-size: 0.82rem; color: #cbd5e1;">
-            ${s.tempo_deslocamento_min} min
+          <td style="text-align: center; font-family: monospace; font-size: 0.88rem; font-weight: 700; color: #38bdf8; background: rgba(56, 189, 248, 0.08);">
+            +${s.delta_t_empirico_total_min} min
+            <div style="font-size: 0.68rem; color: #94a3b8; font-weight: 400;">(${s.tempo_deslocamento_estrada_min}m rodagem)</div>
           </td>
           <td style="text-align: center; font-family: monospace; font-weight: 800; color: #fbbf24; font-size: 0.9rem; background: rgba(251, 191, 36, 0.08);">
             ${pred.chegada_cartorio}

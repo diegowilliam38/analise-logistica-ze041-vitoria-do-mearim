@@ -1084,13 +1084,13 @@ function initPredicao2Turno() {
             ${pred.encerramento_urna}
           </td>
           <td style="text-align: center; font-family: monospace; font-size: 0.88rem; font-weight: 700; color: #38bdf8; background: rgba(56, 189, 248, 0.08);">
-            +${s.delta_t_empirico_total_min} min
-            <div style="font-size: 0.68rem; color: #94a3b8; font-weight: 400;">(${s.tempo_deslocamento_estrada_min}m rodagem)</div>
+            +${s.delta_t_chegada_cartorio_min || pred.delta_t_chegada_min || s.delta_t_empirico_total_min || 0} min
+            <div style="font-size: 0.68rem; color: #94a3b8; font-weight: 400;">(${s.tempo_deslocamento_estrada_min}m estrada)</div>
           </td>
-          <td style="text-align: center; font-family: monospace; font-weight: 800; color: #fbbf24; font-size: 0.9rem; background: rgba(251, 191, 36, 0.08);">
+          <td style="text-align: center; font-family: monospace; font-weight: 800; color: #fbbf24; font-size: 0.9rem; background: rgba(251, 191, 36, 0.08);" title="Momento exato da entrega na Zona Eleitoral p/ Transportador Desktop">
             ${pred.chegada_cartorio}
           </td>
-          <td style="text-align: center; font-family: monospace; font-weight: 800; color: var(--gold); font-size: 0.9rem;">
+          <td style="text-align: center; font-family: monospace; font-weight: 800; color: var(--gold); font-size: 0.9rem;" title="Transmissão no SISTOT após leitura pelo Chefe de Cartório">
             ${pred.transmissao_sistot}
           </td>
           <td>${statusHtml}</td>

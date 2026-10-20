@@ -45,3 +45,4 @@ scratch/
 # Raw election dumps (TSE heavy archives > 100MB)
 *.csv
 *.zip
+*.wav

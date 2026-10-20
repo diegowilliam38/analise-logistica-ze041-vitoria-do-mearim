@@ -57,6 +57,9 @@ document.addEventListener('DOMContentLoaded', () => {
     renderSegundoTurno(data.resultado_1turno);
   }
 
+  // 7.3 Inicializar Projeção Preditiva Oficial do 2º Turno (94 Seções)
+  initPredicao2Turno();
+
   // 8. Renderizar Gráficos
   if (window.initDashboardCharts) {
     window.initDashboardCharts(data);
@@ -989,5 +992,116 @@ function renderSegundoTurno(res1T) {
 
     renderSecoes1TList('');
   }
+}
+
+// -------------------------------------------------------------
+// 7.3 PROJEÇÃO PREDITIVA SEÇÃO A SEÇÃO - 2º TURNO (25/10/2026)
+// -------------------------------------------------------------
+function initPredicao2Turno() {
+  const pData = window.PREDICAO_2TURNO_DATA;
+  if (!pData || !pData.secoes_predicao) {
+    console.warn("Dados de predição do 2º turno não encontrados em window.PREDICAO_2TURNO_DATA");
+    return;
+  }
+
+  const secoes = pData.secoes_predicao;
+  const tbody = document.getElementById('tbodyPredicao2Turno');
+  const searchInput = document.getElementById('searchPredicao');
+  const filterPolo = document.getElementById('filterPredicaoPolo');
+  const filterFaixa = document.getElementById('filterPredicaoFaixa');
+  const countBadge = document.getElementById('countPredicaoVisiveis');
+
+  if (!tbody) return;
+
+  function renderRows() {
+    const q = searchInput ? searchInput.value.toLowerCase().trim() : '';
+    const poloSel = filterPolo ? filterPolo.value : 'TODOS';
+    const faixaSel = filterFaixa ? filterFaixa.value : 'TODAS';
+
+    const filtradas = secoes.filter(s => {
+      // 1. Filtro busca textual
+      if (q) {
+        const txt = `${s.secao} ${s.local_nome} ${s.bairro_povoado} ${s.tecnico_responsavel} ${s.mototaxi_responsavel}`.toLowerCase();
+        if (!txt.includes(q)) return false;
+      }
+      // 2. Filtro polo / técnico
+      if (poloSel !== 'TODOS' && s.tecnico_responsavel !== poloSel) {
+        return false;
+      }
+      // 3. Filtro faixa de onda
+      if (faixaSel !== 'TODAS' && !s.predicao_2t_2026.faixa_onda.startsWith(faixaSel)) {
+        return false;
+      }
+      return true;
+    });
+
+    if (countBadge) {
+      countBadge.innerText = filtradas.length;
+    }
+
+    if (filtradas.length === 0) {
+      tbody.innerHTML = `<tr><td colspan="12" style="text-align:center; padding: 2.5rem; color: #94a3b8;">Nenhuma seção encontrada com os filtros selecionados.</td></tr>`;
+      return;
+    }
+
+    tbody.innerHTML = filtradas.map(s => {
+      const pred = s.predicao_2t_2026;
+      const h1t = s.historico_1t_2026;
+      const h22 = s.historico_2t_2022;
+
+      let badgeColor = pred.cor_badge || '#10b981';
+      let statusHtml = `
+        <span class="badge" style="background: ${badgeColor}; color: #022c22; font-weight: 700; font-size: 0.7rem; padding: 3px 8px; border-radius: 4px;">${pred.status_badge}</span>
+        <div style="font-size: 0.72rem; color: #94a3b8; margin-top: 3px; line-height: 1.25;">${pred.justificativa}</div>
+      `;
+
+      return `
+        <tr>
+          <td style="text-align: center; font-weight: 800; color: var(--gold); font-size: 0.95rem;">${s.secao}</td>
+          <td>
+            <div style="font-weight: 700; color: #fff;">${s.local_nome}</div>
+            <div style="font-size: 0.75rem; color: #38bdf8; margin-top: 2px;">🏍️ ${s.mototaxi_responsavel}</div>
+          </td>
+          <td>
+            <span style="color: #cbd5e1; font-size: 0.82rem; font-weight: 600;">${s.bairro_povoado || 'Sede'}</span>
+            <div style="font-size: 0.7rem; color: #64748b;">${s.tipo_via}</div>
+          </td>
+          <td>
+            <div style="font-weight: 600; color: #e2e8f0;">${s.tecnico_responsavel}</div>
+            <div style="font-size: 0.72rem; color: #94a3b8;">${s.polo_logistico}</div>
+          </td>
+          <td style="text-align: center; font-family: monospace;">
+            <strong style="color: #fff; font-size: 0.88rem;">${s.votantes_estimados}</strong>
+            <span style="font-size: 0.7rem; color: #64748b;">/${s.aptos}</span>
+          </td>
+          <td style="text-align: center; font-family: monospace; font-size: 0.8rem; color: ${h1t.encerramento >= '18:00:00' ? '#f87171' : '#cbd5e1'};">
+            ${h1t.encerramento}
+          </td>
+          <td style="text-align: center; font-family: monospace; font-size: 0.8rem; color: #38bdf8;">
+            ${h22.encerramento || '--:--:--'}
+          </td>
+          <td style="text-align: center; font-family: monospace; font-weight: 700; color: #10b981; font-size: 0.88rem; background: rgba(16, 185, 129, 0.08);">
+            ${pred.encerramento_urna}
+          </td>
+          <td style="text-align: center; font-family: monospace; font-size: 0.82rem; color: #cbd5e1;">
+            ${s.tempo_deslocamento_min} min
+          </td>
+          <td style="text-align: center; font-family: monospace; font-weight: 800; color: #fbbf24; font-size: 0.9rem; background: rgba(251, 191, 36, 0.08);">
+            ${pred.chegada_cartorio}
+          </td>
+          <td style="text-align: center; font-family: monospace; font-weight: 800; color: var(--gold); font-size: 0.9rem;">
+            ${pred.transmissao_sistot}
+          </td>
+          <td>${statusHtml}</td>
+        </tr>
+      `;
+    }).join('');
+  }
+
+  if (searchInput) searchInput.addEventListener('input', renderRows);
+  if (filterPolo) filterPolo.addEventListener('change', renderRows);
+  if (filterFaixa) filterFaixa.addEventListener('change', renderRows);
+
+  renderRows();
 }
 

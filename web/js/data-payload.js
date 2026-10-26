@@ -20119,5 +20119,49 @@ window.ZE041_DATA = {
         "totalizado": "18:13:50"
       }
     }
+  },
+  "resultado_2turno": {
+    "ano_pleito": 2026,
+    "turno": "2º Turno (25/10/2026)",
+    "zona": 41,
+    "municipio": "VITÓRIA DO MEARIM / MA",
+    "cargo": "Presidente da República",
+    "estatisticas_oficiais_tse": {
+      "qtd_locais": 32,
+      "qtd_secoes": 94,
+      "qtd_aptos": 24677,
+      "comparecimento": 19051,
+      "abstencao": 5626,
+      "pct_comparecimento": 77.20,
+      "pct_abstencao": 22.80,
+      "votos_validos": 18714,
+      "votos_brancos": 112,
+      "pct_brancos": 0.59,
+      "votos_nulos": 225,
+      "pct_nulos": 1.18,
+      "resultado_candidatos": [
+        {
+          "candidato": "LUIZ INÁCIO LULA DA SILVA (PT)",
+          "numero": 13,
+          "votos": 13516,
+          "pct": 72.22
+        },
+        {
+          "candidato": "FLÁVIO BOLSONARO (PL)",
+          "numero": 22,
+          "votos": 5198,
+          "pct": 27.78
+        }
+      ]
+    },
+    "desempenho_logistico_41ze": {
+      "abertura_votacao": "25/10/2026 08:00:00",
+      "status_filas_15h30": "Fila zero constatada em vistoria presencial na Sede",
+      "encerramento_urnas": "25/10/2026 17:00:00",
+      "primeira_midia_transmitida": "25/10/2026 17:16:00",
+      "ultima_midia_transmitida": "25/10/2026 18:10:00 (Transportador Desktop)",
+      "duracao_total_logistica_min": 70,
+      "observacao_totalizacao": "94 mídias entregues e transmitidas na 41ª ZE às 18:10. Totalização final do TSE postergada devido à decisão do STF pós-17h."
+    }
   }
 };

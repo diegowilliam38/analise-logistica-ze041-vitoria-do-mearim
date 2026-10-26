@@ -161,6 +161,17 @@ function setupTabs() {
       }
     });
   });
+
+  // Suporte a abertura direta por Hash na URL (ex: #tab-segundo-turno ou #segundo-turno)
+  function activateTabByHash() {
+    let hash = window.location.hash.replace('#', '');
+    if (!hash) return;
+    if (!hash.startsWith('tab-')) hash = 'tab-' + hash;
+    const btn = document.querySelector(`.tab-btn[data-tab="${hash}"]`);
+    if (btn) btn.click();
+  }
+  activateTabByHash();
+  window.addEventListener('hashchange', activateTabByHash);
 }
 
 // -------------------------------------------------------------

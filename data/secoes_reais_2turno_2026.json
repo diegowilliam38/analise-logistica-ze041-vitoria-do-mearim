@@ -1,0 +1,2398 @@
+{
+  "municipio": "Vitória do Mearim / MA",
+  "zona": 41,
+  "eleicao": "Eleições Gerais 2026 - 2º Turno (25/10/2026)",
+  "fonte": "Tribunal Superior Eleitoral (TSE) — Microdados Oficiais de Urna e Arquivo-Urna CDN",
+  "resumo_forense": {
+    "total_secoes": 94,
+    "primeiro_encerramento_urna": "17:00:19",
+    "ultimo_encerramento_urna": "17:09:54",
+    "secoes_encerradas_ate_17h10": 94,
+    "secoes_encerradas_pos_17h10": 0,
+    "secoes_encerradas_pos_17h15": 0,
+    "termino_transmissao_cartorio": "18:10:00 (Transportador Desktop / Chefe de Cartório)"
+  },
+  "secoes": [
+    {
+      "secao": 1,
+      "num_local": 1015,
+      "local": "Instituto Estadual de Educação, Ciência e Tecnologia do Maranhão (IEMA)",
+      "povoado": "Povoado Jaguary",
+      "area": "URBANA",
+      "aptos": 254,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:01:08",
+        "emissao_bu": "17:03:41",
+        "totalizacao_sistot": "20:01:13",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:01:04",
+        "totalizacao": "18:12:40",
+        "comparecimento": 199
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:51",
+        "totalizacao": "17:34:43"
+      }
+    },
+    {
+      "secao": 2,
+      "num_local": 1015,
+      "local": "Instituto Estadual de Educação, Ciência e Tecnologia do Maranhão (IEMA)",
+      "povoado": "Povoado Jaguary",
+      "area": "URBANA",
+      "aptos": 255,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:01:19",
+        "emissao_bu": "17:04:43",
+        "totalizacao_sistot": "20:02:41",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:06:43",
+        "totalizacao": "18:12:41",
+        "comparecimento": 179
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:07:33",
+        "totalizacao": "17:34:27"
+      }
+    },
+    {
+      "secao": 3,
+      "num_local": 1015,
+      "local": "Instituto Estadual de Educação, Ciência e Tecnologia do Maranhão (IEMA)",
+      "povoado": "Povoado Jaguary",
+      "area": "URBANA",
+      "aptos": 257,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:49",
+        "emissao_bu": "17:03:49",
+        "totalizacao_sistot": "20:01:17",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:01:40",
+        "totalizacao": "18:12:05",
+        "comparecimento": 197
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:44",
+        "totalizacao": "17:34:28"
+      }
+    },
+    {
+      "secao": 4,
+      "num_local": 1023,
+      "local": "Colégio Municipal Ana Bogéa",
+      "povoado": "Centro",
+      "area": "URBANA",
+      "aptos": 314,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:01:19",
+        "emissao_bu": "17:02:50",
+        "totalizacao_sistot": "19:56:11",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:02:41",
+        "totalizacao": "18:28:56",
+        "comparecimento": 249
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:03:42",
+        "totalizacao": "18:10:34"
+      }
+    },
+    {
+      "secao": 5,
+      "num_local": 1023,
+      "local": "Colégio Municipal Ana Bogéa",
+      "povoado": "Centro",
+      "area": "URBANA",
+      "aptos": 314,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:01:18",
+        "emissao_bu": "17:02:48",
+        "totalizacao_sistot": "20:01:13",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:01:19",
+        "totalizacao": "18:31:13",
+        "comparecimento": 246
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:28",
+        "totalizacao": "18:11:07"
+      }
+    },
+    {
+      "secao": 6,
+      "num_local": 1023,
+      "local": "Colégio Municipal Ana Bogéa",
+      "povoado": "Centro",
+      "area": "URBANA",
+      "aptos": 312,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:47",
+        "emissao_bu": "17:02:39",
+        "totalizacao_sistot": "19:56:11",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:23:20",
+        "totalizacao": "18:31:01",
+        "comparecimento": 243
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:54",
+        "totalizacao": "18:56:12"
+      }
+    },
+    {
+      "secao": 7,
+      "num_local": 1023,
+      "local": "Colégio Municipal Ana Bogéa",
+      "povoado": "Centro",
+      "area": "URBANA",
+      "aptos": 311,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:03:41",
+        "emissao_bu": "17:06:51",
+        "totalizacao_sistot": "19:56:09",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:20:53",
+        "totalizacao": "18:31:00",
+        "comparecimento": 252
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:02:34",
+        "totalizacao": "18:22:40"
+      }
+    },
+    {
+      "secao": 8,
+      "num_local": 1490,
+      "local": "Escola Municipal Maria Celeste Barros",
+      "povoado": "Manijituba",
+      "area": "URBANA",
+      "aptos": 213,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:02:15",
+        "emissao_bu": "17:05:38",
+        "totalizacao_sistot": "20:01:16",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:05:52",
+        "totalizacao": "18:10:17",
+        "comparecimento": 175
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:43",
+        "totalizacao": "17:46:32"
+      }
+    },
+    {
+      "secao": 9,
+      "num_local": 1040,
+      "local": "CEMA Carlos Raimundo Figueiredo",
+      "povoado": "Centro",
+      "area": "URBANA",
+      "aptos": 362,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:37",
+        "emissao_bu": "17:02:32",
+        "totalizacao_sistot": "19:33:09",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "18:00:04",
+        "totalizacao": "19:02:55",
+        "comparecimento": 283
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:10:39",
+        "totalizacao": "18:00:44"
+      }
+    },
+    {
+      "secao": 10,
+      "num_local": 1040,
+      "local": "CEMA Carlos Raimundo Figueiredo",
+      "povoado": "Centro",
+      "area": "URBANA",
+      "aptos": 363,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:01:18",
+        "emissao_bu": "17:03:24",
+        "totalizacao_sistot": "19:33:10",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "18:10:35",
+        "totalizacao": "19:03:20",
+        "comparecimento": 293
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:05:08",
+        "totalizacao": "17:54:46"
+      }
+    },
+    {
+      "secao": 11,
+      "num_local": 1040,
+      "local": "CEMA Carlos Raimundo Figueiredo",
+      "povoado": "Centro",
+      "area": "URBANA",
+      "aptos": 362,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:01:33",
+        "emissao_bu": "17:03:42",
+        "totalizacao_sistot": "19:30:17",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "18:29:41",
+        "totalizacao": "19:03:20",
+        "comparecimento": 297
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:01:20",
+        "totalizacao": "18:00:57"
+      }
+    },
+    {
+      "secao": 12,
+      "num_local": 1058,
+      "local": "Colégio Municipal Antônia Farias",
+      "povoado": "Puraqueu",
+      "area": "URBANA",
+      "aptos": 250,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:01:16",
+        "emissao_bu": "17:03:40",
+        "totalizacao_sistot": "19:52:09",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:00:42",
+        "totalizacao": "17:51:45",
+        "comparecimento": 187
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:03:22",
+        "totalizacao": "17:38:37"
+      }
+    },
+    {
+      "secao": 13,
+      "num_local": 1058,
+      "local": "Colégio Municipal Antônia Farias",
+      "povoado": "Puraqueu",
+      "area": "URBANA",
+      "aptos": 249,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:19",
+        "emissao_bu": "17:02:01",
+        "totalizacao_sistot": "19:54:18",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:01:02",
+        "totalizacao": "17:51:46",
+        "comparecimento": 208
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:33",
+        "totalizacao": "17:38:52"
+      }
+    },
+    {
+      "secao": 14,
+      "num_local": 1066,
+      "local": "Jardim de Infância Mons. Artur Gonçalves",
+      "povoado": "Puraqueu",
+      "area": "URBANA",
+      "aptos": 248,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:05:08",
+        "emissao_bu": "17:08:10",
+        "totalizacao_sistot": "19:44:27",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:00:38",
+        "totalizacao": "17:42:45",
+        "comparecimento": 200
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:16",
+        "totalizacao": "18:22:41"
+      }
+    },
+    {
+      "secao": 15,
+      "num_local": 1066,
+      "local": "Jardim de Infância Mons. Artur Gonçalves",
+      "povoado": "Puraqueu",
+      "area": "URBANA",
+      "aptos": 248,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:01:10",
+        "emissao_bu": "17:04:13",
+        "totalizacao_sistot": "19:44:24",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:00:53",
+        "totalizacao": "17:42:46",
+        "comparecimento": 208
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:43",
+        "totalizacao": "18:22:40"
+      }
+    },
+    {
+      "secao": 16,
+      "num_local": 1074,
+      "local": "Centro Educacional Cônego Eliud Nunes Arouche",
+      "povoado": "Manijituba",
+      "area": "URBANA",
+      "aptos": 258,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:54",
+        "emissao_bu": "17:03:09",
+        "totalizacao_sistot": "19:46:28",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:00:56",
+        "totalizacao": "17:51:53",
+        "comparecimento": 206
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:40",
+        "totalizacao": "17:54:54"
+      }
+    },
+    {
+      "secao": 17,
+      "num_local": 1074,
+      "local": "Centro Educacional Cônego Eliud Nunes Arouche",
+      "povoado": "Manijituba",
+      "area": "URBANA",
+      "aptos": 259,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:01:03",
+        "emissao_bu": "17:04:56",
+        "totalizacao_sistot": "19:54:19",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:10:40",
+        "totalizacao": "17:56:38",
+        "comparecimento": 203
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:16",
+        "totalizacao": "17:54:53"
+      }
+    },
+    {
+      "secao": 18,
+      "num_local": 1074,
+      "local": "Centro Educacional Cônego Eliud Nunes Arouche",
+      "povoado": "Manijituba",
+      "area": "URBANA",
+      "aptos": 251,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:51",
+        "emissao_bu": "17:03:58",
+        "totalizacao_sistot": "19:52:11",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:02:44",
+        "totalizacao": "17:48:34",
+        "comparecimento": 206
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:20",
+        "totalizacao": "17:55:29"
+      }
+    },
+    {
+      "secao": 19,
+      "num_local": 1015,
+      "local": "Instituto Estadual de Educação, Ciência e Tecnologia do Maranhão (IEMA)",
+      "povoado": "Povoado Jaguary",
+      "area": "URBANA",
+      "aptos": 252,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:01:07",
+        "emissao_bu": "17:03:31",
+        "totalizacao_sistot": "20:01:14",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:01:48",
+        "totalizacao": "18:12:42",
+        "comparecimento": 197
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:15",
+        "totalizacao": "17:34:52"
+      }
+    },
+    {
+      "secao": 20,
+      "num_local": 1473,
+      "local": "Unidade Escolar Neuza da Cunha Costa",
+      "povoado": "Itapui Tapera",
+      "area": "URBANA",
+      "aptos": 204,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:01:24",
+        "emissao_bu": "17:04:16",
+        "totalizacao_sistot": "19:46:33",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:01:16",
+        "totalizacao": "19:08:45",
+        "comparecimento": 154
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:01:07",
+        "totalizacao": "17:46:32"
+      }
+    },
+    {
+      "secao": 21,
+      "num_local": 1473,
+      "local": "Unidade Escolar Neuza da Cunha Costa",
+      "povoado": "Itapui Tapera",
+      "area": "URBANA",
+      "aptos": 210,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:07:45",
+        "emissao_bu": "17:10:52",
+        "totalizacao_sistot": "19:46:23",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:02:27",
+        "totalizacao": "19:08:20",
+        "comparecimento": 177
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:19",
+        "totalizacao": "17:46:32"
+      }
+    },
+    {
+      "secao": 22,
+      "num_local": 1104,
+      "local": "Escola Municipal Francisco Xavier Correia",
+      "povoado": "Povoado Jaguary",
+      "area": "RURAL",
+      "aptos": 366,
+      "agregadas": [
+        187
+      ],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:02:29",
+        "emissao_bu": "17:05:24",
+        "totalizacao_sistot": "19:52:10",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "18:18:29",
+        "totalizacao": "19:03:48",
+        "comparecimento": 303
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:04",
+        "totalizacao": "17:34:53"
+      }
+    },
+    {
+      "secao": 23,
+      "num_local": 1112,
+      "local": "Escola Municipal Deodato Santos Lourenço",
+      "povoado": "Povoado São Lourenço",
+      "area": "RURAL",
+      "aptos": 286,
+      "agregadas": [
+        24
+      ],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:45",
+        "emissao_bu": "17:02:47",
+        "totalizacao_sistot": "20:04:27",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "18:03:35",
+        "totalizacao": "18:57:53",
+        "comparecimento": 229
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:01:09",
+        "totalizacao": "18:10:43"
+      }
+    },
+    {
+      "secao": 25,
+      "num_local": 1120,
+      "local": "Escola Municipal Nasser Assad",
+      "povoado": "Povoado Coque",
+      "area": "RURAL",
+      "aptos": 266,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:02:48",
+        "emissao_bu": "17:07:24",
+        "totalizacao_sistot": "20:07:36",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:34:30",
+        "totalizacao": "18:26:53",
+        "comparecimento": 212
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:02:41",
+        "totalizacao": "18:23:01"
+      }
+    },
+    {
+      "secao": 26,
+      "num_local": 1120,
+      "local": "Escola Municipal Nasser Assad",
+      "povoado": "Povoado Coque",
+      "area": "RURAL",
+      "aptos": 268,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:01:31",
+        "emissao_bu": "17:03:55",
+        "totalizacao_sistot": "20:06:12",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:20:01",
+        "totalizacao": "18:26:53",
+        "comparecimento": 199
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:02:58",
+        "totalizacao": "18:24:25"
+      }
+    },
+    {
+      "secao": 27,
+      "num_local": 1120,
+      "local": "Escola Municipal Nasser Assad",
+      "povoado": "Povoado Coque",
+      "area": "RURAL",
+      "aptos": 264,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:09:54",
+        "emissao_bu": "17:12:08",
+        "totalizacao_sistot": "20:06:13",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:14:24",
+        "totalizacao": "18:26:55",
+        "comparecimento": 193
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:03:54",
+        "totalizacao": "18:24:25"
+      }
+    },
+    {
+      "secao": 28,
+      "num_local": 1120,
+      "local": "Escola Municipal Nasser Assad",
+      "povoado": "Povoado Coque",
+      "area": "RURAL",
+      "aptos": 265,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:27",
+        "emissao_bu": "17:02:42",
+        "totalizacao_sistot": "20:06:12",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:02:59",
+        "totalizacao": "18:26:57",
+        "comparecimento": 197
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:02:17",
+        "totalizacao": "18:22:43"
+      }
+    },
+    {
+      "secao": 29,
+      "num_local": 1368,
+      "local": "Escola Municipal Itelvino de Matos",
+      "povoado": "Povoado Coque",
+      "area": "RURAL",
+      "aptos": 255,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:37",
+        "emissao_bu": "17:04:46",
+        "totalizacao_sistot": "20:11:32",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:01:02",
+        "totalizacao": "18:31:01",
+        "comparecimento": 184
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:16:06",
+        "totalizacao": "18:24:43"
+      }
+    },
+    {
+      "secao": 30,
+      "num_local": 1368,
+      "local": "Escola Municipal Itelvino de Matos",
+      "povoado": "Povoado Coque",
+      "area": "RURAL",
+      "aptos": 257,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:04:46",
+        "emissao_bu": "17:07:32",
+        "totalizacao_sistot": "20:11:31",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:09:07",
+        "totalizacao": "18:31:12",
+        "comparecimento": 190
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:45",
+        "totalizacao": "18:24:03"
+      }
+    },
+    {
+      "secao": 62,
+      "num_local": 1287,
+      "local": "Colégio Municipal Godofredo Maciel",
+      "povoado": "Povoado São Felix",
+      "area": "RURAL",
+      "aptos": 208,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:01:00",
+        "emissao_bu": "17:04:02",
+        "totalizacao_sistot": "20:07:37",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:02:32",
+        "totalizacao": "19:04:47",
+        "comparecimento": 162
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:25",
+        "totalizacao": "18:22:56"
+      }
+    },
+    {
+      "secao": 64,
+      "num_local": 1309,
+      "local": "Colégio Municipal José Ribamar Silva",
+      "povoado": "Povoado Santa Rosa",
+      "area": "RURAL",
+      "aptos": 257,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:01:03",
+        "emissao_bu": "17:02:31",
+        "totalizacao_sistot": "20:21:28",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:34:56",
+        "totalizacao": "19:04:59",
+        "comparecimento": 206
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:05:29",
+        "totalizacao": "18:57:02"
+      }
+    },
+    {
+      "secao": 65,
+      "num_local": 1309,
+      "local": "Colégio Municipal José Ribamar Silva",
+      "povoado": "Povoado Santa Rosa",
+      "area": "RURAL",
+      "aptos": 258,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:05:02",
+        "emissao_bu": "17:05:30",
+        "totalizacao_sistot": "20:21:24",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:25:16",
+        "totalizacao": "19:04:54",
+        "comparecimento": 208
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:14",
+        "totalizacao": "18:59:01"
+      }
+    },
+    {
+      "secao": 66,
+      "num_local": 1325,
+      "local": "Colégio Municipal José Carlos Mota Silva",
+      "povoado": "Povoado Sumaúma do Japão",
+      "area": "RURAL",
+      "aptos": 320,
+      "agregadas": [
+        158,
+        168
+      ],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:58",
+        "emissao_bu": "17:02:19",
+        "totalizacao_sistot": "20:22:35",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:59:37",
+        "totalizacao": "19:19:55",
+        "comparecimento": 240
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:48",
+        "totalizacao": "19:25:02"
+      }
+    },
+    {
+      "secao": 68,
+      "num_local": 1287,
+      "local": "Colégio Municipal Godofredo Maciel",
+      "povoado": "Povoado São Felix",
+      "area": "RURAL",
+      "aptos": 209,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:45",
+        "emissao_bu": "17:03:40",
+        "totalizacao_sistot": "20:07:34",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:00:47",
+        "totalizacao": "19:04:54",
+        "comparecimento": 163
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:15",
+        "totalizacao": "18:22:48"
+      }
+    },
+    {
+      "secao": 69,
+      "num_local": 1104,
+      "local": "Escola Municipal Francisco Xavier Correia",
+      "povoado": "Povoado Jaguary",
+      "area": "RURAL",
+      "aptos": 195,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:40",
+        "emissao_bu": "17:03:42",
+        "totalizacao_sistot": "19:52:16",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:04:00",
+        "totalizacao": "19:04:59",
+        "comparecimento": 170
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:01:47",
+        "totalizacao": "17:34:33"
+      }
+    },
+    {
+      "secao": 73,
+      "num_local": 1341,
+      "local": "Escola Municipal Paulo Maciel Neto",
+      "povoado": "Povoado São Benedito",
+      "area": "RURAL",
+      "aptos": 227,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:01:11",
+        "emissao_bu": "17:03:23",
+        "totalizacao_sistot": "20:21:28",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:01:01",
+        "totalizacao": "19:04:06",
+        "comparecimento": 168
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:01:20",
+        "totalizacao": "18:56:16"
+      }
+    },
+    {
+      "secao": 75,
+      "num_local": 1317,
+      "local": "Escola Municipal Izidoro de Jesus Lopes",
+      "povoado": "Povoado Livramento",
+      "area": "RURAL",
+      "aptos": 336,
+      "agregadas": [
+        114,
+        172
+      ],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:29",
+        "emissao_bu": "17:03:28",
+        "totalizacao_sistot": "20:23:23",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:59:45",
+        "totalizacao": "19:05:00",
+        "comparecimento": 258
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:37",
+        "totalizacao": "18:26:46"
+      }
+    },
+    {
+      "secao": 78,
+      "num_local": 1120,
+      "local": "Escola Municipal Nasser Assad",
+      "povoado": "Povoado Coque",
+      "area": "RURAL",
+      "aptos": 264,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:55",
+        "emissao_bu": "17:01:49",
+        "totalizacao_sistot": "20:04:24",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:01:20",
+        "totalizacao": "18:27:23",
+        "comparecimento": 204
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:26",
+        "totalizacao": "18:23:00"
+      }
+    },
+    {
+      "secao": 80,
+      "num_local": 1040,
+      "local": "CEMA Carlos Raimundo Figueiredo",
+      "povoado": "Centro",
+      "area": "URBANA",
+      "aptos": 357,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:38",
+        "emissao_bu": "17:03:03",
+        "totalizacao_sistot": "19:30:16",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:12:08",
+        "totalizacao": "19:03:49",
+        "comparecimento": 290
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:10:56",
+        "totalizacao": "18:00:57"
+      }
+    },
+    {
+      "secao": 81,
+      "num_local": 1325,
+      "local": "Colégio Municipal José Carlos Mota Silva",
+      "povoado": "Povoado Sumaúma do Japão",
+      "area": "RURAL",
+      "aptos": 246,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:01:30",
+        "emissao_bu": "17:03:46",
+        "totalizacao_sistot": "20:22:35",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "18:02:06",
+        "totalizacao": "19:20:58",
+        "comparecimento": 206
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:01:20",
+        "totalizacao": "19:03:25"
+      }
+    },
+    {
+      "secao": 82,
+      "num_local": 1040,
+      "local": "CEMA Carlos Raimundo Figueiredo",
+      "povoado": "Centro",
+      "area": "URBANA",
+      "aptos": 360,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:51",
+        "emissao_bu": "17:02:54",
+        "totalizacao_sistot": "19:33:12",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:17:13",
+        "totalizacao": "19:03:50",
+        "comparecimento": 294
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:04:30",
+        "totalizacao": "17:54:36"
+      }
+    },
+    {
+      "secao": 83,
+      "num_local": 1058,
+      "local": "Colégio Municipal Antônia Farias",
+      "povoado": "Puraqueu",
+      "area": "URBANA",
+      "aptos": 249,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:56",
+        "emissao_bu": "17:03:47",
+        "totalizacao_sistot": "19:54:20",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:02:19",
+        "totalizacao": "17:51:48",
+        "comparecimento": 210
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:26",
+        "totalizacao": "18:59:44"
+      }
+    },
+    {
+      "secao": 84,
+      "num_local": 1015,
+      "local": "Instituto Estadual de Educação, Ciência e Tecnologia do Maranhão (IEMA)",
+      "povoado": "Povoado Jaguary",
+      "area": "URBANA",
+      "aptos": 256,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:40",
+        "emissao_bu": "17:02:37",
+        "totalizacao_sistot": "20:03:09",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:01:12",
+        "totalizacao": "18:12:38",
+        "comparecimento": 211
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:18",
+        "totalizacao": "17:34:56"
+      }
+    },
+    {
+      "secao": 85,
+      "num_local": 1120,
+      "local": "Escola Municipal Nasser Assad",
+      "povoado": "Povoado Coque",
+      "area": "RURAL",
+      "aptos": 263,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:55",
+        "emissao_bu": "17:04:03",
+        "totalizacao_sistot": "20:07:30",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:20:46",
+        "totalizacao": "18:27:23",
+        "comparecimento": 213
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:22",
+        "totalizacao": "18:23:33"
+      }
+    },
+    {
+      "secao": 89,
+      "num_local": 1341,
+      "local": "Escola Municipal Paulo Maciel Neto",
+      "povoado": "Povoado São Benedito",
+      "area": "RURAL",
+      "aptos": 231,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:02:29",
+        "emissao_bu": "17:03:40",
+        "totalizacao_sistot": "20:21:29",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:05:56",
+        "totalizacao": "19:05:01",
+        "comparecimento": 176
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:01:17",
+        "totalizacao": "18:58:53"
+      }
+    },
+    {
+      "secao": 90,
+      "num_local": 1023,
+      "local": "Colégio Municipal Ana Bogéa",
+      "povoado": "Centro",
+      "area": "URBANA",
+      "aptos": 315,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:02:01",
+        "emissao_bu": "17:04:31",
+        "totalizacao_sistot": "19:56:09",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:31:52",
+        "totalizacao": "18:28:08",
+        "comparecimento": 249
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:04:06",
+        "totalizacao": "17:54:44"
+      }
+    },
+    {
+      "secao": 93,
+      "num_local": 1074,
+      "local": "Centro Educacional Cônego Eliud Nunes Arouche",
+      "povoado": "Manijituba",
+      "area": "URBANA",
+      "aptos": 256,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:57",
+        "emissao_bu": "17:03:24",
+        "totalizacao_sistot": "19:46:29",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:03:13",
+        "totalizacao": "17:48:34",
+        "comparecimento": 195
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:54",
+        "totalizacao": "17:54:46"
+      }
+    },
+    {
+      "secao": 94,
+      "num_local": 1023,
+      "local": "Colégio Municipal Ana Bogéa",
+      "povoado": "Centro",
+      "area": "URBANA",
+      "aptos": 309,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:03:01",
+        "emissao_bu": "17:04:40",
+        "totalizacao_sistot": "19:56:10",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:30:35",
+        "totalizacao": "18:29:07",
+        "comparecimento": 266
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:17",
+        "totalizacao": "17:55:02"
+      }
+    },
+    {
+      "secao": 95,
+      "num_local": 1120,
+      "local": "Escola Municipal Nasser Assad",
+      "povoado": "Povoado Coque",
+      "area": "RURAL",
+      "aptos": 264,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:01:10",
+        "emissao_bu": "17:03:44",
+        "totalizacao_sistot": "20:07:32",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:05:09",
+        "totalizacao": "18:27:48",
+        "comparecimento": 206
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:02:09",
+        "totalizacao": "18:22:48"
+      }
+    },
+    {
+      "secao": 101,
+      "num_local": 1660,
+      "local": "Escola Municipal Maurícia Fernandes Jardim",
+      "povoado": "Povoado Escondido",
+      "area": "RURAL",
+      "aptos": 310,
+      "agregadas": [
+        171,
+        181
+      ],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:01:57",
+        "emissao_bu": "17:04:02",
+        "totalizacao_sistot": "20:17:26",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:06:03",
+        "totalizacao": "18:16:54",
+        "comparecimento": 224
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:45",
+        "totalizacao": "17:47:03"
+      }
+    },
+    {
+      "secao": 103,
+      "num_local": 1066,
+      "local": "Jardim de Infância Mons. Artur Gonçalves",
+      "povoado": "Puraqueu",
+      "area": "URBANA",
+      "aptos": 247,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:36",
+        "emissao_bu": "17:02:45",
+        "totalizacao_sistot": "19:44:33",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:02:35",
+        "totalizacao": "17:42:47",
+        "comparecimento": 202
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:03:53",
+        "totalizacao": "17:46:34"
+      }
+    },
+    {
+      "secao": 104,
+      "num_local": 1422,
+      "local": "Escola Municipal Mámedio da Silva Sarmento",
+      "povoado": "Povoado Jacaray",
+      "area": "RURAL",
+      "aptos": 235,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:51",
+        "emissao_bu": "17:04:25",
+        "totalizacao_sistot": "19:52:11",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:02:07",
+        "totalizacao": "17:47:47",
+        "comparecimento": 200
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:38",
+        "totalizacao": "17:30:42"
+      }
+    },
+    {
+      "secao": 105,
+      "num_local": 1627,
+      "local": "Unidade Escolar Maria Graciana Pinto Costa",
+      "povoado": "Vila Reginaldo",
+      "area": "URBANA",
+      "aptos": 281,
+      "agregadas": [
+        150,
+        170
+      ],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:01:04",
+        "emissao_bu": "17:04:52",
+        "totalizacao_sistot": "19:44:23",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:17:16",
+        "totalizacao": "18:14:01",
+        "comparecimento": 238
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "--:--:--",
+        "totalizacao": "--:--:--"
+      }
+    },
+    {
+      "secao": 106,
+      "num_local": 1392,
+      "local": "Escola Municipal de Juçaral",
+      "povoado": "Povoado Juçaral",
+      "area": "RURAL",
+      "aptos": 163,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:01:51",
+        "emissao_bu": "17:04:04",
+        "totalizacao_sistot": "20:04:20",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:01:14",
+        "totalizacao": "18:13:54",
+        "comparecimento": 136
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:07",
+        "totalizacao": "18:54:49"
+      }
+    },
+    {
+      "secao": 107,
+      "num_local": 1074,
+      "local": "Centro Educacional Cônego Eliud Nunes Arouche",
+      "povoado": "Manijituba",
+      "area": "URBANA",
+      "aptos": 252,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:54",
+        "emissao_bu": "17:04:33",
+        "totalizacao_sistot": "19:46:23",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:00:56",
+        "totalizacao": "17:51:50",
+        "comparecimento": 197
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:43",
+        "totalizacao": "17:55:31"
+      }
+    },
+    {
+      "secao": 108,
+      "num_local": 1368,
+      "local": "Escola Municipal Itelvino de Matos",
+      "povoado": "Povoado Coque",
+      "area": "RURAL",
+      "aptos": 257,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:02:05",
+        "emissao_bu": "17:07:03",
+        "totalizacao_sistot": "20:11:32",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:09:11",
+        "totalizacao": "18:34:08",
+        "comparecimento": 197
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:56",
+        "totalizacao": "18:24:35"
+      }
+    },
+    {
+      "secao": 117,
+      "num_local": 1457,
+      "local": "Colégio Municipal Euzebio do Nascimento dos Reis",
+      "povoado": "Povoado Juçaralzinho",
+      "area": "RURAL",
+      "aptos": 187,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:03:45",
+        "emissao_bu": "17:06:04",
+        "totalizacao_sistot": "20:06:11",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:08:04",
+        "totalizacao": "18:16:52",
+        "comparecimento": 143
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:17",
+        "totalizacao": "18:33:03"
+      }
+    },
+    {
+      "secao": 119,
+      "num_local": 1473,
+      "local": "Unidade Escolar Neuza da Cunha Costa",
+      "povoado": "Itapui Tapera",
+      "area": "URBANA",
+      "aptos": 337,
+      "agregadas": [
+        71,
+        174
+      ],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:02:06",
+        "emissao_bu": "17:05:08",
+        "totalizacao_sistot": "19:46:35",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "18:41:48",
+        "totalizacao": "19:09:47",
+        "comparecimento": 264
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:01:35",
+        "totalizacao": "17:47:08"
+      }
+    },
+    {
+      "secao": 120,
+      "num_local": 1465,
+      "local": "Colégio Municipal Vila Nova",
+      "povoado": "Povoado Vila Nova",
+      "area": "RURAL",
+      "aptos": 296,
+      "agregadas": [
+        169
+      ],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:05:34",
+        "emissao_bu": "17:07:37",
+        "totalizacao_sistot": "20:03:08",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:25:30",
+        "totalizacao": "18:16:51",
+        "comparecimento": 224
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "--:--:--",
+        "totalizacao": "--:--:--"
+      }
+    },
+    {
+      "secao": 121,
+      "num_local": 1490,
+      "local": "Escola Municipal Maria Celeste Barros",
+      "povoado": "Manijituba",
+      "area": "URBANA",
+      "aptos": 214,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:01:30",
+        "emissao_bu": "17:05:04",
+        "totalizacao_sistot": "20:02:49",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:06:02",
+        "totalizacao": "18:10:43",
+        "comparecimento": 178
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:01:24",
+        "totalizacao": "17:38:53"
+      }
+    },
+    {
+      "secao": 122,
+      "num_local": 1481,
+      "local": "Unidade Escolar Dr. Ribamar de Matos",
+      "povoado": "Puraqueu",
+      "area": "URBANA",
+      "aptos": 291,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:41",
+        "emissao_bu": "17:02:32",
+        "totalizacao_sistot": "19:30:17",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:01:21",
+        "totalizacao": "18:10:14",
+        "comparecimento": 234
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:16",
+        "totalizacao": "17:30:50"
+      }
+    },
+    {
+      "secao": 137,
+      "num_local": 1058,
+      "local": "Colégio Municipal Antônia Farias",
+      "povoado": "Puraqueu",
+      "area": "URBANA",
+      "aptos": 251,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:02:49",
+        "emissao_bu": "17:05:45",
+        "totalizacao_sistot": "19:52:11",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:04:22",
+        "totalizacao": "17:51:57",
+        "comparecimento": 204
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:01:26",
+        "totalizacao": "17:38:39"
+      }
+    },
+    {
+      "secao": 141,
+      "num_local": 1490,
+      "local": "Escola Municipal Maria Celeste Barros",
+      "povoado": "Manijituba",
+      "area": "URBANA",
+      "aptos": 213,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:01:22",
+        "emissao_bu": "17:04:23",
+        "totalizacao_sistot": "20:03:08",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:00:45",
+        "totalizacao": "18:16:58",
+        "comparecimento": 172
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:09:11",
+        "totalizacao": "17:46:52"
+      }
+    },
+    {
+      "secao": 142,
+      "num_local": 1511,
+      "local": "Escola Municipal Abidão Rufino da Silva",
+      "povoado": "Povoado Boca do Campo",
+      "area": "RURAL",
+      "aptos": 230,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:47",
+        "emissao_bu": "17:03:12",
+        "totalizacao_sistot": "20:07:36",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:43:58",
+        "totalizacao": "18:39:50",
+        "comparecimento": 180
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:04:51",
+        "totalizacao": "18:26:45"
+      }
+    },
+    {
+      "secao": 143,
+      "num_local": 1368,
+      "local": "Escola Municipal Itelvino de Matos",
+      "povoado": "Povoado Coque",
+      "area": "RURAL",
+      "aptos": 254,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:01:38",
+        "emissao_bu": "17:07:46",
+        "totalizacao_sistot": "20:11:34",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:02:14",
+        "totalizacao": "18:30:54",
+        "comparecimento": 186
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:05:23",
+        "totalizacao": "18:26:47"
+      }
+    },
+    {
+      "secao": 144,
+      "num_local": 1503,
+      "local": "Colégio Municipal Hemetério Fernandes",
+      "povoado": "Povoado Mato Grosso",
+      "area": "RURAL",
+      "aptos": 207,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:01:44",
+        "emissao_bu": "17:03:38",
+        "totalizacao_sistot": "19:56:19",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:03:06",
+        "totalizacao": "17:47:48",
+        "comparecimento": 167
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:43",
+        "totalizacao": "18:56:52"
+      }
+    },
+    {
+      "secao": 146,
+      "num_local": 1490,
+      "local": "Escola Municipal Maria Celeste Barros",
+      "povoado": "Manijituba",
+      "area": "URBANA",
+      "aptos": 212,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:51",
+        "emissao_bu": "17:03:54",
+        "totalizacao_sistot": "20:04:27",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:01:04",
+        "totalizacao": "18:10:39",
+        "comparecimento": 163
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:02:55",
+        "totalizacao": "17:47:10"
+      }
+    },
+    {
+      "secao": 147,
+      "num_local": 1341,
+      "local": "Escola Municipal Paulo Maciel Neto",
+      "povoado": "Povoado São Benedito",
+      "area": "RURAL",
+      "aptos": 231,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:04:36",
+        "emissao_bu": "17:06:22",
+        "totalizacao_sistot": "20:21:34",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:18:17",
+        "totalizacao": "19:05:00",
+        "comparecimento": 172
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:04:05",
+        "totalizacao": "19:21:47"
+      }
+    },
+    {
+      "secao": 148,
+      "num_local": 1040,
+      "local": "CEMA Carlos Raimundo Figueiredo",
+      "povoado": "Centro",
+      "area": "URBANA",
+      "aptos": 358,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:44",
+        "emissao_bu": "17:02:52",
+        "totalizacao_sistot": "19:30:19",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:42:07",
+        "totalizacao": "19:03:49",
+        "comparecimento": 286
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:02:28",
+        "totalizacao": "18:00:44"
+      }
+    },
+    {
+      "secao": 149,
+      "num_local": 1481,
+      "local": "Unidade Escolar Dr. Ribamar de Matos",
+      "povoado": "Puraqueu",
+      "area": "URBANA",
+      "aptos": 293,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:01:35",
+        "emissao_bu": "17:03:00",
+        "totalizacao_sistot": "19:30:22",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:19:49",
+        "totalizacao": "18:10:39",
+        "comparecimento": 221
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:01:18",
+        "totalizacao": "17:30:51"
+      }
+    },
+    {
+      "secao": 152,
+      "num_local": 1562,
+      "local": "Escola Municipal Vila Falcão",
+      "povoado": "Povoado Coque",
+      "area": "RURAL",
+      "aptos": 210,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:01:04",
+        "emissao_bu": "17:03:29",
+        "totalizacao_sistot": "20:06:12",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:02:54",
+        "totalizacao": "18:34:57",
+        "comparecimento": 149
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:02:38",
+        "totalizacao": "18:00:46"
+      }
+    },
+    {
+      "secao": 153,
+      "num_local": 1589,
+      "local": "Escola Municipal Franklin Cantanhêde",
+      "povoado": "Povoado São Lourenço",
+      "area": "RURAL",
+      "aptos": 342,
+      "agregadas": [
+        113,
+        189
+      ],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:03:42",
+        "emissao_bu": "17:06:56",
+        "totalizacao_sistot": "20:03:10",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "18:14:07",
+        "totalizacao": "19:07:52",
+        "comparecimento": 264
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:01:55",
+        "totalizacao": "18:00:48"
+      }
+    },
+    {
+      "secao": 155,
+      "num_local": 1570,
+      "local": "Escola Municipal Raimundo Bogéa",
+      "povoado": "Povoado Coque",
+      "area": "RURAL",
+      "aptos": 380,
+      "agregadas": [
+        151
+      ],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:07:53",
+        "emissao_bu": "17:09:22",
+        "totalizacao_sistot": "20:04:25",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "19:52:31",
+        "totalizacao": "20:54:11",
+        "comparecimento": 292
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:48",
+        "totalizacao": "17:54:47"
+      }
+    },
+    {
+      "secao": 157,
+      "num_local": 1023,
+      "local": "Colégio Municipal Ana Bogéa",
+      "povoado": "Centro",
+      "area": "URBANA",
+      "aptos": 311,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:01:37",
+        "emissao_bu": "17:04:15",
+        "totalizacao_sistot": "19:56:16",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:00:53",
+        "totalizacao": "18:29:07",
+        "comparecimento": 235
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:01:33",
+        "totalizacao": "18:11:08"
+      }
+    },
+    {
+      "secao": 159,
+      "num_local": 1074,
+      "local": "Centro Educacional Cônego Eliud Nunes Arouche",
+      "povoado": "Manijituba",
+      "area": "URBANA",
+      "aptos": 256,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:29",
+        "emissao_bu": "17:02:59",
+        "totalizacao_sistot": "19:52:14",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:01:02",
+        "totalizacao": "17:47:48",
+        "comparecimento": 193
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:08:45",
+        "totalizacao": "17:54:48"
+      }
+    },
+    {
+      "secao": 160,
+      "num_local": 1619,
+      "local": "Escola Municipal de Ipixuna",
+      "povoado": "Povoado Ipixuna",
+      "area": "RURAL",
+      "aptos": 288,
+      "agregadas": [
+        175,
+        180
+      ],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:09",
+        "encerramento_urna": "17:02:22",
+        "emissao_bu": "17:04:15",
+        "totalizacao_sistot": "20:06:18",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "18:39:57",
+        "totalizacao": "20:00:02",
+        "comparecimento": 207
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:01:04",
+        "totalizacao": "18:33:26"
+      }
+    },
+    {
+      "secao": 161,
+      "num_local": 1627,
+      "local": "Unidade Escolar Maria Graciana Pinto Costa",
+      "povoado": "Vila Reginaldo",
+      "area": "URBANA",
+      "aptos": 256,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:01:29",
+        "emissao_bu": "17:04:35",
+        "totalizacao_sistot": "20:04:30",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:03:40",
+        "totalizacao": "18:13:53",
+        "comparecimento": 185
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:05:04",
+        "totalizacao": "18:32:57"
+      }
+    },
+    {
+      "secao": 162,
+      "num_local": 1635,
+      "local": "Escola Municipal de Tirirical",
+      "povoado": "Povoado Tirirical",
+      "area": "RURAL",
+      "aptos": 201,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:02:35",
+        "emissao_bu": "17:05:39",
+        "totalizacao_sistot": "19:54:21",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:01:37",
+        "totalizacao": "17:42:48",
+        "comparecimento": 160
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:33",
+        "totalizacao": "17:38:34"
+      }
+    },
+    {
+      "secao": 163,
+      "num_local": 1481,
+      "local": "Unidade Escolar Dr. Ribamar de Matos",
+      "povoado": "Puraqueu",
+      "area": "URBANA",
+      "aptos": 285,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:54",
+        "emissao_bu": "17:02:49",
+        "totalizacao_sistot": "19:30:19",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:15:10",
+        "totalizacao": "18:10:14",
+        "comparecimento": 212
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:09",
+        "totalizacao": "17:30:59"
+      }
+    },
+    {
+      "secao": 164,
+      "num_local": 1562,
+      "local": "Escola Municipal Vila Falcão",
+      "povoado": "Povoado Coque",
+      "area": "RURAL",
+      "aptos": 210,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:02:29",
+        "emissao_bu": "17:04:03",
+        "totalizacao_sistot": "20:06:15",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:06:22",
+        "totalizacao": "18:34:03",
+        "comparecimento": 148
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "--:--:--",
+        "totalizacao": "--:--:--"
+      }
+    },
+    {
+      "secao": 165,
+      "num_local": 1627,
+      "local": "Unidade Escolar Maria Graciana Pinto Costa",
+      "povoado": "Vila Reginaldo",
+      "area": "URBANA",
+      "aptos": 282,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:36",
+        "emissao_bu": "17:02:59",
+        "totalizacao_sistot": "19:54:24",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:01:16",
+        "totalizacao": "18:13:54",
+        "comparecimento": 215
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:02:25",
+        "totalizacao": "18:33:08"
+      }
+    },
+    {
+      "secao": 166,
+      "num_local": 1589,
+      "local": "Escola Municipal Franklin Cantanhêde",
+      "povoado": "Povoado São Lourenço",
+      "area": "RURAL",
+      "aptos": 247,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:44",
+        "emissao_bu": "17:03:39",
+        "totalizacao_sistot": "20:03:09",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:16:02",
+        "totalizacao": "19:07:52",
+        "comparecimento": 184
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:18",
+        "totalizacao": "18:00:53"
+      }
+    },
+    {
+      "secao": 167,
+      "num_local": 1422,
+      "local": "Escola Municipal Mámedio da Silva Sarmento",
+      "povoado": "Povoado Jacaray",
+      "area": "RURAL",
+      "aptos": 237,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:01:07",
+        "emissao_bu": "17:03:17",
+        "totalizacao_sistot": "19:46:27",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:02:07",
+        "totalizacao": "17:47:49",
+        "comparecimento": 212
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:01:33",
+        "totalizacao": "17:30:31"
+      }
+    },
+    {
+      "secao": 173,
+      "num_local": 1554,
+      "local": "Creche Comunitária de Coque",
+      "povoado": "Povoado Coque",
+      "area": "RURAL",
+      "aptos": 259,
+      "agregadas": [
+        154
+      ],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:05:03",
+        "emissao_bu": "17:12:20",
+        "totalizacao_sistot": "20:11:35",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:20:31",
+        "totalizacao": "18:34:56",
+        "comparecimento": 202
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "--:--:--",
+        "totalizacao": "--:--:--"
+      }
+    },
+    {
+      "secao": 176,
+      "num_local": 1325,
+      "local": "Colégio Municipal José Carlos Mota Silva",
+      "povoado": "Povoado Sumaúma do Japão",
+      "area": "RURAL",
+      "aptos": 248,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:33",
+        "emissao_bu": "17:03:13",
+        "totalizacao_sistot": "20:22:36",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:20:10",
+        "totalizacao": "19:20:03",
+        "comparecimento": 181
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:06:52",
+        "totalizacao": "19:19:40"
+      }
+    },
+    {
+      "secao": 177,
+      "num_local": 1368,
+      "local": "Escola Municipal Itelvino de Matos",
+      "povoado": "Povoado Coque",
+      "area": "RURAL",
+      "aptos": 256,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:01:26",
+        "encerramento_urna": "17:00:51",
+        "emissao_bu": "17:03:40",
+        "totalizacao_sistot": "20:12:09",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:08:49",
+        "totalizacao": "18:30:55",
+        "comparecimento": 178
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:02:29",
+        "totalizacao": "18:22:58"
+      }
+    },
+    {
+      "secao": 178,
+      "num_local": 1503,
+      "local": "Colégio Municipal Hemetério Fernandes",
+      "povoado": "Povoado Mato Grosso",
+      "area": "RURAL",
+      "aptos": 205,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:48",
+        "emissao_bu": "17:03:26",
+        "totalizacao_sistot": "19:54:19",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:01:08",
+        "totalizacao": "17:47:49",
+        "comparecimento": 159
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:01:09",
+        "totalizacao": "19:04:17"
+      }
+    },
+    {
+      "secao": 179,
+      "num_local": 1287,
+      "local": "Colégio Municipal Godofredo Maciel",
+      "povoado": "Povoado São Felix",
+      "area": "RURAL",
+      "aptos": 209,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:01:10",
+        "emissao_bu": "17:04:12",
+        "totalizacao_sistot": "20:08:10",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:03:46",
+        "totalizacao": "19:05:03",
+        "comparecimento": 143
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "--:--:--",
+        "totalizacao": "--:--:--"
+      }
+    },
+    {
+      "secao": 182,
+      "num_local": 1627,
+      "local": "Unidade Escolar Maria Graciana Pinto Costa",
+      "povoado": "Vila Reginaldo",
+      "area": "URBANA",
+      "aptos": 275,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:51",
+        "emissao_bu": "17:02:47",
+        "totalizacao_sistot": "19:44:30",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:05:51",
+        "totalizacao": "18:14:05",
+        "comparecimento": 200
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:03:58",
+        "totalizacao": "18:34:40"
+      }
+    },
+    {
+      "secao": 183,
+      "num_local": 1058,
+      "local": "Colégio Municipal Antônia Farias",
+      "povoado": "Puraqueu",
+      "area": "URBANA",
+      "aptos": 251,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:02:29",
+        "emissao_bu": "17:05:06",
+        "totalizacao_sistot": "19:54:23",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:02:57",
+        "totalizacao": "17:51:51",
+        "comparecimento": 189
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:35",
+        "totalizacao": "17:38:42"
+      }
+    },
+    {
+      "secao": 184,
+      "num_local": 1570,
+      "local": "Escola Municipal Raimundo Bogéa",
+      "povoado": "Povoado Coque",
+      "area": "RURAL",
+      "aptos": 192,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:01:12",
+        "emissao_bu": "17:06:17",
+        "totalizacao_sistot": "20:04:31",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:15:08",
+        "totalizacao": "20:54:11",
+        "comparecimento": 133
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "--:--:--",
+        "totalizacao": "--:--:--"
+      }
+    },
+    {
+      "secao": 185,
+      "num_local": 1473,
+      "local": "Unidade Escolar Neuza da Cunha Costa",
+      "povoado": "Itapui Tapera",
+      "area": "URBANA",
+      "aptos": 203,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:01:31",
+        "emissao_bu": "17:04:19",
+        "totalizacao_sistot": "19:44:25",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:01:41",
+        "totalizacao": "19:08:24",
+        "comparecimento": 155
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:26",
+        "totalizacao": "17:47:10"
+      }
+    },
+    {
+      "secao": 186,
+      "num_local": 1066,
+      "local": "Jardim de Infância Mons. Artur Gonçalves",
+      "povoado": "Puraqueu",
+      "area": "URBANA",
+      "aptos": 244,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:00:37",
+        "emissao_bu": "17:02:52",
+        "totalizacao_sistot": "19:44:31",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:00:34",
+        "totalizacao": "17:42:49",
+        "comparecimento": 189
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:02:18",
+        "totalizacao": "17:46:53"
+      }
+    },
+    {
+      "secao": 188,
+      "num_local": 1015,
+      "local": "Instituto Estadual de Educação, Ciência e Tecnologia do Maranhão (IEMA)",
+      "povoado": "Povoado Jaguary",
+      "area": "URBANA",
+      "aptos": 252,
+      "agregadas": [],
+      "segundo_turno_2026_real": {
+        "abertura_urna": "08:00:01",
+        "encerramento_urna": "17:01:49",
+        "emissao_bu": "17:04:41",
+        "totalizacao_sistot": "20:01:15",
+        "status": "Totalizado"
+      },
+      "primeiro_turno_2026_real": {
+        "encerramento": "17:04:46",
+        "totalizacao": "18:12:39",
+        "comparecimento": 204
+      },
+      "segundo_turno_2022_real": {
+        "encerramento": "17:00:31",
+        "totalizacao": "17:34:56"
+      }
+    }
+  ]
+}

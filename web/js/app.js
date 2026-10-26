@@ -60,6 +60,9 @@ document.addEventListener('DOMContentLoaded', () => {
   // 7.3 Inicializar Projeção Preditiva Oficial do 2º Turno (94 Seções)
   initPredicao2Turno();
 
+  // 7.4 Inicializar Tabela Comparativa das 94 Seções do 2º Turno Real
+  initSecoes2TurnoReal();
+
   // 8. Renderizar Gráficos
   if (window.initDashboardCharts) {
     window.initDashboardCharts(data);
@@ -1116,4 +1119,105 @@ function initPredicao2Turno() {
 
   renderRows();
 }
+
+// -------------------------------------------------------------
+// 7.4 TABELA AUDITADA DAS 94 SEÇÕES DO 2º TURNO REAL (25/10/2026)
+// -------------------------------------------------------------
+function initSecoes2TurnoReal() {
+  const realData = window.SECOES_REAIS_2TURNO_DATA;
+  if (!realData || !realData.secoes) {
+    console.warn("Dados reais do 2º turno não encontrados em window.SECOES_REAIS_2TURNO_DATA");
+    return;
+  }
+
+  const secoes = realData.secoes;
+  const tbody = document.getElementById('tbodyTodasSecoes2TurnoReal');
+  const inputSearch = document.getElementById('inputSearch2TurnoReal');
+  const badgeCount = document.getElementById('badgeCount2TurnoReal');
+
+  if (!tbody) return;
+
+  function renderList(termo) {
+    const filtradas = secoes.filter(s => {
+      if (!termo) return true;
+      const txt = `${s.secao} ${s.local} ${s.povoado} ${s.area}`.toLowerCase();
+      return txt.includes(termo);
+    });
+
+    if (badgeCount) {
+      badgeCount.innerText = `${filtradas.length} Seções Auditadas`;
+    }
+
+    if (filtradas.length === 0) {
+      tbody.innerHTML = `<tr><td colspan="10" style="text-align:center; padding: 2.5rem; color: #94a3b8;">Nenhuma seção encontrada.</td></tr>`;
+      return;
+    }
+
+    tbody.innerHTML = filtradas.map(s => {
+      const r26 = s.segundo_turno_2026_real;
+      const r1t = s.primeiro_turno_2026_real;
+      const r22 = s.segundo_turno_2022_real;
+
+      // Calcular ganho em relação ao 1º Turno 2026
+      let ganhoBadge = '';
+      if (r1t.encerramento && r1t.encerramento !== '--:--:--') {
+        const enc1T_parts = r1t.encerramento.split(':').map(Number);
+        const enc2T_parts = r26.encerramento_urna.split(':').map(Number);
+        const min1T = enc1T_parts[0] * 60 + enc1T_parts[1];
+        const min2T = enc2T_parts[0] * 60 + enc2T_parts[1];
+        const difMin = min1T - min2T;
+        if (difMin > 15) {
+          ganhoBadge = `<span class="badge" style="background:#10b981; color:#022c22; font-weight:700; font-size:0.7rem;">+${difMin}m mais rápido</span>`;
+        } else if (difMin > 0) {
+          ganhoBadge = `<span class="badge badge-success" style="font-size:0.7rem;">+${difMin}m adiantado</span>`;
+        } else {
+          ganhoBadge = `<span class="badge badge-info" style="font-size:0.7rem;">Pontual (17h)</span>`;
+        }
+      } else {
+        ganhoBadge = `<span class="badge badge-success" style="font-size:0.7rem;">Sem fila</span>`;
+      }
+
+      return `
+        <tr>
+          <td style="text-align: center; font-weight: 800; color: var(--gold); font-size: 0.95rem;">${s.secao}</td>
+          <td>
+            <div style="font-weight: 700; color: #fff;">${s.local}</div>
+            <div style="font-size: 0.72rem; color: #94a3b8;">Local nº ${s.num_local} &bull; ${s.area}</div>
+          </td>
+          <td>
+            <span style="color: #cbd5e1; font-size: 0.82rem; font-weight: 600;">${s.povoado}</span>
+          </td>
+          <td style="text-align: center; font-family: monospace; font-size: 0.85rem; color: #e2e8f0;">
+            ${s.aptos}
+          </td>
+          <td style="text-align: center; font-family: monospace; font-size: 0.82rem; color: ${r1t.encerramento >= '18:00:00' ? '#f87171; font-weight:700;' : '#cbd5e1'};">
+            ${r1t.encerramento}
+          </td>
+          <td style="text-align: center; font-family: monospace; font-size: 0.82rem; color: #38bdf8;">
+            ${r22.encerramento || '--:--:--'}
+          </td>
+          <td style="text-align: center; font-family: monospace; font-weight: 800; color: #10b981; font-size: 0.9rem; background: rgba(16, 185, 129, 0.08);">
+            ${r26.encerramento_urna}
+          </td>
+          <td style="text-align: center; font-family: monospace; font-weight: 700; color: #fbbf24; font-size: 0.88rem; background: rgba(251, 191, 36, 0.08);">
+            ${r26.emissao_bu}
+          </td>
+          <td style="text-align: center; font-family: monospace; font-weight: 700; color: var(--gold); font-size: 0.85rem;">
+            ${r26.totalizacao_sistot}
+          </td>
+          <td style="text-align: center;">${ganhoBadge}</td>
+        </tr>
+      `;
+    }).join('');
+  }
+
+  if (inputSearch) {
+    inputSearch.addEventListener('input', (e) => {
+      renderList(e.target.value.toLowerCase().trim());
+    });
+  }
+
+  renderList('');
+}
+
 

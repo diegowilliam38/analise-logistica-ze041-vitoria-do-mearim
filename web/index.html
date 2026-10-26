@@ -1610,6 +1610,47 @@
           </table>
         </div>
       </div>
+
+      <!-- TABELA COMPLETA COMPARATIVA DAS 94 SEÇÕES DO 2º TURNO REAL -->
+      <div class="card-panel" style="margin-top: 1.5rem; border-top: 3px solid #10b981;">
+        <div class="panel-header">
+          <div>
+            <div class="panel-title" style="color: #10b981; display: flex; align-items: center; gap: 8px;">
+              <span>🏆</span> Tabela Oficial das 94 Seções no 2º Turno Real (25/10/2026) vs 1ºT 2026 vs 2ºT 2022
+            </div>
+            <div class="panel-subtitle">
+              Microdados auditados direto da urna eletrônica (TSE CDN): horário exato de abertura, encerramento da urna, emissão do BU e totalização
+            </div>
+          </div>
+          <div style="display: flex; gap: 8px; align-items: center;">
+            <input type="text" id="inputSearch2TurnoReal" placeholder="🔍 Buscar seção, escola ou povoado..." 
+              style="padding: 6px 12px; background: rgba(15, 23, 42, 0.8); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 6px; color: #fff; font-size: 0.8rem; outline: none; width: 240px;">
+            <span class="badge" style="background: #10b981; color: #022c22; font-weight: 800;" id="badgeCount2TurnoReal">94 Seções Auditadas</span>
+          </div>
+        </div>
+
+        <div class="table-responsive" style="max-height: 600px; overflow-y: auto;">
+          <table class="data-table" id="tableTodasSecoes2TurnoReal">
+            <thead>
+              <tr style="position: sticky; top: 0; background: #0f172a; z-index: 5;">
+                <th style="width: 55px; text-align: center;">Seção</th>
+                <th>Local de Votação</th>
+                <th>Povoado / Bairro</th>
+                <th style="width: 65px; text-align: center;">Aptos</th>
+                <th style="width: 90px; text-align: center; color: #f87171;" title="Horário de encerramento no 1º Turno (6 cargos)">1ºT 2026 (Enc)</th>
+                <th style="width: 90px; text-align: center; color: #38bdf8;" title="Horário de encerramento no 2º Turno 2022 (Presidente)">2ºT 2022 (Enc)</th>
+                <th style="width: 95px; text-align: center; color: #10b981; font-weight: 800;" title="Horário REAL de encerramento da urna eletrônica no 2º Turno 2026">2ºT 2026 (Enc Urna)</th>
+                <th style="width: 95px; text-align: center; color: #fbbf24; font-weight: 700;" title="Horário REAL de emissão do Boletim de Urna">2ºT 2026 (Emissão BU)</th>
+                <th style="width: 95px; text-align: center; color: var(--gold);" title="Horário oficial de totalização pelo SISTOT">Totalização SISTOT</th>
+                <th style="min-width: 140px; text-align: center;">Desempenho / Celeridade</th>
+              </tr>
+            </thead>
+            <tbody id="tbodyTodasSecoes2TurnoReal">
+              <!-- Preenchido dinamicamente via JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
     </section>
 
     <!-- ====================================================================
@@ -1903,6 +1944,7 @@
   <!-- Scripts da Aplicação -->
   <script src="js/data-payload.js"></script>
   <script src="js/predicao-payload.js"></script>
+  <script src="js/secoes-2turno-real-payload.js"></script>
   <script src="js/charts.js"></script>
   <script src="js/map.js"></script>
   <script src="js/app.js"></script>
